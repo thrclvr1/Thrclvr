@@ -8,6 +8,8 @@
 - `docs/` — sürüm raporları (`VXX.Y_rapor.md`, `VXX.Y_performans_raporu.md`), tanıtım videosu.
 - `tools/v36/` — V36.0'ı V35.0'dan üreten derleme betiği (`build360.py`) ve eklediği kod (`v360.js`, `v360.css`), performans ölçümü.
 - `tests/v36/` — Playwright testleri. **Not:** Bu betikler ilk yazıldıkları çalışma alanındaki mutlak yolları (`/home/claude/work/...`) ve bazı eski sürüm dosyalarını kullanıyor; depoda çalıştırmadan önce yolları depoya göre uyarlamak gerekir.
+- `android/` — `index.html`'i WebView içinde açan Android sarmalayıcısı (`./gradlew assembleRelease`; derlemede `../index.html` APK'ya kopyalanır, sürüm `V31.VER`'den okunur). İmza anahtarı ve `keystore.properties` depoda değil; güncellemeler aynı anahtarla imzalanmalı. Ayrıntı: `docs/android_apk_rapor.md`.
+- `apk/din-kulturu-vXX.Y.apk` — teslim edilmiş APK'lar (sürüm dosyaları gibi değiştirilmez).
 - `kaynaklar/yillik-plan-2026-2027/` — öğretmenin verdiği yıllık plan Excel dosyaları (birincil kaynak).
 
 ## Çalışma kuralları (kullanıcının kalıcı kuralları)
