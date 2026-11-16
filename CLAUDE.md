@@ -3,12 +3,14 @@
 4–12. sınıf DKAB öğrenme platformu. Tek HTML dosyası; bütün veri (müfredat, ilişkiler, sureler-dualar, yıllık plan) dosyanın içindeki JSON bloklarında. Sunucu yok, kurulum yok.
 
 ## Depo düzeni
-- `index.html` — güncel sürüm (şu an V38.0). GitHub Pages bu dosyayı yayınlar.
+- `index.html` — güncel sürüm (şu an V39.0). GitHub Pages bu dosyayı yayınlar.
 - `surumler/din-kulturu-platformu-vXX.Y.html` — teslim edilmiş sürümler. **Bir kez teslim edilen sürüm dosyası bir daha değiştirilmez.**
 - `docs/` — sürüm raporları (`VXX.Y_rapor.md`, `VXX.Y_performans_raporu.md`), tanıtım videosu.
 - `tools/v36/` — V36.0'ı V35.0'dan üreten derleme betiği (`build360.py`) ve eklediği kod (`v360.js`, `v360.css`), performans ölçümü.
 - `tools/v37/` — V37.0'ı V36.0'dan üreten `build370.py` (depo yollarıyla çalışır: `python3 tools/v37/build370.py`; `index.html`'i de yazar), eklediği `v370.js`/`v370.css` ve ölçüm betikleri (`olcum_*.js`).
 - `tools/v38/` — V38.0'ı V37.0'dan üreten `build380.py` (`python3 tools/v38/build380.py`; `index.html`'i de yazar), `v380.js`/`v380.css`, ölçüm `olcum_v38.js`.
+- `tools/v39/` — V39.0'ı V38.0'dan üreten `build390.py` (`python3 tools/v39/build390.py`; `index.html`'i de yazar), `v390.js`/`v390.css`, ölçüm `olcum_v39.js`.
+- `tests/v39/test_v390.js` — V39 testleri (51 kontrol; `node tests/v39/test_v390.js`, yerel http sunucusu). Normal ekranların V38 ile aynı kaldığını hesaplanmış stillerle karşılaştırır.
 - `tests/v38/test_v380.js` — V38 testleri (73 kontrol; `node tests/v38/test_v380.js`, yerel http sunucusu).
 - `tests/v37/test_v370.js` — V37 testleri; depo yollarıyla çalışır (`node tests/v37/test_v370.js`), sayfaları yerel http sunucusundan açar (başsız Chromium'da `file://` ile localStorage güvenilir değildi).
 - `tests/v36/` — Playwright testleri. **Not:** Bu betikler ilk yazıldıkları çalışma alanındaki mutlak yolları (`/home/claude/work/...`) ve bazı eski sürüm dosyalarını kullanıyor; depoda çalıştırmadan önce yolları depoya göre uyarlamak gerekir.
@@ -32,5 +34,6 @@
 - Veri erişimi `Store.all(koleksiyon)` / `Store.get(koleksiyon, id)`; V36'dan beri önbellekli (`Store._rows`), `save()` önbelleği yeniler.
 - Rotalar: `go('home'|'classes'|'grade'|'topic'|'pek'|'dene'|'links'|'games'|'sd'|'ogretmen'...)`.
 - Açılış ekranı `#boot36`, ilk `draw()` sonrası `V36.boot()` ile kalkar.
+- V39: Açılışta üyelik seçimi (`#uye39`; tercih `dk-deneyim39` = `{son, hatirla}`; premium oturum bayrağı sessionStorage `dk-deneyim39-aktif`). Öğrenme Dünyası rotaları `pdunya` (koridor), `psinif` (`G.pg`), `punite` (`G.pu`), `pders` (`G.pt`, `G.ptab`), `pozet`, `pilerleme`; premium oturumda `<body data-prem39 data-pv=…>` ve `go('home'|'classes'|'grade'|'topic')` premium karşılıklarına yönlenir. İçerik Klasik alanla aynı `Store` kayıtlarından; program `pvOf` kuralı (sınıf başına seçim `dk-ilerleme39.prog`). Ortak ilerleme `dk-ilerleme39` (`z` ziyaret, `t` konu bazında cevaplar, `son`, `sonSinif`). Mini test/kart/oyun mevcut `MT`, `FC`, `playGame` ile. Üyelik `V39.Uyelik` (şimdilik `yerel-prototip` sağlayıcı; gerçek güvenlik değil). Premium CSS yalnızca `#uye39`, `.p39-*`, `body[data-prem39]` kapsamında; kısa sınıf adları mevcut CSS ile çakışmasın diye önekli.
 - V38: Editör Onay Alanı rotası `go('editor')` (`V30.routes.editor`), ayrı 6 haneli editör PIN'i `dk-editor-pin38` + oturum `dk-editor-oturum38` (sessionStorage) + sayaç `dk-editor-kilit38`. Editör kayıtları, not defteri, sınavlar, şablonlar, işlem günlüğü IndexedDB `dk38`/`kv` (`ed`, `notlar`, `sinavlar`, `sablonlar`, `log`; yoksa localStorage `dk38-*`). Kuyruklar `V38.ED.cat()` ile gerçek veriden hesaplanır. Onay ≠ yayım: Yayımla, onaylı sürümü `Store.patch` (dk2) ile yazar; önceki yama saklanır ve yayından kaldırınca birebir geri konur. Öğretmen paneli Diğer bölümleri `OGRT.SUB` + `OGRT.EXT`; premium renkler `--t37-*` değişkenlerinin yeniden tanımı (yalnızca `body[data-ogrt37]`). Öğretmen yedeği JSON'unda yeni `v38` alanı (eski yedekler aynen okunur).
 - V37: öğretmen ekranında `<body data-ogrt37>` (renk sistemi `--t37-*`); PIN `dk-ogretmen-pin` = `{v:2,salt,h,len}` (V36 `{v:1}` de okunur), hatalı deneme sayacı `dk-ogrt-kilit37`; ses kontrolü üst çubukta `#snd37` (`ATM.bar/ATM.fab` artık yüzen öğe oluşturmaz).

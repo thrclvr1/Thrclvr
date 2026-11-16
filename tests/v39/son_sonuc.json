@@ -1,0 +1,461 @@
+[
+ {
+  "id": "0.1",
+  "name": "Sürüm V39.0 (index.html ve sürüm dosyası)",
+  "pass": true,
+  "detail": "V39.0"
+ },
+ {
+  "id": "0.2",
+  "name": "Veri blokları V38 ile aynı",
+  "pass": true
+ },
+ {
+  "id": "0.3",
+  "name": "Koleksiyon kayıt sayıları V38 ile aynı (ayrı premium içerik kaydı yok)",
+  "pass": true,
+  "detail": {
+   "versions": 3,
+   "tbSubheadings": 531,
+   "gaps": 32,
+   "textbooks": 9,
+   "tbUnits": 45,
+   "tbSections": 272,
+   "unitLinks": 60,
+   "outcomeLinks": 223,
+   "concepts": 629,
+   "entities": 378,
+   "sources": 14,
+   "units": 60,
+   "outcomes": 238,
+   "topics": 246,
+   "questions": 723,
+   "flashcards": 672,
+   "games": 526,
+   "videos": 1
+  }
+ },
+ {
+  "id": "0.4",
+  "name": "V38 rotaları korunuyor; premium rotalar eklendi",
+  "pass": true,
+  "detail": [
+   "pders",
+   "pdunya",
+   "pilerleme",
+   "pozet",
+   "psinif",
+   "punite"
+  ]
+ },
+ {
+  "id": "0.5",
+  "name": "Normal hatırlanınca seçim ekranı çıkmıyor, Klasik ana sayfa açılıyor",
+  "pass": true
+ },
+ {
+  "id": "0.6",
+  "name": "Normal üyelik ekranları ile öğretmen paneli ve Editör alanı V38 ile birebir aynı (13 ekran, hesaplanmış stiller)",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "0.7",
+  "name": "Açılışta sayfa/konsol hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "1.1",
+  "name": "İlk açılışta iki seçenekli seçim ekranı (Klasik Öğrenme Alanı · Din Kültürü – Öğrenme Dünyası)",
+  "pass": true,
+  "detail": [
+   "Klasik Öğrenme Alanı",
+   "Din Kültürü – Öğrenme Dünyası"
+  ]
+ },
+ {
+  "id": "1.2",
+  "name": "Telefonda iki seçenek üst üste",
+  "pass": true,
+  "detail": [
+   118,
+   449
+  ]
+ },
+ {
+  "id": "1.3",
+  "name": "Gerçek ödeme/üyelik varmış gibi gösterilmiyor (prototip notu)",
+  "pass": true
+ },
+ {
+  "id": "1.4",
+  "name": "Klasik alana gir → mevcut ana sayfa, premium kapalı",
+  "pass": true,
+  "detail": {
+   "ov": false,
+   "view": "home",
+   "prem": false,
+   "pref": {
+    "son": "normal",
+    "hatirla": false
+   }
+  }
+ },
+ {
+  "id": "1.5",
+  "name": "Hatırla seçilmediyse açılışta yine sorulur; son kullanılan işaretli",
+  "pass": true,
+  "detail": {
+   "ov": true,
+   "son": true
+  }
+ },
+ {
+  "id": "1.6",
+  "name": "Öğrenme Dünyası'na gir → koridor; Klasik üst çubuk ve alt menü gizli",
+  "pass": true,
+  "detail": {
+   "view": "pdunya",
+   "prem": true,
+   "hdr": "none",
+   "nav": "none"
+  }
+ },
+ {
+  "id": "1.7",
+  "name": "Hatırlanan premium seçimi: yeni oturumda sormadan koridor açılıyor",
+  "pass": true
+ },
+ {
+  "id": "1.8",
+  "name": "Premium → Klasik geçişi (üst çubuktaki değiştir düğmesi)",
+  "pass": true,
+  "detail": {
+   "view": "home",
+   "prem": false,
+   "pref": "normal"
+  }
+ },
+ {
+  "id": "1.9",
+  "name": "Klasik alandan geçiş: Görünüm ve hareket ayarlarında \"Deneyimi değiştir\" → seçim ekranı",
+  "pass": true
+ },
+ {
+  "id": "1.10",
+  "name": "Geniş ekranda iki seçenek yan yana",
+  "pass": true
+ },
+ {
+  "id": "1.11",
+  "name": "Seçim ekranında sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "2.1",
+  "name": "9 sınıf kapısı (4–12), adlar görünür; ilk açılış 4. sınıf",
+  "pass": true,
+  "detail": [
+   "4. Sınıf",
+   "5. Sınıf",
+   "6. Sınıf",
+   "7. Sınıf",
+   "8. Sınıf",
+   "9. Sınıf",
+   "10. Sınıf",
+   "11. Sınıf",
+   "12. Sınıf"
+  ]
+ },
+ {
+  "id": "2.2",
+  "name": "Sağ/sol oklarla kapılar arasında geçiş; seçili kapı ve gösterge güncelleniyor",
+  "pass": true,
+  "detail": {
+   "cur": 2,
+   "on": "6",
+   "dot": "6"
+  }
+ },
+ {
+  "id": "2.3",
+  "name": "Göstergede 12'ye dokununca 12. sınıf kapısına gidiliyor",
+  "pass": true
+ },
+ {
+  "id": "2.4",
+  "name": "Parmakla sağa/sola sürükleyerek koridorda ilerleniyor; dikey hareket kapı değiştirmiyor",
+  "pass": true,
+  "detail": {
+   "sw1": 4,
+   "sw2": 5,
+   "sw3": 5,
+   "S": 142.8
+  }
+ },
+ {
+  "id": "2.5",
+  "name": "Koridorda dikey sayfa kaydırması engellenmiyor (touch-action: pan-y)",
+  "pass": true,
+  "detail": "pan-y"
+ },
+ {
+  "id": "2.6",
+  "name": "Yan kapıya dokununca seçilir; seçili kapıya dokununca kısa açılış geçişiyle 8. Sınıf Merkezi",
+  "pass": true,
+  "detail": {
+   "t1": {
+    "cur": 4,
+    "view": "pdunya"
+   },
+   "anim": true,
+   "t2": {
+    "view": "psinif",
+    "g": 8,
+    "h1": "8. Sınıf Merkezi"
+   }
+  }
+ },
+ {
+  "id": "2.7",
+  "name": "Dokuz kapının her biri kendi sınıf merkezini açıyor",
+  "pass": true,
+  "detail": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ]
+ },
+ {
+  "id": "2.8",
+  "name": "Koridor yeniden açılınca en son ziyaret edilen sınıf gösteriliyor",
+  "pass": true
+ },
+ {
+  "id": "2.9",
+  "name": "Klavye okları ile gezinme",
+  "pass": true
+ },
+ {
+  "id": "2.10",
+  "name": "Koridor testlerinde sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "2.11",
+  "name": "prefers-reduced-motion: kapı animasyonsuz, doğrudan açılıyor",
+  "pass": true,
+  "detail": {
+   "view": "psinif",
+   "acil": false
+  }
+ },
+ {
+  "id": "3.1",
+  "name": "Her sınıf merkezi, Klasik sınıf ekranıyla aynı programı ve aynı üniteleri aynı sırayla gösteriyor (4–12)",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "3.2",
+  "name": "8. sınıfta 2018 ↔ 2026 TYMM ayrı seçilebiliyor; programlar karışmıyor",
+  "pass": true,
+  "detail": {
+   "a": "2018",
+   "b": "2026",
+   "mixed": false,
+   "same": true
+  }
+ },
+ {
+  "id": "3.3",
+  "name": "Ünite alanı: konular müfredat sırasıyla, kazanım kodları kayıtla aynı; durum, ilerleme ve \"Konuyu aç\" var",
+  "pass": true,
+  "detail": {
+   "ok": true,
+   "kz": true,
+   "n": 4,
+   "hasBtn": true,
+   "st": true,
+   "bars": true
+  }
+ },
+ {
+  "id": "3.4",
+  "name": "Ders ekranındaki öğrenme araçları Klasik konu ekranıyla aynı (içerik olmayan sekme gösterilmiyor)",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "3.5",
+  "name": "Anlatım, özet, kodlama, hikâye, tablo, karışanlar ve sınav bilgisi aynı konu kaydından, metin değiştirilmeden",
+  "pass": true,
+  "detail": {
+   "anlat": true,
+   "ozet": true,
+   "kod": true,
+   "hik": true,
+   "tab": true,
+   "kar": true,
+   "sin": true,
+   "design": 7
+  }
+ },
+ {
+  "id": "3.6",
+  "name": "Her içerik türünün kendi tasarımı var (anlatım, özet, kodlama, hikâye, tablo, karışanlar, sınav: 7 ayrı bileşen)",
+  "pass": true,
+  "detail": {
+   "anlat": "p39-read",
+   "ozet": "p39-oz",
+   "kod": "p39-kod",
+   "hik": "p39-hk",
+   "tab": "p39-tb",
+   "kar": "p39-kr",
+   "sin": "p39-sn"
+  }
+ },
+ {
+  "id": "3.7",
+  "name": "Ayet/hadis alıntıları ayrı alıntı alanında",
+  "pass": true,
+  "detail": {
+   "q": 1,
+   "t": "Allah'ın Güzel İsimleri"
+  }
+ },
+ {
+  "id": "3.8",
+  "name": "Konu şeması ve önemli kavramlar yalnızca kaynak analizindeki gerçek veriden",
+  "pass": true
+ },
+ {
+  "id": "3.9",
+  "name": "İçeriği olmayan konuda sahte içerik yok (yalnızca uygun sekmeler + \"henüz hazırlanmadı\")",
+  "pass": true,
+  "detail": {
+   "msg": true,
+   "tabs": [
+    "kay"
+   ]
+  }
+ },
+ {
+  "id": "3.10",
+  "name": "Mini test mevcut test sistemiyle çalışıyor; cevap ortak ilerlemeye (Prog) ve konu durumuna yazılıyor",
+  "pass": true,
+  "detail": {
+   "tid": "TPC-5-1-01",
+   "mt": true,
+   "opt": true,
+   "rec": 1,
+   "prog": true
+  }
+ },
+ {
+  "id": "3.11",
+  "name": "Bilgi kartları mevcut kart sistemiyle açılıyor",
+  "pass": true
+ },
+ {
+  "id": "3.12",
+  "name": "Oyun mevcut oyun sistemiyle oynanıyor (premium çubuğu görünür); dönüş noktası ders ekranı",
+  "pass": true,
+  "detail": {
+   "inGame": true,
+   "back": {
+    "v": "pders",
+    "a": {}
+   }
+  }
+ },
+ {
+  "id": "3.13",
+  "name": "İçerik testlerinde sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "4.1",
+  "name": "Premium oturumda Testler/Oyunlar mevcut ekranlarla açılıyor; premium çubuğuyla koridora dönülüyor",
+  "pass": true,
+  "detail": {
+   "bar": true,
+   "prem": true,
+   "pv": "odunc"
+  }
+ },
+ {
+  "id": "4.2",
+  "name": "Premium oturumda Ana sayfa/sınıf bağlantıları premium karşılıklarına gidiyor",
+  "pass": true,
+  "detail": {
+   "a": "pdunya",
+   "b": "psinif:7"
+  }
+ },
+ {
+  "id": "4.3",
+  "name": "Öğretmen paneli premium oturumdan açılınca kendi tasarımıyla (premium kimliği karışmıyor)",
+  "pass": true,
+  "detail": {
+   "prem": false,
+   "ogrt": true,
+   "panel": true,
+   "hdr": "flex",
+   "kaz": true
+  }
+ },
+ {
+  "id": "4.4",
+  "name": "Editör Onay Alanı çalışıyor (kategoriler, onay kaydı)",
+  "pass": true,
+  "detail": {
+   "cats": 7,
+   "prem": false,
+   "n": 1387
+  }
+ },
+ {
+  "id": "4.5",
+  "name": "Premium gezinme öğretmen kayıtlarını değiştirmiyor; premium yalnızca kendi anahtarını (dk-ilerleme39, dk-deneyim39) yazıyor",
+  "pass": true,
+  "detail": null
+ },
+ {
+  "id": "4.6",
+  "name": "Öğretmen yedek/geri yükleme işlevi çalışıyor",
+  "pass": true,
+  "detail": {
+   "ok": true,
+   "same": true
+  }
+ },
+ {
+  "id": "4.7",
+  "name": "Geçiş testlerinde sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "5.1",
+  "name": "360 / 390 / 768 / 1024 / 1440 px: seçim ekranı ve Premium ekranlarda yatay taşma yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "5.2",
+  "name": "Aynı ekranlarda dokunma alanları ≥44 px (gösterge noktaları ≥30×44 px)",
+  "pass": true,
+  "detail": []
+ }
+]
