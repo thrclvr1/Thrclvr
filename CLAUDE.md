@@ -3,13 +3,15 @@
 4–12. sınıf DKAB öğrenme platformu. Tek HTML dosyası; bütün veri (müfredat, ilişkiler, sureler-dualar, yıllık plan) dosyanın içindeki JSON bloklarında. Sunucu yok, kurulum yok.
 
 ## Depo düzeni
-- `index.html` — güncel sürüm (şu an V36.0). GitHub Pages bu dosyayı yayınlar.
+- `index.html` — güncel sürüm (şu an V37.0). GitHub Pages bu dosyayı yayınlar.
 - `surumler/din-kulturu-platformu-vXX.Y.html` — teslim edilmiş sürümler. **Bir kez teslim edilen sürüm dosyası bir daha değiştirilmez.**
 - `docs/` — sürüm raporları (`VXX.Y_rapor.md`, `VXX.Y_performans_raporu.md`), tanıtım videosu.
 - `tools/v36/` — V36.0'ı V35.0'dan üreten derleme betiği (`build360.py`) ve eklediği kod (`v360.js`, `v360.css`), performans ölçümü.
+- `tools/v37/` — V37.0'ı V36.0'dan üreten `build370.py` (depo yollarıyla çalışır: `python3 tools/v37/build370.py`; `index.html`'i de yazar), eklediği `v370.js`/`v370.css` ve ölçüm betikleri (`olcum_*.js`).
+- `tests/v37/test_v370.js` — V37 testleri; depo yollarıyla çalışır (`node tests/v37/test_v370.js`), sayfaları yerel http sunucusundan açar (başsız Chromium'da `file://` ile localStorage güvenilir değildi).
 - `tests/v36/` — Playwright testleri. **Not:** Bu betikler ilk yazıldıkları çalışma alanındaki mutlak yolları (`/home/claude/work/...`) ve bazı eski sürüm dosyalarını kullanıyor; depoda çalıştırmadan önce yolları depoya göre uyarlamak gerekir.
 - `android/` — `index.html`'i WebView içinde açan Android sarmalayıcısı (`./gradlew assembleRelease`; derlemede `../index.html` APK'ya kopyalanır, sürüm `V31.VER`'den okunur). İmza anahtarı ve `keystore.properties` depoda değil; güncellemeler aynı anahtarla imzalanmalı. Ayrıntı: `docs/android_apk_rapor.md`.
-- `apk/din-kulturu-vXX.Y.apk` — teslim edilmiş APK'lar (sürüm dosyaları gibi değiştirilmez).
+- `apk/din-kulturu-vXX.Y.apk` — teslim edilmiş APK'lar (sürüm dosyaları gibi değiştirilmez). Şu an yalnızca V36.0 APK'sı var; Android çalışması kullanıcı isteğiyle beklemede.
 - `kaynaklar/yillik-plan-2026-2027/` — öğretmenin verdiği yıllık plan Excel dosyaları (birincil kaynak).
 
 ## Çalışma kuralları (kullanıcının kalıcı kuralları)
@@ -28,3 +30,4 @@
 - Veri erişimi `Store.all(koleksiyon)` / `Store.get(koleksiyon, id)`; V36'dan beri önbellekli (`Store._rows`), `save()` önbelleği yeniler.
 - Rotalar: `go('home'|'classes'|'grade'|'topic'|'pek'|'dene'|'links'|'games'|'sd'|'ogretmen'...)`.
 - Açılış ekranı `#boot36`, ilk `draw()` sonrası `V36.boot()` ile kalkar.
+- V37: öğretmen ekranında `<body data-ogrt37>` (renk sistemi `--t37-*`); PIN `dk-ogretmen-pin` = `{v:2,salt,h,len}` (V36 `{v:1}` de okunur), hatalı deneme sayacı `dk-ogrt-kilit37`; ses kontrolü üst çubukta `#snd37` (`ATM.bar/ATM.fab` artık yüzen öğe oluşturmaz).

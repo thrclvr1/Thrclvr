@@ -1,0 +1,356 @@
+[
+ {
+  "id": "0.1",
+  "name": "Sürüm etiketi V37.0 (index.html ve sürüm dosyası aynı)",
+  "pass": true,
+  "detail": "V37.0"
+ },
+ {
+  "id": "0.2",
+  "name": "Veri blokları V36 ile aynı boyutta",
+  "pass": true,
+  "detail": "seed-sd:646784 seed-hide:118337 seed-rel:1282534 seed-km:153133 seed-yp:160447 seed-curriculum:7898092"
+ },
+ {
+  "id": "0.3",
+  "name": "Koleksiyon kayıt sayıları V36 ile aynı",
+  "pass": true,
+  "detail": {
+   "versions": 3,
+   "tbSubheadings": 531,
+   "gaps": 32,
+   "textbooks": 9,
+   "tbUnits": 45,
+   "tbSections": 272,
+   "unitLinks": 60,
+   "outcomeLinks": 223,
+   "concepts": 629,
+   "entities": 378,
+   "sources": 14,
+   "units": 60,
+   "outcomes": 238,
+   "topics": 246,
+   "questions": 723,
+   "flashcards": 672,
+   "games": 526,
+   "videos": 1
+  }
+ },
+ {
+  "id": "0.4",
+  "name": "Rotalar korunuyor",
+  "pass": true,
+  "detail": "11 rota"
+ },
+ {
+  "id": "0.5",
+  "name": "Öğretmen paneli işlevleri korunuyor",
+  "pass": true,
+  "detail": "50 + 70 işlev"
+ },
+ {
+  "id": "0.6",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "1.1",
+  "name": "İlk girişte PIN oluşturma ekranı açılıyor (sabit 1999 yok)",
+  "pass": true,
+  "detail": {
+   "h": "Öğretmen PIN'i oluştur",
+   "len": 4,
+   "hasLen": true,
+   "panel": false
+  }
+ },
+ {
+  "id": "1.2",
+  "name": "Doğrulama adımı var; eşleşmeyen PIN kaydedilmiyor",
+  "pass": true,
+  "detail": "PIN'ler eşleşmedi. Yeniden oluştur."
+ },
+ {
+  "id": "1.3",
+  "name": "4 haneli PIN oluşturuldu, oturum açıldı",
+  "pass": true,
+  "detail": {
+   "v": 2,
+   "len": 4
+  }
+ },
+ {
+  "id": "1.4",
+  "name": "PIN açık metin olarak saklanmıyor",
+  "pass": true
+ },
+ {
+  "id": "7.1",
+  "name": "PIN oluşturma öğretmen kayıtlarını (sınıflar, kazanım durumları, ders planları) değiştirmedi",
+  "pass": true,
+  "detail": "not: paneli ilk açış, V36 ile aynı şekilde haftalık planı kurar ve updatedAt yazar"
+ },
+ {
+  "id": "4.1",
+  "name": "Öğrenci ekranlarına geçip dönünce PIN yeniden istenmiyor",
+  "pass": true
+ },
+ {
+  "id": "5.1",
+  "name": "Arka plana alma/geri dönme (olay emülasyonu) ve yenilemede oturum korunuyor",
+  "pass": true,
+  "detail": {
+   "arkaPlan": true,
+   "yenileme": true
+  }
+ },
+ {
+  "id": "6.1",
+  "name": "Oturumu kapatınca tekrar PIN isteniyor",
+  "pass": true,
+  "detail": {
+   "h": "Öğretmen Paneli",
+   "panel": false,
+   "dots": 4,
+   "rec": "{\"v\":2,\"salt\":\"227a6180ab2ec499e0080ec2\"",
+   "r": true,
+   "keys": [
+    "dk-ogretmen-pin",
+    "dk2",
+    "dk-ogretmen-hafta-v1",
+    "__seeded",
+    "dk-theme",
+    "dk-ogretmen-v1"
+   ]
+  }
+ },
+ {
+  "id": "2.1",
+  "name": "Doğru PIN ile giriş",
+  "pass": true
+ },
+ {
+  "id": "6.2",
+  "name": "Yeni uygulama oturumunda (yeni sekme) PIN isteniyor",
+  "pass": true
+ },
+ {
+  "id": "3.1",
+  "name": "Yanlış PIN: kalan deneme sayısı gösteriliyor",
+  "pass": true,
+  "detail": [
+   "PIN hatalı. Kalan deneme: 4.",
+   "PIN hatalı. Kalan deneme: 3."
+  ]
+ },
+ {
+  "id": "3.2",
+  "name": "5 hatalı denemeden sonra bekleme; bu sürede doğru PIN de kabul edilmiyor",
+  "pass": true,
+  "detail": "Çok fazla hatalı deneme. 30 saniye sonra tekrar dene."
+ },
+ {
+  "id": "3.3",
+  "name": "Bekleme yeni sekmede de sürüyor (localStorage)",
+  "pass": true
+ },
+ {
+  "id": "3.4",
+  "name": "Bekleme bitince doğru PIN kabul ediliyor ve sayaç sıfırlanıyor",
+  "pass": true
+ },
+ {
+  "id": "2.2",
+  "name": "PIN değiştirme (4 → 6 hane) çalışıyor",
+  "pass": true
+ },
+ {
+  "id": "2.3",
+  "name": "6 haneli PIN ile giriş",
+  "pass": true
+ },
+ {
+  "id": "2.4",
+  "name": "PIN'imi unuttum: yanlış onayla sıfırlanmıyor, doğru onayla yalnızca PIN siliniyor ve yeni PIN isteniyor",
+  "pass": true,
+  "detail": "Öğretmen PIN'i oluştur"
+ },
+ {
+  "id": "7.2",
+  "name": "PIN değiştirme ve sıfırlama sonrası öğretmen kayıtları (haftalık plan, notlar dahil) bayt bayt aynı",
+  "pass": true
+ },
+ {
+  "id": "1.5",
+  "name": "6 haneli PIN oluşturma",
+  "pass": true
+ },
+ {
+  "id": "0.7",
+  "name": "PIN testlerinde sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "7.3",
+  "name": "V36'da değiştirilmiş (kişisel) PIN V37'de aynen çalışıyor",
+  "pass": true
+ },
+ {
+  "id": "7.4",
+  "name": "Sabit varsayılan PIN özeti dosyadan kaldırıldı",
+  "pass": true
+ },
+ {
+  "id": "8.light.1",
+  "name": "Açık tema: öğretmen modu etkin, vurgu renklerinde yeşil yok",
+  "pass": true,
+  "detail": [
+   ".og-tabs button.on rgb(29, 58, 102)",
+   ".og-cls button.on rgb(29, 58, 102)",
+   ".ogw-wk.on rgb(229, 236, 245)"
+  ]
+ },
+ {
+  "id": "8.light.2",
+  "name": "Açık tema: metin kontrastı ≥ 4.5:1 (ölçülen öğeler)",
+  "pass": true,
+  "detail": ".og-top h1 14.1, .ogw-kt 14.1, .ogw-c.c-kaz .ogw-ch b 12.5, .ogw-b.p 11.4, .og-tabs button.on 11.4, .ogw-dt 5.9, .ogw-pt 5.9, .ogw-chip 5.5"
+ },
+ {
+  "id": "9.light",
+  "name": "Açık tema: kazanım kartı diğer kartlardan belirgin (zemin + kenarlık + ayrı kod rozeti)",
+  "pass": true,
+  "detail": {
+   "kazanim": {
+    "bg": "rgb(234, 241, 249)",
+    "bd": "rgb(76, 120, 168)",
+    "sh": "rgb(76, 120, 168) 4px 0px 0px 0px inset"
+   },
+   "unite": {
+    "bg": "rgb(255, 255, 255)",
+    "bd": "rgb(210, 218, 229)"
+   }
+  }
+ },
+ {
+  "id": "7.dokunma.light",
+  "name": "Öğretmen panelinde 44 px altında dokunma alanı yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "8.dark.1",
+  "name": "Koyu tema: öğretmen modu etkin, vurgu renklerinde yeşil yok",
+  "pass": true,
+  "detail": [
+   ".og-tabs button.on rgb(159, 192, 230)",
+   ".og-cls button.on rgb(159, 192, 230)",
+   ".ogw-wk.on rgb(23, 37, 60)"
+  ]
+ },
+ {
+  "id": "8.dark.2",
+  "name": "Koyu tema: metin kontrastı ≥ 4.5:1 (ölçülen öğeler)",
+  "pass": true,
+  "detail": ".og-top h1 15.5, .ogw-kt 12.8, .ogw-c.c-kaz .ogw-ch b 12.1, .ogw-b.p 9.7, .og-tabs button.on 9.7, .ogw-dt 8.4, .ogw-pt 8.4, .ogw-chip 8.2"
+ },
+ {
+  "id": "9.dark",
+  "name": "Koyu tema: kazanım kartı diğer kartlardan belirgin (zemin + kenarlık + ayrı kod rozeti)",
+  "pass": true,
+  "detail": {
+   "kazanim": {
+    "bg": "rgb(18, 35, 64)",
+    "bd": "rgb(90, 130, 182)",
+    "sh": "rgb(90, 130, 182) 4px 0px 0px 0px inset"
+   },
+   "unite": {
+    "bg": "rgb(17, 26, 43)",
+    "bd": "rgb(37, 50, 74)"
+   }
+  }
+ },
+ {
+  "id": "7.dokunma.dark",
+  "name": "Öğretmen panelinde 44 px altında dokunma alanı yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "10.1",
+  "name": "Ses açıkken içerik üzerinde yüzen oynatıcı yok",
+  "pass": true,
+  "detail": {
+   "el": [],
+   "n": 0
+  }
+ },
+ {
+  "id": "10.2",
+  "name": "Panel kapanınca ve alt sekme değişince ses devam ediyor",
+  "pass": true,
+  "detail": {
+   "sesZamanı": 4.4,
+   "önce": 2.5
+  }
+ },
+ {
+  "id": "11.1",
+  "name": "Üst çubuk ses panelinde ad, önceki/sonraki, ses seviyesi, kapatma ve ses listesi var",
+  "pass": true,
+  "detail": {
+   "name": "Huzurlu Ders",
+   "prev": true,
+   "next": true,
+   "vol": true,
+   "off": true,
+   "list": 4
+  }
+ },
+ {
+  "id": "11.2",
+  "name": "Duraklat / devam / sonraki / ses seviyesi / tamamen kapat çalışıyor",
+  "pass": true,
+  "detail": {
+   "paused": true,
+   "resumed": true,
+   "n0": "Huzurlu Ders",
+   "n1": "Yağmurlu Akşam",
+   "vol": 0.25,
+   "off": true
+  }
+ },
+ {
+  "id": "11.3",
+  "name": "Ses testlerinde sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "12.1",
+  "name": "Alt menü sistem alanının üstünde; ek boşluk yok (inset 0 → 8 px, inset varsa = inset)",
+  "pass": true,
+  "detail": [
+   {
+    "inset": 0,
+    "gap": 8
+   },
+   {
+    "inset": 24,
+    "gap": 24
+   },
+   {
+    "inset": 48,
+    "gap": 48
+   }
+  ]
+ },
+ {
+  "id": "14.1",
+  "name": "Telefon ve tablet (dikey/yatay) öğrenci ve öğretmen ekranlarında yatay taşma yok",
+  "pass": true,
+  "detail": []
+ }
+]
