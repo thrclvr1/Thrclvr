@@ -2,7 +2,7 @@
 
 4–12. sınıf Din Kültürü ve Ahlak Bilgisi için tek dosyalık öğrenme uygulaması: konu anlatımı, bilgi kartları, testler, oyunlar, sureler ve dualar, kavram bağlantıları ve öğretmen paneli (haftalık plan, kazanım takibi).
 
-- **Uygulama:** [`index.html`](index.html) — tarayıcıda açılır, kurulum gerektirmez. Güncel sürüm: **V40.0** (Klasik Öğrenme Alanı + Öğrenme Dünyası: etkileşimli 3B okul koridoru).
+- **Uygulama:** [`index.html`](index.html) — tarayıcıda açılır, kurulum gerektirmez. Güncel sürüm: **V40.1** (Klasik Öğrenme Alanı + Öğrenme Dünyası: etkileşimli 3B okul koridoru; V40.1 kapı aydınlatma düzeltmesi).
 - **Sürümler:** [`surumler/`](surumler/)
 - **Raporlar ve tanıtım videosu:** [`docs/`](docs/)
 
