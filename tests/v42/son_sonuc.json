@@ -1,0 +1,217 @@
+{
+ "tarih": "2026-11-17T15:52:17.045Z",
+ "gecen": 42,
+ "toplam": 42,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm etiketi V42.0 ve index.html aynı dosya",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 veri blokları (müfredat, ilişkiler, sureler-dualar, yıllık plan) V41.0 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "seed-sd,seed-hide,seed-rel,seed-km,seed-yp,seed-curriculum"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı",
+   "ok": true,
+   "ayr": "yalnız v42.0"
+  },
+  {
+   "ad": "A4 7 müzik kaydı gömülü ve ana betikten sonra",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "B tel360 (360×740): iki kart, yatay taşma ve uzaklaşma yok (innerWidth = 360), düğmeler ≥44 px, kartlar alt alta",
+   "ok": true,
+   "ayr": "{\"iw\":360,\"tasma\":0,\"btH\":[52,52],\"dikey\":true,\"yan\":false}"
+  },
+  {
+   "ad": "B tel390 (390×844): iki kart, yatay taşma ve uzaklaşma yok (innerWidth = 390), düğmeler ≥44 px, kartlar alt alta",
+   "ok": true,
+   "ayr": "{\"iw\":390,\"tasma\":0,\"btH\":[52,52],\"dikey\":true,\"yan\":false}"
+  },
+  {
+   "ad": "B görsel yüklü, öğretmen paneli düğmesi, “hatırla” seçeneği, “istediğin zaman değiştirebilirsin” notu, odak başlıkta",
+   "ok": true,
+   "ayr": "{\"iw\":390,\"var\":true,\"n\":2,\"k\":[{\"x\":16,\"y\":215.578125,\"width\":358,\"height\":395.28125,\"top\":215.578125,\"right\":374,\"bottom\":610.859375,\"left\":16},{\"x\":16,\"y\":626.859375,\"width\":358,\"height\":483.296875,\"top\":626.859375,\"right\":374,\"bottom\":1110.15625,\"left\":16}],\"bt\":[{\"x\":35,\"y\":539.859375,\"width\":320,\"height\":52,\"top\":539.859375,\"right\":355,\"bottom\":591.859375,\"left\":35},{\"x\":35,\"y\":1039.15625,\"width\":320,\"height\":52,\"top\":1039.15625,\"right\":355,\"bottom\":1091.15625,\"left\":35}],\"tasma\":0,\"sayfaTasma\":0,\"img\":640,\"ogr\":true,\"hat\":true,\"not\":true,\"h1\":\"Nasıl öğrenmek istersin?\",\"odak\":\"uye39-h\"}"
+  },
+  {
+   "ad": "B tel420 (420×900): iki kart, yatay taşma ve uzaklaşma yok (innerWidth = 420), düğmeler ≥44 px, kartlar alt alta",
+   "ok": true,
+   "ayr": "{\"iw\":420,\"tasma\":0,\"btH\":[52,52],\"dikey\":true,\"yan\":false}"
+  },
+  {
+   "ad": "B tablet (820×1180): iki kart, yatay taşma ve uzaklaşma yok (innerWidth = 820), düğmeler ≥44 px, kartlar yan yana",
+   "ok": true,
+   "ayr": "{\"iw\":820,\"tasma\":0,\"btH\":[52,52],\"dikey\":false,\"yan\":true}"
+  },
+  {
+   "ad": "B masaustu (1280×800): iki kart, yatay taşma ve uzaklaşma yok (innerWidth = 1280), düğmeler ≥44 px, kartlar yan yana",
+   "ok": true,
+   "ayr": "{\"iw\":1280,\"tasma\":0,\"btH\":[52,52],\"dikey\":false,\"yan\":true}"
+  },
+  {
+   "ad": "B açık temada seçim ekranı obsidyen zeminde (tema değişkenlerinden etkilenmez)",
+   "ok": true,
+   "ayr": "rgb(9, 12, 11)"
+  },
+  {
+   "ad": "B Premium seçimi: koridor açılır, tercih kaydedilir, açılış seçimi geçmişin kökü olur",
+   "ok": true,
+   "ayr": "{\"view\":\"pdunya\",\"on\":true,\"pref\":{\"son\":\"premium\",\"hatirla\":true},\"hl\":2,\"st\":{\"v30\":0}}"
+  },
+  {
+   "ad": "B “hatırla” ile yeniden açılış: seçim ekranı sorulmadan koridor",
+   "ok": true,
+   "ayr": "{\"view\":\"pdunya\",\"uye\":false}"
+  },
+  {
+   "ad": "C 360 px: Premium’un her ekranında (koridor, sınıf, ünite, ders, özet, ilerleme, favoriler, oyun merkezi, ödünç Klasik ekranlar, oyun) yazılı, görünür, dokunulabilir deneyim düğmesi",
+   "ok": true,
+   "ayr": "pdunya:Klasik psinif:Klasik punite:Klasik pders:Klasik pozet:Klasik pilerleme:Klasik pfav:Klasik poyun:Klasik games:Klasik pek:Klasik poyna:Klasik"
+  },
+  {
+   "ad": "C oyun: duraklat düğmesi yazılı (“Menü”), menüde “Deneyimi değiştir”",
+   "ok": true,
+   "ayr": "{\"hud\":\"Menü\",\"mn\":[\"Devam et\",\"Bölümü baştan başlat\",\"Oyun merkezine dön\",\"Deneyimi değiştir (Klasik alan)\"]}"
+  },
+  {
+   "ad": "C Klasik 360 px: üst çubukta yazılı “Premium” düğmesi, başka öğeyle çakışmıyor, sayfa taşmıyor/uzaklaşmıyor (ana sayfa, sınıf, konu, oyunlar)",
+   "ok": true,
+   "ayr": "tamam"
+  },
+  {
+   "ad": "C Klasik 390 px: üst çubukta yazılı “Premium” düğmesi, başka öğeyle çakışmıyor, sayfa taşmıyor/uzaklaşmıyor (ana sayfa, sınıf, konu, oyunlar)",
+   "ok": true,
+   "ayr": "tamam"
+  },
+  {
+   "ad": "C Klasik 420 px: üst çubukta yazılı “Premium” düğmesi, başka öğeyle çakışmıyor, sayfa taşmıyor/uzaklaşmıyor (ana sayfa, sınıf, konu, oyunlar)",
+   "ok": true,
+   "ayr": "tamam"
+  },
+  {
+   "ad": "C Premium ders → Klasik: aynı konu açılır, Premium kapanır (panel hedefi gösterir)",
+   "ok": true,
+   "ayr": "{\"view\":\"topic\",\"t\":\"TPC-5-1-01\",\"on\":false,\"prem\":false,\"ss\":null}"
+  },
+  {
+   "ad": "C Klasik 7. sınıf → Premium: 7. Sınıf Merkezi açılır",
+   "ok": true,
+   "ayr": "{\"view\":\"psinif\",\"pg\":7,\"on\":true}"
+  },
+  {
+   "ad": "C “Giriş ekranına dön” seçim ekranını açar (oturum içinde “Geri dön” düğmesiyle)",
+   "ok": true,
+   "ayr": "{\"uye\":true,\"geri\":true}"
+  },
+  {
+   "ad": "C seçim ekranındaki “Geri dön” ekranı kapatır, bulunulan ekran değişmez",
+   "ok": true,
+   "ayr": "{\"uye\":false,\"view\":\"psinif\"}"
+  },
+  {
+   "ad": "C geçişler ilerleme, favori, oyun kaydı, ses ve tema kayıtlarını değiştirmez",
+   "ok": true,
+   "ayr": "{\"fark\":[],\"fav\":{\"s\":[7],\"k\":[\"TPC-5-1-01\"]},\"dk2DegisenAlan\":[\"last\"],\"prog\":\"{\\\"DKAB.5.1.1\\\":{\\\"userId\\\":\\\"local\\\",\\\"outcomeId\\\":\\\"DKAB.5.1.1\\\",\\\"mastery\\\":1,\\\"correct\\\":1\"}"
+  },
+  {
+   "ad": "D ders → geri → sınıf merkezi",
+   "ok": true,
+   "ayr": "{\"view\":\"psinif\",\"on\":true,\"uye\":false,\"ui\":0,\"prem\":true}"
+  },
+  {
+   "ad": "D seçim ekranı açıkken geri: yalnız seçim ekranı kapanır (V41’de ekran açık kalıp arkadaki sayfa değişiyordu)",
+   "ok": true,
+   "ayr": "{\"view\":\"psinif\",\"on\":true,\"uye\":false,\"ui\":0,\"prem\":true}"
+  },
+  {
+   "ad": "D arama paneli açıkken geri: yalnız panel kapanır",
+   "ok": true,
+   "ayr": "{\"view\":\"psinif\",\"on\":true,\"uye\":false,\"ui\":0,\"prem\":true}"
+  },
+  {
+   "ad": "D Klasik’e geçtikten sonra geri: önce Klasik sınıf → sonra Premium sınıf merkezi, deneyim kaydıyla (Premium’da Klasik ana sayfa açılmaz)",
+   "ok": true,
+   "ayr": "{\"s4\":{\"view\":\"grade\",\"on\":false,\"uye\":false,\"ui\":0,\"prem\":false},\"s5\":{\"view\":\"psinif\",\"on\":true,\"uye\":false,\"ui\":0,\"prem\":true}}"
+  },
+  {
+   "ad": "D en başa kadar geri: Premium kökü (koridor), Klasik ana sayfaya düşmez",
+   "ok": true,
+   "ayr": "{\"view\":\"pdunya\",\"on\":true,\"uye\":false,\"ui\":0,\"prem\":true}"
+  },
+  {
+   "ad": "D oyundan geri: oyun merkezi, oyun temizlenir",
+   "ok": true,
+   "ayr": "{\"view\":\"poyun\",\"on\":true,\"uye\":false,\"ui\":0,\"prem\":true}"
+  },
+  {
+   "ad": "E Premium arama 360 px, klavye benzetimi (pencere 430 px): yazı alanı odakta ve görünür, yazılan görünür, panel ekranda, alt menü gizli, sonuç görünür",
+   "ok": true,
+   "ayr": "{\"deger\":\"düzen\",\"odak\":true,\"inputGor\":true,\"panel\":true,\"kb\":true,\"bnav\":\"none\",\"sonuc\":3}"
+  },
+  {
+   "ad": "E Premium arama 360 px, visualViewport benzetimi: alt panel klavye yüksekliği kadar yukarıda",
+   "ok": true,
+   "ayr": "{\"kb\":\"370px\",\"alt\":\"370px\",\"sh\":430}"
+  },
+  {
+   "ad": "E Premium arama 412 px, klavye benzetimi (pencere 430 px): yazı alanı odakta ve görünür, yazılan görünür, panel ekranda, alt menü gizli, sonuç görünür",
+   "ok": true,
+   "ayr": "{\"deger\":\"düzen\",\"odak\":true,\"inputGor\":true,\"panel\":true,\"kb\":true,\"bnav\":\"none\",\"sonuc\":3}"
+  },
+  {
+   "ad": "E Premium arama 412 px, visualViewport benzetimi: alt panel klavye yüksekliği kadar yukarıda",
+   "ok": true,
+   "ayr": "{\"kb\":\"370px\",\"alt\":\"370px\",\"sh\":430}"
+  },
+  {
+   "ad": "E Klasik arama 360 px, klavye benzetimi (pencere 430 px): yazı alanı odakta ve görünür, yazılan görünür, panel ekranda, alt menü gizli, sonuç görünür",
+   "ok": true,
+   "ayr": "{\"deger\":\"düzen\",\"odak\":true,\"inputGor\":true,\"panel\":true,\"kb\":true,\"bnav\":\"none\",\"sonuc\":16}"
+  },
+  {
+   "ad": "E Klasik arama 412 px, klavye benzetimi (pencere 430 px): yazı alanı odakta ve görünür, yazılan görünür, panel ekranda, alt menü gizli, sonuç görünür",
+   "ok": true,
+   "ayr": "{\"deger\":\"düzen\",\"odak\":true,\"inputGor\":true,\"panel\":true,\"kb\":true,\"bnav\":\"none\",\"sonuc\":17}"
+  },
+  {
+   "ad": "F ses panelinde “Müzikler” listesi (7 kayıt) ve Tüm sesler’de ilk bölüm",
+   "ok": true,
+   "ayr": "Kutsal Eşikte | Sessiz Dua | Neyin Nefesi | Neyin Duası | Işığın Dinlendiği Yer | Kubbeli Çalışma Odası | Cama Vuran Yağmur"
+  },
+  {
+   "ad": "F müzik çalıyor (süre ilerliyor, ses sinyali var)",
+   "ok": true,
+   "ayr": "{\"t\":2.41,\"amp\":32,\"ad\":\"Kutsal Eşikte\"}"
+  },
+  {
+   "ad": "F aynı anda tek müzik",
+   "ok": true,
+   "ayr": "[\"m42_kubbe\"]"
+  },
+  {
+   "ad": "F müzik + doğa sesi karışımı",
+   "ok": true,
+   "ayr": "[\"m42_kubbe\",\"yagmur\"]"
+  },
+  {
+   "ad": "F duraklat müziği durdurur; “sesi tamamen kapat” her şeyi kapatır",
+   "ok": true,
+   "ayr": "{\"f\":true,\"g\":0}"
+  },
+  {
+   "ad": "F Kaynak sekmesi: 7 kayıt, lisans bilgisi için “Kaynakta veri bulunmuyor.”",
+   "ok": true,
+   "ayr": "[7,true]"
+  },
+  {
+   "ad": "G sayfa hatası (JS) yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ]
+}
