@@ -1,0 +1,137 @@
+
+/* ===================== V44.0 ===================== */
+/* ---------- 1. Seçim ekranı: arkadaki sayfa hiç görünmez (mobil adres çubuğu kayarken açılan şerit dahil) ---------- */
+html.uye39-acik,html.uye39-acik body{background:#090c0b!important}
+html.uye39-acik body>*:not(#uye39):not(.v-ov):not(#v-toasts):not(script){visibility:hidden!important}
+#uye39{overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+#uye39.o42 .o44-amb{display:flex;align-items:center;justify-content:center;gap:12px;margin:10px auto 8px}
+#uye39.o42 .o44-amb i{display:block;width:64px;height:1px;background:linear-gradient(90deg,transparent,#d9b56c)}
+#uye39.o42 .o44-amb i:last-child{background:linear-gradient(90deg,#d9b56c,transparent)}
+#uye39.o42 .o44-amb img{display:block;width:52px;height:52px;border-radius:12px;box-shadow:0 0 0 1px rgba(217,181,108,.55),0 6px 16px rgba(0,0,0,.45)}
+#uye39.o42 .o44-ed{margin:8px 0 0}
+#uye39.o42 .o44-edb{min-height:44px;padding:0 14px;border:0;background:none;color:#d9cfb9;font:600 .86rem var(--sans);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+
+/* ---------- 2. Roller: öğrenci ekranlarında yönetim araçları yok ---------- */
+body:not([data-r44-editor]) header.top .iconbtn[onclick="go('admin')"]{display:none}
+body:not([data-r44-ogretmen]) nav.bnav [data-k="ogretmen"]{display:none}
+.g44{display:grid;gap:10px}
+.g44-b,.g44-ay button{min-height:44px}
+.g44 .g44-b{display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:100%;min-height:64px;padding:10px 14px;border-radius:14px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font:inherit;text-align:left;cursor:pointer}
+.g44 .g44-b small{color:var(--mut)}
+.g44-ay{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.g44-ay button{width:100%;border-radius:12px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font:600 .9rem var(--sans);cursor:pointer}
+/* öğretmen paneli: Kazanımlar en önemli bölüm */
+body[data-ogrt37] .v38-tiles .v38-tile:first-child{grid-column:1/-1;border-width:2px}
+body[data-ogrt37] .v38-tiles .v38-tile:first-child b{font-size:1.15rem}
+
+/* ---------- 3. Oyun ekranı (Zamanın İzinde, Bilgi Laboratuvarı): Premium tema değişkenleriyle Gece/Gündüz ---------- */
+.g44-ekran{min-height:100dvh;background:var(--p-bg);color:var(--p-ink);padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}
+.g44-ust{position:sticky;top:0;z-index:3;display:flex;align-items:center;gap:8px;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 8px;background:var(--p-card);border-bottom:1px solid var(--p-line)}
+.g44-ib{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 12px;border-radius:999px;border:1px solid var(--p-line);background:var(--p-card2);color:var(--p-ink);font:700 .84rem var(--sans);cursor:pointer}
+.g44-ib svg{color:var(--p-gold-t)}
+.g44-ub{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.2}
+.g44-ub small{color:var(--p-mut);font-size:.74rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.g44-ub b{font:700 1rem Literata,Georgia,serif;color:var(--p-ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.g44-ic{max-width:780px;margin:0 auto;padding:16px}
+.g44-h1{margin:4px 0 8px;font:700 1.45rem/1.25 Literata,Georgia,serif;color:var(--p-ink)}
+.g44-h2{margin:18px 0 8px;font:700 1.05rem Literata,Georgia,serif;color:var(--p-ink)}
+.g44-ey{margin:0;color:var(--p-gold-t);font:800 .72rem var(--sans);letter-spacing:.08em;text-transform:uppercase}
+.g44-mut{color:var(--p-mut)}
+.g44-ic p{line-height:1.6}
+.g44-not{margin:12px 0;padding:12px 14px;border-radius:14px;background:var(--p-card2);border:1px solid var(--p-line);font-size:.9rem;color:var(--p-ink)}
+.g44-not small{color:var(--p-mut)}
+.g44-kz summary{cursor:pointer;min-height:44px;display:flex;align-items:center;color:var(--p-ink);font-weight:700}
+.g44-kz li{color:var(--p-ink2);margin:4px 0}
+.g44-kz code{color:var(--p-gold-t)}
+.g44-sev{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.g44-sv{position:relative;display:flex;flex-direction:column;gap:4px;min-height:84px;padding:12px;border-radius:16px;border:1px solid var(--p-line);background:var(--p-card);color:var(--p-ink);text-align:left;font:inherit;cursor:pointer}
+.g44-sv b{font:700 1rem Literata,Georgia,serif}
+.g44-sv small{color:var(--p-mut);font-size:.78rem}
+.g44-sv.kapali{background:var(--p-card2)}
+.g44-sv svg{position:absolute;top:10px;right:10px;color:var(--p-mut)}
+.g44-sv:not(:disabled):hover{border-color:var(--p-gold)}
+@media (max-width:420px){.g44-sev{grid-template-columns:1fr}.g44-sv{min-height:64px}}
+.g44-ara{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.g44-b{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:48px;padding:0 16px;border-radius:14px;border:1px solid var(--p-line);background:var(--p-card2);color:var(--p-ink);font:700 .92rem var(--sans);cursor:pointer}
+.g44-b.p{border:0;background:linear-gradient(180deg,#F2D38E,#CF9F4E 60%,#B9893B);color:#1A1206}
+.g44-b:disabled{opacity:.55;cursor:default}
+.g44-bl{display:grid;gap:8px}
+.g44-bol{display:flex;align-items:center;gap:10px;width:100%;min-height:64px;padding:10px 14px;border-radius:16px;border:1px solid var(--p-line);background:var(--p-card);color:var(--p-ink);font:inherit;text-align:left;cursor:pointer}
+.g44-bol:disabled{background:var(--p-card2);cursor:default}
+.g44-bt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.g44-bt b{font:700 .98rem/1.3 Literata,Georgia,serif}
+.g44-bt small{color:var(--p-mut);font-size:.8rem}
+.g44-bt .g44-uy{color:var(--p-uy-t)}
+.g44-y{display:inline-flex;align-items:center;gap:4px;color:var(--p-gold-t);font:700 .82rem var(--sans);white-space:nowrap}
+.g44-yol{display:flex;gap:6px;justify-content:center;padding:10px}
+.g44-yol i{width:28px;height:6px;border-radius:99px;background:var(--p-line)}
+.g44-yol i.ok{background:var(--p-ok-c)}
+.g44-yol i.on{background:var(--p-gold)}
+.g44-gb{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;color:var(--p-mut);font-size:.8rem}
+.g44-kay{color:var(--p-mut)}
+.g44-tal{font-weight:700;color:var(--p-ink)}
+.g44-kart{display:block;min-height:48px;padding:10px 14px;border-radius:14px;border:1px solid var(--p-line);background:var(--p-card);color:var(--p-ink);font:600 .95rem/1.35 var(--sans);text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.g44-kart.sec{border:2px solid var(--p-gold);background:color-mix(in srgb,var(--p-gold) 14%,var(--p-card))}
+.g44-kart.kilit,.g44-kart.dogru{background:var(--p-ok-z);border-color:var(--p-ok-c);color:var(--p-ok-t)}
+.g44-kart.yanlis{border:2px solid var(--p-kt-c)}
+.g44-kart:focus-visible,.g44-kutu:focus-visible,.g44-b:focus-visible,.g44-sv:focus-visible,.g44-bol:focus-visible{outline:3px solid var(--p-gold);outline-offset:2px}
+.g44-sira{list-style:none;margin:12px 0;padding:0;display:grid;gap:8px}
+.g44-sira li{display:flex;align-items:center;gap:10px}
+.g44-sira .g44-kart{flex:1}
+.g44-no{flex:none;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--p-card2);border:1px solid var(--p-line);color:var(--p-gold-t);font:800 .9rem var(--sans)}
+.g44-bos{flex:1;min-height:48px;display:flex;align-items:center;padding:0 14px;border-radius:14px;border:2px dashed var(--p-line);color:var(--p-mut);font-size:.85rem}
+.g44-havuz{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0;padding:12px;border-radius:16px;background:var(--p-card2);border:1px dashed var(--p-line)}
+.g44-es{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.g44-kol{display:grid;gap:8px;align-content:start}
+.g44-kutular{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.g44-kutu{display:flex;flex-direction:column;align-items:flex-start;gap:6px;min-height:84px;padding:12px;border-radius:16px;border:2px dashed var(--p-line);background:var(--p-card);color:var(--p-ink);font:inherit;text-align:left;cursor:pointer}
+.g44-kutu b{font:700 1rem Literata,Georgia,serif;color:var(--p-gold-t)}
+.g44-etk{display:block;padding:4px 8px;border-radius:8px;background:var(--p-ok-z);color:var(--p-ok-t);font-size:.82rem}
+.g44-sec{display:grid;gap:8px;margin-top:10px}
+.g44-cumle{font:1.06rem/1.7 Literata,Georgia,serif;color:var(--p-ink)}
+.g44-bosl{display:inline-block;min-width:64px;border-bottom:2px solid var(--p-gold);text-align:center;color:var(--p-gold-t)}
+.g44-hk{display:grid;gap:8px}
+.g44-kart.hk{display:flex;flex-direction:column;gap:4px}
+.g44-kart.hk b{font-weight:700}
+.g44-kart.hk span{font-weight:500;color:var(--p-ink2)}
+.g44-ip{margin:8px 0;padding-left:20px;color:var(--p-ink)}
+.g44-ip li{margin:4px 0;line-height:1.5}
+.g44-bil{min-height:24px;margin:12px 0 0;padding:0;border-radius:12px;font-size:.92rem}
+.g44-bil.iyi,.g44-bil.uyari,.g44-bil.bilgi{padding:10px 12px}
+.g44-bil.iyi{background:var(--p-ok-z);color:var(--p-ok-t);border:1px solid var(--p-ok-c)}
+.g44-bil.uyari{background:var(--p-uy-z);color:var(--p-uy-t);border:1px solid var(--p-uy-c)}
+.g44-bil.bilgi{background:var(--p-card2);color:var(--p-ink);border:1px solid var(--p-line)}
+.g44-son{text-align:center}
+.g44-yz{display:flex;justify-content:center;gap:8px;margin:12px 0}
+.g44-yz i{color:var(--p-line)}
+.g44-yz i.on{color:#D9A441}
+.g44-puan b{font:800 1.6rem var(--sans);color:var(--p-ink)}
+.g44-sl{list-style:none;padding:0;margin:12px auto;max-width:420px;text-align:left}
+.g44-sl li{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--p-line);color:var(--p-ink)}
+.g44-son .g44-ara{justify-content:center}
+
+/* ---------- 4. Oyun merkezi: kategoriler, profil, görevler ---------- */
+.g44-prof{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+@media (max-width:520px){.g44-prof{grid-template-columns:1fr}}
+.g44-pk{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border-radius:16px;background:var(--p-card);border:1px solid var(--p-line);color:var(--p-ink)}
+.g44-pk small{color:var(--p-mut)}
+.g44-pk b{font:800 1.4rem var(--sans)}
+.g44-pk span{display:inline-flex;align-items:center;gap:4px;color:var(--p-gold-t);font-size:.82rem}
+.g44-gorev{padding:12px 14px;border-radius:16px;background:var(--p-card);border:1px solid var(--p-line)}
+.g44-gorev .g44-h2{margin-top:0}
+.g44-gorev ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.g44-gorev li{display:flex;align-items:center;flex-wrap:wrap;gap:6px;color:var(--p-ink);font-size:.9rem}
+.g44-gorev li svg{color:var(--p-mut)}
+.g44-gorev li.ok svg{color:var(--p-ok-t)}
+.g44-gorev li small{color:var(--p-mut);width:100%;padding-left:22px}
+.g44-bas summary{cursor:pointer;min-height:44px;display:flex;align-items:center;color:var(--p-ink);font-weight:700}
+.g44-kat{margin:22px 0 10px;font:700 1.2rem Literata,Georgia,serif;color:var(--p-ink)}
+.g44-kat small{display:block;font:500 .82rem var(--sans);color:var(--p-mut)}
+.g44-oz{display:flex;gap:12px;color:var(--p-gold-t);font-size:.85rem;font-weight:700}
+.g44-oz span{display:inline-flex;align-items:center;gap:4px}
+.g44-ys{display:inline-flex;gap:2px;vertical-align:middle}.g44-ys i{color:var(--p-mut);opacity:.6}.g44-ys i.on{color:#D9A441;opacity:1}.g44-ys i.on svg{fill:currentColor}
+.g44-yz i.on svg{fill:currentColor}
+/* öğretmen ve editör ekranında öğrenci alt menüsü yok */
+body[data-ogrt37] nav.bnav{display:none!important}
+body[data-ogrt37] main#app{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+#uye39.o42 .o42-logo{display:none}
