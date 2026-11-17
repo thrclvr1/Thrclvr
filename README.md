@@ -2,7 +2,7 @@
 
 4–12. sınıf Din Kültürü ve Ahlak Bilgisi için tek dosyalık öğrenme uygulaması: konu anlatımı, bilgi kartları, testler, oyunlar, sureler ve dualar, kavram bağlantıları ve öğretmen paneli (haftalık plan, kazanım takibi).
 
-- **Uygulama:** [`index.html`](index.html) — tarayıcıda açılır, kurulum gerektirmez. Güncel sürüm: **V40.2** (Öğrenme Dünyası koridoru tek WebGL yüzeyinde: aydınlık, hareket sırasında siyah alan yok).
+- **Uygulama:** [`index.html`](index.html) — tarayıcıda açılır, kurulum gerektirmez. Güncel sürüm: **V41.0** (Öğrenme Dünyası + Oyun Dünyası: “Kayıp Bilgeliğin Kütüphanesi” ilk oynanabilir bölümü).
 - **Sürümler:** [`surumler/`](surumler/)
 - **Raporlar ve tanıtım videosu:** [`docs/`](docs/)
 
