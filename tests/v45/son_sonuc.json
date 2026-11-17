@@ -1,6 +1,6 @@
 {
- "tarih": "2026-11-17T21:30:57.726Z",
- "md5": "f0010a71a3cbf469ed3c8050a762e6fe",
+ "tarih": "2026-11-17T21:52:58.743Z",
+ "md5": "1c2fe4b51db7bd26b1a42c6114f993e6",
  "sonuc": [
   {
    "ad": "A1 sürüm V45.0 (V31.VER ve app-version), index.html aynı dosya",
@@ -90,7 +90,7 @@
   {
    "ad": "C9 kapı geçilince ödül ve yıldız; kayıt dk-oyun41.oyunlar.dunya45.g6 (v:1, bölge, günce)",
    "ok": true,
-   "ayr": "{\"n\":{\"not0\":1,\"not1\":1,\"kar0\":1,\"bul0\":1,\"kar1\":1},\"kapi\":{\"puan\":100,\"yildiz\":3,\"t\":\"2026-11-17T21:30:10.924Z\"},\"bitti\":true}"
+   "ayr": "{\"n\":{\"not0\":1,\"not1\":1,\"kar0\":1,\"bul0\":1,\"kar1\":1},\"kapi\":{\"puan\":100,\"yildiz\":3,\"t\":\"2026-11-17T21:52:12.113Z\"},\"bitti\":true}"
   },
   {
    "ad": "C10 sayfa yeniden açılınca ilerleme korunur, ikinci bölge açılır",
