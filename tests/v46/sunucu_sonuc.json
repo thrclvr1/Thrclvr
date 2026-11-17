@@ -1,0 +1,61 @@
+{
+ "tarih": "2026-11-17T22:23:40.280Z",
+ "sonuc": [
+  {
+   "ad": "S1 yapılandırma yalnız istemci kimliğini verir (gizli bilgi yok)",
+   "ok": true
+  },
+  {
+   "ad": "S2 izinli olmayan kökenden gelen istek reddedilir (CORS)",
+   "ok": true
+  },
+  {
+   "ad": "S3 geçerli Google kimlik belgesiyle giriş: oturum ve kullanıcı",
+   "ok": true
+  },
+  {
+   "ad": "S4 geçersiz belgeler reddedilir (hedef kitle, süre, yayıncı, imza, e-posta doğrulaması, biçim)",
+   "ok": true
+  },
+  {
+   "ad": "S5 oturumsuz veri isteği reddedilir",
+   "ok": true
+  },
+  {
+   "ad": "S6 yeni kullanıcının bulut verisi boş (sürüm 0)",
+   "ok": true
+  },
+  {
+   "ad": "S7 veri kaydedilir (sürüm 1)",
+   "ok": true
+  },
+  {
+   "ad": "S8 eski sürümle yazma çakışma (409) döner ve güncel veriyi verir",
+   "ok": true
+  },
+  {
+   "ad": "S9 izin verilmeyen anahtar içeren veri reddedilir",
+   "ok": true
+  },
+  {
+   "ad": "S10 aynı Google hesabıyla ikinci cihazdan giriş: aynı veri geri gelir",
+   "ok": true
+  },
+  {
+   "ad": "S11 başka hesap başkasının verisini görmez; rol sunucuda e-posta listesinden (editör)",
+   "ok": true
+  },
+  {
+   "ad": "S12 çıkıştan sonra oturum belirteci geçersiz",
+   "ok": true
+  },
+  {
+   "ad": "S13 oturum belirteci veritabanında açık metin tutulmaz (yalnız SHA-256 özeti)",
+   "ok": true
+  },
+  {
+   "ad": "S14 2 MB üstü gövde 413 ile reddedilir",
+   "ok": true
+  }
+ ]
+}
