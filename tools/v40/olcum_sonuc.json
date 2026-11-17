@@ -1,0 +1,95 @@
+{
+ "390x844 V39": {
+  "Koridor çizimi (ms)": 78
+ },
+ "390x844 V40": {
+  "Koridor çizimi (ms)": 183,
+  "Doku üretimi (ms, 4× CPU)": 275,
+  "Doku boyutu (KB)": 27,
+  "Yürüme adımı: ortalama kare (ms)": 17,
+  "Yürüme adımı: %95 kare (ms)": 17,
+  "Kapıya dönüş: ortalama kare (ms)": 17,
+  "Kapıya dönüş: %95 kare (ms)": 17,
+  "Sürükleme: ortalama kare (ms)": 19,
+  "Sürükleme: %95 kare (ms)": 33,
+  "Birleştirilen katman (odak dışı yürüme durağı)": 76,
+  "Görünür yüzey / toplam": "48/101",
+  "DOM öğesi (koridor)": 678
+ },
+ "390x844 V40 sade": {
+  "Koridor çizimi (ms)": 152,
+  "Doku üretimi (ms, 4× CPU)": 291,
+  "Doku boyutu (KB)": 27,
+  "Yürüme adımı: ortalama kare (ms)": 17,
+  "Yürüme adımı: %95 kare (ms)": 17,
+  "Kapıya dönüş: ortalama kare (ms)": 16,
+  "Kapıya dönüş: %95 kare (ms)": 17,
+  "Sürükleme: ortalama kare (ms)": 17,
+  "Sürükleme: %95 kare (ms)": 17,
+  "Birleştirilen katman (odak dışı yürüme durağı)": 69,
+  "Görünür yüzey / toplam": "48/101",
+  "DOM öğesi (koridor)": 678
+ },
+ "820x1180 V39": {
+  "Koridor çizimi (ms)": 77
+ },
+ "820x1180 V40": {
+  "Koridor çizimi (ms)": 241,
+  "Doku üretimi (ms, 4× CPU)": 341,
+  "Doku boyutu (KB)": 27,
+  "Yürüme adımı: ortalama kare (ms)": 24,
+  "Yürüme adımı: %95 kare (ms)": 50,
+  "Kapıya dönüş: ortalama kare (ms)": 22,
+  "Kapıya dönüş: %95 kare (ms)": 34,
+  "Sürükleme: ortalama kare (ms)": 27,
+  "Sürükleme: %95 kare (ms)": 50,
+  "Birleştirilen katman (odak dışı yürüme durağı)": 111,
+  "Görünür yüzey / toplam": "59/101",
+  "DOM öğesi (koridor)": 678
+ },
+ "820x1180 V40 sade": {
+  "Koridor çizimi (ms)": 164,
+  "Doku üretimi (ms, 4× CPU)": 296,
+  "Doku boyutu (KB)": 27,
+  "Yürüme adımı: ortalama kare (ms)": 23,
+  "Yürüme adımı: %95 kare (ms)": 50,
+  "Kapıya dönüş: ortalama kare (ms)": 20,
+  "Kapıya dönüş: %95 kare (ms)": 33,
+  "Sürükleme: ortalama kare (ms)": 22,
+  "Sürükleme: %95 kare (ms)": 33,
+  "Birleştirilen katman (odak dışı yürüme durağı)": 99,
+  "Görünür yüzey / toplam": "59/101",
+  "DOM öğesi (koridor)": 678
+ },
+ "1440x900 V39": {
+  "Koridor çizimi (ms)": 63
+ },
+ "1440x900 V40": {
+  "Koridor çizimi (ms)": 262,
+  "Doku üretimi (ms, 4× CPU)": 351,
+  "Doku boyutu (KB)": 27,
+  "Yürüme adımı: ortalama kare (ms)": 35,
+  "Yürüme adımı: %95 kare (ms)": 50,
+  "Kapıya dönüş: ortalama kare (ms)": 23,
+  "Kapıya dönüş: %95 kare (ms)": 50,
+  "Sürükleme: ortalama kare (ms)": 36,
+  "Sürükleme: %95 kare (ms)": 83,
+  "Birleştirilen katman (odak dışı yürüme durağı)": 132,
+  "Görünür yüzey / toplam": "72/101",
+  "DOM öğesi (koridor)": 678
+ },
+ "1440x900 V40 sade": {
+  "Koridor çizimi (ms)": 171,
+  "Doku üretimi (ms, 4× CPU)": 323,
+  "Doku boyutu (KB)": 27,
+  "Yürüme adımı: ortalama kare (ms)": 31,
+  "Yürüme adımı: %95 kare (ms)": 50,
+  "Kapıya dönüş: ortalama kare (ms)": 22,
+  "Kapıya dönüş: %95 kare (ms)": 50,
+  "Sürükleme: ortalama kare (ms)": 30,
+  "Sürükleme: %95 kare (ms)": 67,
+  "Birleştirilen katman (odak dışı yürüme durağı)": 117,
+  "Görünür yüzey / toplam": "72/101",
+  "DOM öğesi (koridor)": 678
+ }
+}
