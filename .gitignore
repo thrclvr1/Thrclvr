@@ -14,3 +14,6 @@ tests/v46/.gerileme/
 tools/v46/.d/
 tests/v47/.gerileme/
 tools/v47/.d/
+tests/v48/.gerileme/
+tools/v48/.d/
+tools/v48/__pycache__/

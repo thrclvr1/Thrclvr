@@ -1,4 +1,4 @@
-# DKAB hesap ve bulut kayıt sunucusu (V46.0)
+# DKAB hesap, bulut kayıt ve hata bildirimi sunucusu (V46.0; bildirimler V48.0)
 
 Uygulamadaki **Google ile giriş** ve **bulut kayıt** bu sunucu kurulup uygulamaya adresi girilmeden **çalışmaz**. Sunucu adresi girilmemişse uygulama misafir modunda çalışır ve bunu açıkça yazar. Hiçbir ilerleme sunucuya gitmez.
 
@@ -74,10 +74,23 @@ Uygulamada **Profilim › Hesap › Sunucu ayarı › Sunucu adresini gir** böl
 | GET | `/api/veri` | `{surum, veri, guncelleme}` |
 | PUT | `/api/veri` | `{temelSurum, veri}` → 200 ya da 409 (güncel veriyle) |
 | POST | `/api/cikis` | Oturumu siler |
+| POST | `/api/bildirim` | (V48) İçerik/soru hata bildirimi. `{id, tur:'icerik'|'soru', kategori, aciklama, anonim, kaynak, baglam, tarih, surum}` → 201; aynı `id` yeniden gelirse 200 (çift kayıt yok) |
+| GET | `/api/bildirim/benim` | (V48) Kullanıcının kendi bildirimlerinin durumu `{liste:[{id, durum, gerekce, guncelleme}]}` |
+| GET | `/api/bildirim?durum=yeni` | (V48) **Yalnız editör** (EDITOR_EPOSTALARI). Bütün bildirimler; anonimse ad yok, değilse yalnız ad (e-posta hiç gönderilmez) |
+| PATCH | `/api/bildirim/:id` | (V48) **Yalnız editör.** `{durum:'yeni'|'inceleniyor'|'duzeltildi'|'gecersiz', not, gerekce}`; `gecersiz` gerekçe ister; notlar ve durum geçmişi saklanır |
+
+### Hata ve geri bildirim (V48)
+
+- Yeni kurulum gerekmez: sunucu ilk açılışta `bildirim` tablosunu kendisi oluşturur (eski veritabanı aynen kalır).
+- Öğrenci ve öğretmen bildirim gönderebilmek için Google ile giriş yapmış olmalıdır (yetkisiz/sahte gönderimi önler). `kaynak` sunucuda doğrulanır: e-postası `OGRETMEN_EPOSTALARI`'nda olmayan hesap “öğrenci” sayılır.
+- Editör listesi ve durum değişikliği yalnız e-postası `EDITOR_EPOSTALARI`'nda olan hesaplarla yapılabilir; Hata ve Geri Bildirim Merkezi (Editör Onay Alanı içinde) bu hesapla girişte sunucudaki kayıtları gösterir.
+- Sunucu kurulu değilse ya da giriş yapılmamışsa uygulama bildirimi cihazda **taslak** olarak saklar, “gönderildi” demez; bağlantı ve giriş olunca kendiliğinden gönderir. Taslaklar Profilim › Bildirimlerim'den JSON olarak dışa aktarılıp editör cihazında içe aktarılabilir.
+- Test: `node tests/v48/sunucu_test.js` (16 kontrol, gerçek Google'a bağlanmaz).
 
 ## Bilinen sınırlar
 
 - **Android sarmalayıcısı (WebView):** Google, gömülü WebView içinde OAuth girişine izin vermez (`disallowed_useragent`). APK'da Google girişi için yerel Android oturum açma (Credential Manager) eklenmesi gerekir. Bu yapılmadı.
 - **Dosyadan açma:** `file://` ile açılan sayfanın kökeni olmadığından Google girişi çalışmaz; uygulama web adresinden açılmalıdır.
 - **Öğretmen ve editör verileri** (öğretmen kayıtları, editör onayları) bu sürümde eşitlenmez; yalnız öğrenci ilerlemesi eşitlenir.
+- **Bildirimler:** Bildirim yönetimi sunucuda yetkilidir; ama içeriğin kendisinin düzeltilmesi (Editör Onay Alanı) hâlâ cihazda yapılır.
 - **Yetki:** Roller sunucuda belirlenir, ama içerik onayı ve yayımlama hâlâ cihazda yapılır. Gerçek yetki denetimi için bu işlemlerin sunucu uç noktalarına taşınması gerekir.

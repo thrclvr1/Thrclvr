@@ -3,7 +3,7 @@
 4–12. sınıf DKAB öğrenme platformu. Tek HTML dosyası; bütün veri (müfredat, ilişkiler, sureler-dualar, yıllık plan) dosyanın içindeki JSON bloklarında. Sunucu yok, kurulum yok.
 
 ## Depo düzeni
-- `index.html` — güncel sürüm (şu an V47.0). GitHub Pages bu dosyayı yayınlar.
+- `index.html` — güncel sürüm (şu an V48.0). GitHub Pages bu dosyayı yayınlar.
 - `surumler/din-kulturu-platformu-vXX.Y.html` — teslim edilmiş sürümler. **Bir kez teslim edilen sürüm dosyası bir daha değiştirilmez.**
 - `docs/` — sürüm raporları (`VXX.Y_rapor.md`, `VXX.Y_performans_raporu.md`), tanıtım videosu.
 - `tools/v36/` — V36.0'ı V35.0'dan üreten derleme betiği (`build360.py`) ve eklediği kod (`v360.js`, `v360.css`), performans ölçümü.
@@ -13,6 +13,8 @@
 - `tools/v40/` — V40.0'ı V39.0'dan üreten `build400.py` (`python3 tools/v40/build400.py`; `index.html`'i de yazar), `v400.js`/`v400.css` (3B koridor), ölçüm `olcum_v40.js`.
 - `tools/v40_1/` — V40.1'i V40.0'dan üreten `build401.py` (`python3 tools/v40_1/build401.py`; `index.html`'i de yazar), `v401.js`/`v401.css` (kapı aydınlatma düzeltmesi, doku hata yönetimi).
 - `tools/v41/` — V41.0'ı V40.2'den üreten `build410.py` (`python3 tools/v41/build410.py`; `index.html`'i de yazar), `v410_cekirdek.js` (oyun altyapısı), `v410_kutuphane.js` (Kayıp Bilgeliğin Kütüphanesi), `v410.css`.
+- `tools/v48/` — V48.0'ı V47.0'dan üreten `build480.py` (`python3 tools/v48/build480.py`; `index.html`'i de yazar; altı kat simetrili çizimleri, 9 doğa sesini ve ilgili metinleri derlemede temizler), `motif.py` (8 kat simetrik girih/geçme SVG'leri; CSS `{{...}}` yer tutucularını doldurur), `v480_gorsel.js` (Elmas/Altın görselleri ve amblemleri; `<body>` başında yüklenir), `v480_ses.js` (`V48.SesPanel`), `v480_calis.js` (Çalışma Merkezim, koridor Çalışma Masası), `v480_bildirim.js` (`V48.Bildir`, editör merkezi `bildirim48`), `v480.css`, WCAG `denetim.js`.
+- `tests/v48/test_v480.js` (59 kontrol; `docs/V48.0_ekran/`), `tests/v48/sunucu_test.js` (16 kontrol, bildirim uç noktaları), `python3 tests/v48/gerileme.py` (V47 ve V46 testleri V48'de).
 - `tools/v47/` — V47.0'ı V46.0'dan üreten `build470.py` (`python3 tools/v47/build470.py`; `index.html`'i de yazar; ad değişikliğini ve ses kataloğu temizliğini derlemede yapar), `v470_ses.js` (Ders Atmosferi kataloğu), `v470_tasarim.js` (Elmas ana sayfa modülleri, Altın koridor şeridi), `v470_ayar.js` (Görünüm ve ses ekranı `ayar47`), `v470.css`, WCAG `denetim.js`.
 - `tests/v47/test_v470.js` (30 kontrol; `docs/V47.0_ekran/`), `python3 tests/v47/gerileme.py` (V46 ve V45 testleri V47'de).
 - `tools/v46/` — V46.0'ı V45.0'dan üreten `build460.py` (`python3 tools/v46/build460.py`; `index.html`'i de yazar), `v460_kutuphane.js` (Kütüphane 4–12), `v460_sade.js` (sadeleştirme, PIN'siz öğretmen), `v460_hesap.js` (Google/misafir, eşitleme), `v460.css`, WCAG `denetim.js`.
@@ -51,6 +53,7 @@
 9. Öğretmen PIN'i yalnızca tuzlu SHA-256 özeti olarak saklanır; açık metin PIN koyma. Bu basit bir erişim ayrımıdır; gerçek güvenlik sunucu gerektirir.
 
 ## Teknik notlar
+- V48: **Motifler:** altı köşeli yıldız / altıgen / 60° dönen öğe kullanılmaz (test M3/M5 DOM ve CSS'i tarar); desenler 8 kat simetrik (`motif.py`). Arka plan desen katmanı `body::after` (z-index −2; öğretmen ekranında kapalı). **Görseller:** `V48.Gorsel.elmas()/altin()/kucuk(k)/elmasAmblem/altinAmblem` (SVG). **Ses:** doğa sesleri yok; `ATM.S` yalnız `brown`/`white` (+ müzikler `m42_*`); `ATM.PRE` = Derin Odak/Sade Odak/Yumuşak Odak; eski kayıtlar `V33.sanAtm` ile ayıklanır. Ses paneli `V48.SesPanel.html(yer)` (`ayar`/`hizli`), sessize alma `dk-ses48 = {v:1, sessiz, onceki}`. **Çalışma Merkezim** `V30.routes.calis45` V48'de yeniden tanımlı (veri `V45.Calis`); Altın koridorda `.c48-masa` (araç şeridine 7. kart eklenmez). **Bildirim:** `V48.Bildir` (`ac(tur, konuId, soruId, bölüm)`), yerel `dk-bildirim48 = {v:1, liste:[{id, tur, kategori, aciklama, anonim, kaynak, baglam, tarih, surum, durum:'taslak'|'gonderildi', sunucuDurum}]}`, editör işlemleri yerelde `dk-bildirim48-ed = {v:1, gelen, islem}`; sunucu `POST/GET /api/bildirim`, `GET /api/bildirim/benim`, `PATCH /api/bildirim/:id` (editör). Sunucu yokken “gönderildi” denmez. Editör merkezi `go('bildirim48')` (`V38.edOk()` ister); içerik kayıtlarına yazmaz.
 - Veri blokları: `<script id="seed-curriculum|seed-sd|seed-rel|seed-hide|seed-km|seed-yp" type="application/json">` (boşluksuz JSON).
 - Veri erişimi `Store.all(koleksiyon)` / `Store.get(koleksiyon, id)`; V36'dan beri önbellekli (`Store._rows`), `save()` önbelleği yeniler.
 - Rotalar: `go('home'|'classes'|'grade'|'topic'|'pek'|'dene'|'links'|'games'|'sd'|'ogretmen'...)`.

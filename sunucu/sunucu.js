@@ -1,4 +1,4 @@
-// DKAB platformu — hesap ve bulut kayıt sunucusu (V46.0)
+// DKAB platformu — hesap, bulut kayıt ve hata/geri bildirim sunucusu (V46.0; bildirimler V48.0)
 // Bağımlılık yok: Node.js 22.13+ (node:http, node:crypto, node:sqlite).
 // Çalıştırma: GOOGLE_CLIENT_ID=... IZINLI_KOKENLER=https://thrclvr1.github.io node sunucu/sunucu.js
 // Ayrıntı: sunucu/README.md
@@ -28,7 +28,10 @@ db.exec(`PRAGMA journal_mode=WAL;
 CREATE TABLE IF NOT EXISTS kullanici(id INTEGER PRIMARY KEY, google_sub TEXT UNIQUE NOT NULL, eposta TEXT, ad TEXT, olusturma TEXT, son_giris TEXT);
 CREATE TABLE IF NOT EXISTS oturum(ozet TEXT PRIMARY KEY, kullanici_id INTEGER NOT NULL, bitis INTEGER NOT NULL, olusturma TEXT);
 CREATE TABLE IF NOT EXISTS veri(kullanici_id INTEGER PRIMARY KEY, surum INTEGER NOT NULL, icerik TEXT NOT NULL, guncelleme TEXT);
-CREATE INDEX IF NOT EXISTS oturum_k ON oturum(kullanici_id);`);
+CREATE INDEX IF NOT EXISTS oturum_k ON oturum(kullanici_id);
+CREATE TABLE IF NOT EXISTS bildirim(id TEXT PRIMARY KEY, kullanici_id INTEGER NOT NULL, anonim INTEGER NOT NULL, kaynak TEXT NOT NULL, tur TEXT NOT NULL, kategori TEXT NOT NULL, aciklama TEXT, baglam TEXT NOT NULL, hedef TEXT NOT NULL, istemci_tarih TEXT, surum TEXT, durum TEXT NOT NULL, notlar TEXT NOT NULL, gerekce TEXT, olusturma TEXT NOT NULL, guncelleme TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS bildirim_d ON bildirim(durum);
+CREATE INDEX IF NOT EXISTS bildirim_k ON bildirim(kullanici_id);`);
 const Q = {
   kulBul: db.prepare('SELECT * FROM kullanici WHERE google_sub=?'),
   kulEkle: db.prepare('INSERT INTO kullanici(google_sub,eposta,ad,olusturma,son_giris) VALUES(?,?,?,?,?)'),
@@ -40,7 +43,13 @@ const Q = {
   otTemiz: db.prepare('DELETE FROM oturum WHERE bitis<=?'),
   veriAl: db.prepare('SELECT surum, icerik, guncelleme FROM veri WHERE kullanici_id=?'),
   veriEkle: db.prepare('INSERT INTO veri(kullanici_id,surum,icerik,guncelleme) VALUES(?,?,?,?)'),
-  veriGun: db.prepare('UPDATE veri SET surum=surum+1, icerik=?, guncelleme=? WHERE kullanici_id=? AND surum=?')
+  veriGun: db.prepare('UPDATE veri SET surum=surum+1, icerik=?, guncelleme=? WHERE kullanici_id=? AND surum=?'),
+  bEkle: db.prepare('INSERT OR IGNORE INTO bildirim(id,kullanici_id,anonim,kaynak,tur,kategori,aciklama,baglam,hedef,istemci_tarih,surum,durum,notlar,gerekce,olusturma,guncelleme) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'),
+  bAl: db.prepare('SELECT * FROM bildirim WHERE id=?'),
+  bBenim: db.prepare('SELECT id, durum, gerekce, guncelleme FROM bildirim WHERE kullanici_id=? ORDER BY olusturma DESC LIMIT 500'),
+  bHepsi: db.prepare('SELECT b.*, k.ad AS kullanici_ad FROM bildirim b LEFT JOIN kullanici k ON k.id=b.kullanici_id ORDER BY b.olusturma DESC LIMIT 2000'),
+  bDurum: db.prepare('SELECT b.*, k.ad AS kullanici_ad FROM bildirim b LEFT JOIN kullanici k ON k.id=b.kullanici_id WHERE b.durum=? ORDER BY b.olusturma DESC LIMIT 2000'),
+  bGun: db.prepare('UPDATE bildirim SET durum=?, notlar=?, gerekce=?, guncelleme=? WHERE id=?')
 };
 
 /* ---------- Google kimlik belgesi (ID token) doğrulama: RS256 + Google açık anahtarları ---------- */
@@ -87,10 +96,32 @@ function veriGecerli(v) {
   return Object.keys(v).every((k) => VERI_ANAHTAR.includes(k) && v[k] && typeof v[k] === 'object');
 }
 
+/* ---------- hata ve geri bildirim (V48) ---------- */
+const B_KAT = {
+  icerik: ['Yanlış bilgi', 'Eksik bilgi', 'Ayet veya hadis referansı hatalı', 'Kaynak hatası', 'Açıklama yetersiz', 'Yazım hatası', 'Diğer'],
+  soru: ['Doğru cevap hatalı', 'Soru kökü hatalı', 'Birden fazla doğru cevap', 'Şıklar hatalı', 'Açıklama hatalı', 'Kaynak veya kazanım eşleşmesi yanlış', 'Diğer']
+};
+const B_DURUM = ['yeni', 'inceleniyor', 'duzeltildi', 'gecersiz'];
+const kisa = (v, n) => (typeof v === 'string' ? v.slice(0, n) : '');
+function bildirimTemiz(g) {
+  if (!g || typeof g !== 'object') return null;
+  if (typeof g.id !== 'string' || !/^[A-Za-z0-9_-]{8,64}$/.test(g.id)) return null;
+  if (!B_KAT[g.tur] || !B_KAT[g.tur].includes(g.kategori)) return null;
+  const b = g.baglam; if (!b || typeof b !== 'object' || Array.isArray(b)) return null;
+  const baglam = {sinif: Number.isInteger(+b.sinif) ? +b.sinif : null, programYili: kisa(b.programYili, 12), uniteId: kisa(b.uniteId, 40), unite: kisa(b.unite, 160), konuId: kisa(b.konuId, 40), konu: kisa(b.konu, 200),
+    kazanim: Array.isArray(b.kazanim) ? b.kazanim.slice(0, 12).map((x) => kisa(x, 40)) : [], soruId: kisa(b.soruId, 40), bolum: kisa(b.bolum, 20), bolumAd: kisa(b.bolumAd, 40)};
+  if (!baglam.konuId && !baglam.soruId) return null;
+  if (g.tur === 'soru' && !baglam.soruId) return null;
+  return {id: g.id, tur: g.tur, kategori: g.kategori, aciklama: kisa(g.aciklama, 1000), anonim: g.anonim ? 1 : 0, kaynak: g.kaynak === 'ogretmen' ? 'ogretmen' : 'ogrenci', baglam, tarih: kisa(g.tarih, 40), surum: kisa(g.surum, 16)};
+}
+const bHedef = (b) => b.soruId ? 'soru:' + b.soruId : 'konu:' + b.konuId + ':' + b.bolum;
+// editöre giden kayıt: anonimse kimlik yok; değilse yalnız ad (e-posta gösterilmez)
+const bEditorJSON = (r) => ({id: r.id, tur: r.tur, kategori: r.kategori, aciklama: r.aciklama || '', anonim: !!r.anonim, kaynak: r.kaynak, kullaniciAd: r.anonim ? '' : (r.kullanici_ad || ''), baglam: JSON.parse(r.baglam), hedef: r.hedef, tarih: r.olusturma, istemciTarih: r.istemci_tarih, surum: r.surum, durum: r.durum, notlar: JSON.parse(r.notlar), gerekce: r.gerekce || '', guncelleme: r.guncelleme});
+
 /* ---------- uç noktalar ---------- */
 async function isle(req, res) {
   const koken = req.headers.origin || '', izinli = A.kokenler.includes(koken);
-  const cors = izinli ? {'Access-Control-Allow-Origin': koken, 'Vary': 'Origin', 'Access-Control-Allow-Headers': 'Authorization, Content-Type', 'Access-Control-Allow-Methods': 'GET, POST, PUT, OPTIONS', 'Access-Control-Max-Age': '600'} : {};
+  const cors = izinli ? {'Access-Control-Allow-Origin': koken, 'Vary': 'Origin', 'Access-Control-Allow-Headers': 'Authorization, Content-Type', 'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, OPTIONS', 'Access-Control-Max-Age': '600'} : {};
   const url = new URL(req.url, 'http://x'), yol = url.pathname, ip = req.socket.remoteAddress || '';
   if (req.method === 'OPTIONS') return yanit(res, izinli ? 204 : 403, undefined, cors);
   if (yol === '/api/saglik') return yanit(res, 200, {ok: true}, cors);
@@ -119,6 +150,36 @@ async function isle(req, res) {
     const r = Q.veriGun.run(icerik, simdi, O.u.id, g.temelSurum);
     if (!r.changes) { const c = Q.veriAl.get(O.u.id); return yanit(res, 409, {hata: 'Sürüm çakışması', surum: c.surum, veri: JSON.parse(c.icerik), guncelleme: c.guncelleme}, cors); }
     return yanit(res, 200, {surum: g.temelSurum + 1, guncelleme: simdi}, cors);
+  }
+  if (yol === '/api/bildirim' && req.method === 'POST') {
+    if (!hizSiniri(ip, 'bildirim:' + O.u.id, 30, 60e3)) return yanit(res, 429, {hata: 'Çok sık bildirim. Biraz bekleyin.'}, cors);
+    const k = bildirimTemiz(await govdeOku(req)); if (!k) return yanit(res, 400, {hata: 'Geçersiz bildirim.'}, cors);
+    const var0 = Q.bAl.get(k.id);
+    if (var0) { if (var0.kullanici_id !== O.u.id) return yanit(res, 409, {hata: 'Bu kimlik başka bir bildirime ait.'}, cors); return yanit(res, 200, {id: k.id, durum: var0.durum, yeni: false}, cors); }
+    const kaynak = k.kaynak === 'ogretmen' && roller(O.u).includes('ogretmen') ? 'ogretmen' : 'ogrenci', simdi = new Date().toISOString();
+    Q.bEkle.run(k.id, O.u.id, k.anonim, kaynak, k.tur, k.kategori, k.aciklama, JSON.stringify(k.baglam), bHedef(k.baglam), k.tarih, k.surum, 'yeni', '[]', '', simdi, simdi);
+    return yanit(res, 201, {id: k.id, durum: 'yeni', yeni: true}, cors);
+  }
+  if (yol === '/api/bildirim/benim' && req.method === 'GET') return yanit(res, 200, {liste: Q.bBenim.all(O.u.id)}, cors);
+  if (yol === '/api/bildirim' && req.method === 'GET') {
+    if (!roller(O.u).includes('editor')) return yanit(res, 403, {hata: 'Bu işlem için editör yetkisi gerekir.'}, cors);
+    const d = url.searchParams.get('durum'); if (d && !B_DURUM.includes(d)) return yanit(res, 400, {hata: 'Geçersiz durum.'}, cors);
+    return yanit(res, 200, {liste: (d ? Q.bDurum.all(d) : Q.bHepsi.all()).map(bEditorJSON)}, cors);
+  }
+  const bm = /^\/api\/bildirim\/([A-Za-z0-9_-]{8,64})$/.exec(yol);
+  if (bm && req.method === 'PATCH') {
+    if (!roller(O.u).includes('editor')) return yanit(res, 403, {hata: 'Bu işlem için editör yetkisi gerekir.'}, cors);
+    const r = Q.bAl.get(bm[1]); if (!r) return yanit(res, 404, {hata: 'Bildirim bulunamadı.'}, cors);
+    const g = await govdeOku(req), simdi = new Date().toISOString(), notlar = JSON.parse(r.notlar);
+    if (g.durum !== undefined && !B_DURUM.includes(g.durum)) return yanit(res, 400, {hata: 'Geçersiz durum.'}, cors);
+    const gerekce = kisa(g.gerekce, 500).trim();
+    if (g.durum === 'gecersiz' && gerekce.length < 5) return yanit(res, 400, {hata: 'Geçersiz saymak için gerekçe yazılmalı.'}, cors);
+    const not = kisa(g.not, 1000).trim();
+    if (not) notlar.push({metin: not, zaman: simdi, editor: O.u.ad || 'Editör'});
+    if (g.durum && g.durum !== r.durum) notlar.push({metin: 'Durum: ' + r.durum + ' → ' + g.durum + (gerekce ? ' — ' + gerekce : ''), zaman: simdi, editor: O.u.ad || 'Editör', sistem: 1});
+    if (!not && !g.durum) return yanit(res, 400, {hata: 'Değişiklik yok.'}, cors);
+    Q.bGun.run(g.durum || r.durum, JSON.stringify(notlar.slice(-200)), g.durum === 'gecersiz' ? gerekce : (g.durum ? '' : r.gerekce), simdi, r.id);
+    return yanit(res, 200, bEditorJSON(Object.assign(Q.bAl.get(r.id), {kullanici_ad: (Q.kulId.get(r.kullanici_id) || {}).ad})), cors);
   }
   return yanit(res, 404, {hata: 'Bulunamadı'}, cors);
 }
