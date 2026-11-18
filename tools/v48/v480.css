@@ -195,7 +195,7 @@ html[data-pt43=gunduz] .c48.al .c48-oi{color:#7a5012}
 .c48-hr{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
 .c48-k{display:grid;gap:5px;padding:10px 12px;border-radius:14px;border:1px solid var(--c-c);background:var(--c-z2);color:var(--c-t);text-align:left;cursor:pointer;min-height:44px}
 .c48-k span{font-weight:600;font-size:.9rem;line-height:1.3}
-.c48-k small{font-size:.76rem;color:var(--c-m)}
+.c48-k small{font-size:.76rem;color:color-mix(in srgb,var(--c-t) 78%,var(--c-z2))}
 .c48-kis{margin-top:10px}
 .c48-not{margin-top:16px}
 .c48.al .back{color:var(--p-ink)}

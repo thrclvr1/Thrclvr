@@ -1,5 +1,5 @@
 {
- "tarih": "2026-11-18T10:55:09.269Z",
+ "tarih": "2026-11-18T11:41:12.510Z",
  "sonuc": [
   {
    "ad": "A1 sürüm V48.0, index.html aynı dosya; V47.0 yedek dosyası duruyor",
@@ -149,7 +149,7 @@
   {
    "ad": "C5 Çalışma Merkezim gerçek dokunma ile kaydırılır",
    "ok": true,
-   "ayr": "{\"y0\":0,\"y1\":881}"
+   "ayr": "{\"y0\":0,\"y1\":855}"
   },
   {
    "ad": "C6 kartlar ilgili ekranı açar (yanlışlarım, kartlar)",
@@ -184,7 +184,7 @@
   {
    "ad": "B3 tür seçilmeden gönderilmez; gönderilen bildirim otomatik alanlarla saklanır (sınıf, müfredat, ünite, konu, kazanım, bölüm, tür, tarih, sürüm)",
    "ok": true,
-   "ayr": "{\"id\":\"dd341cad-fa24-4092-af27-14bc847a3609\",\"tur\":\"icerik\",\"kategori\":\"Ayet veya hadis referansı hatalı\",\"aciklama\":\"Ayet numarası yanlış yazılmış.\",\"anonim\":true,\"kaynak\":\"ogrenci\",\"baglam\":{\"sinif\":5,\"programYili\":\"2026\",\"uniteId\":\"DKAB-5-U01\",\"unite\":\"1. ALLAH İNANCI\",\"konuId\":\"TPC-5-1-01\",\"konu\":\"Evrendeki Düzeni Fark Etmek\",\"kazanim\":[\"DKAB.5.1.1\"],\"soruId\":\"\",\"bolum\":\"anlat\",\"bolumAd\":\"Anlatım\"},\"tarih\":\"2026-11-18T10:54:29.595Z\",\"surum\":\"V48.0\",\"durum\":\"taslak\",\"gonderim\":null}"
+   "ayr": "{\"id\":\"01a7d25c-206b-4b6b-ab08-744db3b1f0c6\",\"tur\":\"icerik\",\"kategori\":\"Ayet veya hadis referansı hatalı\",\"aciklama\":\"Ayet numarası yanlış yazılmış.\",\"anonim\":true,\"kaynak\":\"ogrenci\",\"baglam\":{\"sinif\":5,\"programYili\":\"2026\",\"uniteId\":\"DKAB-5-U01\",\"unite\":\"1. ALLAH İNANCI\",\"konuId\":\"TPC-5-1-01\",\"konu\":\"Evrendeki Düzeni Fark Etmek\",\"kazanim\":[\"DKAB.5.1.1\"],\"soruId\":\"\",\"bolum\":\"anlat\",\"bolumAd\":\"Anlatım\"},\"tarih\":\"2026-11-18T11:40:35.772Z\",\"surum\":\"V48.0\",\"durum\":\"taslak\",\"gonderim\":null}"
   },
   {
    "ad": "B4 sunucu bağlı değilken “gönderildi” denmez: taslak olarak cihazda kalır ve bu açıkça söylenir",
@@ -194,12 +194,12 @@
   {
    "ad": "B5 mini testte “Soruyu bildir” doğru soru kimliğiyle; test sekmesinde içerik düğmesi tekrarlanmaz",
    "ok": true,
-   "ayr": "{\"d\":\"Q-DKAB-5-0007\",\"pick\":\"Q-DKAB-5-0007\",\"ic\":false}"
+   "ayr": "{\"d\":\"Q-DKAB-5-0001\",\"pick\":\"Q-DKAB-5-0001\",\"ic\":false}"
   },
   {
    "ad": "B6 soru bildirimi kategorileri (7) ve otomatik soru kimliği",
    "ok": true,
-   "ayr": "{\"sinif\":5,\"programYili\":\"2026\",\"uniteId\":\"DKAB-5-U01\",\"unite\":\"1. ALLAH İNANCI\",\"konuId\":\"TPC-5-1-01\",\"konu\":\"Evrendeki Düzeni Fark Etmek\",\"kazanim\":[\"DKAB.5.1.1\"],\"soruId\":\"Q-DKAB-5-0007\",\"bolum\":\"test\",\"bolumAd\":\"Mini Test\"}"
+   "ayr": "{\"sinif\":5,\"programYili\":\"2026\",\"uniteId\":\"DKAB-5-U01\",\"unite\":\"1. ALLAH İNANCI\",\"konuId\":\"TPC-5-1-01\",\"konu\":\"Evrendeki Düzeni Fark Etmek\",\"kazanim\":[\"DKAB.5.1.1\"],\"soruId\":\"Q-DKAB-5-0001\",\"bolum\":\"test\",\"bolumAd\":\"Mini Test\"}"
   },
   {
    "ad": "B7 Yanlışlarım ekranındaki sorularda da “Soruyu bildir”",

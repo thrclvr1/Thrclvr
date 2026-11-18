@@ -68,5 +68,5 @@ ${[0, 1, 2].map((k) => { const x = 70 + k * 46, h = 300 - k * 60; return `<rect 
 <g transform="translate(320 168) scale(2.4) translate(-32 -32)">${Gr.altinAmblem(64, id + 'a').replace(/<svg[^>]*>|<\/svg>/g, '')}</g>
 <ellipse cx="320" cy="300" rx="70" ry="8" fill="#f2cf6b" opacity=".22"/></svg>`; };
   // ayar ekranındaki küçük önizlemeler
-  Gr.kucuk = (k) => (k === 'premium' ? Gr.altin('gk48a') : Gr.elmas('gk48e')).replace('class="g48"', 'class="g48 k"');
+  Gr.kucuk = (k) => '<span class="g48-kap" style="display:block;overflow:hidden;width:100%;height:100%;border-radius:10px">' + (k === 'premium' ? Gr.altin('gk48a') : Gr.elmas('gk48e')).replace('class="g48"', 'class="g48 k"') + '</span>';
 })();
