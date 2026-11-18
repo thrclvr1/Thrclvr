@@ -1,0 +1,157 @@
+{
+ "tarih": "2026-11-18T08:28:31.117Z",
+ "md5": "0e852578fd15a466930109474ef8b5a7",
+ "sonuc": [
+  {
+   "ad": "A1 sürüm V47.0, index.html aynı dosya; V46.0 yedek dosyası duruyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 içerik kayıtları ve müzik blokları V46.0 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "13 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı",
+   "ok": true,
+   "ayr": "yalnız v47.0"
+  },
+  {
+   "ad": "B1 seçim ekranında iki deneyim: “Elmas Öğrenme Alanı” ve “Altın Öğrenme Alanı”; üyelik/ödeme dili yok",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "B2 uygulamanın 24 ekranında ve panelinde “Klasik”, “Premium”, “Öğrenme Dünyası”, “Üyelik” görünmüyor (iki alanda da)",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "B3 deneyim değiştirme düğmeleri yeni adlarla (Altın alanında “Elmas”)",
+   "ok": true,
+   "ayr": "[\"Elmas|Elmas Öğrenme Alanı’na geç — deneyimi değiştir\"]"
+  },
+  {
+   "ad": "C1 Elmas ana sayfa sırası: Kaldığın yerden devam → Derslerim, Oyunlar, Çalışmam, Profilim → 4 hızlı erişim modülü",
+   "ok": true,
+   "ayr": "[\"devam\",\"Derslerim\",\"Oyunlar\",\"Çalışmam\",\"Profilim\",\"Sureler ve Dualar\",\"Kavramlar\",\"Kişiler ve Eserler\",\"Bağlantılar\"]"
+  },
+  {
+   "ad": "C2 ana sayfada hiçbir araç iki kez yok (her hedefe tek kısayol)",
+   "ok": true,
+   "ayr": "{\"search\":1,\"topic\":1,\"classes\":1,\"games\":1,\"calis45\":1,\"profil46\":1,\"sd\":1,\"kavram\":1,\"kisi\":1,\"links\":1}"
+  },
+  {
+   "ad": "C3 dört modül doğru ekranı açıyor (Sureler ve Dualar, Kavramlar, Kişiler ve Eserler, Bağlantılar)",
+   "ok": true,
+   "ayr": "[true,true,true,true]"
+  },
+  {
+   "ad": "C4 Sınıflar ekranı doğrudan 4–12 sınıf kartlarıyla başlıyor; araç kutuları ve tekrar eden ayar yok",
+   "ok": true,
+   "ayr": "{\"r46\":false,\"lead\":false,\"prog\":false,\"ilk\":\"g30-grid rv in\",\"kart\":9}"
+  },
+  {
+   "ad": "C5 program sürümü ayarı tek yerde (Profilim)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "D1 Altın koridorun altında 6 araçlı yatay 3B şerit (Üniteler ve Konular, Sureler ve Dualar, Kavramlar, Kişiler ve Eserler, Bağlantılar, Öğrenme Araçları)",
+   "ok": true,
+   "ayr": "{\"n\":6,\"ad\":[\"Üniteler ve Konular\",\"Sureler ve Dualar\",\"Kavramlar\",\"Kişiler ve Eserler\",\"Bağlantılar\",\"Öğrenme Araçları\"],\"kay\":true,\"ust\":867,\"sahneAlt\":867}"
+  },
+  {
+   "ad": "D2 şerit parmakla açılır (sayfa kayar) ve yana kaydırılır; koridor bu sırada yürümez",
+   "ok": true,
+   "ayr": "{\"k0\":{\"alt\":866.71875,\"s\":-1,\"y\":217},\"k1\":{\"sl\":379,\"s\":-1}}"
+  },
+  {
+   "ad": "D3 şerit kartları doğru ekrana gider; “Üniteler ve Konular” ve “Öğrenme Araçları” koridorda seçili sınıfa (7. sınıf) gider, araçlar açık gelir",
+   "ok": true,
+   "ayr": "{\"g\":\"7. sınıf\",\"u\":{\"view\":\"psinif\",\"pg\":7},\"a\":{\"view\":\"psinif\",\"pg\":7,\"acik\":true},\"R\":[true,true,true,true]}"
+  },
+  {
+   "ad": "D4 şerit kartları dokunma alanı ≥ 44 px",
+   "ok": true,
+   "ayr": "0"
+  },
+  {
+   "ad": "E1 Profilim: “Görünüm ve ses” özeti beş satır (öğrenme alanı, tema, animasyonlar, ses ve müzik, Ders Atmosferi)",
+   "ok": true,
+   "ayr": "[\"Öğrenme alanı\",\"Tema\",\"Animasyonlar\",\"Ses ve müzik\",\"Ders Atmosferi\"]"
+  },
+  {
+   "ad": "E2 ayar ekranı beş bölüm; öğrenme alanı iki büyük kart, etkin olan işaretli",
+   "ok": true,
+   "ayr": "{\"view\":\"ayar47\",\"sek\":[\"Öğrenme alanı\",\"Tema\",\"Hareket\",\"Ses ve müzik\",\"Ders Atmosferi\"],\"kart\":[\"Elmas Öğrenme Alanı*\",\"Altın Öğrenme Alanı\"]}"
+  },
+  {
+   "ad": "E3 kartla Altın alana geçiliyor; tercih eski anahtarda aynı değerle (dk-deneyim39.son = \"premium\")",
+   "ok": true,
+   "ayr": "{\"view\":\"ayar47\",\"prem\":true,\"son\":\"premium\",\"kart\":[\"Altın Öğrenme Alanı\"]}"
+  },
+  {
+   "ad": "E4 Elmas tema: Açık / Koyu / Otomatik; Otomatik cihaz temasını izliyor; açık seçimi dk-theme anahtarına yazılıyor",
+   "ok": true,
+   "ayr": "{\"t1\":{\"th\":\"light\",\"k\":\"oto\"},\"t2\":\"dark\",\"t3\":{\"th\":\"light\",\"k\":null,\"dk\":\"light\"}}"
+  },
+  {
+   "ad": "E5 hareket: animasyonlar ve düşük donanım modu anahtarları çalışıyor ve mevcut ayarlara yazıyor",
+   "ok": true,
+   "ayr": "{\"h0\":{\"fx\":1,\"lite\":\"0\"},\"h1\":{\"fx\":0,\"nomo\":true,\"lite\":\"1\",\"lc\":true,\"sw\":[\"false\",\"true\",\"false\"]}}"
+  },
+  {
+   "ad": "E6 üst çubuktaki ayar düğmesi aynı ekrana (Hareket) gider; ayrı bir ayar yeri yok",
+   "ok": true,
+   "ayr": "{\"view\":\"ayar47\",\"at\":\"hareket\"}"
+  },
+  {
+   "ad": "E7 ses: seviye kaydediliyor (dk-atm), müzik listeden başlatılıyor",
+   "ok": true,
+   "ayr": "{\"vol\":0.4,\"L\":[\"m42_esik\"],\"dur\":\"Çalıyor\"}"
+  },
+  {
+   "ad": "E8 Ders Atmosferi kartı: hazır karışım başlatılıyor; etkin sesler ve durum kartta görünüyor",
+   "ok": true,
+   "ayr": "{\"L\":[\"yagmur\",\"kus\"],\"k\":\"Etkin: Hafif yağmur · Hafif kuş cıvıltıları\",\"d\":\"Çalıyor\"}"
+  },
+  {
+   "ad": "F1 katalog: 9 doğa + 2 odak sesi + 7 kayıtlı müzik; sentez ney/kanun/koro/ezgi/ışık/ambient/derin odak kayıtları ve üreticileri koddan silindi",
+   "ok": true,
+   "ayr": "{\"S\":[\"yagmur\",\"cam\",\"orman\",\"dere\",\"deniz\",\"ruzgar\",\"somine\",\"gece\",\"kus\",\"brown\",\"white\",\"m42_esik\",\"m42_sessizdua\",\"m42_neynefes\",\"m42_neydua\",\"m42_isik\",\"m42_kubbe\",\"m42_cam\"],\"cat\":[\"muzik42:Müzikler\",\"doga:Doğa sesleri\",\"enstruman:Lisanslı enstrüman kayıtları\",\"diger:Odak sesleri\"],\"gen\":[\"brown\",\"white\",\"rainLight\",\"rainGlass\",\"forest\",\"stream\",\"sea\",\"wind\",\"fire\",\"night\",\"birds\"],\"pre\":true,\"kodda\":[]}"
+  },
+  {
+   "ad": "F2 eski kayıtlardaki silinmiş sesler temizlendi (favori, son karışım, kayıtlı karışım, sıra); geçerli olanlar korundu",
+   "ok": true,
+   "ayr": "{\"fav\":[\"yagmur\"],\"L\":[{\"id\":\"yagmur\",\"v\":0.5,\"on\":true}],\"saved\":[{\"id\":\"u1\",\"n\":\"Eski karışım\",\"L\":[[\"dere\",0.4]]}],\"queue\":[\"u1\"],\"favMix\":[\"p1\"]}"
+  },
+  {
+   "ad": "F3 Ders Atmosferi listesinde kaydı olmayan “enstrüman” bölümü ve ney/kanun yazısı yok; kategoriler: Favoriler, Müzikler, Doğa sesleri, Odak sesleri",
+   "ok": true,
+   "ayr": "[\"★ Favorilerim\",\"Müzikler\",\"Doğa sesleri\",\"Odak sesleri\"]"
+  },
+  {
+   "ad": "F4 kalan 11 sesin üreticisi çalışıyor (sessiz değil, geçersiz örnek yok)",
+   "ok": true,
+   "ayr": "{\"brown\":0.1175,\"white\":0.0894,\"rainLight\":0.0964,\"rainGlass\":0.0983,\"forest\":0.0936,\"stream\":0.0986,\"sea\":0.1071,\"wind\":0.0985,\"fire\":0.0982,\"night\":0.0882,\"birds\":0.0804}"
+  },
+  {
+   "ad": "F5 ses seçme ve favori işlevleri korunuyor",
+   "ok": true,
+   "ayr": "{\"L\":[\"yagmur\",\"dere\"],\"fav\":[\"yagmur\",\"orman\"]}"
+  },
+  {
+   "ad": "G1 320 px telefon, Galaxy S9+, Galaxy Tab S4 × Elmas/Altın × 5 ekran: yatay taşma yok, dokunma alanları ≥ 44 px, sayfa sonunda içerik alt menünün altında kalmıyor",
+   "ok": true,
+   "ayr": "30 ölçüm"
+  },
+  {
+   "ad": "H1 sayfa hatası yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ],
+ "hata": []
+}
