@@ -63,6 +63,7 @@ async function olc(b, U, x, n) {
   try { await p.evaluate(x.js); } catch (e) { hata.push(String(e)); }
   await p.waitForTimeout(1500);
   // müzik çalan ekran: çalma başlayıp panel yeniden çizilene kadar bekle (ölçüm sırasında yerleşim değişmesin)
+  if (/kut-bulmaca/.test(x.ad)) await p.waitForFunction(() => document.querySelector('.o41-panel .o41-bul'), null, {timeout: 10000}).then(() => p.waitForTimeout(700)).catch(() => {}); // V47: panel açılmadan ya da geçişin ortasında ölçülmesin
   if (/calar/.test(x.ad)) await p.waitForFunction(() => ATM.rt.playing && !Object.values(ATM.rt.nodes).some((n) => n.loading), null, {timeout: 8000}).then(() => p.waitForTimeout(1200)).catch(() => {});
   // canlı yenilenen panel: ölçüm boyunca yeniden çizimi dondur (işaretlenen yazılar ekran görüntüsüne kadar aynı kalsın)
   if (/calar/.test(x.ad)) await p.evaluate(() => { try { ATM.paint = () => {}; V37.sndPaint = () => {}; } catch (e) {} });
