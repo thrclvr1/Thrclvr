@@ -121,3 +121,8 @@ html.nomotion .a47-dalga i,html.lite .a47-dalga i{animation:none!important}
 .a47-oz svg{color:var(--mut)}
 body[data-prem39] .a47-oz{color:var(--p-ink)}
 body[data-prem39] .a47-oz span,body[data-prem39] .a47-oz svg{color:var(--p-mut)}
+/* ---------- Kütüphane bulmaca paneli okunabilirliği (V47 denetimi paneli açıkken ölçtü; V41'den beri ölçülmemişti) ---------- */
+.o41-pk .o41-ust{color:#6b4512}
+.o41-mh,html[data-pt43] .o41-pk .o41-mh{color:#fff6e8;background:radial-gradient(circle at 40% 35%,#b9452f,#8a2a1c 55%,#641a12);text-shadow:0 1px 2px rgba(0,0,0,.6)}
+html[data-pt43=gunduz] .o41-pk .o41-yuva{background:linear-gradient(180deg,#f4e4c4,#ead2ad);color:#3a2614;border-color:#a87a32}
+html[data-pt43=gunduz] .o41-pk .o41-yuva.dolu{background:linear-gradient(180deg,#efd9b0,#e2c595)}

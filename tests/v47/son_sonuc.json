@@ -1,6 +1,6 @@
 {
- "tarih": "2026-11-18T08:28:31.117Z",
- "md5": "0e852578fd15a466930109474ef8b5a7",
+ "tarih": "2026-11-18T10:01:31.395Z",
+ "md5": "84aac39e5606e050f1028a37abf79074",
  "sonuc": [
   {
    "ad": "A1 sürüm V47.0, index.html aynı dosya; V46.0 yedek dosyası duruyor",
@@ -65,7 +65,7 @@
   {
    "ad": "D2 şerit parmakla açılır (sayfa kayar) ve yana kaydırılır; koridor bu sırada yürümez",
    "ok": true,
-   "ayr": "{\"k0\":{\"alt\":866.71875,\"s\":-1,\"y\":217},\"k1\":{\"sl\":379,\"s\":-1}}"
+   "ayr": "{\"k0\":{\"alt\":866.71875,\"s\":-1,\"y\":217},\"k1\":{\"sl\":378,\"s\":-1}}"
   },
   {
    "ad": "D3 şerit kartları doğru ekrana gider; “Üniteler ve Konular” ve “Öğrenme Araçları” koridorda seçili sınıfa (7. sınıf) gider, araçlar açık gelir",

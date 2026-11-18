@@ -40,6 +40,7 @@ const P = [ // Premium ekranları
   ['kut-secim', "go('poyna',{oyn:'kutuphane',obol:'',odevam:0})"], ['kut-giris', "go('poyna',{oyn:'kutuphane',obol:'9-2026-U03',odevam:0})"],
   ['kut-bulmaca', "go('poyna',{oyn:'kutuphane',obol:'7-2026-U03',odevam:0});setTimeout(()=>{const K=V41.oyunlar.kutuphane;K.girisBitti();setTimeout(()=>K.bulmacaAc(K._test.icerik().odalar[0].bulmaca),900)},500)"],
   ['hesap-sunucu', "go('profil46');setTimeout(()=>V46.Hesap.ayarlar('Google ile giriş için önce sunucu adresini gir.'),300)"],
+  ['kut-bulmaca-alt', "go('poyna',{oyn:'kutuphane',obol:'7-2026-U03',odevam:0});setTimeout(()=>{const K=V41.oyunlar.kutuphane;K.girisBitti();setTimeout(()=>K.bulmacaAc(K._test.icerik().odalar[0].bulmaca),900)},500)"],
   ['mini-test-soru', "G.tq={mode:'mini',g:5,u:'',t:'TPC-5-1-01',n:5};V30.tqStart()"], ['sinav-rehberi', "go('pekbol',{pk:{k:'sin',g:''}})"], ['pekistir', "go('pek')"]
 ].map(([a, j]) => ['p:' + a, 'premium', j]);
 const K = [ // Klasik ekranları
@@ -63,7 +64,8 @@ async function olc(b, U, x, n) {
   try { await p.evaluate(x.js); } catch (e) { hata.push(String(e)); }
   await p.waitForTimeout(1500);
   // müzik çalan ekran: çalma başlayıp panel yeniden çizilene kadar bekle (ölçüm sırasında yerleşim değişmesin)
-  if (/kut-bulmaca/.test(x.ad)) await p.waitForFunction(() => document.querySelector('.o41-panel .o41-bul'), null, {timeout: 10000}).then(() => p.waitForTimeout(700)).catch(() => {}); // V47: panel açılmadan ya da geçişin ortasında ölçülmesin
+  if (/kut-bulmaca/.test(x.ad)) await p.waitForFunction(() => document.querySelector('.o41-panel .o41-bul'), null, {timeout: 10000}).then(() => p.waitForTimeout(700)).catch(() => {});
+  if (/kut-bulmaca-alt/.test(x.ad)) { await p.evaluate(() => { const k = document.querySelector('.o41-pk'); if (k) k.scrollTop = k.scrollHeight; }); await p.waitForTimeout(400); } // V47: panel açılmadan ya da geçişin ortasında ölçülmesin
   if (/calar/.test(x.ad)) await p.waitForFunction(() => ATM.rt.playing && !Object.values(ATM.rt.nodes).some((n) => n.loading), null, {timeout: 8000}).then(() => p.waitForTimeout(1200)).catch(() => {});
   // canlı yenilenen panel: ölçüm boyunca yeniden çizimi dondur (işaretlenen yazılar ekran görüntüsüne kadar aynı kalsın)
   if (/calar/.test(x.ad)) await p.evaluate(() => { try { ATM.paint = () => {}; V37.sndPaint = () => {}; } catch (e) {} });
@@ -76,6 +78,7 @@ async function olc(b, U, x, n) {
     while (tw.nextNode()) { const t = tw.currentNode; if (!t.nodeValue.trim()) continue; const e = t.parentElement; if (!e || seen.has(e)) continue; seen.add(e);
       if (e.closest('script,style,svg,canvas,[aria-hidden="true"],.v-toast,#v-toasts,#boot36')) continue;
       const r = document.createRange(); r.selectNodeContents(t); const bb = r.getBoundingClientRect(); if (bb.width < 4 || bb.height < 6 || bb.bottom < 0 || bb.top > vh || bb.right < 0 || bb.left > vw) continue;
+      { let kes = false; for (let a = e.parentElement; a && a !== document.body; a = a.parentElement) { if (/(auto|scroll|hidden|clip)/.test(getComputedStyle(a).overflowY)) { const q = a.getBoundingClientRect(), ic = Math.min(bb.bottom, q.bottom) - Math.max(bb.top, q.top); if (ic < bb.height * .6) { kes = true; break; } } } if (kes) continue; } // V47: kaydırma kabının dışında kalan (görünmeyen) yazı ölçülmez
       const s = getComputedStyle(e); if (s.visibility === 'hidden') continue; const cx = Math.min(vw - 1, Math.max(0, (bb.left + bb.right) / 2)), cy = Math.min(vh - 1, Math.max(0, (bb.top + bb.bottom) / 2)), ust = document.elementFromPoint(cx, cy); if (!ust || !(e.contains(ust) || ust.contains(e))) continue;
       let op = 1; for (let a = e; a; a = a.parentElement) op *= +getComputedStyle(a).opacity; if (op < .05) continue;
       const dis = !!e.closest('button:disabled,[aria-disabled="true"],.elendi,input:disabled');
