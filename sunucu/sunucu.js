@@ -99,7 +99,9 @@ function veriGecerli(v) {
 /* ---------- hata ve geri bildirim (V48) ---------- */
 const B_KAT = {
   icerik: ['Yanlış bilgi', 'Eksik bilgi', 'Ayet veya hadis referansı hatalı', 'Kaynak hatası', 'Açıklama yetersiz', 'Yazım hatası', 'Diğer'],
-  soru: ['Doğru cevap hatalı', 'Soru kökü hatalı', 'Birden fazla doğru cevap', 'Şıklar hatalı', 'Açıklama hatalı', 'Kaynak veya kazanım eşleşmesi yanlış', 'Diğer']
+  soru: ['Doğru cevap hatalı', 'Soru kökü hatalı', 'Birden fazla doğru cevap', 'Şıklar hatalı', 'Açıklama hatalı', 'Kaynak veya kazanım eşleşmesi yanlış', 'Diğer'],
+  // V51: öğretmen paneli › Araçlar › Sorun Bildir (kategori = hatanın bulunduğu bölüm; konu isteğe bağlı)
+  genel: ['Haftalık plan', 'Yıllık plan dağılımı', 'Sınıflarım', 'Konu içeriği', 'Sorular ve testler', 'Bilgi kartları', 'Oyunlar', 'Görünüm ve gezinme', 'Diğer']
 };
 const B_DURUM = ['yeni', 'inceleniyor', 'duzeltildi', 'gecersiz'];
 const kisa = (v, n) => (typeof v === 'string' ? v.slice(0, n) : '');
@@ -110,11 +112,12 @@ function bildirimTemiz(g) {
   const b = g.baglam; if (!b || typeof b !== 'object' || Array.isArray(b)) return null;
   const baglam = {sinif: Number.isInteger(+b.sinif) ? +b.sinif : null, programYili: kisa(b.programYili, 12), uniteId: kisa(b.uniteId, 40), unite: kisa(b.unite, 160), konuId: kisa(b.konuId, 40), konu: kisa(b.konu, 200),
     kazanim: Array.isArray(b.kazanim) ? b.kazanim.slice(0, 12).map((x) => kisa(x, 40)) : [], soruId: kisa(b.soruId, 40), bolum: kisa(b.bolum, 20), bolumAd: kisa(b.bolumAd, 40)};
-  if (!baglam.konuId && !baglam.soruId) return null;
+  if (g.tur !== 'genel' && !baglam.konuId && !baglam.soruId) return null;
+  if (g.tur === 'genel' && g.kaynak !== 'ogretmen') return null;
   if (g.tur === 'soru' && !baglam.soruId) return null;
   return {id: g.id, tur: g.tur, kategori: g.kategori, aciklama: kisa(g.aciklama, 1000), anonim: g.anonim ? 1 : 0, kaynak: g.kaynak === 'ogretmen' ? 'ogretmen' : 'ogrenci', baglam, tarih: kisa(g.tarih, 40), surum: kisa(g.surum, 16)};
 }
-const bHedef = (b) => b.soruId ? 'soru:' + b.soruId : 'konu:' + b.konuId + ':' + b.bolum;
+const bHedef = (b) => b.soruId ? 'soru:' + b.soruId : b.konuId ? 'konu:' + b.konuId + ':' + b.bolum : 'genel:' + (b.bolumAd || '') + ':' + (b.sinif || '');
 // editöre giden kayıt: anonimse kimlik yok; değilse yalnız ad (e-posta gösterilmez)
 const bEditorJSON = (r) => ({id: r.id, tur: r.tur, kategori: r.kategori, aciklama: r.aciklama || '', anonim: !!r.anonim, kaynak: r.kaynak, kullaniciAd: r.anonim ? '' : (r.kullanici_ad || ''), baglam: JSON.parse(r.baglam), hedef: r.hedef, tarih: r.olusturma, istemciTarih: r.istemci_tarih, surum: r.surum, durum: r.durum, notlar: JSON.parse(r.notlar), gerekce: r.gerekce || '', guncelleme: r.guncelleme});
 
@@ -156,6 +159,7 @@ async function isle(req, res) {
     const k = bildirimTemiz(await govdeOku(req)); if (!k) return yanit(res, 400, {hata: 'Geçersiz bildirim.'}, cors);
     const var0 = Q.bAl.get(k.id);
     if (var0) { if (var0.kullanici_id !== O.u.id) return yanit(res, 409, {hata: 'Bu kimlik başka bir bildirime ait.'}, cors); return yanit(res, 200, {id: k.id, durum: var0.durum, yeni: false}, cors); }
+    if (k.tur === 'genel' && !roller(O.u).includes('ogretmen')) return yanit(res, 403, {hata: 'Sorun bildirimi öğretmen hesabı ister.'}, cors);
     const kaynak = k.kaynak === 'ogretmen' && roller(O.u).includes('ogretmen') ? 'ogretmen' : 'ogrenci', simdi = new Date().toISOString();
     Q.bEkle.run(k.id, O.u.id, k.anonim, kaynak, k.tur, k.kategori, k.aciklama, JSON.stringify(k.baglam), bHedef(k.baglam), k.tarih, k.surum, 'yeni', '[]', '', simdi, simdi);
     return yanit(res, 201, {id: k.id, durum: 'yeni', yeni: true}, cors);
