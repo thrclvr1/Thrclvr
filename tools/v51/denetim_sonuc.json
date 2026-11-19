@@ -1,0 +1,1381 @@
+{
+ "dosya": "surumler/din-kulturu-platformu-v51.0.html",
+ "md5": "422f3efb3537bd34e2fbc711441abbbe",
+ "tarih": "2026-11-19T11:41:49.999Z",
+ "baglam": 61,
+ "yazi": 2193,
+ "aaAlti": 6,
+ "sonuc": [
+  {
+   "ekran": "p:mod-paneli",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mod-paneli",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mod-paneli",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mod-paneli",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil-mod",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 64,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil-mod",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 64,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil-mod",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 64,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil-mod",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 64,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:v51-ilerleme",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 49,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:v51-ilerleme",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 49,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:v51-ilerleme",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 49,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:v51-ilerleme",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 49,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:v51-ust",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 55,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:v51-ust",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 55,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:v51-ust",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 55,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:v51-ust",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 55,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ogretmen-ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 31,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ogretmen-ana",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 31,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ogretmen-ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 31,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:mod-paneli",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:mod-paneli",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:mod-paneli",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ogretmen-mod",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ogretmen-mod",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ogretmen-mod",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ilerleme",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 48,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ilerleme",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 48,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ilerleme",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 48,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-favori",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-favori",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-favori",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-oyun-onay",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-oyun-onay",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-oyun-onay",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-haftalik",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 62,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 62,
+    "kotu": [
+     {
+      "m": "2026",
+      "s": "small",
+      "oran": 4.24,
+      "esik": 4.5,
+      "fg": [
+       225,
+       213,
+       200
+      ],
+      "bg": [
+       134,
+       88,
+       34
+      ]
+     },
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-haftalik",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 62,
+   "hata": [],
+   "kotu": [],
+   "ilkOlcum": {
+    "n": 62,
+    "kotu": [
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.06,
+      "esik": 4.5,
+      "fg": [
+       26,
+       18,
+       6
+      ],
+      "bg": [
+       12,
+       11,
+       9
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-haftalik",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 62,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 62,
+    "kotu": [
+     {
+      "m": "2026",
+      "s": "small",
+      "oran": 4.24,
+      "esik": 4.5,
+      "fg": [
+       225,
+       213,
+       200
+      ],
+      "bg": [
+       134,
+       88,
+       34
+      ]
+     },
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-siniflarim",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 38,
+   "hata": [],
+   "kotu": [],
+   "ilkOlcum": {
+    "n": 38,
+    "kotu": [
+     {
+      "m": "2026 programı (Türkiye Yüzyılı Maarif Mo",
+      "s": "span.kmps.py-2026",
+      "oran": 3.29,
+      "esik": 4.5,
+      "fg": [
+       31,
+       154,
+       166
+      ],
+      "bg": [
+       255,
+       252,
+       246
+      ]
+     },
+     {
+      "m": "Veriler mevcut",
+      "s": "span.kmps.ps-mevcut",
+      "oran": 4.24,
+      "esik": 4.5,
+      "fg": [
+       29,
+       138,
+       92
+      ],
+      "bg": [
+       255,
+       252,
+       246
+      ]
+     },
+     {
+      "m": "2018 programı",
+      "s": "span.kmps.py-2018",
+      "oran": 3.7,
+      "esik": 4.5,
+      "fg": [
+       169,
+       123,
+       32
+      ],
+      "bg": [
+       255,
+       252,
+       246
+      ]
+     },
+     {
+      "m": "Veriler mevcut",
+      "s": "span.kmps.ps-mevcut",
+      "oran": 4.24,
+      "esik": 4.5,
+      "fg": [
+       29,
+       138,
+       92
+      ],
+      "bg": [
+       255,
+       252,
+       246
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-siniflarim",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 38,
+   "hata": [],
+   "kotu": [],
+   "ilkOlcum": {
+    "n": 38,
+    "kotu": [
+     {
+      "m": "Veriler mevcut",
+      "s": "span.kmps.ps-mevcut",
+      "oran": 4.21,
+      "esik": 4.5,
+      "fg": [
+       29,
+       138,
+       92
+      ],
+      "bg": [
+       23,
+       21,
+       15
+      ]
+     },
+     {
+      "m": "Veriler mevcut",
+      "s": "span.kmps.ps-mevcut",
+      "oran": 4.21,
+      "esik": 4.5,
+      "fg": [
+       29,
+       138,
+       92
+      ],
+      "bg": [
+       23,
+       21,
+       15
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-siniflarim",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 38,
+   "hata": [],
+   "kotu": [],
+   "ilkOlcum": {
+    "n": 38,
+    "kotu": [
+     {
+      "m": "2026 programı (Türkiye Yüzyılı Maarif Mo",
+      "s": "span.kmps.py-2026",
+      "oran": 3.29,
+      "esik": 4.5,
+      "fg": [
+       31,
+       154,
+       166
+      ],
+      "bg": [
+       255,
+       252,
+       246
+      ]
+     },
+     {
+      "m": "Veriler mevcut",
+      "s": "span.kmps.ps-mevcut",
+      "oran": 4.24,
+      "esik": 4.5,
+      "fg": [
+       29,
+       138,
+       92
+      ],
+      "bg": [
+       255,
+       252,
+       246
+      ]
+     },
+     {
+      "m": "2018 programı",
+      "s": "span.kmps.py-2018",
+      "oran": 3.7,
+      "esik": 4.5,
+      "fg": [
+       169,
+       123,
+       32
+      ],
+      "bg": [
+       255,
+       252,
+       246
+      ]
+     },
+     {
+      "m": "Veriler mevcut",
+      "s": "span.kmps.ps-mevcut",
+      "oran": 4.24,
+      "esik": 4.5,
+      "fg": [
+       29,
+       138,
+       92
+      ],
+      "bg": [
+       255,
+       252,
+       246
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-sorun-bildir",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-sorun-bildir",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-sorun-bildir",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-yp-uyari",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 58,
+    "kotu": [
+     {
+      "m": "2026",
+      "s": "small",
+      "oran": 4.24,
+      "esik": 4.5,
+      "fg": [
+       225,
+       213,
+       200
+      ],
+      "bg": [
+       134,
+       88,
+       34
+      ]
+     },
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-yp-uyari",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": [],
+   "ilkOlcum": {
+    "n": 58,
+    "kotu": [
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.06,
+      "esik": 4.5,
+      "fg": [
+       26,
+       18,
+       6
+      ],
+      "bg": [
+       12,
+       11,
+       9
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-yp-uyari",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 58,
+    "kotu": [
+     {
+      "m": "2026",
+      "s": "small",
+      "oran": 4.24,
+      "esik": 4.5,
+      "fg": [
+       225,
+       213,
+       200
+      ],
+      "bg": [
+       134,
+       88,
+       34
+      ]
+     },
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-ed-ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 54,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 54,
+    "kotu": [
+     {
+      "m": "2026",
+      "s": "small",
+      "oran": 4.26,
+      "esik": 4.5,
+      "fg": [
+       224,
+       213,
+       200
+      ],
+      "bg": [
+       133,
+       88,
+       34
+      ]
+     },
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-ed-ana",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 54,
+   "hata": [],
+   "kotu": [],
+   "ilkOlcum": {
+    "n": 54,
+    "kotu": [
+     {
+      "m": "Onay alanını aç",
+      "s": "button.p",
+      "oran": 3.08,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       172,
+       143,
+       86
+      ]
+     },
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.06,
+      "esik": 4.5,
+      "fg": [
+       26,
+       18,
+       6
+      ],
+      "bg": [
+       12,
+       11,
+       9
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-ed-ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 54,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 54,
+    "kotu": [
+     {
+      "m": "2026",
+      "s": "small",
+      "oran": 4.26,
+      "esik": 4.5,
+      "fg": [
+       224,
+       213,
+       200
+      ],
+      "bg": [
+       133,
+       88,
+       34
+      ]
+     },
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-ed-yp",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 39,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ed-yp",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 39,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ed-yp",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 39,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ed-yayin",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 33,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ed-yayin",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 33,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ed-yayin",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 33,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ed-veri",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ed-veri",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ed-veri",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-erisim",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 10,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-erisim",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 10,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-erisim",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 10,
+   "hata": [],
+   "kotu": []
+  }
+ ]
+}

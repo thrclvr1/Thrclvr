@@ -5,10 +5,13 @@
 .ust40 .md50[data-md50=altin] .md50-i{width:30px;height:30px}
 .mk50-am svg.ap51{display:block}
 /* dar ekranda Altın üst çubuğu: düğmeler sığar, mod düğmesi kırpılmaz */
-@media (max-width:400px){
+.p39-top .md50{flex:none!important}
+@media (max-width:540px){
  .p39-top{gap:2px!important}
  .p39-top .p39-ib:not(.md50){min-width:40px!important;width:40px!important;padding:0!important}
- .p39-top .md50{padding:0 6px 0 3px!important;flex:none}
+ .p39-top .md50{padding:0 6px 0 3px!important}
+ .p39-top>.p39-brand{flex:0 1 auto!important;min-width:0!important;overflow:hidden}
+ .p39-top>.p39-brand>:not(:first-child){display:none!important}
 }
 @media (max-width:340px){.p39-top .p39-ib[onclick*="V37.sndOpen"]{display:none!important}}
 /* Altın alt menüsü: beş giriş dar ekranda da tam görünür */
@@ -85,3 +88,14 @@
 .ue51 h1{margin:0 0 8px;font-size:1.3rem}
 .yy51-s{display:flex;gap:10px;align-items:center;min-height:44px;font-weight:600}
 .yy51-s input{width:22px;height:22px}
+/* kontrast (WCAG AA): öğretmen paneli rozetleri, liste süzgeci, sınıf çipi (denetimde ilk kez sınıf ekli ölçüldü) */
+body[data-ogrt37] .og-seg2 button.on{background:#7a4e1a!important;color:#fff!important;border-color:transparent!important}
+body[data-ogrt37] .og-seg2 button.on *{color:#fff!important}
+body[data-ogrt37] button.on small{opacity:1!important}
+body[data-ogrt37] .kmps.py-2026{color:#0f6670!important}
+body[data-ogrt37] .kmps.py-2018{color:#7a5410!important}
+body[data-ogrt37] .kmps.ps-mevcut{color:#146642!important}
+:root[data-theme=dark] body[data-ogrt37] .kmps.py-2026{color:#6fd3dc!important}
+:root[data-theme=dark] body[data-ogrt37] .kmps.py-2018{color:#ecc47a!important}
+:root[data-theme=dark] body[data-ogrt37] .kmps.ps-mevcut{color:#6fe0a8!important}
+.ap51-bb button.p{background:#7a4e1a!important;color:#fff!important;border-color:transparent!important}

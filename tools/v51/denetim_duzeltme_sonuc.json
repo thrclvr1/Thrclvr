@@ -1,0 +1,394 @@
+{
+ "dosya": "surumler/din-kulturu-platformu-v51.0.html",
+ "md5": "422f3efb3537bd34e2fbc711441abbbe",
+ "tarih": "2026-11-19T11:42:57.783Z",
+ "baglam": 12,
+ "yazi": 636,
+ "aaAlti": 6,
+ "sonuc": [
+  {
+   "ekran": "k:v51-haftalik",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 62,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 62,
+    "kotu": [
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-haftalik",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 62,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-haftalik",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 62,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 62,
+    "kotu": [
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-siniflarim",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 38,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-siniflarim",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 38,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-siniflarim",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 38,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-yp-uyari",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 58,
+    "kotu": [
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-yp-uyari",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-yp-uyari",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 58,
+    "kotu": [
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-ed-ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 54,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 54,
+    "kotu": [
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:v51-ed-ana",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 54,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-ed-ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 54,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Tümü (18)",
+     "s": "button.on",
+     "oran": 1.15,
+     "esik": 4.5,
+     "fg": [
+      255,
+      255,
+      255
+     ],
+     "bg": [
+      245,
+      239,
+      227
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 54,
+    "kotu": [
+     {
+      "m": "Tümü (18)",
+      "s": "button.on",
+      "oran": 1.15,
+      "esik": 4.5,
+      "fg": [
+       255,
+       255,
+       255
+      ],
+      "bg": [
+       245,
+       239,
+       227
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

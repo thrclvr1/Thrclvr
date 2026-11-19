@@ -1,0 +1,180 @@
+{
+ "tarih": "2026-11-19T11:46:59.508Z",
+ "sonuc": [
+  {
+   "ad": "A1 sürüm V51.0, index.html aynı dosya; V50.0 yedek dosyası duruyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 bütün veri, müzik ve görsel blokları V50.0 ile bayt bayt aynı (veri silinmedi, değişmedi)",
+   "ok": true,
+   "ayr": "15 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı (V50.0 dahil)",
+   "ok": true,
+   "ayr": "yalnız v51.0"
+  },
+  {
+   "ad": "T1 Elmas üst çubuğu: mod düğmesinde lacivert daire içinde elmas (değişmedi), ekranda, kırpılmadan, hizalı (360/390 px)",
+   "ok": true,
+   "ayr": "[{\"mod\":\"elmas\",\"para\":false,\"btn\":[116,182],\"vw\":360,\"ikon\":[23,18],\"daire\":[28,28],\"icinde\":true,\"gorunur\":true,\"hiza\":true,\"ortaUst\":true,\"tasma\":0},{\"mod\":\"elmas\",\"para\":false,\"btn\":[97,196],\"vw\":390,\"ikon\":[23,18],\"daire\":[28,28],\"icinde\":true,\"gorunur\":true,\"hiza\":true,\"ortaUst\":true,\"tasma\":0}]"
+  },
+  {
+   "ad": "T2 Altın üst çubuğu: altın para simgesi dairenin içinde tam görünür, Mod düğmesiyle hizalı, küçük ekranda kırpılmaz (360/390/412 px)",
+   "ok": true,
+   "ayr": "[{\"mod\":\"altin\",\"para\":true,\"btn\":[244,338],\"vw\":360,\"ikon\":[26,26],\"daire\":[30,30],\"icinde\":true,\"gorunur\":true,\"hiza\":true,\"ortaUst\":true,\"tasma\":0},{\"mod\":\"altin\",\"para\":true,\"btn\":[274,368],\"vw\":390,\"ikon\":[26,26],\"daire\":[30,30],\"icinde\":true,\"gorunur\":true,\"hiza\":true,\"ortaUst\":true,\"tasma\":0},{\"mod\":\"altin\",\"para\":true,\"btn\":[296,390],\"vw\":412,\"ikon\":[26,26],\"daire\":[30,30],\"icinde\":true,\"gorunur\":true,\"hiza\":true,\"ortaUst\":true,\"tasma\":0}]"
+  },
+  {
+   "ad": "T3 Elmas: Profilim › Sınıf sınıf ilerleme Elmas’ta açılır (mod, oturum, palet, alt menü değişmez)",
+   "ok": true,
+   "ayr": "{\"d1\":{\"mod\":\"elmas\",\"v\":\"pilerleme\",\"on\":false,\"ss\":null,\"prem\":false,\"alan\":\"elmas\",\"deneyim\":\"normal\",\"nav\":\"profil\",\"bn50\":false},\"t1\":{\"kart\":9,\"p39\":false,\"baslik\":\"Sınıf sınıf ilerleme\"}}"
+  },
+  {
+   "ad": "T3b Elmas: Favorilerim de Elmas’ta açılır; geri tuşu modu değiştirmez",
+   "ok": true,
+   "ayr": "{\"d2\":{\"mod\":\"elmas\",\"v\":\"profil46\",\"on\":false,\"ss\":null,\"prem\":false,\"alan\":\"elmas\",\"deneyim\":\"normal\",\"nav\":\"profil\",\"bn50\":false},\"d3\":{\"mod\":\"elmas\",\"v\":\"pfav\",\"on\":false,\"ss\":null,\"prem\":false,\"alan\":\"elmas\",\"deneyim\":\"normal\",\"nav\":\"profil\",\"bn50\":false},\"d4\":{\"mod\":\"elmas\",\"v\":\"profil46\",\"on\":false,\"ss\":null,\"prem\":false,\"alan\":\"elmas\",\"deneyim\":\"normal\",\"nav\":\"profil\",\"bn50\":false},\"fav\":2}"
+  },
+  {
+   "ad": "T3c Elmas’ta Oyun Dünyası: açık onay ekranı, mod kendiliğinden değişmez; “Altın Sınıfı’na geç ve aç” ile Altın’da oyun merkezi açılır",
+   "ok": true,
+   "ayr": "{\"d5\":{\"mod\":\"elmas\",\"v\":\"poyun\",\"on\":false,\"ss\":null,\"prem\":false,\"alan\":\"elmas\",\"deneyim\":\"normal\",\"nav\":\"games\",\"bn50\":false},\"d6\":{\"mod\":\"altin\",\"v\":\"poyun\",\"on\":true,\"ss\":\"1\",\"prem\":true,\"alan\":\"altin\",\"deneyim\":\"premium\",\"nav\":\"games\",\"bn50\":true}}"
+  },
+  {
+   "ad": "T4 Altın: Sınıf sınıf ilerleme Altın’da açılır (Altın bileşenleri)",
+   "ok": true,
+   "ayr": "{\"mod\":\"altin\",\"v\":\"pilerleme\",\"on\":true,\"ss\":\"1\",\"prem\":true,\"alan\":\"altin\",\"deneyim\":\"premium\",\"nav\":\"home\",\"bn50\":true}"
+  },
+  {
+   "ad": "T5 Geri tuşu: ilerleme ekranından geri dönünce önceki ekran aynı modda (Altın kalır)",
+   "ok": true,
+   "ayr": "{\"mod\":\"altin\",\"v\":\"profil46\",\"on\":true,\"ss\":\"1\",\"prem\":true,\"alan\":\"altin\",\"deneyim\":\"premium\",\"nav\":\"profil\",\"bn50\":true}"
+  },
+  {
+   "ad": "T6 Haftalık çalışır ve sadeleşti: hafta şeridi, kazanım kartı, Ders hazırla, not; tekrarlanan hızlı kartlar yok, “yeniden kur” tek, dosya adı görünmez",
+   "ok": true,
+   "ayr": "{\"sekmeler\":[\"Haftalık\",\"Sınıflarım\",\"Araçlar\"],\"hafta\":41,\"kart\":true,\"ders\":true,\"qa\":0,\"yeniden\":1,\"not\":true,\"notBaslik\":\"Haftalık notlarım\",\"select\":0,\"chip\":0,\"durumMetni\":false,\"dosya\":false}"
+  },
+  {
+   "ad": "T11 Kazanım kartında durum menüsü (Başlanmadı/Planlandı/İşlendi/Tekrar edilmeli) yok; kayıtlı durumlar ve işlevleri korunur",
+   "ok": true,
+   "ayr": "{\"h\":{\"select\":0,\"chip\":0,\"durumMetni\":false},\"st\":{\"st\":{\"DKAB-5-U01-O01\":\"isl\",\"DKAB-5-U01-O02\":\"tek\"},\"fn\":true,\"kayit\":{\"DKAB-5-U01-O01\":\"isl\",\"DKAB-5-U01-O02\":\"tek\"}}}"
+  },
+  {
+   "ad": "T9 Araçlar’da yalnız Sorun Bildir: bölüm, sınıf/konu, açıklama, ek not; eski araçlar menüde yok",
+   "ok": true,
+   "ayr": "{\"sub\":[\"Sorun Bildir\"],\"subNav\":false,\"baslik\":\"Sorun Bildir\",\"eski\":false,\"alan\":[\"bolum\",\"sinif\",\"konu\",\"ack\",\"not\"]}"
+  },
+  {
+   "ad": "T9b Sorun Bildir doğrular, kaydeder; öğretmen kaydın alındığını görür (sunucu yok → “Bu cihazda kayıtlı”, gönderildi denmez)",
+   "ok": true,
+   "ayr": "{\"n\":1,\"k\":{\"kat\":\"Haftalık plan\",\"sinif\":5,\"konu\":\"TPC-5-1-01\",\"ack\":\"3. haftadaki kazanım iki kez görünüyor.\\n\\nEk not: Tablette fark ettim.\",\"durum\":\"taslak\",\"kaynak\":\"ogretmen\"},\"liste\":\"Haftalık plan · 5. sınıf · Evrendeki Düzeni Fark Etmek\\n\\n3. haftadaki kazanım iki kez görünüyor.\\n\\nBu cihazda kayıtlı\\n· 19.11.2026 11:44:32 · kayıt no 3b0b1491\"}"
+  },
+  {
+   "ad": "T10 Editör onayı yalnız Ana Panel’de: Araçlar’da, Profilim’de ve “Öğretmen modu” penceresinde editör girişi yok; normal öğretmen PIN’siz onay alanına giremez",
+   "ok": true,
+   "ayr": "{\"ap\":{\"ana\":true,\"giris\":\"Editör girişi\",\"araclarda\":false},\"pin\":{\"v\":\"editor\",\"pin\":true,\"liste\":false,\"edOk\":false},\"pr\":{\"editorDugme\":false},\"gs\":\"Öğretmen modu\\n\\nÖğrenciler için giriş gerekmez.\\n\\nÖğretmen paneli\\nHaftalık plan, sınıflarım, sorun bildir\\n\\nEditör onayı öğretmen panelinin Ana Panel bölümünden, a\"}"
+  },
+  {
+   "ad": "T10b Editör yetkisiyle Ana Panel onay alanını açar; Yıllık planlar, Yayın durumu, Veri yönetimi editör alanında",
+   "ok": true,
+   "ayr": "{\"ap2\":\"Ana Panel\\nEditör onayı\\n692 içerik karar bekliyor · 0 onaylı içerik yayımlanmadı\\nOnay alanını aç\\nYıllık planlar\\nVeri yönetimi\\n\\nEditör oturumu bu sekmede açık. İşin bitince editör alanından oturumu kapa\",\"ed\":\"Editör araçları\\nYıllık planlar\\nExcel yıllık planı yükle; haftalık dağılım sınıf ve programa göre oluşur\\nYayın durumu\\nTaslak · İnceleme · Onaylandı · Reddedildi · Yayında · Yayından kaldırıldı\\nVeri yön\"}"
+  },
+  {
+   "ad": "T7a Excel okuyucu: 9 yıllık plan dosyasının hafta, tarih, ders saati, tatil, özel hafta ve kazanım dağılımı gömülü planla aynı",
+   "ok": true,
+   "ayr": "YAPISAL UYUM (hafta no, tarih, ders saati, özel hafta, kazanım kimlikleri, tatiller): TAMAM — 9 dosyanın hepsi gömülü planla aynı"
+  },
+  {
+   "ad": "T7 Yıllık plan otomatik dağılımı: 9 sınıf/program için haftalar planla birebir; her sınıf kendi planı, 2018/2026 karışmaz",
+   "ok": true,
+   "ayr": "{\"10|2026\":{\"ayni\":true,\"hafta\":34,\"yanlisProg\":0,\"planHafta\":34},\"11|2026\":{\"ayni\":true,\"hafta\":34,\"yanlisProg\":0,\"planHafta\":34},\"12|2018\":{\"ayni\":true,\"hafta\":35,\"yanlisProg\":0,\"planHafta\":35},\"4|2018\":{\"ayni\":true,\"hafta\":35,\"yanlisProg\":0,\"planHafta\":35},\"5|2026\":{\"ayni\":true,\"hafta\":34,\"yanlisProg\":0,\"planHafta\":34},\"6|2026\":{\"ayni\":true,\"hafta\":34,\"yanlisProg\":0,\"planHafta\":34},\"7|2026\":{\"ayni\":true,\"hafta\":34,\"yanlisProg\":0,\"planHafta\":34},\"8|2018\":{\"ayni\":true,\"hafta\":35,\"yanlisProg\":0,\"planHafta\":35},\"9|2026\":{\"ayni\":true,\"hafta\":34,\"yanlisProg\":0,\"planHafta\":34},\"plansiz\":{\"hafta\":0,\"src\":false,\"not\":\"Bu sınıf ve program için 2026-2027 yıllık planı yok; haftalık dağılım yapılmadı. Kazanımları kendin ekleyebilirsin.\"}}"
+  },
+  {
+   "ad": "T7b Planı olmayan sınıf/program (5. sınıf 2018) için uydurma dağılım yapılmaz, açık bilgi gösterilir",
+   "ok": true,
+   "ayr": "{\"hafta\":0,\"src\":false,\"not\":\"Bu sınıf ve program için 2026-2027 yıllık planı yok; haftalık dağılım yapılmadı. Kazanımları kendin ekleyebilirsin.\"}"
+  },
+  {
+   "ad": "T8a Editör Excel yükler: önizleme (sınıf, program, hafta, eşleşen kazanım, fark) gösterilir, onayla kaydedilir",
+   "ok": true,
+   "ayr": "Önizleme: 5. sınıf · 2026 programı (TYMM) · 2026-2027\n\n2026-2027 EĞİTİM ÖĞRETİM YILI 5. SINIF DİN KÜLTÜRÜ VE AHLAK BİLGİSİ DERSİ ÇERÇEVE YILLIK PLANI (TÜRKİYE YÜZYILI MAARİF MODELİ)\n\n37 hafta (34 haftada kazanım, 3 özel hafta), 3 tatil\n18 farklı kazanım eşlend"
+  },
+  {
+   "ad": "T8 Yeniden yüklemede öğretmenin düzenlemesi sessizce silinmez: plan korunur, açık bilgi + fark + onay seçenekleri gösterilir",
+   "ok": true,
+   "ayr": "{\"w1\":[],\"w2\":[\"DKAB-5-U01-O01\",\"DKAB-5-U01-O02\"],\"w4\":[\"DKAB-5-U01-O03\"],\"kaynak4\":[\"DKAB-5-U01-O04\"],\"uy\":\"Yıllık plan güncellendi\\n\\nEditör 5. sınıf 2026 (TYMM) yıllık planını 19.11.2026 tarihinde yeniledi. Senin haftalık düzenlemelerin korunuyor; yeni plan kendiliğinden uygulanmadı.\\n\\n6 haftada senin yerleşimin yeni plandan farklı.\\n\\nFarkları gör\\nDüzenlemelerimi koru\"}"
+  },
+  {
+   "ad": "T8b Düzenlenmemiş öğretmen planı (6. sınıf) yeni plana kendiliğinden geçer ve bilgi verilir",
+   "ok": true,
+   "ayr": "{\"w4\":[\"DKAB-6-U01-O03\"],\"kaynak4\":[\"DKAB-6-U01-O03\"],\"bilgi\":\"6. sınıf haftalık planı, editörün yüklediği yeni yıllık plana göre güncellendi (senin düzenlemen yoktu).\",\"ypv\":\"yukleme-2026-11-19T11:44:45.985Z\"}"
+  },
+  {
+   "ad": "T8c Öğretmen onaylarsa yeni plana göre kurulur (fark listesi gösterilir); haftalık notlar ve kazanım durumları silinmez",
+   "ok": true,
+   "ayr": "{\"fark\":6,\"w4\":[\"DKAB-5-U01-O04\"],\"kaynak4\":[\"DKAB-5-U01-O04\"],\"not\":1,\"st\":\"plan\",\"durum\":\"\"}"
+  },
+  {
+   "ad": "T12 İlerleme ve kayıtlar korunur: dk2 ilerlemesi, öğretmen PIN kaydı, ders planı, durum kayıtları, favoriler ve deneyim aynen (yalnız ziyaret alanları güncellenir)",
+   "ok": true,
+   "ayr": "{\"status\":{\"DKAB-5-U01-O01\":\"isl\"},\"plans\":1,\"prog\":{\"correct\":3,\"wrong\":1,\"mastery\":0.75}}"
+  },
+  {
+   "ad": "T12b Öğrencinin gördüğü içerik V50 ile aynı (geçiş dönemi: 246 konu, 723 soru, 672 kart, 238 kazanım, 629 kavram, 378 kişi/eser)",
+   "ok": true,
+   "ayr": "{\"topics\":246,\"questions\":723,\"flashcards\":672,\"outcomes\":238,\"units\":60,\"concepts\":629,\"entities\":378}"
+  },
+  {
+   "ad": "T13 Mobil (360/390/412/480 px): Elmas, Altın, öğretmen ekranlarında yatay taşma yok; alt menü ve sekme yazıları kesilmez",
+   "ok": true,
+   "ayr": "28 ekran"
+  },
+  {
+   "ad": "E1 Öğrenci Elmas: sınıf, konu, kavram, kişi, sure-dua, oyun, Profilim ekranlarında künye/ISBN/PDF/kaynak kodu/doğrulama/taslak bilgisi yok; Kaynaklar sekmesi yok",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "E1b Eğitsel içerik korunur: ünite başlıkları, konular, kazanımlar ve açıklamalar görünür",
+   "ok": true,
+   "ayr": "{\"kazanim\":true,\"unite\":10}"
+  },
+  {
+   "ad": "E2 Öğrenci Altın: sınıf merkezi, ünite, ders, özet ekranlarında editoryal/teknik bilgi yok; Kaynaklar sekmesi yok",
+   "ok": true,
+   "ayr": "{\"r\":{\"sinif\":\"\",\"unite\":\"\",\"ders\":\"\",\"kaynak\":\"\",\"ozet\":\"\"},\"kay\":{\"ptab\":\"anlat\",\"dugme\":false}}"
+  },
+  {
+   "ad": "E3 Normal öğretmen (öğrenme alanında) künye/doğrulama bilgisini görmez; editör alanını PIN’siz açamaz",
+   "ok": true,
+   "ayr": "{\"r\":{\"sinif4\":\"\",\"sinif9\":\"\",\"konu\":\"\",\"konu4\":\"\",\"kaynaklar\":\"\"},\"edr\":{\"liste\":false,\"edOk\":false}}"
+  },
+  {
+   "ad": "E4 Doğrudan rota: kitap (künye/program sürümü) ve yönetim ekranı erişim uyarısı verir, veri gösterilmez; bildirim merkezi kapalı; yayın kuralını değiştiremez",
+   "ok": true,
+   "ayr": "{\"kitap\":\"Bu sayfa editör alanına ait\\n\\nDers kitabı künyeleri, kaynak listeleri, sayfa eşleştirmeleri, doğrulam\",\"adm\":{\"uyari\":true,\"t\":\"Bu sayfa editör alanına ait\\n\\nDers kitabı künyeleri, kaynak listeleri, sayfa eşleştirmeleri, doğrulama ve veri yönetimi e\"},\"bil\":{\"merkez\":false,\"t\":\"ADIM 1 / 2\\n\\nEditör PIN'i oluştur\\n\\nBu alan yalnızca uygulama sahibi / içerik edit\"},\"deg\":{\"siki\":false,\"vis\":true}}"
+  },
+  {
+   "ad": "E5 Editör her şeyi görür ve kullanır: kitap künyesi, program sürümü, doğrulama; Yayın durumu ve Veri yönetimi ekranları",
+   "ok": true,
+   "ayr": "{\"kt\":\"← Ders kitapları\\n4. sınıf ders kitabı\\nKünye\\nDin Kültürü ve Ahlak Bilgisi 4. Sınıf Ders Kitabı\\nYayınevi: Millî Eğitim Bak\",\"yy\":\"Geri\\nYayın durumu\\n\\nİçerik durumları ve öğrencinin ne gördüğü\\n\\nDurumlar\\n\\nTaslak → İnceleme bekliyor → Onaylandı → Yayında\"}"
+  },
+  {
+   "ad": "E6 Yayın durumu: Reddedildi / Onaylandı / Yayında / Yayından kaldırıldı / İnceleme / Taslak doğru türetilir (onaylandı ≠ yayında)",
+   "ok": true,
+   "ayr": "[\"reddedildi\",\"onaylandi\",\"yayinda\",\"kaldirildi\",\"inceleme\",\"inceleme\"]"
+  },
+  {
+   "ad": "E7 Geçiş dönemi: reddedilen ve yayından kaldırılan öğrenciden hemen gizlenir, diğerleri görünür; sıkı yayında yalnız “Yayında” görünür",
+   "ok": true,
+   "ayr": "{\"v0\":[false,true,true,false,true,true],\"v1\":[false,false,true,false,false,false]}"
+  },
+  {
+   "ad": "Z1 sayfa hatası (pageerror) yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ]
+}
