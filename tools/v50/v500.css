@@ -97,3 +97,12 @@ body[data-bn50] main#app{padding-bottom:calc(96px + env(safe-area-inset-bottom,0
 .md50.og .md50-i{color:var(--t37-pri,#2f4a73)}
 header.top .dg42.kl.md50 svg{display:block}
 .md50{flex-direction:row!important;align-items:center!important;justify-content:center!important}
+/* mod kartı “… geç” etiketi: yazı rengi ayrı (WCAG AA) */
+.mk50-k{--m-y:var(--m-a)}
+.mk50-k.altin{--m-y:#7A5012}
+:root[data-theme=dark] body:not([data-prem39]):not([data-ogrt37]) .mk50-k.elmas{--m-y:#9CC3FF}
+:root[data-theme=dark] body:not([data-prem39]):not([data-ogrt37]) .mk50-k.altin{--m-y:#F0C470}
+:root[data-theme=dark] body:not([data-prem39]):not([data-ogrt37]) .mk50-k.ogretmen{--m-y:#BBD0EE}
+.mk50-gec{color:var(--m-y)}
+.mk50-k.ogretmen .mk50-am{color:var(--m-y)}
+body[data-prem39] .mk50-gec{color:var(--m-t)}
