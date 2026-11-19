@@ -1,0 +1,99 @@
+
+/* ===================== V50.0 ===================== */
+/* ---------- 1. seçim ekranı: kullanıcının orijinal görselleri (16:9, kırpılmadan, filtresiz) ---------- */
+#uye39.o42 .o42-gor{height:auto;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#0b1410}
+#uye39.o42 .o42-gor img.g50{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%;filter:none!important;border-radius:inherit}
+#uye39.o42 .o42-kn .o42-gor{border:1px solid rgba(160,200,255,.45);box-shadow:0 10px 30px -14px rgba(60,120,220,.55)}
+#uye39.o42 .o42-kp .o42-gor{border:1px solid rgba(240,200,120,.5);box-shadow:0 10px 30px -14px rgba(230,170,60,.5)}
+#uye39.o42 .o42-kemer img{filter:none!important}
+#uye39.o42 .o42-isik{display:none}
+.a47-on img.g50{display:block;width:100%;height:100%;object-fit:cover;border-radius:10px}
+
+/* ---------- 2. Elmas Sınıfı kimliği: lacivert, safir, buz mavisi ---------- */
+:root{--ca:#6FA8FF;--cb:#1E4FB8;--s50-safir:#1E4FB8;--s50-buz:#BFE0FF;--s50-lacivert:#0E1E44}
+
+/* ---------- 3. üst menü mod düğmesi ---------- */
+.md50{display:inline-flex!important;align-items:center;gap:4px;min-height:44px;min-width:44px;padding:0 10px 0 6px!important;border-radius:999px!important;font:700 .8rem var(--sans)!important;cursor:pointer;white-space:nowrap}
+.md50 .md50-i{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;overflow:hidden}
+.md50 .md50-i svg{display:block;max-width:26px;height:auto}
+.md50>svg{flex:none;opacity:.85}
+.md50 .md50-t{letter-spacing:.02em}
+header.top .md50{background:linear-gradient(135deg,color-mix(in srgb,var(--s50-buz) 45%,var(--surface)),var(--surface))!important;border:1px solid color-mix(in srgb,var(--s50-safir) 35%,var(--line))!important;color:var(--ink)!important}
+:root[data-theme=dark] header.top .md50{background:linear-gradient(135deg,#1a2c55,#121b33)!important;border-color:#2e4a86!important;color:#e7ecf6!important}
+body[data-prem39] .md50,.ust40 .md50{background:linear-gradient(135deg,rgba(243,213,143,.22),rgba(226,176,75,.08))!important;border:1px solid rgba(226,183,101,.55)!important;color:#F6DCA6!important}
+html[data-pt43=gunduz] body[data-prem39] .md50{background:linear-gradient(135deg,#f3e2c0,#ead2a4)!important;border-color:rgba(138,98,40,.45)!important;color:#3e2e1d!important}
+.ust40 .md50{min-height:40px;margin-right:4px}
+.og-top .md50{border:1px solid var(--t37-line,#c9d3e0);background:var(--t37-card,#fff);color:var(--t37-ink,#14213d);margin:8px 8px 0 0}
+@media (max-width:380px){.md50 .md50-t{display:none}}
+
+/* ---------- 4. mod kartları (panel, Profilim, ayarlar) ---------- */
+.mk50-sheet .v-sh h2,.mk50-sheet h2{letter-spacing:.01em}
+.mk50-ust{margin:0 0 12px;color:var(--mut);font-size:.9rem}
+body[data-prem39] .mk50-ust{color:var(--p-mut)}
+.mk50{display:grid;gap:10px}
+@media (min-width:760px){.mk50.profil,.mk50.ayar{grid-template-columns:repeat(3,1fr)}}
+.mk50-k{position:relative;display:grid;grid-template-columns:118px 1fr;gap:12px;align-items:center;width:100%;padding:10px;border-radius:20px;text-align:left;cursor:pointer;border:1.5px solid var(--m-c);background:var(--m-z);color:var(--m-t);transition:transform .15s,box-shadow .2s,border-color .2s;
+ --m-c:rgba(120,140,170,.35);--m-z:var(--surface);--m-t:var(--ink);--m-m:var(--mut);--m-a:#1E4FB8}
+@media (min-width:760px){.mk50.profil .mk50-k,.mk50.ayar .mk50-k{grid-template-columns:1fr;align-items:start}}
+.mk50-k:hover{transform:translateY(-1px)}
+.mk50-k:focus-visible{outline:3px solid var(--m-a);outline-offset:2px}
+.mk50-k.elmas{--m-a:#1E4FB8}.mk50-k.altin{--m-a:#B07A1E}.mk50-k.ogretmen{--m-a:#2F4A73}
+.mk50-k.on{border-color:var(--m-a);box-shadow:0 0 0 3px color-mix(in srgb,var(--m-a) 22%,transparent),0 14px 30px -20px color-mix(in srgb,var(--m-a) 80%,#000)}
+body[data-prem39] .mk50-k{--m-c:var(--p-line);--m-z:var(--p-card);--m-t:var(--p-ink);--m-m:var(--p-mut)}
+body[data-prem39] .mk50-k.altin{--m-a:#E2B765}body[data-prem39] .mk50-k.elmas{--m-a:#8FB8F0}body[data-prem39] .mk50-k.ogretmen{--m-a:#9FB6D6}
+html[data-pt43=gunduz] body[data-prem39] .mk50-k.altin{--m-a:#9A6B22}html[data-pt43=gunduz] body[data-prem39] .mk50-k.elmas{--m-a:#1E4FB8}html[data-pt43=gunduz] body[data-prem39] .mk50-k.ogretmen{--m-a:#2F4A73}
+body[data-ogrt37] .mk50-k{--m-z:var(--t37-card,#fff);--m-t:var(--t37-ink,#14213d);--m-m:var(--t37-mut,#4a5a75);--m-c:var(--t37-line,#c9d3e0)}
+.mk50-g{display:block;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#0d1426}
+.mk50-g img,.mk50-g svg{display:block;width:100%;height:100%;object-fit:cover}
+.mk50-t{display:grid;gap:4px;min-width:0}
+.mk50-ad{display:flex;align-items:center;gap:8px}
+.mk50-ad b{font-size:1rem;line-height:1.2}
+.mk50-am{display:grid;place-items:center;flex:none;width:28px;height:28px}
+.mk50-am svg{max-width:28px;height:auto}
+.mk50-k.ogretmen .mk50-am{color:var(--m-a)}
+.mk50-t small{color:var(--m-m);font-size:.82rem;line-height:1.4}
+.mk50-t em{font-style:normal;justify-self:start;display:inline-flex;align-items:center;gap:5px;font-size:.78rem;font-weight:700;padding:3px 10px;border-radius:999px}
+.mk50-on{background:var(--m-a);color:#fff}
+body[data-prem39] .mk50-k.altin .mk50-on{color:#1a1206}
+body[data-prem39] .mk50-k.elmas .mk50-on,body[data-prem39] .mk50-k.ogretmen .mk50-on{color:#0d1426}
+html[data-pt43=gunduz] body[data-prem39] .mk50-on{color:#fff!important}
+.mk50-gec{color:var(--m-a);background:color-mix(in srgb,var(--m-a) 10%,transparent)}
+body[data-prem39] .mk50-gec{color:var(--m-t)}
+.mk50-giris{margin-top:12px;min-height:44px;padding:0 14px;border-radius:12px;border:1px dashed var(--line);background:transparent;color:var(--mut);font-weight:600;cursor:pointer}
+body[data-prem39] .mk50-giris{border-color:var(--p-line);color:var(--p-mut)}
+
+/* ---------- 5. geçiş animasyonu ---------- */
+.gc50{position:fixed;inset:0;z-index:2147483000;pointer-events:none;opacity:0;visibility:hidden}
+.gc50.altin{background:radial-gradient(120% 90% at 50% 40%,rgba(255,226,150,.95),rgba(214,150,40,.85) 45%,rgba(60,36,8,.92))}
+.gc50.elmas{background:radial-gradient(120% 90% at 50% 40%,rgba(235,246,255,.96),rgba(140,190,255,.85) 45%,rgba(14,30,68,.92))}
+.gc50.ogretmen{background:linear-gradient(160deg,rgba(236,241,248,.97),rgba(198,210,228,.95))}
+.gc50.gir{visibility:visible;animation:gc50g .17s ease-out forwards}
+.gc50.cik{visibility:visible;opacity:1;animation:gc50c .4s ease-in forwards}
+.gc50.altin.gir::after,.gc50.elmas.gir::after{content:"";position:absolute;inset:-20%;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.55) 50%,transparent 65%);animation:gc50s .55s ease-out forwards}
+@keyframes gc50g{from{opacity:0}to{opacity:1}}
+@keyframes gc50c{from{opacity:1}to{opacity:0}}
+@keyframes gc50s{from{transform:translateX(-60%)}to{transform:translateX(60%)}}
+@media (prefers-reduced-motion:reduce){.gc50{display:none}}
+
+/* ---------- 6. Altın Sınıfı alt menüsü ---------- */
+.bn50{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(10px + env(safe-area-inset-bottom,0px));z-index:900;display:grid;grid-template-columns:repeat(5,1fr);gap:2px;width:min(560px,calc(100% - 20px));padding:6px;border-radius:24px;
+ background:linear-gradient(180deg,rgba(38,28,16,.94),rgba(22,16,9,.96));border:1px solid rgba(226,183,101,.45);box-shadow:0 16px 40px -14px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,236,190,.14)}
+.bn50[hidden]{display:none}
+.bn50 button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:52px;border:0;border-radius:18px;background:transparent;color:#e6d9c3;font:600 .7rem var(--sans);cursor:pointer}
+.bn50 button svg{width:22px;height:22px}
+.bn50 button.on{background:linear-gradient(180deg,#f4d892,#d4a756 60%,#b9893b);color:#1a1206;box-shadow:inset 0 1px 0 rgba(255,255,255,.5)}
+.bn50 button:focus-visible{outline:3px solid #E2B765;outline-offset:1px}
+html[data-pt43=gunduz] .bn50{background:linear-gradient(180deg,rgba(255,250,240,.96),rgba(244,234,218,.97));border-color:rgba(138,98,40,.4);box-shadow:0 14px 30px -16px rgba(90,60,20,.55)}
+html[data-pt43=gunduz] .bn50 button{color:#3e2e1d}
+html[data-pt43=gunduz] .bn50 button.on{color:#1a1206}
+html.kb42 .bn50{display:none}
+body[data-bn50] main#app{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))!important}
+@media print{.bn50{display:none}}
+/* düğme ince ayar: koridorda yalnız simge; Elmas simgesi lacivert zeminde (açık temada da seçilir) */
+.ust40 .md50 .md50-t{display:none}
+.ust40 .md50{padding:0 8px 0 4px!important;flex:none}
+.md50[data-md50=elmas] .md50-i{background:radial-gradient(circle at 40% 35%,#2a4f9e,#0E1E44)}
+.md50[data-md50=altin] .md50-i{background:radial-gradient(circle at 40% 35%,#3a2a12,#120c06)}
+.md50.og .md50-i{color:var(--t37-pri,#2f4a73)}
+header.top .dg42.kl.md50 svg{display:block}
+.md50{flex-direction:row!important;align-items:center!important;justify-content:center!important}
