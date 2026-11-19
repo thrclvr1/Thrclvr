@@ -1,5 +1,5 @@
 {
- "tarih": "2026-11-19T09:40:19.918Z",
+ "tarih": "2026-11-19T10:25:57.903Z",
  "sonuc": [
   {
    "ad": "A1 sürüm V50.0, index.html aynı dosya; V49.0 yedek dosyası duruyor",
@@ -39,22 +39,22 @@
   {
    "ad": "M1 Öğretmen → Altın: Altın açılır, öğretmen oturumu kapanır, renkler Altın",
    "ok": true,
-   "ayr": "{\"mod\":\"altin\",\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"altin\",\"t\":1795081069800},\"deneyim\":\"premium\",\"bn\":false}"
+   "ayr": "{\"mod\":\"altin\",\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"altin\",\"t\":1795083806243},\"deneyim\":\"premium\",\"bn\":false}"
   },
   {
    "ad": "M2 Öğretmen → Elmas: Elmas açılır, Elmas teması (koyu) geri gelir",
    "ok": true,
-   "ayr": "{\"mod\":\"elmas\",\"v\":\"home\",\"on\":false,\"prem\":false,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"elmas\",\"t\":1795081074254},\"deneyim\":\"normal\",\"bn\":false}"
+   "ayr": "{\"mod\":\"elmas\",\"v\":\"home\",\"on\":false,\"prem\":false,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"elmas\",\"t\":1795083810692},\"deneyim\":\"normal\",\"bn\":false}"
   },
   {
    "ad": "M3 Altın → Elmas",
    "ok": true,
-   "ayr": "{\"mod\":\"elmas\",\"v\":\"home\",\"on\":false,\"prem\":false,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"elmas\",\"t\":1795081070934},\"deneyim\":\"normal\",\"bn\":false}"
+   "ayr": "{\"mod\":\"elmas\",\"v\":\"home\",\"on\":false,\"prem\":false,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"elmas\",\"t\":1795083807375},\"deneyim\":\"normal\",\"bn\":false}"
   },
   {
    "ad": "M4 Elmas → Altın (ve Elmas/Altın → Öğretmen)",
    "ok": true,
-   "ayr": "{\"a\":{\"mod\":\"altin\",\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"altin\",\"t\":1795081072039},\"deneyim\":\"premium\",\"bn\":false},\"b\":{\"mod\":\"ogretmen\",\"v\":\"ogretmen\",\"on\":false,\"prem\":false,\"ogrt\":true,\"ogrOturum\":true,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"ogretmen\",\"t\":1795081068695},\"deneyim\":\"normal\",\"bn\":false}}"
+   "ayr": "{\"a\":{\"mod\":\"altin\",\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"altin\",\"t\":1795083808480},\"deneyim\":\"premium\",\"bn\":false},\"b\":{\"mod\":\"ogretmen\",\"v\":\"ogretmen\",\"on\":false,\"prem\":false,\"ogrt\":true,\"ogrOturum\":true,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"ogretmen\",\"t\":1795083805139},\"deneyim\":\"normal\",\"bn\":false}}"
   },
   {
    "ad": "M5 son mod tercihi her geçişte kaydedilir (dk-mod50; Elmas/Altın için dk-deneyim39 da)",
@@ -94,7 +94,7 @@
   {
    "ad": "N3 öğretmen modundan ve Elmas’a geçtikten sonra geri: önceki mod etkinleşmez, tema doğru",
    "ok": true,
-   "ayr": "{\"g2\":{\"mod\":\"altin\",\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"ogrt\":false,\"ogrOturum\":true,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"altin\",\"t\":1795081135943},\"deneyim\":\"premium\",\"bn\":false},\"g3\":{\"mod\":\"elmas\",\"v\":\"home\",\"on\":false,\"prem\":false,\"ogrt\":false,\"ogrOturum\":true,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"elmas\",\"t\":1795081137238},\"deneyim\":\"normal\",\"bn\":false}}"
+   "ayr": "{\"g2\":{\"mod\":\"altin\",\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"ogrt\":false,\"ogrOturum\":true,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"altin\",\"t\":1795083874278},\"deneyim\":\"premium\",\"bn\":false},\"g3\":{\"mod\":\"elmas\",\"v\":\"home\",\"on\":false,\"prem\":false,\"ogrt\":false,\"ogrOturum\":true,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"elmas\",\"t\":1795083875576},\"deneyim\":\"normal\",\"bn\":false}}"
   },
   {
    "ad": "N4 ortak ekranlar (Çalışma Merkezim, Profilim, ayarlar) mod değişince aynı ekranda ve konumda kalır",
@@ -114,7 +114,7 @@
   {
    "ad": "T1 geçiş animasyonu: Altın’a sıcak altın ışık katmanı kısa sürede gelip gider (toplam < 1 sn)",
    "ok": true,
-   "ayr": "{\"s\":{\"sinif\":\"gc50 altin gir\",\"op\":\"0.56157\"},\"son\":\"gc50\"}"
+   "ayr": "{\"s\":{\"sinif\":\"gc50 altin gir\",\"op\":\"0.561669\"},\"son\":\"gc50\"}"
   },
   {
    "ad": "T2 “hareketi azalt” açıkken animasyon yapılmaz, geçiş anında olur",
