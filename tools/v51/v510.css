@@ -80,3 +80,8 @@
 .yp51-on{margin-top:12px}
 .yp51-t td,.yp51-t th{vertical-align:top}
 .ed51-ara .ed38-cats{margin-top:8px}
+/* erişim uyarısı ve yayın ayarı */
+.ue51{max-width:640px;margin:24px auto;padding:22px;border-radius:18px}
+.ue51 h1{margin:0 0 8px;font-size:1.3rem}
+.yy51-s{display:flex;gap:10px;align-items:center;min-height:44px;font-weight:600}
+.yy51-s input{width:22px;height:22px}

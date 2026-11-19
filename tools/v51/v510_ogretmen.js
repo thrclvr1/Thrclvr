@@ -14,7 +14,7 @@
   const V51 = window.V51 = window.V51 || {};
   const O = V51.Ogretmen = {};
   V51.sade = true;
-  const W = OGRT.W, IK = (k, s) => (window.V38 && V38.svg ? V38.svg(k, s || 18) : '');
+  const W = OGRT.W, IK = (k, s) => (typeof V38 !== 'undefined' && V38.svg ? V38.svg(k, s || 18) : '');
 
   /* ---------- 1. sekmeler ---------- */
   OGRT.TABS = [['hafta', 'Haftalık'], ['sinif', 'Sınıflarım'], ['diger', 'Araçlar']];
@@ -143,7 +143,7 @@ ${ed ? `<div class="ap51-bb"><button type="button" class="p" onclick="go('editor
   }
 
   /* ---------- 7. editör alanı: Yıllık planlar ve Veri yönetimi (yalnız editör oturumunda) ---------- */
-  if (window.V38 && V38.edListHTML) {
+  if (typeof V38 !== 'undefined' && V38.edListHTML) {
     const L0 = V38.edListHTML;
     O.veriHTML = () => `${V38.edHead('Veri yönetimi', 'Öğretmen kayıtlarının yedeği ve geri yüklenmesi (bu cihaz)', "V38.edGo({k:'',cid:'',mode:''})")}<div class="ed38-info">${(OGRT.EXT.yedek || OGRT.vYedek)()}</div>`;
     V38.edListHTML = function () {
