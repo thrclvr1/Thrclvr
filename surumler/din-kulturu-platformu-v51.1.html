@@ -12681,7 +12681,7 @@ ${op.geriAlindi ? `<p class="small mut">Geri alındı: ${esc(V38.fmt(op.geriAlin
       B._gidiyor = false;
       if (gitti) { B._f = null; UI.close(); UI.toast('Teşekkürler. Bildirimin editöre gönderildi.'); B.isaret(); return; }
       const son = (B.oku().liste.find((x) => x.id === k.id) || {}).gonderim || {};
-      durumYaz(`Sunucuya ulaşılamadı${son.hata ? ' (' + son.hata + ')' : ''}. Bildirimin bu cihazda kayıtlı; seçimin ve açıklaman duruyor. “Tekrar dene” ya da kapat (bağlantı gelince kendiliğinden gönderilir).`, true);
+      durumYaz(`Sunucuya ulaşılamadı${son.hata && /^HTTP \d+/.test(son.hata) ? ' (' + son.hata + ')' : ''}. Bildirimin bu cihazda kayıtlı; seçimin ve açıklaman duruyor. “Tekrar dene” ya da kapat (bağlantı gelince kendiliğinden gönderilir).`, true);
       const b2 = dugme(); if (b2) { b2.disabled = false; b2.removeAttribute('aria-busy'); b2.textContent = 'Tekrar dene'; }
     };
     // tek kaydı yeniden gönder (Profilim ve Sorun Bildir listesi)

@@ -1,5 +1,5 @@
 {
- "tarih": "2026-11-20T21:07:25.140Z",
+ "tarih": "2026-11-20T21:09:03.793Z",
  "sonuc": [
   {
    "ad": "A1 sürüm V51.1, index.html aynı dosya; V51.0 yedek dosyası duruyor",
@@ -39,7 +39,7 @@
   {
    "ad": "T4 Toplu onay yalnız uygun kayıtları onaylar: kaynak kontrolü eksik ve içeriği olmayan kayıtlar atlanır (nedenleriyle); not ve tarih her kayda",
    "ok": true,
-   "ayr": "{\"kaynakN\":254,\"kaynakUy\":0,\"kaynakRet\":254,\"ret2\":[\"Bu konunun içeriği henüz hazırlanmamış (Ders kitabında veri bulunmuyor). Onaylanacak metin yok.\"],\"ok\":30,\"atla\":[\"Bu konunun içeriği henüz hazırlanmamış (Ders kitabında veri bulunmuyor). Onaylanacak metin yok.\",\"Kategori değişmiş\"],\"durum\":\"onay\",\"yay\":false,\"h\":{\"at\":\"2026-11-20T21:06:43.173Z\",\"a\":\"Onaylandı\",\"from\":\"bekliyor\",\"note\":\"Toplu onay notu\",\"vid\":\"v1\",\"toplu51\":\"Tmwpgyxr795y\"},\"approved\":true,\"kaynakKayitDurum\":\"bekliyor\"}"
+   "ayr": "{\"kaynakN\":254,\"kaynakUy\":0,\"kaynakRet\":254,\"ret2\":[\"Bu konunun içeriği henüz hazırlanmamış (Ders kitabında veri bulunmuyor). Onaylanacak metin yok.\"],\"ok\":30,\"atla\":[\"Bu konunun içeriği henüz hazırlanmamış (Ders kitabında veri bulunmuyor). Onaylanacak metin yok.\",\"Kategori değişmiş\"],\"durum\":\"onay\",\"yay\":false,\"h\":{\"at\":\"2026-11-20T21:08:22.108Z\",\"a\":\"Onaylandı\",\"from\":\"bekliyor\",\"note\":\"Toplu onay notu\",\"vid\":\"v1\",\"toplu51\":\"Tmwph123ezqw\"},\"approved\":true,\"kaynakKayitDurum\":\"bekliyor\"}"
   },
   {
    "ad": "T9 Onaylanan içerikler otomatik yayımlanmaz",
@@ -49,7 +49,7 @@
   {
    "ad": "T5 Toplu ret gerekçesi zorunlu; ortak gerekçe her kaydın geçmişine ayrı yazılır, kayıtlar Reddedilenler’e geçer",
    "ok": true,
-   "ayr": "{\"baslik\":\"Seçilenleri reddet (3)\",\"hata\":\"Bu işlem için açıklama yazmalısın.\",\"hala\":true,\"op\":\"reddet\",\"H\":[{\"s\":\"red\",\"n\":\"Kaynakla uyuşmuyor\",\"t\":\"Tmwpgyyw1847\"},{\"s\":\"red\",\"n\":\"Kaynakla uyuşmuyor\",\"t\":\"Tmwpgyyw1847\"},{\"s\":\"red\",\"n\":\"Kaynakla uyuşmuyor\",\"t\":\"Tmwpgyyw1847\"}]}"
+   "ayr": "{\"baslik\":\"Seçilenleri reddet (3)\",\"hata\":\"Bu işlem için açıklama yazmalısın.\",\"hala\":true,\"op\":\"reddet\",\"H\":[{\"s\":\"red\",\"n\":\"Kaynakla uyuşmuyor\",\"t\":\"Tmwph1383224\"},{\"s\":\"red\",\"n\":\"Kaynakla uyuşmuyor\",\"t\":\"Tmwph1383224\"},{\"s\":\"red\",\"n\":\"Kaynakla uyuşmuyor\",\"t\":\"Tmwph1383224\"}]}"
   },
   {
    "ad": "T6 Toplu düzeltme: açıklama her kayda ayrı kaydedilir, durum “düzeltme bekliyor”",
@@ -99,7 +99,7 @@
   {
    "ad": "T12b Bağlantı hatasında bildirim kaybolmaz: pencere açık, kategori ve açıklama duruyor, “Tekrar dene”; cihazda “bu cihazda kayıtlı”",
    "ok": true,
-   "ayr": "{\"n\":2,\"d\":\"taslak\",\"acik\":true,\"kat\":\"Yazım hatası\",\"ack\":\"Bir sözcük yanlış yazılmış.\",\"dugme\":\"Tekrar dene\",\"h\":\"Sunucuya ulaşılamadı (Failed to fetch). Bildirimin bu cihazda kayıtlı; seçimin ve açıklaman duruyor. “Tekrar dene” ya da kapat (bağlantı gelince kendiliğinden gönderilir).\"}"
+   "ayr": "{\"n\":2,\"d\":\"taslak\",\"acik\":true,\"kat\":\"Yazım hatası\",\"ack\":\"Bir sözcük yanlış yazılmış.\",\"dugme\":\"Tekrar dene\",\"h\":\"Sunucuya ulaşılamadı. Bildirimin bu cihazda kayıtlı; seçimin ve açıklaman duruyor. “Tekrar dene” ya da kapat (bağlantı gelince kendiliğinden gönderilir).\"}"
   },
   {
    "ad": "T12c “Tekrar dene” ile aynı bildirim gönderilir; çift kayıt oluşmaz",
