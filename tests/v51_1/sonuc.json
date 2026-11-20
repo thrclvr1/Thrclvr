@@ -1,0 +1,150 @@
+{
+ "tarih": "2026-11-20T21:07:25.140Z",
+ "sonuc": [
+  {
+   "ad": "A1 sürüm V51.1, index.html aynı dosya; V51.0 yedek dosyası duruyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 bütün veri, müzik ve görsel blokları V51.0 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "15 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı",
+   "ok": true,
+   "ayr": "yalnız v51.1"
+  },
+  {
+   "ad": "T1 Her editör kategorisinde tekli seçim çalışır (seç, birden fazla seç, kaldır) ve seçili sayı görünür",
+   "ok": true,
+   "ayr": "{\"bekleyen\":{\"a\":2,\"b\":1,\"yazi\":\"1 içerik seçildi.\",\"is\":[\"onayla\",\"reddet\",\"duzeltme\",\"arsiv\"]},\"kaynak\":{\"a\":2,\"b\":1,\"yazi\":\"1 içerik seçildi.\",\"is\":[\"kaynak\",\"reddet\",\"duzeltme\",\"arsiv\"]},\"eslesme\":{\"a\":2,\"b\":1,\"yazi\":\"1 içerik seçildi.\",\"is\":[\"onayla\",\"reddet\",\"duzeltme\",\"arsiv\"]},\"duzeltme\":{\"a\":2,\"b\":1,\"yazi\":\"1 içerik seçildi.\",\"is\":[\"onayla\",\"reddet\",\"incele\",\"arsiv\"]},\"red\":{\"a\":2,\"b\":1,\"yazi\":\"1 içerik seçildi.\",\"is\":[\"incele\",\"arsiv\"]},\"onay\":{\"a\":2,\"b\":1,\"yazi\":\"1 içerik seçildi.\",\"is\":[\"yayimla\",\"yayindanKaldir\",\"geriCek\",\"arsiv\"]},\"arsiv51\":{\"a\":2,\"b\":1,\"yazi\":\"1 içerik seçildi.\",\"is\":[\"kuyruga\"]}}"
+  },
+  {
+   "ad": "T1b Kategoriye göre işlemler sınırlı: kaynak bekleyende onay yok; onay arşivinde yayımla/yayından kaldır var, onayla yok; arşivde yalnız geri al",
+   "ok": true,
+   "ayr": "{\"bekleyen\":[\"onayla\",\"reddet\",\"duzeltme\",\"arsiv\"],\"kaynak\":[\"kaynak\",\"reddet\",\"duzeltme\",\"arsiv\"],\"eslesme\":[\"onayla\",\"reddet\",\"duzeltme\",\"arsiv\"],\"duzeltme\":[\"onayla\",\"reddet\",\"incele\",\"arsiv\"],\"red\":[\"incele\",\"arsiv\"],\"onay\":[\"yayimla\",\"yayindanKaldir\",\"geriCek\",\"arsiv\"],\"arsiv51\":[\"kuyruga\"]}"
+  },
+  {
+   "ad": "T2 Tümünü seç yalnız o kategoriyi (215 onay bekleyen) ve etkin süzgeci (5. sınıf) seçer; süzgeç değişince süzgeç dışı seçim düşer",
+   "ok": true,
+   "ayr": "{\"n\":207,\"R\":207,\"hepsiBu\":true,\"ns\":24,\"n5\":24,\"R5\":24,\"sinif5\":true,\"t0\":0,\"gor\":0,\"yazi\":\"Seçili içerik yok.\"}"
+  },
+  {
+   "ad": "T3 Seçimi temizle: seçim 0, kutular boş, “Seçili içerik yok.”",
+   "ok": true,
+   "ayr": "{\"n\":207,\"R\":207,\"hepsiBu\":true,\"ns\":24,\"n5\":24,\"R5\":24,\"sinif5\":true,\"t0\":0,\"gor\":0,\"yazi\":\"Seçili içerik yok.\"}"
+  },
+  {
+   "ad": "T4 Toplu onay yalnız uygun kayıtları onaylar: kaynak kontrolü eksik ve içeriği olmayan kayıtlar atlanır (nedenleriyle); not ve tarih her kayda",
+   "ok": true,
+   "ayr": "{\"kaynakN\":254,\"kaynakUy\":0,\"kaynakRet\":254,\"ret2\":[\"Bu konunun içeriği henüz hazırlanmamış (Ders kitabında veri bulunmuyor). Onaylanacak metin yok.\"],\"ok\":30,\"atla\":[\"Bu konunun içeriği henüz hazırlanmamış (Ders kitabında veri bulunmuyor). Onaylanacak metin yok.\",\"Kategori değişmiş\"],\"durum\":\"onay\",\"yay\":false,\"h\":{\"at\":\"2026-11-20T21:06:43.173Z\",\"a\":\"Onaylandı\",\"from\":\"bekliyor\",\"note\":\"Toplu onay notu\",\"vid\":\"v1\",\"toplu51\":\"Tmwpgyxr795y\"},\"approved\":true,\"kaynakKayitDurum\":\"bekliyor\"}"
+  },
+  {
+   "ad": "T9 Onaylanan içerikler otomatik yayımlanmaz",
+   "ok": true,
+   "ayr": "{\"yay\":false}"
+  },
+  {
+   "ad": "T5 Toplu ret gerekçesi zorunlu; ortak gerekçe her kaydın geçmişine ayrı yazılır, kayıtlar Reddedilenler’e geçer",
+   "ok": true,
+   "ayr": "{\"baslik\":\"Seçilenleri reddet (3)\",\"hata\":\"Bu işlem için açıklama yazmalısın.\",\"hala\":true,\"op\":\"reddet\",\"H\":[{\"s\":\"red\",\"n\":\"Kaynakla uyuşmuyor\",\"t\":\"Tmwpgyyw1847\"},{\"s\":\"red\",\"n\":\"Kaynakla uyuşmuyor\",\"t\":\"Tmwpgyyw1847\"},{\"s\":\"red\",\"n\":\"Kaynakla uyuşmuyor\",\"t\":\"Tmwpgyyw1847\"}]}"
+  },
+  {
+   "ad": "T6 Toplu düzeltme: açıklama her kayda ayrı kaydedilir, durum “düzeltme bekliyor”",
+   "ok": true,
+   "ayr": "[{\"s\":\"duzeltme\",\"n\":\"Örnekler eksik\"},{\"s\":\"duzeltme\",\"n\":\"Örnekler eksik\"},{\"s\":\"duzeltme\",\"n\":\"Örnekler eksik\"},{\"s\":\"duzeltme\",\"n\":\"Örnekler eksik\"}]"
+  },
+  {
+   "ad": "T7 Toplu kaldırma kalıcı silmez: kayıtlar arşive geçer, içerik/sürüm/geçmiş aynen, öğrenci görünürlüğü değişmez; geri alınca kuyruğa döner",
+   "ok": true,
+   "ayr": "{\"ok\":5,\"b0\":178,\"b1\":173,\"a1\":5,\"b2\":178,\"a2\":0,\"ayni\":true,\"surum\":true,\"hist\":[\"Kuyruktan çıkarıldı (arşiv)\",\"Toplu işlem geri alındı: Seçilenleri kuyruktan kaldır\"],\"vis1\":true,\"geri\":5}"
+  },
+  {
+   "ad": "T8 İşlem geçmişi her kayıt için ayrı (T5/T6’da kayıt başına satır) + toplu işlem geçmişi ekranı ve editör günlüğü",
+   "ok": true,
+   "ayr": "{\"n\":4,\"ekran\":4,\"log\":4}"
+  },
+  {
+   "ad": "T9b Toplu yayımla: onaydan sonra değişen kayıt yayımlanmaz (nedeniyle); uygunlar yayımlanır (tarih, sürüm, kayıt bazında geçmiş); geri alınınca öğrenci ekranı önceki içeriğe döner",
+   "ok": true,
+   "ayr": "{\"sec\":30,\"uy\":29,\"ret\":[\"Onaydan sonra içerik değişmiş; yeniden onay gerekir\"],\"ok\":29,\"yay\":true,\"h\":{\"a\":\"Yayımlandı\",\"vid\":\"v1\",\"at\":true},\"veri\":\"published\",\"geri\":29,\"sonra\":false,\"yayindaSonra\":false}"
+  },
+  {
+   "ad": "T10 Bildir düğmesi mobilde (Altın, 390×844) görünür ve alt menünün arkasında kalmaz; pencere açıkken alt menü gizli",
+   "ok": true,
+   "ayr": "{\"ust\":true,\"alt\":true,\"bn\":\"none\"}"
+  },
+  {
+   "ad": "T11 Klavye açıkken (görünür alan 470 px) Bildir düğmesi görünür ve basılabilir; gönderim yapıldı",
+   "ok": true,
+   "ayr": "{\"kl\":{\"ust\":true,\"alt\":true,\"ih\":470},\"n\":1}"
+  },
+  {
+   "ad": "T13 Sunucu yoksa “bu cihazda kayıtlı” gösterilir, “gönderildi” denmez",
+   "ok": true,
+   "ayr": "{\"n\":1,\"d\":\"taslak\",\"acik\":false,\"toast\":\"Bildirimin bu cihazda kayıtlı. Merkezi sunucu bağlı olmadığı için gönderilmedi (Profilim › Bildirimlerim).\"}"
+  },
+  {
+   "ad": "T13b Profilim › Bildirimlerim: “Bu cihazda kayıtlı” durumu açıkça görünür",
+   "ok": true,
+   "ayr": "Bildirimlerim11 bildirim · 1 bu cihazda kayıtlı (hesap sunucusu bağlı değil).\nListeyi gösterBu cihazda kayıtlıYanlış bilgiEvrendeki Düzeni Fark Etmek · 20.11.2026\nDışa aktar (JSON)\nMerkezi gönderim iç"
+  },
+  {
+   "ad": "T12 Bildirim sunucuya gerçekten gönderilir (sunucuda kayıt var, istemcide “gönderildi”); çift dokunmada tek kayıt",
+   "ok": true,
+   "ayr": "{\"g1\":{\"n\":1,\"d\":\"gonderildi\",\"acik\":false,\"toast\":\"Teşekkürler. Bildirimin editöre gönderildi.\"},\"sunucu\":1}"
+  },
+  {
+   "ad": "T12b Bağlantı hatasında bildirim kaybolmaz: pencere açık, kategori ve açıklama duruyor, “Tekrar dene”; cihazda “bu cihazda kayıtlı”",
+   "ok": true,
+   "ayr": "{\"n\":2,\"d\":\"taslak\",\"acik\":true,\"kat\":\"Yazım hatası\",\"ack\":\"Bir sözcük yanlış yazılmış.\",\"dugme\":\"Tekrar dene\",\"h\":\"Sunucuya ulaşılamadı (Failed to fetch). Bildirimin bu cihazda kayıtlı; seçimin ve açıklaman duruyor. “Tekrar dene” ya da kapat (bağlantı gelince kendiliğinden gönderilir).\"}"
+  },
+  {
+   "ad": "T12c “Tekrar dene” ile aynı bildirim gönderilir; çift kayıt oluşmaz",
+   "ok": true,
+   "ayr": "{\"g3\":{\"n\":2,\"d\":[\"gonderildi\",\"gonderildi\"],\"acik\":false},\"sunucu\":2}"
+  },
+  {
+   "ad": "T14 Ders hazırla düğmesi haftalık karttan kalktı; kartta yalnız “İçeriği aç”",
+   "ok": true,
+   "ayr": "{\"ders\":false,\"kr\":[\"İçeriği aç\"],\"plan\":\"Ders planı: 15 Eylül 09:00 · 40 dk · Gözlem etkinliği\\nDüzenle\",\"planVeri\":1,\"prep\":\"function\"}"
+  },
+  {
+   "ad": "T15 Önceki ders planları korunur: kayıt duruyor, haftada listeleniyor ve düzenlenebiliyor",
+   "ok": true,
+   "ayr": "{\"plan\":\"Ders planı: 15 Eylül 09:00 · 40 dk · Gözlem etkinliği\\nDüzenle\",\"duz\":true}"
+  },
+  {
+   "ad": "T16 Öğretmen panelinde (Haftalık, Sınıflarım, Araçlar) editör onayı, editör girişi, PIN ya da yönetim açıklaması yok; Araçlar’da Sorun Bildir",
+   "ok": true,
+   "ayr": "{\"hafta\":{\"editor\":false,\"ap\":false,\"sekmeler\":\"Haftalık|Sınıflarım|Araçlar\",\"sorun\":false},\"sinif\":{\"editor\":false,\"ap\":false,\"sekmeler\":\"Haftalık|Sınıflarım|Araçlar\",\"sorun\":false},\"diger\":{\"editor\":false,\"ap\":false,\"sekmeler\":\"Haftalık|Sınıflarım|Araçlar\",\"sorun\":true}}"
+  },
+  {
+   "ad": "T17 Yönetici/editör işlemleri ayrı alanda: Mod paneli › Yönetici / Editör girişi → editör PIN ekranı; oturumla onay kuyrukları, arşiv, işlem geçmişi, yıllık plan, yayın durumu, veri yönetimi, bildirimler, toplu işlem geçmişi",
+   "ok": true,
+   "ayr": "{\"gir\":\"Yönetici / Editör girişi (ayrı editör PIN’i)\",\"pin\":{\"v\":\"editor\",\"liste\":false,\"girdi\":true},\"ed\":{\"kat\":[\"Onay bekleyen içerikler\",\"Kaynak kontrolü bekleyenler\",\"Kazanım eşleşmesi incelemeleri\",\"Düzenleme bekleyen içerikler\",\"Reddedilen içerikler\",\"Onaylanan içerikler (Onay Arşivi)\",\"Kuyruktan çıkarılanlar (geri alınabilir)\",\"Son yapılan editör işlemleri\",\"Hata ve Geri Bildirim Merkezi\",\"Yıllık planlar\",\"Yayın durumu\",\"Veri yönetimi\",\"Hata ve geri bildirim\",\"Toplu işlem geçmişi\"],\"cik\":true,\"ogrt\":false}}"
+  },
+  {
+   "ad": "T18 Öğrenci ve öğretmen kayıtları korunur (ilerleme, PIN kaydı, ders planı, durum kayıtları; öğrencinin gördüğü içerik V51.0 ile aynı)",
+   "ok": true,
+   "ayr": "{\"status\":{\"DKAB-5-U01-O01\":\"isl\"},\"plans\":1,\"prog\":{\"correct\":3,\"wrong\":1,\"mastery\":0.75},\"sayi\":[246,723,672,238]}"
+  },
+  {
+   "ad": "T18b Öğrenci içeriği V51.0 ile aynı sayıda (246 konu, 723 soru, 672 kart, 238 kazanım) ve öğretmen kayıtları tam",
+   "ok": true,
+   "ayr": "{\"status\":{\"DKAB-5-U01-O01\":\"isl\"},\"plans\":1,\"prog\":{\"correct\":3,\"wrong\":1,\"mastery\":0.75},\"sayi\":[246,723,672,238]}"
+  },
+  {
+   "ad": "T19 Mobil (360/412 px): editör listesi ve öğretmen panelinde yatay taşma yok",
+   "ok": true,
+   "ayr": "{\"360 editör\":0,\"360 öğretmen\":0,\"412 editör\":0,\"412 öğretmen\":0}"
+  },
+  {
+   "ad": "Z1 sayfa hatası (pageerror) yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ]
+}
