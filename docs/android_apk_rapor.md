@@ -1,3 +1,36 @@
+# Android APK — V51.6 (sürüm kodu 5106)
+
+**Dosya:** `apk/din-kulturu-v51.6.apk` (10,7 MB)
+- SHA-256: `2e55da4fcc1586bcb6af70baa727bc033e54725896589684893bf74c54abc8fd`
+- İmza sertifikası: V36 ile **aynı anahtar**. Sertifika SHA-256 `48226315954bf037baac87386ab608850cdf0c952ddbeeeac98c87830684a6ea`, SHA-1 `62:4F:81:04:2C:90:4D:5E:1E:32:B3:86:ED:45:F1:8B:AB:79:DB:52`. V36'nın üzerine veriler silinmeden kurulur.
+
+## V51.6'da eklenen: Gmail (Google) ile giriş
+- Google, WebView içinde Google hesabıyla OAuth girişini engeller (`disallowed_useragent`). Bu yüzden APK'da giriş, Android'in kendi “Google ile oturum aç” penceresiyle yapılır: `androidx.credentials` 1.3.0 + `googleid` 1.1.1, `GetSignInWithGoogleOption`.
+- Köprü: sayfa `DKAndroid.postMessage({tur:'google', istemci})` gönderir. Uygulama kimlik belgesini (ID token) aynı köprüyle geri verir. Sayfa belgeyi sunucuya (`/api/giris`) yollar; sunucu Google anahtarlarıyla doğrular. Çıkışta `google-cikis` iletilir.
+- Köprü yalnız uygulamanın kendi kökenine (`https://appassets.androidplatform.net`) açıktır; gömülü YouTube çerçeveleri erişemez.
+- APK'da ve HTML'de gizli anahtar yok.
+- **Çalışması için gerekenler:** Google Cloud'da Web istemcisi (sunucunun `GOOGLE_CLIENT_ID`'si) ve paket `tr.dkab.platform` + yukarıdaki SHA-1 ile Android istemcisi; sunucuda `IZINLI_KOKENLER` içinde `https://appassets.androidplatform.net`. Adımlar: `docs/KURULUM_SUNUCU_VE_APK.md`.
+
+## Yeniden derleme
+```
+cd android
+# local.properties: sdk.dir=<Android SDK yolu>;  keystore.properties (git'e eklenmez): storeFile, storePassword, keyAlias, keyPassword
+./gradlew assembleRelease     # → app/build/outputs/apk/release/app-release.apk
+```
+
+## Test edilen
+- Derleme başarılı; `apksigner verify`: imza geçerli ve V36 ile aynı sertifika.
+- `aapt2 dump badging`: paket `tr.dkab.platform`, sürüm 51.6 (5106), yalnız INTERNET izni.
+- APK içindeki `assets/index.html` = V51.6 (SHA-256 eşleşiyor). Credential Manager sınıfları `classes.dex` içinde.
+- Sayfa tarafının köprüyle Google girişi (Chromium benzetimi + gerçek sunucu): `tests/v51_6/test_v516.js`.
+
+## Gerçek cihazda / emülatörde test edilmeyen
+- Bu ortamda Android emülatörü yok (KVM yok). **APK hiçbir telefonda açılmadı.**
+- Android'in Google hesabı seçme penceresi, Google Play Hizmetleri ile etkileşim ve gerçek bir Google hesabıyla giriş **denenmedi**.
+- V36 bölümündeki test edilmeyen maddeler de geçerlidir (kurulum, simge, dosya kaydetme, ses, video, geri tuşu, döndürme).
+
+---
+
 # Android APK — V36.0 (sürüm kodu 3600)
 
 **Dosya:** `apk/din-kulturu-v36.0.apk` (3,7 MB)

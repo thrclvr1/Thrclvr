@@ -87,4 +87,8 @@ androidComponents {
 
 dependencies {
     implementation("androidx.webkit:webkit:1.12.1")
+    // V51.6: Google ile giriş (WebView içinde Google OAuth yasak olduğu için Android'in kendi oturum açma penceresi)
+    implementation("androidx.credentials:credentials:1.3.0")
+    implementation("androidx.credentials:credentials-play-services-auth:1.3.0")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
 }

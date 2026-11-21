@@ -22,7 +22,27 @@ import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
+import android.os.CancellationSignal;
+import android.os.Handler;
+import android.os.Looper;
+
+import androidx.credentials.ClearCredentialStateRequest;
+import androidx.credentials.Credential;
+import androidx.credentials.CredentialManager;
+import androidx.credentials.CredentialManagerCallback;
+import androidx.credentials.CustomCredential;
+import androidx.credentials.GetCredentialRequest;
+import androidx.credentials.GetCredentialResponse;
+import androidx.credentials.exceptions.ClearCredentialException;
+import androidx.credentials.exceptions.GetCredentialCancellationException;
+import androidx.credentials.exceptions.GetCredentialException;
+import androidx.credentials.exceptions.NoCredentialException;
+import androidx.webkit.JavaScriptReplyProxy;
+import androidx.webkit.WebMessageCompat;
 import androidx.webkit.WebViewAssetLoader;
+
+import com.google.android.libraries.identity.googleid.GetSignInWithGoogleOption;
+import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential;
 import androidx.webkit.WebViewCompat;
 import androidx.webkit.WebViewFeature;
 
@@ -30,6 +50,7 @@ import org.json.JSONObject;
 
 import java.io.OutputStream;
 import java.util.Collections;
+import java.util.concurrent.Executor;
 
 /**
  * Din Kültürü platformunu (assets/index.html) tam ekran bir WebView içinde açar.
@@ -66,6 +87,10 @@ public class MainActivity extends Activity {
 
     private ValueCallback<Uri[]> fileCallback;
     private byte[] pendingSaveBytes;
+
+    /** V51.6: Google ile giriş köprüsü (sayfa → {tur:'google', istemci} ; yanıt → {tur:'google', ok, idToken | hata}). */
+    private CredentialManager credentialManager;
+    private final Executor anaIs = new Handler(Looper.getMainLooper())::post;
 
     private View customView;
     private WebChromeClient.CustomViewCallback customViewCallback;
@@ -165,7 +190,7 @@ public class MainActivity extends Activity {
             // Köprü yalnızca uygulamanın kendi kökenine açılır; gömülü YouTube çerçeveleri erişemez.
             WebViewCompat.addWebMessageListener(web, "DKAndroid", Collections.singleton(ORIGIN),
                     (view, message, sourceOrigin, isMainFrame, replyProxy) -> {
-                        if (isMainFrame) handleBridgeMessage(message.getData());
+                        if (isMainFrame) handleBridgeMessage(message.getData(), replyProxy);
                     });
         }
 
@@ -193,11 +218,14 @@ public class MainActivity extends Activity {
         });
     }
 
-    private void handleBridgeMessage(String data) {
+    private void handleBridgeMessage(String data, JavaScriptReplyProxy yanit) {
         if (data == null) return;
         try {
             JSONObject o = new JSONObject(data);
-            if (!"kaydet".equals(o.optString("tur"))) return;
+            String tur = o.optString("tur");
+            if ("google".equals(tur)) { googleGiris(o.optString("istemci", ""), o.optString("nonce", ""), yanit); return; }
+            if ("google-cikis".equals(tur)) { googleCikis(); return; }
+            if (!"kaydet".equals(tur)) return;
             String ad = o.optString("ad", "dosya");
             String veri = o.optString("veri", "");
             int virgul = veri.indexOf(',');
@@ -219,6 +247,71 @@ public class MainActivity extends Activity {
             pendingSaveBytes = null;
             toast("Dosya kaydedilemedi.");
         }
+    }
+
+    /**
+     * Google ile giriş: Android Credential Manager ("Google ile oturum aç" penceresi).
+     * istemci = sunucunun Google Web istemci kimliği (GET /api/yapilandirma → googleClientId).
+     * Dönen kimlik belgesi (ID token) sayfaya verilir; sayfa onu sunucuya (/api/giris) gönderir, sunucu Google
+     * anahtarlarıyla doğrular. Uygulamada hiçbir gizli anahtar yoktur. Google Cloud'da bu paket adı
+     * (tr.dkab.platform) ve imza SHA-1'i ile bir "Android" OAuth istemcisi tanımlı olmalıdır.
+     */
+    private void googleGiris(String istemci, String nonce, JavaScriptReplyProxy yanit) {
+        if (istemci == null || !istemci.endsWith(".apps.googleusercontent.com")) {
+            googleYanit(yanit, false, null, "Sunucudan geçerli bir Google istemci kimliği gelmedi.");
+            return;
+        }
+        if (credentialManager == null) credentialManager = CredentialManager.create(this);
+        GetSignInWithGoogleOption.Builder b = new GetSignInWithGoogleOption.Builder(istemci);
+        if (nonce != null && !nonce.isEmpty()) b.setNonce(nonce);
+        GetCredentialRequest istek = new GetCredentialRequest.Builder().addCredentialOption(b.build()).build();
+        credentialManager.getCredentialAsync(this, istek, new CancellationSignal(), anaIs,
+                new CredentialManagerCallback<GetCredentialResponse, GetCredentialException>() {
+                    @Override
+                    public void onResult(GetCredentialResponse sonuc) {
+                        Credential c = sonuc.getCredential();
+                        if (c instanceof CustomCredential
+                                && GoogleIdTokenCredential.TYPE_GOOGLE_ID_TOKEN_CREDENTIAL.equals(c.getType())) {
+                            try {
+                                GoogleIdTokenCredential g = GoogleIdTokenCredential.createFrom(c.getData());
+                                googleYanit(yanit, true, g.getIdToken(), null);
+                            } catch (Exception e) {
+                                googleYanit(yanit, false, null, "Google kimlik belgesi okunamadı.");
+                            }
+                        } else {
+                            googleYanit(yanit, false, null, "Beklenmeyen kimlik türü.");
+                        }
+                    }
+
+                    @Override
+                    public void onError(GetCredentialException e) {
+                        String m;
+                        if (e instanceof GetCredentialCancellationException) m = "iptal";
+                        else if (e instanceof NoCredentialException) m = "Bu telefonda kullanılabilir Google hesabı bulunamadı ya da uygulama Google Cloud'da Android istemcisi olarak tanımlı değil.";
+                        else m = "Google girişi başarısız: " + e.getClass().getSimpleName() + (e.getMessage() != null ? " — " + e.getMessage() : "");
+                        googleYanit(yanit, false, null, m);
+                    }
+                });
+    }
+
+    private void googleYanit(JavaScriptReplyProxy yanit, boolean ok, String idToken, String hata) {
+        try {
+            JSONObject o = new JSONObject();
+            o.put("tur", "google");
+            o.put("ok", ok);
+            if (idToken != null) o.put("idToken", idToken);
+            if (hata != null) o.put("hata", hata);
+            yanit.postMessage(o.toString());
+        } catch (Exception ignored) { }
+    }
+
+    private void googleCikis() {
+        if (credentialManager == null) credentialManager = CredentialManager.create(this);
+        credentialManager.clearCredentialStateAsync(new ClearCredentialStateRequest(), new CancellationSignal(), anaIs,
+                new CredentialManagerCallback<Void, ClearCredentialException>() {
+                    @Override public void onResult(Void r) { }
+                    @Override public void onError(ClearCredentialException e) { }
+                });
     }
 
     @Override

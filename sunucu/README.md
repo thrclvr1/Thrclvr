@@ -44,7 +44,7 @@ node sunucu/sunucu.js
 | Değişken | Zorunlu | Açıklama |
 |---|---|---|
 | `GOOGLE_CLIENT_ID` | evet | 1. adımdaki istemci kimliği |
-| `IZINLI_KOKENLER` | evet | Uygulamanın açıldığı köken(ler), virgülle (CORS). Başka sitelerden gelen istekler reddedilir. |
+| `IZINLI_KOKENLER` | evet | Uygulamanın açıldığı köken(ler), virgülle (CORS). Başka sitelerden gelen istekler reddedilir. Android uygulaması (APK) için `https://appassets.androidplatform.net` de eklenmeli. |
 | `VERITABANI` | hayır | SQLite dosyası (varsayılan `sunucu/veri/dkab.sqlite`). **Yedekleyin.** |
 | `OGRETMEN_EPOSTALARI`, `EDITOR_EPOSTALARI` | hayır | Rol verilecek Google e-postaları, virgülle |
 | `OTURUM_GUN` | hayır | Oturum süresi (varsayılan 30) |
@@ -135,7 +135,8 @@ Test: `node tests/v51_5/sunucu_test.js` (dosya sağlayıcısı ve yerel sahte SM
 
 ## Bilinen sınırlar
 
-- **Android sarmalayıcısı (WebView):** Google, gömülü WebView içinde OAuth girişine izin vermez (`disallowed_useragent`). APK'da Google girişi için yerel Android oturum açma (Credential Manager) eklenmesi gerekir. Bu yapılmadı.
+- **Android sarmalayıcısı (WebView):** Google, gömülü WebView içinde OAuth girişine izin vermez (`disallowed_useragent`). V51.6'dan beri APK'da giriş Android'in kendi oturum açma penceresiyle (Credential Manager) yapılır. Bunun için Google Cloud'da paket `tr.dkab.platform` ve imza SHA-1'iyle bir **Android** OAuth istemcisi gerekir. Adımlar: `docs/KURULUM_SUNUCU_VE_APK.md`.
+- **Hazır kurulum:** `sunucu/Dockerfile` (Docker) ve depo kökündeki `render.yaml` (Render Blueprint, kalıcı disk).
 - **Dosyadan açma:** `file://` ile açılan sayfanın kökeni olmadığından Google girişi çalışmaz; uygulama web adresinden açılmalıdır.
 - **Öğretmen ve editör verileri** (öğretmen kayıtları, editör onayları) bu sürümde eşitlenmez; yalnız öğrenci ilerlemesi eşitlenir.
 - **Bildirimler:** Bildirim yönetimi sunucuda yetkilidir; ama içeriğin kendisinin düzeltilmesi (Editör Onay Alanı) hâlâ cihazda yapılır.
