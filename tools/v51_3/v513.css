@@ -1,0 +1,29 @@
+/* ===================== V51.3: konu sonu geçişi, Altın etkinlik oyunları başlığı, Android katman yedeği ===================== */
+.kg513{margin:10px 0 22px;max-width:66ch}
+.kg513-bas{margin:0 0 6px;font-size:.82rem;color:var(--mut)}
+.kg513-ic{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kg513-b{display:flex;align-items:center;gap:10px;min-height:64px;padding:10px 14px;border-radius:16px;border:1px solid var(--line);background:var(--surface);color:var(--ink,inherit);font:inherit;text-align:left;cursor:pointer;min-width:0}
+.kg513-b.son{justify-content:space-between;text-align:right}
+.kg513-b span{display:flex;flex-direction:column;min-width:0;flex:1}
+.kg513-b small{font-size:.76rem;color:var(--mut);font-weight:600;letter-spacing:.01em}
+.kg513-b b{font-size:.95rem;line-height:1.3;overflow-wrap:anywhere}
+.kg513-b i{font-style:normal;font-size:.76rem;color:var(--mut);overflow-wrap:anywhere}
+.kg513-b svg{flex:none}
+.kg513-e .kg513-b.son{border-color:color-mix(in srgb,var(--pri) 45%,var(--line));background:color-mix(in srgb,var(--pri) 9%,var(--surface))}
+.kg513-b:focus-visible{outline:3px solid var(--pri);outline-offset:2px}
+.kg513-uc{margin:0;display:flex;align-items:center;padding:10px 14px;border-radius:16px;border:1px dashed var(--line);color:var(--mut);font-size:.88rem;min-height:64px}
+@media (max-width:520px){.kg513-ic{grid-template-columns:1fr}.kg513-b.son{order:-1}}
+/* Altın: kendi değişkenleri (Gece/Gündüz temasını izler) */
+.kg513-a{max-width:none}
+.kg513-a .kg513-bas{color:var(--p-mut)}
+.kg513-a .kg513-b{background:var(--p-card);border-color:var(--p-line);color:var(--p-ink)}
+.kg513-a .kg513-b small,.kg513-a .kg513-b i{color:var(--p-mut)}
+.kg513-a .kg513-b.son{border-color:var(--p-gold2);background:linear-gradient(180deg,color-mix(in srgb,var(--p-gold) 16%,var(--p-card)),var(--p-card))}
+.kg513-a .kg513-b:focus-visible{outline-color:var(--p-gold)}
+.kg513-a .kg513-uc{border-color:var(--p-line);color:var(--p-mut)}
+/* Altın: Etkinlik oyunları başlığı mavi-mor yerine altın/şampanya (yalnız Altın) */
+body[data-prem39] .gh-hero{background:linear-gradient(135deg,color-mix(in srgb,var(--p-gold) 22%,var(--p-card)),var(--p-card2,var(--p-card)));border-color:var(--p-line)}
+body[data-prem39] .gh-hero h1{color:var(--p-ink)}
+body[data-prem39] .gh-hero p{color:var(--p-mut)}
+/* Android/eski WebView: :has() desteklenmezse alt pencere açıkken alt menüler JS sınıfıyla gizlenir */
+body.ov513 #bn50,body.ov513 nav.bnav{display:none!important}
