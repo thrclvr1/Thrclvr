@@ -1,0 +1,49 @@
+{
+ "dosya": "surumler/din-kulturu-platformu-v51.0.html",
+ "md5": "422f3efb3537bd34e2fbc711441abbbe",
+ "tarih": "2026-11-19T11:43:44.385Z",
+ "baglam": 3,
+ "yazi": 390,
+ "aaAlti": 0,
+ "sonuc": [
+  {
+   "ekran": "k:v51-kazanim-listesi",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 130,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-kazanim-listesi",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 130,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:v51-kazanim-listesi",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 130,
+   "hata": [],
+   "kotu": []
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+# DKAB sunucusu — Render "Blueprint" kurulumu (https://render.com).
+# Render panelinde: New → Blueprint → bu depoyu seç. "sync: false" olan değerleri Render kurulumda sorar;
+# bunlar GİZLİDİR ve yalnız Render'da saklanır (depoya, HTML'e ya da APK'ya yazılmaz).
+# Not: SQLite dosyasının kalıcı olması için disk gerekir; Render'da disk yalnız ücretli planlarda vardır (starter).
+services:
+  - type: web
+    name: dkab-sunucu
+    runtime: docker
+    dockerfilePath: ./sunucu/Dockerfile
+    dockerContext: .
+    plan: starter
+    region: frankfurt
+    healthCheckPath: /api/saglik
+    disk:
+      name: veri
+      mountPath: /veri
+      sizeGB: 1
+    envVars:
+      # Uygulamanın açıldığı adresler: GitHub Pages ve Android uygulaması (APK)
+      - key: IZINLI_KOKENLER
+        value: https://thrclvr1.github.io,https://appassets.androidplatform.net
+      - key: VERITABANI
+        value: /veri/dkab.sqlite
+      # Google Cloud Console → Web uygulaması OAuth istemci kimliği (…apps.googleusercontent.com)
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      # Rol verilecek Google hesapları (virgülle)
+      - key: OGRETMEN_EPOSTALARI
+        sync: false
+      - key: EDITOR_EPOSTALARI
+        sync: false
+      # Editör PIN sıfırlama kodunun gideceği adres ve Gmail ile gönderim
+      - key: EDITOR_SIFIRLAMA_EPOSTASI
+        sync: false
+      - key: EPOSTA_SAGLAYICI
+        value: smtp
+      - key: SMTP_SUNUCU
+        value: smtp.gmail.com
+      - key: SMTP_PORT
+        value: "465"
+      - key: SMTP_KULLANICI
+        sync: false
+      - key: SMTP_PAROLA
+        sync: false
+      - key: EPOSTA_GONDEREN
+        sync: false

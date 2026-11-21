@@ -1,0 +1,16 @@
+{
+ "41.0": {
+  "boyutMB": 12.2,
+  "domContentLoaded": 510,
+  "load": 612,
+  "ekranHazir": 681,
+  "jsHeapMB": 18
+ },
+ "42.0": {
+  "boyutMB": 18.5,
+  "domContentLoaded": 593,
+  "load": 610,
+  "ekranHazir": 683,
+  "jsHeapMB": 18
+ }
+}

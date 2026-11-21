@@ -1,0 +1,26 @@
+/* ===================== V51.2: öğretmen görünümü ===================== */
+.ogv51-bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:8px 0 12px;padding:10px;border-radius:16px;border:1px solid color-mix(in srgb,#2f4a73 35%,var(--line,#ccc));background:color-mix(in srgb,#2f4a73 8%,var(--surface,#fff));color:var(--ink,#1b2433)}
+.ogv51-geri{min-height:44px;padding:0 12px;border-radius:12px;border:1px solid var(--line,#ccd);background:var(--surface,#fff);color:inherit;font:600 .9rem var(--sans);display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.ogv51-sec{display:flex;flex-wrap:wrap;gap:4px;padding:3px;border-radius:14px;background:color-mix(in srgb,var(--ink,#000) 7%,transparent)}
+.ogv51-sec button{min-height:40px;padding:0 12px;border-radius:11px;border:0;background:transparent;color:inherit;font:600 .85rem var(--sans);cursor:pointer}
+.ogv51-sec button.on{background:#2f4a73;color:#fff}
+.ogv51-not{flex-basis:100%;margin:2px 4px 0;font-size:.85rem}
+.ogv51-k{margin:12px 0;padding:16px;border-radius:18px;border:1px solid color-mix(in srgb,#2f4a73 30%,var(--line,#ccd));background:var(--surface,#fff);color:var(--ink,#1b2433)}
+.ogv51-k h2{margin:0 0 10px;font-size:1.1rem}
+.ogv51-k h3{margin:14px 0 8px;font-size:1rem}
+.ogv51-dl{display:grid;gap:6px;margin:0}
+.ogv51-dl div{display:grid;grid-template-columns:90px 1fr;gap:8px}
+.ogv51-dl dt{font-weight:700;color:var(--mut,#556)}
+.ogv51-dl dd{margin:0}
+.ogv51-o{padding:10px 0;border-top:1px solid var(--line,#dde)}
+.ogv51-o p{margin:4px 0}
+.ogv51-o code{font-weight:700}
+.ogv51-o ul{margin:6px 0;padding-left:18px}
+.ogv51-l{border:0;background:none;padding:0;color:#2f4a73;text-decoration:underline;font:inherit;cursor:pointer;min-height:32px}
+:root[data-theme=dark] .ogv51-l{color:#9cc3ff}
+:root[data-theme=dark] .ogv51-sec button.on{background:#9cc3ff;color:#0e1e44}
+body[data-prem39] .ogv51-bar,body[data-prem39] .ogv51-k{background:var(--p-card,#2a1f12);color:var(--p-ink,#f4e6c8);border-color:var(--p-line,#6b5430)}
+body[data-prem39] .ogv51-sec button.on{background:#e2b765;color:#1a1206}
+body[data-prem39] .ogv51-l{color:#f3cf72}
+.yy51-bos td{color:#b3261e}
+:root[data-theme=dark] .yy51-bos td{color:#f2b8b5}

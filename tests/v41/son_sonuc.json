@@ -1,0 +1,419 @@
+[
+ {
+  "id": "0.1",
+  "name": "Sürüm V41.0 (index.html ve sürüm dosyası); koridor V40.2 gibi WebGL ile",
+  "pass": true,
+  "detail": "V41.0"
+ },
+ {
+  "id": "0.2",
+  "name": "Veri blokları ve kayıt sayıları V40.2 ile aynı; yalnızca oyun rotaları (poyun, poyna) eklendi; kapı eşleşmeleri aynı",
+  "pass": true,
+  "detail": [
+   "poyna",
+   "poyun"
+  ]
+ },
+ {
+  "id": "0.3",
+  "name": "Mevcut ekranlar (sınıf merkezi, ders, favoriler, ilerleme, Klasik oyun merkezi, öğretmen paneli, Klasik ana sayfa/oyunlar/kendini dene) V40.2 ile aynı",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "0.4",
+  "name": "Öğrenme Dünyası “Oyunlar” girişi yeni Oyun Dünyası’na gidiyor; diğer hızlı erişimler aynı",
+  "pass": true,
+  "detail": [
+   "poyun",
+   "psinif"
+  ]
+ },
+ {
+  "id": "0.5",
+  "name": "Sayfa/konsol hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "1.1",
+  "name": "Oyun merkezi: Kütüphane oynanabilir; Zamanın İzinde ve Bilgi Laboratuvarı “Geliştiriliyor” (oynanamaz); Klasik oyunlar girişi var",
+  "pass": true,
+  "detail": {
+   "oy": [
+    "Kayıp Bilgeliğin Kütüphanesi",
+    "Zamanın İzinde",
+    "Bilgi Laboratuvarı",
+    "Klasik oyunlar"
+   ],
+   "yak": [
+    "Geliştiriliyor — henüz oynanamaz.",
+    "Geliştiriliyor — henüz oynanamaz."
+   ],
+   "oyna": [
+    "Oyna"
+   ],
+   "bol": "5. sınıf · Allah İnancı\n2026 programı (Türkiye Yüzyılı Maarif Modeli) · 3 oda · DKAB.5.1.1, DKAB.5.1.2, DKAB.5.1.3, DKAB.5.1.4\nİçerik mevcut konu kayıtlarından alınır; kayıtlar henüz editör onayından geçmedi.\n0 / 9\nOyna"
+  }
+ },
+ {
+  "id": "1.2",
+  "name": "Bölüm kartında sınıf, program (2026 TYMM), kazanım kodları ve içerik onay durumu açıkça yazıyor",
+  "pass": true,
+  "detail": "5. sınıf · Allah İnancı\n2026 programı (Türkiye Yüzyılı Maarif Modeli) · 3 oda · DKAB.5.1.1, DKAB.5.1.2, DKAB.5.1.3, DKAB.5.1.4\nİçerik mevcut konu kayıtlarından alınır; kayıtlar henüz editör onayından geçmedi.\n0 / 9\nOyna"
+ },
+ {
+  "id": "1.3",
+  "name": "Klasik oyunlar girişi mevcut oyun merkezini açıyor (mevcut oyunlar çalışıyor)",
+  "pass": true
+ },
+ {
+  "id": "2.1",
+  "name": "Mühür, raf, yazıt ve şifreli kapı içeriği kaynak kayıtlarla birebir aynı (konu tablosu, Klasik oyun kayıtları, sorular ve seçenek açıklamaları)",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "2.2",
+  "name": "Bütün kaynaklar 5. sınıf · 2026 programından (2018 karışmıyor); kazanımlar DKAB.5.1.1–5.1.4",
+  "pass": true,
+  "detail": {
+   "err": [],
+   "prog": true,
+   "notKaynak": true,
+   "nNot": 18,
+   "kz": [
+    "DKAB.5.1.1",
+    "DKAB.5.1.2",
+    "DKAB.5.1.3",
+    "DKAB.5.1.4"
+   ]
+  }
+ },
+ {
+  "id": "2.3",
+  "name": "Defter notlarının (18) metinleri ders kayıtlarındaki metinlerden oluşuyor (uydurma içerik yok)",
+  "pass": true,
+  "detail": {
+   "err": [],
+   "prog": true,
+   "notKaynak": true,
+   "nNot": 18,
+   "kz": [
+    "DKAB.5.1.1",
+    "DKAB.5.1.2",
+    "DKAB.5.1.3",
+    "DKAB.5.1.4"
+   ]
+  }
+ },
+ {
+  "id": "3.1",
+  "name": "Giriş: hikâye, üç oda görevi ve kazanımlar",
+  "pass": true,
+  "detail": {
+   "h": "Kayıp Bilgeliğin Kütüphanesi",
+   "kz": 4,
+   "odalar": 3
+  }
+ },
+ {
+  "id": "3.2",
+  "name": "1. oda (Düzen Salonu) WebGL ile çiziliyor; 5 incelenebilir nesne + mühürlü kapı; görev metni gösteriliyor",
+  "pass": true,
+  "detail": {
+   "gl": true,
+   "nes": [
+    "gok",
+    "su",
+    "bitki",
+    "beden",
+    "kursu",
+    "bulmaca"
+   ],
+   "gor": "Görev: Odayı incele — parlayan nesnelere dokun (0/2).\n0/5 nesne incelendi",
+   "vis": 4
+  }
+ },
+ {
+  "id": "3.3",
+  "name": "Bulmaca keşiften önce açılmıyor (en az 2 ipucu gerekli)",
+  "pass": true,
+  "detail": "Mühürlü kapı henüz kullanılamıyor\n\nÖnce odadaki nesneleri incele ve Defter'ine ipucu topla (0/2). Parlayan nesnelere dok"
+ },
+ {
+  "id": "3.4",
+  "name": "Nesneye dokununca kamera yaklaşıyor, bilgi kartı (kaynaklı) açılıyor ve Defter’e yazılıyor",
+  "pass": true,
+  "detail": "GÖK KÜRESİ · DEFTER'E YAZILDI\n\nGökyüzü\n\nGözlem: Gece-gündüz, mevsimler. Düzenin işareti: Dünya'nın hareketleri hep aynı hesapla sürer.\n\nKaynak: Evrendeki Düzeni"
+ },
+ {
+  "id": "3.5",
+  "name": "Yanlış yerleştirmede kırmızı ekran yok; neden yanlış olduğunu açıklayan geri bildirim (doğru alan ve gözlem, kaynaktan)",
+  "pass": true,
+  "detail": "Bu mühür bu yuvaya ait değil.\n\n“Organlar birbirini tamamlayarak çalışır” işareti Beden alanına aittir (gözlem: Kalp atışı, nefes, sindirim). Canlılar alanında ise şunu gözlemleriz: Besin zinciri, bitk"
+ },
+ {
+  "id": "3.6",
+  "name": "İpucu sistemi: 1. ipucu Defter’e yönlendiriyor, 2. ipucu bir mührü yerine koyuyor; ipucu sayısı kaydediliyor",
+  "pass": true,
+  "detail": {
+   "ip1": "İpucu 1\n\nDefterine bak: Gökyüzü alanında “Gece-gündüz, mevsimler” gözlenir. Bu g",
+   "yer": {
+    "Gökyüzü": "Gökyüzü"
+   }
+  }
+ },
+ {
+  "id": "3.7",
+  "name": "Mühürler tamamlanınca kapı menteşeden açılıyor (çizicide 102°); puan 100 − 10×hata − 15×ipucu; yıldız",
+  "pass": true,
+  "detail": {
+   "puan": 60,
+   "hata": 1,
+   "ipucu": 2,
+   "yildiz": {
+    "0": 2
+   }
+  }
+ },
+ {
+  "id": "3.8",
+  "name": "Kapıdan geçilip 2. odaya (İsimler Arşivi) giriliyor; ilerleme çubuğu güncelleniyor",
+  "pass": true,
+  "detail": {
+   "oda": 1,
+   "ad": "İsimler Arşivi",
+   "yol": "ok,on,"
+  }
+ },
+ {
+  "id": "3.9",
+  "name": "Raf düzeni sürükle-bırak ile çalışıyor; yanlışta ismin anlamı açıklanıyor; bütün kitaplar yerleşince oda tamamlanıyor",
+  "pass": true,
+  "detail": {
+   "g2": "Bu kitap Rahîm rafına ait değil.\n\nRahîm: Koruyan, esirgeyen, bağışlayan Bu kitap ise Rahmân ismiyle ilgilidir: Herkese ayrım yapmadan merham",
+   "yildiz": {
+    "0": 2,
+    "1": 3
+   }
+  }
+ },
+ {
+  "id": "3.10",
+  "name": "Şifreli kapı, yazıt çözülmeden açılmıyor (bölüm içi ilerleme sırası)",
+  "pass": true,
+  "detail": "Şifreli kapı\n\nKadranlar karanlık. Önce “Kırık yazıt” bulmacasını çöz.\n\nTamam"
+ },
+ {
+  "id": "3.11",
+  "name": "Yazıt tamamlama: yanlış taş elenip açıklama gösteriliyor; üç satır tamamlanınca bulmaca bitiyor",
+  "pass": true,
+  "detail": "“ahenk” bu boşluğa uymuyor.\n\nCümleyi baştan oku ve Defter'indeki “Evren levhası” notuna bak. Bu satır şu kaynaktan: Evre"
+ },
+ {
+  "id": "3.12",
+  "name": "Şifreli kapı: kadranlar karışık sırada ve hiçbiri doğru konumda başlamıyor",
+  "pass": true,
+  "detail": {
+   "yer": {},
+   "hata": 0,
+   "ipucu": 0,
+   "bitti": false,
+   "sira": [
+    [
+     0,
+     3,
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     0,
+     3
+    ],
+    [
+     0,
+     1,
+     2,
+     3
+    ]
+   ],
+   "deger": [
+    0,
+    1,
+    1
+   ],
+   "kilit": [
+    false,
+    false,
+    false
+   ],
+   "ele": [
+    [],
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "id": "3.13",
+  "name": "Yanlış kadranda seçeneğe özel açıklama (sorunun kendi seçenek notu) gösteriliyor; doğru konumda kilit açılıyor",
+  "pass": true,
+  "detail": "3 kadran yanlış konumda (1, 2, 3).\n\n1. kadran — “Yalnızca camide dua etmek”: Yanlış: Dua, ibadetin bir parçasıdır; tevhidin tanımı değildir."
+ },
+ {
+  "id": "3.14",
+  "name": "Bölüm tamamlama ekranı: yıldızlar, puan, süre, hata/ipucu ve kazanım raporu (4 kazanım); kayıt “bitti”",
+  "pass": true,
+  "detail": "KANAT TAMAMLANDI\n\nBilgelik Odası açıldı\n\nAllah İnancı kanadının üç kilidini de çözdün.\n\nDüzen Salonu\nİsimler Arşivi\nYazıt Odası\nPuan\n310\nYıldız\n7 / 9\nSüre\n1 dk "
+ },
+ {
+  "id": "3.15",
+  "name": "Cevaplar mevcut kazanım ilerlemesine (dk2.prog, Klasik oyunlarla aynı yol) işleniyor; dk2’de başka alan değişmiyor",
+  "pass": true,
+  "detail": {
+   "fark": [
+    "prog"
+   ],
+   "progK": [
+    "DKAB-5-U01-O01",
+    "DKAB-5-U01-O03",
+    "DKAB-5-U01-O02",
+    "DKAB-5-U01-O04"
+   ]
+  }
+ },
+ {
+  "id": "3.16",
+  "name": "Oynanış boyunca sayfa/konsol hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "4.1",
+  "name": "Duraklat: menü açılıyor, süre duruyor; Devam et: süre yeniden işliyor",
+  "pass": true,
+  "detail": {
+   "t0": 6,
+   "t1": 6,
+   "t2": 6,
+   "t3": 8
+  }
+ },
+ {
+  "id": "4.2",
+  "name": "Grafik kalitesi (Yüksek / Dengeli / Sade) seçilip kaydediliyor ve sahne yeniden kuruluyor",
+  "pass": true,
+  "detail": {
+   "k": "sade",
+   "kay": "sade",
+   "cv": 390
+  }
+ },
+ {
+  "id": "4.3",
+  "name": "Sekme/uygulama arka plana geçince oyun kendiliğinden duraklıyor",
+  "pass": true,
+  "detail": {
+   "dur": true,
+   "menu": true
+  }
+ },
+ {
+  "id": "4.4",
+  "name": "Sayfa yeniden açılınca “Devam et” ile kaldığı yerden sürüyor (incelenen nesneler işaretli, hikâye tekrar gösterilmiyor)",
+  "pass": true,
+  "detail": {
+   "dv": [
+    "Devam et",
+    "Baştan başla"
+   ],
+   "dd": {
+    "oda": 0,
+    "kes": [
+     "duzen:gok",
+     "duzen:su"
+    ],
+    "giris": false,
+    "ok": [
+     "gok",
+     "su"
+    ]
+   }
+  }
+ },
+ {
+  "id": "4.5",
+  "name": "Bölümü baştan başlat: ilerleme sıfırlanıyor ve hikâye girişi yeniden açılıyor",
+  "pass": true,
+  "detail": 0
+ },
+ {
+  "id": "4.6",
+  "name": "Oyundan çıkınca oyun temizleniyor (döngü ve sahne bırakılıyor)",
+  "pass": true
+ },
+ {
+  "id": "4.7",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "5.1",
+  "name": "Hata sınırı: oyun hata verirse yalnızca oyun kapanıyor, anlaşılır kart gösteriliyor, oyun merkezine dönülüyor",
+  "pass": true,
+  "detail": {
+   "kart": "Oyun açılamadı\n\nBu oyunda beklenmeyen bir sorun oluştu. İlerlemen kayıtlı; oyun merkezine dönüp yeniden deneyebilirsin.\n\nOyun merkezine dön",
+   "aktif": false
+  }
+ },
+ {
+  "id": "5.2",
+  "name": "WebGL olmayan cihazda “basit görünüm”: nesneler düğme olarak listeleniyor, oyun oynanabiliyor, uyarı konsolda",
+  "pass": true,
+  "detail": {
+   "basit": true,
+   "n": 6
+  }
+ },
+ {
+  "id": "6.1",
+  "name": "360 / 390 / 768 / 1024 / 1440 px: oyun merkezi, giriş, oda ve bulmaca paneli yatay taşmasız; panel ekranda",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "6.2",
+  "name": "Düğmeler ve sürüklenen parçalar ≥44 px dokunma alanı",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "7.1",
+  "name": "Oyun yalnızca kendi sürümlü anahtarını (dk-oyun41, v:1) yazıyor; öğretmen kayıtları, PIN, üyelik tercihi, favoriler ve ilerleme değişmiyor",
+  "pass": true,
+  "detail": {
+   "v": 1,
+   "oy": [
+    "kutuphane"
+   ],
+   "bol": [
+    "5-2026-U01"
+   ]
+  }
+ },
+ {
+  "id": "7.2",
+  "name": "Öğretmen paneli kendi tasarımıyla açılıyor",
+  "pass": true
+ },
+ {
+  "id": "7.3",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ }
+]

@@ -1,0 +1,62 @@
+/* ===================== V51.4: arama — Altın sonuç grupları, ayrıntı pencereleri, Öğretmen Arama Merkezi ===================== */
+/* ortak ayrıntı penceresi (Altın ve Öğretmen) */
+.ar514-d{display:flex;flex-direction:column;gap:8px}
+.ar514-m{display:flex;flex-wrap:wrap;gap:6px}
+.ar514-t{display:inline-flex;align-items:center;min-height:26px;padding:2px 10px;border-radius:999px;border:1px solid var(--line);font-size:.8rem;color:var(--mut)}
+.ar514-s{font-size:1.02rem;line-height:1.5;margin:4px 0;font-weight:600}
+.ar514-op{margin:0;padding-left:1.6em;display:flex;flex-direction:column;gap:4px}.ar514-op li{line-height:1.45}.ar514-op li.dogru{font-weight:600}
+.ar514-op li.dogru b{color:var(--ok,#1f7a4d);font-size:.82rem;white-space:nowrap}
+.ar514-ac,.ar514-kz,.ar514-kn{margin:2px 0;line-height:1.5;font-size:.92rem}
+.ar514-kz code,.ar514-s code{font-size:.82rem;padding:1px 6px;border-radius:6px;background:color-mix(in srgb,var(--line) 60%,transparent)}
+.ar514-kart{display:flex;flex-direction:column;gap:6px}.ar514-kart p{margin:0;padding:10px 12px;border:1px solid var(--line);border-radius:12px;line-height:1.45}
+.ar514-k{display:block;font-size:.74rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--mut);margin-bottom:2px}
+.ar514-h{font-size:.95rem;margin:10px 0 2px}
+.ar514-tl{display:flex;flex-direction:column;gap:6px}
+.ar514-tl button{display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-height:48px;padding:8px 12px;border-radius:12px;border:1px solid var(--line);background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.ar514-tl button small{color:var(--mut);font-size:.78rem}
+.ar514-sp summary{cursor:pointer;font-size:.88rem;min-height:36px;display:flex;align-items:center}.ar514-sp p{margin:2px 0;font-size:.88rem}
+.ar514-bos{margin:4px 0;padding:10px 12px;border-radius:12px;border:1px dashed var(--line);color:var(--mut);font-size:.9rem}
+/* Altın arama penceresi: tür çipleri ve gruplar (Altın değişkenleri) */
+.ar514-cip{display:flex;gap:6px;overflow-x:auto;padding:8px 0 4px;scrollbar-width:none}.ar514-cip::-webkit-scrollbar{display:none}
+.ar514-cip button{flex:none;min-height:36px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:inherit;font:inherit;font-size:.84rem;cursor:pointer}
+.ar514-cip button small{opacity:.75}
+.ar514-cip button.on{background:var(--pri);border-color:var(--pri);color:#fff}
+.ar514-g{margin-top:8px}.ar514-g h4{margin:6px 0 4px;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase}
+.ar514-g h4 small{font-weight:400;opacity:.7}
+.ar514-daha{min-height:40px;margin-top:4px;padding:0 14px;border-radius:12px;border:1px dashed var(--line);background:transparent;color:inherit;font:inherit;cursor:pointer}
+body[data-prem39] .ar514-cip button{border-color:var(--p-line);color:var(--p-ink)}
+body[data-prem39] .ar514-cip button.on{background:linear-gradient(180deg,#ecc884,#b8873f);border-color:transparent;color:#1a1206;font-weight:700}
+body[data-prem39] .ar514-g h4{color:var(--p-gold)}
+body[data-prem39] .ar514-daha{border-color:var(--p-line);color:var(--p-ink)}
+body[data-prem39] .ar514-r .p39-ri small{color:var(--p-mut)}
+body[data-prem39] .ar514-t{border-color:var(--p-line);color:var(--p-mut)}
+body[data-prem39] .ar514-tl button,body[data-prem39] .ar514-kart p,body[data-prem39] .ar514-bos{border-color:var(--p-line)}
+.ar514-r{max-height:none}
+/* Öğretmen Arama Merkezi (öğretmen paneli renk sistemi --t37-*) */
+.ar514{max-width:880px;margin:0 auto;padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+.ar514-ust{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.ar514-ust h1{margin:0}.ar514-ust .sub{margin:2px 0 0;color:var(--t37-mut,var(--mut));font-size:.9rem}
+.ar514-ey{margin:0;font-size:.76rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t37-steel,var(--mut))}
+.ar514-geri{min-height:44px;padding:0 14px;border-radius:12px;border:1px solid var(--t37-line,var(--line));background:var(--t37-card,var(--surface));color:var(--t37-ink,inherit);font:inherit;cursor:pointer}
+.ar514-kut{position:sticky;top:calc(var(--hdr-h,56px) + 4px);z-index:5;padding:6px 0;background:var(--t37-bg,var(--bg))}
+.ar514-kut input{width:100%;box-sizing:border-box;min-height:50px;padding:0 16px;border-radius:14px;border:1.5px solid var(--t37-line2,var(--line));background:var(--t37-card,var(--surface));color:var(--t37-ink,inherit);font:inherit;font-size:1rem}
+.ar514-kut input:focus{outline:3px solid color-mix(in srgb,var(--t37-act,var(--pri)) 45%,transparent);outline-offset:1px}
+.ar514-fs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:6px 0 4px}
+.ar514-f{display:flex;flex-direction:column;gap:2px;min-width:0}.ar514-f span{font-size:.76rem;color:var(--t37-mut,var(--mut));font-weight:600}
+.ar514-f select{min-height:44px;width:100%;padding:0 10px;border-radius:12px;border:1px solid var(--t37-line,var(--line));background:var(--t37-card,var(--surface));color:var(--t37-ink,inherit);font:inherit;font-size:.9rem}
+.ar514-f.kapali{opacity:.6}
+@media (max-width:640px){.ar514-fs{grid-template-columns:1fr 1fr}}
+.ar514 .ar514-cip button{border-color:var(--t37-line,var(--line));color:var(--t37-ink,inherit);background:var(--t37-card,transparent)}
+.ar514 .ar514-cip button.on{background:var(--t37-act,var(--pri));border-color:var(--t37-act,var(--pri));color:#fff}
+.ar514-sy{margin:4px 0 6px;font-size:.84rem;color:var(--t37-mut,var(--mut))}
+.ar514-lis{display:flex;flex-direction:column;gap:8px}
+.ar514-sn{display:flex;flex-direction:column;align-items:flex-start;gap:4px;width:100%;min-height:56px;padding:10px 14px;border-radius:14px;border:1px solid var(--t37-line,var(--line));background:var(--t37-card,var(--surface));color:var(--t37-ink,inherit);font:inherit;text-align:left;cursor:pointer}
+.ar514-sn b{font-size:.97rem;line-height:1.4;overflow-wrap:anywhere}
+.ar514-tur{font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--t37-steel,var(--mut))}
+.ar514-mt{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:.8rem;color:var(--t37-mut,var(--mut))}
+.ar514-mt span+span::before{content:"·";margin-right:10px;opacity:.6}
+.ar514-ek{font-size:.8rem;color:var(--t37-mut,var(--mut))}
+.ar514-bilgi{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border-radius:14px;border:1px dashed var(--t37-line,var(--line));color:var(--t37-mut,var(--mut))}
+.ar514-bilgi b{color:var(--t37-ink,inherit)}
+.ar514 .ar514-daha{border-color:var(--t37-line,var(--line));color:var(--t37-ink,inherit)}
+body[data-ogara514] #bn50,body[data-ogara514] nav.bnav{display:none!important}

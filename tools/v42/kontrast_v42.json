@@ -1,0 +1,398 @@
+[
+ {
+  "tema": "dark",
+  "ekran": "secim",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:home",
+  "n": 33,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:classes",
+  "n": 28,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:grade5",
+  "n": 23,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:konu",
+  "n": 24,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:konu-test",
+  "n": 27,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:games",
+  "n": 29,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:dene",
+  "n": 21,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:pek",
+  "n": 33,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:sd",
+  "n": 32,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:ayarlar",
+  "n": 17,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:arama",
+  "n": 6,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:ses",
+  "n": 15,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:koridor",
+  "n": 21,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:sinif",
+  "n": 24,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:unite",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:ders",
+  "n": 20,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:ders-test",
+  "n": 24,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:ozet",
+  "n": 22,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:ilerleme",
+  "n": 23,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:fav",
+  "n": 9,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:oyun-merkezi",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:odunc-games",
+  "n": 24,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:arama",
+  "n": 7,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:profil",
+  "n": 16,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:yardim",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:ses",
+  "n": 15,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:oyun-giris",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:degistir",
+  "n": 9,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:degistir",
+  "n": 9,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "p:oyun-menu",
+  "n": 6,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "k:tumsesler",
+  "n": 21,
+  "kotu": []
+ },
+ {
+  "tema": "dark",
+  "ekran": "secim-masaustu",
+  "n": 18,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "secim",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:home",
+  "n": 33,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:classes",
+  "n": 28,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:grade5",
+  "n": 23,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:konu",
+  "n": 24,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:konu-test",
+  "n": 27,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:games",
+  "n": 29,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:dene",
+  "n": 21,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:pek",
+  "n": 33,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:sd",
+  "n": 32,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:ayarlar",
+  "n": 17,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:arama",
+  "n": 6,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:ses",
+  "n": 15,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:koridor",
+  "n": 21,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:sinif",
+  "n": 24,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:unite",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:ders",
+  "n": 20,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:ders-test",
+  "n": 24,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:ozet",
+  "n": 22,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:ilerleme",
+  "n": 23,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:fav",
+  "n": 9,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:oyun-merkezi",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:odunc-games",
+  "n": 24,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:arama",
+  "n": 7,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:profil",
+  "n": 16,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:yardim",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:ses",
+  "n": 15,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:oyun-giris",
+  "n": 13,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:degistir",
+  "n": 9,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:degistir",
+  "n": 9,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "p:oyun-menu",
+  "n": 6,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "k:tumsesler",
+  "n": 21,
+  "kotu": []
+ },
+ {
+  "tema": "light",
+  "ekran": "secim-masaustu",
+  "n": 18,
+  "kotu": []
+ }
+]

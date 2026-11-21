@@ -1,0 +1,126 @@
+
+/* ===================== V42.0 ===================== */
+/* ---------- 1. Okunabilirlik (WCAG AA) — Klasik alan ----------
+   Neden: beyaz yazı, sınıf renginin açık tonu (--ca) üzerindeydi (oran 1.7–4.3). Kartlar artık sınıfın koyu tonundan (--cb) üretilir;
+   renk kimliği korunur, parlama katmanları yazının altında kalacak kadar azaltılır. */
+.gc3{background:linear-gradient(155deg,color-mix(in srgb,var(--cb) 80%,#000),color-mix(in srgb,var(--cb) 58%,#000))}
+.gc3::before{opacity:.42}
+.gc3::after{opacity:.45}
+.gc3 .gn,.gc3 .gl,.gc3 .gm{text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.gc3 .gl,.gc3 .gm{opacity:1}
+.hero.grade{background:linear-gradient(135deg,color-mix(in srgb,var(--cb) 74%,#0a0f1f),color-mix(in srgb,var(--cb) 62%,#000))}
+.hero.grade .lead,.hero.grade .eyebrow{color:#fff}
+.unum,body[data-g] .unum{background:linear-gradient(135deg,color-mix(in srgb,var(--cb) 84%,#000),color-mix(in srgb,var(--cb) 66%,#000))}
+button.p,.v-btn.p{background:linear-gradient(180deg,color-mix(in srgb,var(--btn) 86%,#000),color-mix(in srgb,var(--btn) 70%,#000))}
+.lk-see i{background:color-mix(in srgb,var(--btn) 74%,#000)}
+:root[data-theme=light] body[data-g]{--pri:color-mix(in srgb,var(--cb) 82%,#000);--pt:color-mix(in srgb,var(--cb) 72%,#000)}
+/* Premium: altın düğme üzerinde koyu yazı (beyaz yazı altın üstünde 2.8 idi) */
+body[data-prem39] button.p,body[data-prem39] .v-btn.p{background:linear-gradient(180deg,#f0cf88,#d2a554 60%,#bf8f42);color:#1a1206;border-color:transparent}
+body[data-prem39] .gt .n{color:color-mix(in srgb,var(--gc,#E2B765) 40%,#fff)}
+
+/* ---------- 2. Giriş (seçim) ekranı: obsidyen ve altın ---------- */
+#uye39.o42{--o-g:#d9b56c;--o-ch:#f3e6c6;--o-ink:#f3eee4;--o-mut:#c8bfae;--o-line:rgba(217,181,108,.28);color:var(--o-ink);color-scheme:dark;
+ background:radial-gradient(85% 50% at 50% -6%,rgba(26,98,75,.55),transparent 72%),radial-gradient(60% 45% at 100% 105%,rgba(140,100,36,.22),transparent 70%),
+ url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%23d9b56c' stroke-opacity='.075' stroke-width='1'%3E%3Crect x='25' y='25' width='22' height='22'/%3E%3Crect x='25' y='25' width='22' height='22' transform='rotate(45 36 36)'/%3E%3Cpath d='M36 0v20.4M36 51.6V72M0 36h20.4M51.6 36H72M0 0l25 25M72 0 47 25M0 72l25-25M72 72 47 47'/%3E%3C/g%3E%3C/svg%3E"),#090c0b}
+#uye39.o42 .o42-in{max-width:1000px;margin:0 auto;padding:calc(10px + env(safe-area-inset-top,0px)) 16px calc(20px + env(safe-area-inset-bottom,0px))}
+#uye39.o42 .o42-ust{display:flex;align-items:center;gap:8px;min-height:52px}
+#uye39.o42 .o42-sp{flex:1}
+#uye39.o42 .o42-logo img{display:block;border-radius:12px;box-shadow:0 0 0 1px var(--o-line),0 6px 18px rgba(0,0,0,.45)}
+#uye39.o42 .o42-ogr,#uye39.o42 .o42-geri{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border-radius:999px;border:1px solid var(--o-line);background:rgba(20,24,22,.7);color:var(--o-ch);font:600 .88rem var(--sans);text-decoration:none;cursor:pointer}
+#uye39.o42 .o42-ogr svg,#uye39.o42 .o42-geri svg{color:var(--o-g)}
+#uye39.o42 .o42-bas{text-align:center;margin:6px auto 18px;max-width:640px}
+#uye39.o42 .uye39-k{color:var(--o-g);font:700 .74rem var(--sans);letter-spacing:.14em;text-transform:uppercase;margin:0}
+#uye39.o42 h1{margin:6px 0 0;font:700 clamp(1.6rem,5.6vw,2.5rem)/1.15 Literata,Georgia,serif;color:var(--o-ch);letter-spacing:-.01em}
+#uye39.o42 .o42-motif{display:block;width:120px;height:24px;margin:8px auto 4px;color:var(--o-g);opacity:.85}
+#uye39.o42 .o42-acik{margin:0;color:var(--o-mut);font-size:.92rem;line-height:1.5}
+#uye39.o42 .o42-kartlar{display:grid;grid-template-columns:1fr;gap:16px;max-width:940px;margin:0 auto}
+@media (min-width:700px){#uye39.o42 .o42-kartlar{grid-template-columns:1fr 1fr;gap:22px}#uye39.o42 .o42-bas{margin-bottom:26px}}
+#uye39.o42 .o42-k{display:flex;flex-direction:column;gap:0;padding:0;border-radius:24px;overflow:hidden;border:1px solid var(--o-line);background:linear-gradient(180deg,#141a17,#0d110f);box-shadow:0 14px 40px rgba(0,0,0,.45)}
+#uye39.o42 .o42-k.son{box-shadow:0 14px 40px rgba(0,0,0,.45)}
+#uye39.o42 .o42-kp{border:1.5px solid transparent;background:linear-gradient(180deg,#17120b,#0e0b07) padding-box,linear-gradient(160deg,#f6dc9d,#9a7130 38%,#f0cd85 68%,#6f5020) border-box;box-shadow:0 18px 54px rgba(214,165,80,.2),0 14px 40px rgba(0,0,0,.5)}
+#uye39.o42 .o42-gor{position:relative;height:clamp(118px,30vw,212px);margin:12px 12px 0;border-radius:16px;overflow:hidden;border:1px solid var(--o-line);background:#0b1410}
+#uye39.o42 .o42-gor svg,#uye39.o42 .o42-gor img{display:block;width:100%;height:100%;object-fit:cover}
+/* Premium görsel: sivri kemer (mihrap biçimi) çerçevesi */
+#uye39.o42 .o42-kemer{border:0;border-radius:0;background:#0e0b07;
+ -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0 100V34Q0 12 50 0Q100 12 100 34V100Z'/%3E%3C/svg%3E") center/100% 100% no-repeat;
+ mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0 100V34Q0 12 50 0Q100 12 100 34V100Z'/%3E%3C/svg%3E") center/100% 100% no-repeat}
+#uye39.o42 .o42-kemer img{filter:saturate(1.05) sepia(.14) brightness(.9)}
+#uye39.o42 .o42-isik{position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,214,140,.12),transparent 35%,transparent 60%,rgba(14,11,7,.55)),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M1.2 100V34.6Q1.2 13 50 1.3Q98.8 13 98.8 34.6V100' fill='none' stroke='%23e9c67d' stroke-width='2.4' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E") center/100% 100% no-repeat}
+#uye39.o42 .o42-ic{display:flex;flex-direction:column;gap:7px;padding:14px 18px 18px;flex:1}
+#uye39.o42 .o42-ets{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#uye39.o42 .o42-etk{display:inline-flex;align-items:center;gap:6px;padding:4px 11px;border-radius:999px;border:1px solid var(--o-line);color:var(--o-ch);font:800 .72rem var(--sans);letter-spacing:.1em;text-transform:uppercase}
+#uye39.o42 .o42-etk svg{color:var(--o-g)}
+#uye39.o42 .o42-etk.p{border:0;background:linear-gradient(135deg,#f3d58f,#c9973f);color:#1d1408}
+#uye39.o42 .o42-etk.p svg{color:#1d1408}
+#uye39.o42 .o42-son{display:inline-flex;align-items:center;gap:4px;font-size:.78rem;font-weight:600;color:#9fe0c3}
+#uye39.o42 .o42-k h2{margin:2px 0 0;font:700 clamp(1.25rem,4.4vw,1.55rem)/1.2 Literata,Georgia,serif;color:var(--o-ch)}
+#uye39.o42 .o42-k p{margin:0;color:var(--o-mut);font-size:.93rem;line-height:1.5}
+#uye39.o42 .o42-oz{list-style:none;margin:2px 0 8px;padding:0;display:grid;gap:4px}
+#uye39.o42 .o42-oz li{position:relative;padding-left:20px;font-size:.86rem;color:#e6dfcf}
+#uye39.o42 .o42-oz li::before{content:"";position:absolute;left:4px;top:.5em;width:7px;height:7px;background:var(--o-g);transform:rotate(45deg)}
+#uye39.o42 .o42-b{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:52px;margin-top:auto;flex:none;border-radius:14px;font:700 1rem var(--sans);cursor:pointer;transition:transform .15s ease,box-shadow .2s ease,background-color .2s}
+#uye39.o42 .o42-kn .o42-b{background:rgba(217,181,108,.06);border:1.5px solid var(--o-g);color:var(--o-ch)}
+#uye39.o42 .o42-kn .o42-b:hover{background:rgba(217,181,108,.14)}
+#uye39.o42 .o42-kp .o42-b{border:0;background:linear-gradient(180deg,#f4d892,#d4a756 58%,#b9893b);color:#1a1206;box-shadow:0 10px 26px rgba(214,165,80,.35),inset 0 1px 0 rgba(255,255,255,.55)}
+#uye39.o42 .o42-kp .o42-b:hover{transform:translateY(-1px);box-shadow:0 14px 30px rgba(214,165,80,.45),inset 0 1px 0 rgba(255,255,255,.55)}
+#uye39.o42 .o42-b:focus-visible,#uye39.o42 .o42-ogr:focus-visible,#uye39.o42 .o42-geri:focus-visible{outline:3px solid #f3d58f;outline-offset:3px}
+#uye39.o42 h1:focus{outline:none}
+#uye39.o42 .uye39-not + .o42-b{margin-top:0}
+#uye39.o42 .uye39-not{margin:auto 0 6px!important;color:#b5ab98!important;font-size:.76rem!important}
+#uye39.o42 .o42-alt{text-align:center;margin-top:14px}
+#uye39.o42 .uye39-h{color:#e6dfcf;margin:6px 0 2px}
+#uye39.o42 .uye39-alt{display:inline-flex;align-items:center;gap:8px;justify-content:center;flex-wrap:wrap;color:var(--o-mut);font-size:.86rem;margin:2px 0 0}
+#uye39.o42 .uye39-alt svg{color:var(--o-g)}
+#uye39.o42 .uye39-alt b{color:var(--o-ch)}
+@media (max-width:380px){#uye39.o42 .o42-ogr span{font-size:.82rem}#uye39.o42 .o42-ic{padding:12px 14px 16px}#uye39.o42 .o42-oz{display:none}}
+@media (prefers-reduced-motion:reduce){#uye39.o42 .o42-b{transition:none}}
+
+/* ---------- 3. Deneyim değiştirme düğmesi (yazılı; dar ekranda da) ---------- */
+.dg42{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:0 12px;border-radius:999px;font:700 .82rem var(--sans);letter-spacing:.01em;white-space:nowrap;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.dg42 svg{flex:none}
+.dg42:focus-visible{outline:3px solid #E2B765;outline-offset:2px}
+/* Premium üst çubuk */
+body[data-prem39] .p39-sw.dg42{min-height:44px;padding:0 12px;border:1px solid rgba(226,183,101,.55);background:rgba(226,183,101,.12);color:#F6DCA6}
+body[data-prem39] .p39-sw.dg42 span{display:inline!important}
+@media (max-width:400px){body[data-prem39] .p39-brand span{display:none}}
+/* Koridor: üst çubuğun altında, solda */
+.ust40 .dg42.yuz{all:unset;box-sizing:border-box;position:absolute;left:max(8px,env(safe-area-inset-left,0px));top:calc(100% + 8px);display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 13px;border-radius:999px;background:rgba(24,16,9,.9);border:1px solid rgba(226,183,101,.6);color:#F6DCA6;font:700 .82rem var(--sans);cursor:pointer;box-shadow:0 6px 16px rgba(0,0,0,.35)}
+.ust40 .dg42.yuz svg{color:#E2B765}
+.ust40 .dg42.yuz:focus-visible{outline:3px solid #E2B765;outline-offset:2px}
+/* Ödünç (Klasik) ekranların Premium şeridi */
+.p39-bar .dg42.bar,#p39bar .dg42{margin-left:auto;border:1px solid rgba(226,183,101,.55);background:rgba(226,183,101,.12);color:#F6DCA6}
+/* Klasik üst çubuk */
+header.top .dg42.kl{flex:none;margin:0 4px;border:1px solid color-mix(in srgb,var(--pri,#4F7CFF) 55%,transparent);background:color-mix(in srgb,var(--pri,#4F7CFF) 14%,transparent);color:var(--ink)}
+header.top:has(.dg42.kl) .brand{flex:none;min-width:0}
+@media (max-width:520px){header.top:has(.dg42.kl) .brand{font-size:0;gap:0}}
+@media (max-width:420px){header.top .dg42.kl{padding:0 11px;margin:0 2px}header.top .dg42.kl svg{display:none}}
+@media (max-width:380px){header.top .iconbtn,header.top #snd37{width:40px;min-width:40px}}
+/* Oyun: giriş kartı, duraklatma menüsü, yazılı Menü düğmesi */
+.o41-giris{position:relative}
+.o41-giris>.dg42.oy{position:fixed;z-index:5;top:calc(10px + env(safe-area-inset-top,0px));left:max(10px,env(safe-area-inset-left,0px));min-height:44px;border:1px solid rgba(226,183,101,.6);background:rgba(24,16,9,.9);color:#F6DCA6;box-shadow:0 6px 16px rgba(0,0,0,.35)}
+.o41-giris>.dg42.oy svg{color:#E2B765}
+.o41-menu .dg42.mn{width:100%;border-radius:12px;min-height:46px}
+.o41-hud .o41-ib.o42-menu{width:auto;padding:0 12px 0 10px;gap:6px;border-radius:999px;display:inline-flex;align-items:center}
+.o41-hud .o41-ib.o42-menu .m42t{font:700 .8rem var(--sans)}
+/* Deneyimi değiştir paneli */
+.dg42s{display:grid;gap:10px}
+.dg42-su{margin:0 0 2px;color:var(--mut)}
+.dg42-su b{color:var(--ink)}
+.dg42-sec{display:flex;align-items:center;gap:12px;width:100%;min-height:64px;padding:10px 14px;border-radius:16px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font:inherit;text-align:left;cursor:pointer}
+.dg42-sec:hover{border-color:var(--pri)}
+.dg42-sec .dg42-i{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;flex:none;background:var(--soft);color:var(--pt)}
+.dg42-sec .dg42-t{display:flex;flex-direction:column;gap:2px;flex:1;min-width:0}
+.dg42-sec small{color:var(--mut);font-size:.82rem}
+.dg42-sec.kp{border-color:rgba(217,181,108,.6);background:linear-gradient(135deg,#1d160d,#120e09);color:#F3E6C6}
+.dg42-sec.kp small{color:#d6c9ad}
+.dg42-sec.kp .dg42-i{background:rgba(217,181,108,.16);color:#E9C67D}
+.dg42-not{margin:4px 0 0;font-size:.84rem;color:var(--mut)}
+
+/* ---------- 4. Klavye: alt paneller görünür alanın içinde kalır ---------- */
+.v-ov{bottom:var(--kb42,0px)}
+.v-sheet,.v-modal{max-height:min(88vh,calc(var(--vvh42,100vh) - 12px))}
+html.kb42 .bnav,html.kb42 .v31-bnav,html.kb42 nav.bnav{display:none!important}
+
+/* ---------- 5. Ders Atmosferi: kayıtlı müzikler ---------- */
+.atm-sc[data-cat="muzik42"] .ic{color:var(--pt)}
+.m42-kay{margin-bottom:12px}

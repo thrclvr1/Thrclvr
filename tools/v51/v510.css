@@ -1,0 +1,101 @@
+/* ===================== V51.0 ===================== */
+/* --- Altın para amblemi: üst menü düğmesinde dairenin içine tam oturur (kırpılmaz) --- */
+.md50[data-md50=altin] .md50-i{width:30px;height:30px;overflow:visible;background:radial-gradient(circle at 40% 35%,#4a3414,#1a1106);box-shadow:inset 0 0 0 1px rgba(243,213,143,.35)}
+.md50[data-md50=altin] .md50-i svg.ap51{width:26px;height:26px;max-width:none;display:block}
+.ust40 .md50[data-md50=altin] .md50-i{width:30px;height:30px}
+.mk50-am svg.ap51{display:block}
+/* dar ekranda Altın üst çubuğu: düğmeler sığar, mod düğmesi kırpılmaz */
+.p39-top .md50{flex:none!important}
+@media (max-width:540px){
+ .p39-top{gap:2px!important}
+ .p39-top .p39-ib:not(.md50){min-width:40px!important;width:40px!important;padding:0!important}
+ .p39-top .md50{padding:0 6px 0 3px!important}
+ .p39-top>.p39-brand{flex:0 1 auto!important;min-width:0!important;overflow:hidden}
+ .p39-top>.p39-brand>:not(:first-child){display:none!important}
+}
+@media (max-width:340px){.p39-top .p39-ib[onclick*="V37.sndOpen"]{display:none!important}}
+/* Altın alt menüsü: beş giriş dar ekranda da tam görünür */
+.bn50{grid-template-columns:repeat(5,minmax(0,1fr))!important}
+.bn50 button{min-width:0;padding:0 2px}
+.bn50 button span{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:380px){.bn50 button{font-size:.64rem}.bn50{width:calc(100% - 12px);padding:5px}}
+
+/* --- Elmas: Sınıf sınıf ilerleme, Favorilerim, Oyun Dünyası onayı (Elmas bileşenleri; mod değişmez) --- */
+.il51{display:grid;gap:14px}
+.il51-gr{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.il51-k{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:14px;border-radius:18px;cursor:pointer;color:var(--ink);font:inherit;border:1px solid var(--line)}
+.il51-k.fv{cursor:default;padding:8px 8px 8px 14px}
+.il51-a{display:flex;align-items:center;gap:12px;flex:1;min-width:0;background:none;border:0;text-align:left;color:inherit;font:inherit;cursor:pointer;padding:6px 0;min-height:44px}
+.il51-n{flex:none;display:grid;place-items:center;width:46px;height:46px;border-radius:14px;font:800 1.25rem var(--serif,var(--sans));color:#fff;background:linear-gradient(140deg,var(--ca,#6FA8FF),var(--cb,#1E4FB8))}
+.il51-t{display:grid;gap:3px;flex:1;min-width:0}
+.il51-t b{font-size:1.02rem}
+.il51-t small{color:var(--mut);font-size:.8rem}
+.il51-bar{display:block;height:8px;border-radius:99px;background:color-mix(in srgb,var(--line) 70%,transparent);overflow:hidden;margin:2px 0}
+.il51-bar i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--ca,#6FA8FF),var(--cb,#1E4FB8))}
+.il51-k>svg{flex:none;color:var(--mut)}
+.il51-h{margin:6px 0 0;font-size:1.05rem}
+.il51-bos{color:var(--mut);margin:0}
+.il51-y{padding:16px;border-radius:18px}
+.il51-y h2{display:flex;align-items:center;gap:8px;margin:0 0 6px;font-size:1.05rem}
+.oy51-k{display:grid;justify-items:center;text-align:center;gap:8px;padding:22px 18px;border-radius:22px}
+.oy51-k h1{margin:4px 0 0;font-size:1.3rem}
+.oy51-k p{margin:0;max-width:52ch}
+.oy51-bb{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:8px}
+.oy51-bb button{min-height:44px;padding:0 18px;border-radius:14px;font:700 .95rem var(--sans);cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.oy51-bb button.p{background:linear-gradient(135deg,#1E4FB8,#163b8a);border-color:transparent;color:#fff}
+
+/* --- Öğretmen paneli: Ana Panel (editör onayı yalnız burada) --- */
+.og-top .ap51{margin-top:14px;padding:14px;border-radius:16px;border:1px solid var(--t37-line,#d9c9ad);background:color-mix(in srgb,var(--t37-card,#fff) 88%,transparent);position:relative;z-index:1}
+.ap51 h2{margin:0 0 10px;font:700 1.05rem var(--sans);letter-spacing:.01em}
+.ap51-k{display:grid;grid-template-columns:auto 1fr;gap:10px 12px;align-items:center}
+.ap51-i{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:color-mix(in srgb,var(--t37-pri,#8a5a1c) 14%,transparent);color:var(--t37-pri,#8a5a1c)}
+.ap51-t{display:grid;gap:2px;min-width:0}
+.ap51-t b{font-size:1rem}
+.ap51-t small{color:var(--t37-mut,var(--mut));font-size:.84rem;line-height:1.35}
+.ap51-bb{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px}
+.ap51-bb button{min-height:44px;padding:0 14px;border-radius:12px;font:600 .9rem var(--sans);display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.ap51-not{margin:10px 0 0;color:var(--t37-mut,var(--mut))}
+.ap51-k.acik .ap51-i{background:color-mix(in srgb,#2e7d4f 16%,transparent);color:#2e7d4f}
+/* Sorun Bildir */
+.sb51-f label{display:grid;gap:4px;margin:0 0 12px;font-weight:600}
+.sb51-f label small{font-weight:400;color:var(--t37-mut,var(--mut))}
+.sb51-f select,.sb51-f textarea{width:100%;min-height:44px;box-sizing:border-box}
+.sb51-f .og-fr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:10px}
+@media (max-width:520px){.sb51-f .og-fr{grid-template-columns:1fr}}
+.sb51-lh{display:flex;align-items:center;gap:8px;margin:18px 0 8px}
+.sb51-lh span{display:inline-grid;place-items:center;min-width:26px;height:26px;padding:0 6px;border-radius:99px;background:color-mix(in srgb,var(--t37-pri,#8a5a1c) 14%,transparent);font-size:.85rem}
+.sb51-l{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.sb51-l li{padding:12px;border-radius:14px;border:1px solid var(--t37-line,#d9c9ad);background:var(--t37-card,#fff)}
+.sb51-l li.yeni{outline:2px solid var(--t37-pri,#8a5a1c);outline-offset:1px}
+.sb51-l p{margin:4px 0;white-space:pre-wrap;overflow-wrap:anywhere}
+.sb51-l small{display:flex;flex-wrap:wrap;gap:6px;align-items:center;color:var(--t37-mut,var(--mut))}
+/* Sınıflarım özeti */
+.s51-oz p{margin:6px 0}
+.s51-bar{height:10px;border-radius:99px;overflow:hidden;background:color-mix(in srgb,var(--t37-line,#d9c9ad) 70%,transparent)}
+.s51-bar i{display:block;height:100%;background:var(--t37-pri,#8a5a1c);border-radius:inherit}
+/* Yıllık plan uyumu (öğretmen) ve yükleme (editör) */
+.yp51-c{margin:12px 0;padding:14px;border-radius:14px;border:1px solid #c9922f;background:color-mix(in srgb,#f3cf72 18%,var(--t37-card,#fff))}
+.yp51-c h3{margin:0 0 6px;font-size:1rem}
+.yp51-c p{margin:4px 0}
+.yp51-b{margin:10px 0;padding:10px 12px;border-radius:12px;background:color-mix(in srgb,#2e7d4f 12%,var(--t37-card,#fff));border:1px solid color-mix(in srgb,#2e7d4f 40%,transparent)}
+.yp51-f{display:grid;gap:6px;margin:10px 0;font-weight:600}
+.yp51-f input{min-height:44px}
+.yp51-on{margin-top:12px}
+.yp51-t td,.yp51-t th{vertical-align:top}
+.ed51-ara .ed38-cats{margin-top:8px}
+/* erişim uyarısı ve yayın ayarı */
+.ue51{max-width:640px;margin:24px auto;padding:22px;border-radius:18px}
+.ue51 h1{margin:0 0 8px;font-size:1.3rem}
+.yy51-s{display:flex;gap:10px;align-items:center;min-height:44px;font-weight:600}
+.yy51-s input{width:22px;height:22px}
+/* kontrast (WCAG AA): öğretmen paneli rozetleri, liste süzgeci, sınıf çipi (denetimde ilk kez sınıf ekli ölçüldü) */
+body[data-ogrt37] .og-seg2 button.on{background:#7a4e1a!important;color:#fff!important;border-color:transparent!important}
+body[data-ogrt37] .og-seg2 button.on *{color:#fff!important}
+body[data-ogrt37] button.on small{opacity:1!important}
+body[data-ogrt37] .kmps.py-2026{color:#0f6670!important}
+body[data-ogrt37] .kmps.py-2018{color:#7a5410!important}
+body[data-ogrt37] .kmps.ps-mevcut{color:#146642!important}
+:root[data-theme=dark] body[data-ogrt37] .kmps.py-2026{color:#6fd3dc!important}
+:root[data-theme=dark] body[data-ogrt37] .kmps.py-2018{color:#ecc47a!important}
+:root[data-theme=dark] body[data-ogrt37] .kmps.ps-mevcut{color:#6fe0a8!important}
+.ap51-bb button.p{background:#7a4e1a!important;color:#fff!important;border-color:transparent!important}

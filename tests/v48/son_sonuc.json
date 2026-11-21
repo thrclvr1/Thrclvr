@@ -1,0 +1,300 @@
+{
+ "tarih": "2026-11-18T11:41:12.510Z",
+ "sonuc": [
+  {
+   "ad": "A1 sürüm V48.0, index.html aynı dosya; V47.0 yedek dosyası duruyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 içerik kayıtları ve müzik blokları V47.0 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "13 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı",
+   "ok": true,
+   "ayr": "yalnız v48.0"
+  },
+  {
+   "ad": "A4 HTML içinde gizli bilgi yok (istemci sırrı, özel anahtar, parola)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "M1 seçim ekranında yeni görseller: Elmas kristal-platin kütüphane, Altın zümrüt-altın kemerli salon (vektör, dosya indirmez)",
+   "ok": true,
+   "ayr": "{\"kn\":true,\"kp\":true,\"img\":0,\"etk\":[{\"t\":\"Elmas\",\"am\":true,\"gunes\":false},{\"t\":\"Altın\",\"am\":true,\"gunes\":false}],\"bg\":true,\"gecme\":true}"
+  },
+  {
+   "ad": "M2 “Altın” yanındaki güneş simgesi yok; yerinde metalik altın madalyon; Elmas’ta kristal amblem",
+   "ok": true,
+   "ayr": "[{\"t\":\"Elmas\",\"am\":true,\"gunes\":false},{\"t\":\"Altın\",\"am\":true,\"gunes\":false}]"
+  },
+  {
+   "ad": "M3 seçim ekranında altı köşeli yıldız / altıgen yok (DOM çokgenleri ve CSS arka planı taranır); girih arka plan ve geçme bordür var",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "M4 seçim ekranı 360 / 390 / 820 px genişlikte yatay taşma yok",
+   "ok": true,
+   "ayr": "{\"360\":0,\"390\":0,\"820\":0}"
+  },
+  {
+   "ad": "M5 bütün kavram motifleri (629) ve Elmas arka planı taranır: 6 kat simetrik çokgen yok; arka plan 8 köşeli yıldızlı girih",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "M6 Profilim › Görünüm › Öğrenme alanı önizlemeleri yeni Elmas/Altın görselleri",
+   "ok": true,
+   "ayr": "2"
+  },
+  {
+   "ad": "M7 Altın alan arka planı zümrüt-altın girih (gece ve gündüz ayrı tonda); altı kat simetri yok",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "M8 Altın gündüz modunda girih farklı (bronz) tonda",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "S1 9 doğa sesi katalogda ve üreticilerde yok; kahverengi ve beyaz gürültü duruyor",
+   "ok": true,
+   "ayr": "{\"ids\":[\"brown\",\"white\",\"m42_esik\",\"m42_sessizdua\",\"m42_neynefes\",\"m42_neydua\",\"m42_isik\",\"m42_kubbe\",\"m42_cam\"],\"adlar\":[\"Kahverengi gürültü\",\"Beyaz gürültü\",\"Kutsal Eşikte\",\"Sessiz Dua\",\"Neyin Nefesi\",\"Neyin Duası\",\"Işığın Dinlendiği Yer\",\"Kubbeli Çalışma Odası\",\"Cama Vuran Yağmur\"],\"pre\":[\"Derin Odak:brown\",\"Sade Odak:white\",\"Yumuşak Odak:brown+white\"],\"kat\":\"[{\\\"id\\\":\\\"muzik42\\\",\\\"n\\\":\\\"Müzikler\\\",\\\"d\\\":\\\"Uygulamaya eklenmiş kayıtlı müzikler; internetsiz çalar. Aynı anda bir müzik çalar, odak sesleriyle karıştırılabilir.\\\"},{\\\"id\\\":\\\"enstruman\\\",\\\"n\\\":\\\"Lisanslı enstrüman kayıtları\\\",\\\"d\\\":\\\"Yalnızca dosyası ve lisans bilgisi doğrulanmış kayıtlar\\\"},{\\\"id\\\":\\\"diger\\\",\\\"n\\\":\\\"Odak sesleri\\\",\\\"d\\\":\\\"Kahverengi ve beyaz gürültü; uygulama içinde üretilir\\\"}]\",\"gen\":[\"brown\",\"white\"],\"doga\":[]}"
+  },
+  {
+   "ad": "S2 hazır karışımlar yalnız kalan seslerle (bozuk karışım yok)",
+   "ok": true,
+   "ayr": "[\"Derin Odak:brown\",\"Sade Odak:white\",\"Yumuşak Odak:brown+white\"]"
+  },
+  {
+   "ad": "S3 eski favori/karışım/sıra kayıtlarında silinen sesler temizlendi; kalan sesler korundu",
+   "ok": true,
+   "ayr": "{\"vol\":0.6,\"L\":[{\"id\":\"brown\",\"v\":0.4,\"on\":true}],\"name\":\"Yağmur + Kahverengi\",\"saved\":[{\"id\":\"u1\",\"n\":\"Benim\",\"L\":[[\"white\",0.3]]}],\"fav\":[\"brown\"],\"favMix\":[\"p3\"],\"queue\":[\"p3\"],\"rep\":\"one\",\"segMin\":15,\"tab\":\"sesler\"}"
+  },
+  {
+   "ad": "S4 kalan odak sesleri (22050 Hz) sayısal olarak sağlam ses üretir",
+   "ok": true,
+   "ayr": "{\"brown\":{\"n\":308700,\"rms\":0.1175,\"bad\":0},\"white\":{\"n\":308700,\"rms\":0.0891,\"bad\":0}}"
+  },
+  {
+   "ad": "S5 Ders Atmosferi panelinin hiçbir sekmesinde silinen sesler ve “doğa sesleri” ifadesi geçmiyor",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "S6 Ses ve müzik: büyük oynat/duraklat, dalga, ses sürgüsü, ayrı sessize alma, zamanlayıcı kartı; eski “Zamanlayıcı ve ayrıntılar” düğmesi yok",
+   "ok": true,
+   "ayr": "{\"pp\":true,\"dalga\":7,\"rng\":true,\"mute\":true,\"zm\":4,\"eskiDugme\":false}"
+  },
+  {
+   "ad": "S7 Oynat: ses seçili değilken Derin Odak (kahverengi gürültü) başlar; şimdi çalan ve etkin ses göstergesi güncellenir",
+   "ok": true,
+   "ayr": "{\"cal\":true,\"L\":[\"brown\"],\"ad\":\"Derin Odak\",\"on\":true,\"np\":\"Derin Odak\",\"cip\":1}"
+  },
+  {
+   "ad": "S8 ses sürgüsü seviyeyi değiştirir; sessize alma 0 yapar ve önceki seviyeye (%40) geri döner",
+   "ok": true,
+   "ayr": "{\"v1\":0.4,\"m1\":{\"vol\":0,\"bas\":\"true\",\"k\":{\"v\":1,\"sessiz\":true,\"onceki\":0.4}},\"m2\":0.4}"
+  },
+  {
+   "ad": "S9 zamanlayıcı 25 dk kurulur, kalan süre kartta görünür",
+   "ok": true,
+   "ayr": "{\"kalan\":1499,\"t\":\"Kalan 24:59\",\"on\":[\"25 dk\"]}"
+  },
+  {
+   "ad": "S10 duraklat ve “Sesi tamamen kapat” çalışır",
+   "ok": true,
+   "ayr": "{\"d1\":{\"cal\":false,\"dur\":true},\"d2\":{\"live\":false,\"tEnd\":0}}"
+  },
+  {
+   "ad": "S11 kayıtlı müzik çalar (müzikler kaldı)",
+   "ok": true,
+   "ayr": "{\"id\":\"esik\",\"n\":\"Kutsal Eşikte\",\"has\":true,\"cal\":true,\"err\":\"\"}"
+  },
+  {
+   "ad": "S12 üst çubuktaki hızlı ses paneli aynı modern bileşeni kullanır (önceki/sonraki dahil), müzik listesi duruyor",
+   "ok": true,
+   "ayr": "{\"sp\":true,\"eski\":false,\"muz\":true,\"ad\":2}"
+  },
+  {
+   "ad": "S13 “hareketi azalt” açıkken ses paneli animasyonsuz",
+   "ok": true,
+   "ayr": "[\"none\",\"none\",\"none\"]"
+  },
+  {
+   "ad": "C1 büyük hedef halkası; tamamlanan / kalan / hedef; seri; son 7 gün",
+   "ok": true,
+   "ayr": "[\"0\",\"20\",\"20\"]"
+  },
+  {
+   "ad": "C2 dört çalışma kartı, her biri bir ekrana gider; değer 0 iken boş “0” yerine anlamlı durum yazar",
+   "ok": true,
+   "ayr": "[\"tekrar:Tekrar yok\",\"ogren:Hepsi öğrenildi\",\"yanlis:Yanlışın yok\",\"test:10 soru\"]"
+  },
+  {
+   "ad": "C3 öneriler neden göstergesiyle (ör. “Neden: 2 yanlış sorun var”) ve doğrudan konu bağlantısıyla",
+   "ok": true,
+   "ayr": "[{\"neden\":\"Neden: 2 yanlış sorun var\",\"f\":\"V30.yStart('TPC-5-1-01')\"}]"
+  },
+  {
+   "ad": "C4 zayıf kazanımlar yüzde, doğru/yanlış sayısı ve ilerleme çubuğuyla",
+   "ok": true,
+   "ayr": "[\"DKAB.5.1.1 %25 Evrendeki mükemmel düzene ilişkin akıl yürütebilme 1 doğru 3 yanlış 4 cevap Konuya git\",\"\"]"
+  },
+  {
+   "ad": "C5 Çalışma Merkezim gerçek dokunma ile kaydırılır",
+   "ok": true,
+   "ayr": "{\"y0\":0,\"y1\":855}"
+  },
+  {
+   "ad": "C6 kartlar ilgili ekranı açar (yanlışlarım, kartlar)",
+   "ok": true,
+   "ayr": "[\"yanlis→yanlis\",\"ogren→cards\"]"
+  },
+  {
+   "ad": "C7 360 px’te yatay taşma yok; en alttaki içerik alt menünün altında kalmıyor",
+   "ok": true,
+   "ayr": "{\"t360\":0,\"alt\":{\"nav\":690,\"son\":2993},\"alt2\":{\"nav\":702,\"son\":651}}"
+  },
+  {
+   "ad": "C8 Altın koridorda ayrı “Çalışma Masası” girişi; araç şeridi yine 6 kart (7. kart yok); Oyun Merkezi’nden ayrı",
+   "ok": true,
+   "ayr": "{\"masa\":true,\"serit\":6,\"ayri\":true,\"oyun\":false}"
+  },
+  {
+   "ad": "C9 Altın’da Çalışma Merkezim tam işlevli: aynı veri (öneriler, kartlar, halka) atmosferik görünümle",
+   "ok": true,
+   "ayr": "{\"v\":\"calis45\",\"al\":true,\"on\":1,\"kart\":4,\"halka\":true}"
+  },
+  {
+   "ad": "B1 konu içeriğinin sonunda “Bu içerikte bir hata mı fark ettin?” + “İçerik hatası bildir”",
+   "ok": true,
+   "ayr": "{\"son\":true,\"t\":\"Bu içerikte bir hata mı fark ettin?\\nİçerik hatası bildir\"}"
+  },
+  {
+   "ad": "B2 içerik bildirimi kategorileri (7) ve isteğe bağlı açıklama, anonim seçeneği",
+   "ok": true,
+   "ayr": "[\"Yanlış bilgi\",\"Eksik bilgi\",\"Ayet veya hadis referansı hatalı\",\"Kaynak hatası\",\"Açıklama yetersiz\",\"Yazım hatası\",\"Diğer\"]"
+  },
+  {
+   "ad": "B3 tür seçilmeden gönderilmez; gönderilen bildirim otomatik alanlarla saklanır (sınıf, müfredat, ünite, konu, kazanım, bölüm, tür, tarih, sürüm)",
+   "ok": true,
+   "ayr": "{\"id\":\"01a7d25c-206b-4b6b-ab08-744db3b1f0c6\",\"tur\":\"icerik\",\"kategori\":\"Ayet veya hadis referansı hatalı\",\"aciklama\":\"Ayet numarası yanlış yazılmış.\",\"anonim\":true,\"kaynak\":\"ogrenci\",\"baglam\":{\"sinif\":5,\"programYili\":\"2026\",\"uniteId\":\"DKAB-5-U01\",\"unite\":\"1. ALLAH İNANCI\",\"konuId\":\"TPC-5-1-01\",\"konu\":\"Evrendeki Düzeni Fark Etmek\",\"kazanim\":[\"DKAB.5.1.1\"],\"soruId\":\"\",\"bolum\":\"anlat\",\"bolumAd\":\"Anlatım\"},\"tarih\":\"2026-11-18T11:40:35.772Z\",\"surum\":\"V48.0\",\"durum\":\"taslak\",\"gonderim\":null}"
+  },
+  {
+   "ad": "B4 sunucu bağlı değilken “gönderildi” denmez: taslak olarak cihazda kalır ve bu açıkça söylenir",
+   "ok": true,
+   "ayr": "Teşekkürler. Merkezi sunucu bağlı olmadığı için bildirimin bu cihazda saklandı (Profilim › Bildirimlerim)."
+  },
+  {
+   "ad": "B5 mini testte “Soruyu bildir” doğru soru kimliğiyle; test sekmesinde içerik düğmesi tekrarlanmaz",
+   "ok": true,
+   "ayr": "{\"d\":\"Q-DKAB-5-0001\",\"pick\":\"Q-DKAB-5-0001\",\"ic\":false}"
+  },
+  {
+   "ad": "B6 soru bildirimi kategorileri (7) ve otomatik soru kimliği",
+   "ok": true,
+   "ayr": "{\"sinif\":5,\"programYili\":\"2026\",\"uniteId\":\"DKAB-5-U01\",\"unite\":\"1. ALLAH İNANCI\",\"konuId\":\"TPC-5-1-01\",\"konu\":\"Evrendeki Düzeni Fark Etmek\",\"kazanim\":[\"DKAB.5.1.1\"],\"soruId\":\"Q-DKAB-5-0001\",\"bolum\":\"test\",\"bolumAd\":\"Mini Test\"}"
+  },
+  {
+   "ad": "B7 Yanlışlarım ekranındaki sorularda da “Soruyu bildir”",
+   "ok": true,
+   "ayr": "[\"Q-DKAB-5-0003\"]"
+  },
+  {
+   "ad": "B8 öğretmen de bildirebilir; kaynak “öğretmen” olarak kaydedilir",
+   "ok": true,
+   "ayr": "ogretmen"
+  },
+  {
+   "ad": "B9 bağlantı yokken taslaklar kaybolmaz; bağlantı gelince gönderilir, tekrar denemede çift gönderim olmaz",
+   "ok": true,
+   "ayr": "{\"n0\":0,\"tas0\":3,\"n1\":3,\"n2\":0,\"gelen\":3}"
+  },
+  {
+   "ad": "B10 sunucuya giden bildirimde kimlik bilgisi yok (ad/e-posta istemciden gönderilmez; anonim işareti taşınır)",
+   "ok": true,
+   "ayr": "[\"id\",\"tur\",\"kategori\",\"aciklama\",\"anonim\",\"kaynak\",\"baglam\",\"tarih\",\"surum\"]"
+  },
+  {
+   "ad": "B11 Profilim › Bildirimlerim: liste, durum ve dışa aktarma",
+   "ok": true,
+   "ayr": "Bildirimlerim\n\n3 bildirim.\n\nListeyi göster\nDışa aktar (JSON)\n\nMerkezi gönderim için hesap sunucusu kurulmalı ve Google ile giriş yapılmalı. O zamana kadar dışa "
+  },
+  {
+   "ad": "B12 Hata ve Geri Bildirim Merkezi editör oturumu ister (öğrenci/öğretmen yönetemez)",
+   "ok": true,
+   "ayr": "{\"liste\":false,\"pin\":true}"
+  },
+  {
+   "ad": "B13 editör ana ekranında merkez girişi; Yeni / İnceleniyor / Düzeltildi / Geçersiz sekmeleri; benzer bildirimler gruplanır",
+   "ok": true,
+   "ayr": "{\"sek\":[\"Yeni4\",\"İnceleniyor0\",\"Düzeltildi0\",\"Geçersiz / Reddedildi0\"],\"gr\":[\"2 benzer bildirim\"],\"n\":3}"
+  },
+  {
+   "ad": "B14 incelemeye al → iç not → gerekçesiz kapatma reddedilir → gerekçeyle “Geçersiz / Reddedildi”",
+   "ok": true,
+   "ayr": "{\"d\":\"gecersiz\",\"g\":\"Ayet numarası doğrulandı, hata yok.\",\"n\":[\"Durum: İnceleniyor\",\"Mushafla karşılaştırılacak.\",\"Durum: Geçersiz / Reddedildi — Ayet numarası doğrulandı, hata yok.\"]}"
+  },
+  {
+   "ad": "B15 “Soruyu gör” soruyu ve kayıtlı cevabı gösterir; “İçeriğe git” doğru konu ve bölümü açar; bildirim işlemleri içeriği değiştirmez",
+   "ok": true,
+   "ayr": "{\"kg\":{\"v\":\"topic\",\"t\":\"TPC-5-1-01\",\"tab\":\"anlat\"},\"eq\":true}"
+  },
+  {
+   "ad": "B16 bildirim formu ve editör merkezi 360 px’te taşmıyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "B17 Altın ders ekranında da içerik ve soru bildirimi",
+   "ok": true,
+   "ayr": "{\"v\":\"pders\",\"b\":true}"
+  },
+  {
+   "ad": "H1 ilerleme kayıtları (dk2, dk-calis45, dk-oyun41) V48 açılışında aynen korunur",
+   "ok": true,
+   "ayr": "{\"prog\":{\"userId\":\"local\",\"outcomeId\":\"DKAB-5-U01-O01\",\"mastery\":0.5,\"correct\":1,\"wrong\":1},\"wr\":[\"Q-DKAB-5-0001\"],\"hedef\":30,\"oyun\":2,\"hesap\":\"misafir\",\"fns\":true,\"birles\":\"object\"}"
+  },
+  {
+   "ad": "H2 Google / misafir giriş ve eşitleme modülü değişmeden yerinde (varsayılan misafir)",
+   "ok": true,
+   "ayr": "{\"prog\":{\"userId\":\"local\",\"outcomeId\":\"DKAB-5-U01-O01\",\"mastery\":0.5,\"correct\":1,\"wrong\":1},\"wr\":[\"Q-DKAB-5-0001\"],\"hedef\":30,\"oyun\":2,\"hesap\":\"misafir\",\"fns\":true,\"birles\":\"object\"}"
+  },
+  {
+   "ad": "H3 öğretmen girişi PIN istemez; editör alanı ayrı PIN ister",
+   "ok": true,
+   "ayr": "{\"pin\":false,\"ok\":true,\"v\":\"ogretmen\"}"
+  },
+  {
+   "ad": "H4 editör oturumu öğretmen oturumundan ayrı (PIN ekranı)",
+   "ok": true,
+   "ayr": "ADIM 1 / 2\n\nEditör PIN'i oluştur\n\nBu alan yalnızca uygulama sahibi / içerik edit"
+  },
+  {
+   "ad": "H5 V45 A/B/C kaynak doğrulama sınıflandırması çalışıyor",
+   "ok": true,
+   "ayr": "{\"L\":[\"AB+C\",\"A\"],\"kuyruk\":1}"
+  },
+  {
+   "ad": "H6 önceki ekranlar açılıyor ve 390 px’te taşmıyor (sınıflar, sınıf, oyunlar, sureler, kavramlar, bağlantılar, profil, pekiştir, kendini dene)",
+   "ok": true,
+   "ayr": "[\"siniflar:true:0\",\"sinif:true:0\",\"oyunlar:true:0\",\"sureler:true:0\",\"kavram:true:0\",\"baglanti:true:0\",\"profil:true:0\",\"pek:true:0\",\"dene:true:0\"]"
+  },
+  {
+   "ad": "H7 Altın alan ekranları (koridor, sınıf, ünite, Oyun Dünyası, ilerleme) açılıyor, taşma yok",
+   "ok": true,
+   "ayr": "[\"koridor:pdunya:0\",\"sinif:psinif:0\",\"unite:punite:0\",\"oyun:poyun:0\",\"ilerleme:pilerleme:0\"]"
+  },
+  {
+   "ad": "P1 testler boyunca sayfada JavaScript hatası yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ]
+}

@@ -1,0 +1,352 @@
+/* ===== V43.0 üretilmiş: türetilmiş değişkenler, Premium gündüz modu, krem ders sayfası (tools/v43/build430.py) ===== */
+:where(body[data-prem39],body[data-prem39] .p43-kagit){--soft:color-mix(in srgb,var(--pri) 9%,var(--surface));--soft2:color-mix(in srgb,var(--pri) 18%,var(--surface));--gl1:color-mix(in srgb,var(--surface) 68%,transparent);--gl1b:color-mix(in srgb,var(--ink) 9%,transparent);--gl2:color-mix(in srgb,var(--ca) 22%,color-mix(in srgb,var(--surface) 70%,transparent));--gl2b:color-mix(in srgb,var(--ca) 55%,transparent);--gl3:color-mix(in srgb,var(--surface) 90%,transparent);--gl3b:color-mix(in srgb,var(--ink) 14%,transparent);--glnav:color-mix(in srgb,var(--surface) 60%,transparent)}
+html[data-pt43=gunduz] :is(.p39-top){background:linear-gradient(180deg,#eee1d4,#f0e3d6)}
+html[data-pt43=gunduz] :is(.p39-bar#p39bar),html[data-pt43=gunduz] :is(#p39bar){background:#efe2d5}
+html[data-pt43=gunduz] :is(.p39-bb){background:#ecded3}
+html[data-pt43=gunduz] :is(.p39-amb .tv){background:linear-gradient(180deg,#e8dbcf,#e2d2c4)}
+html[data-pt43=gunduz] :is(.p39-amb .fn){background:#e9dcd0}
+html[data-pt43=gunduz] :is(.p39-amb .zm){background:linear-gradient(90deg,transparent 46%,rgba(225,212,200,0.35) 46.5%,rgba(225,212,200,0.35) 47.5%,transparent 48%,transparent 52%,rgba(225,212,200,0.35) 52.5%,rgba(225,212,200,0.35) 53.5%,transparent 54%),linear-gradient(180deg,#a9a091,#ebe5da 70%,#f4efe6)}
+html[data-pt43=gunduz] :is(.p39-ok){background:rgba(240,228,215,0.78);color:#5e4a18}
+html[data-pt43=gunduz] :is(.p39-gir){background:radial-gradient(circle at 50% 40%,#e6d7c5,#eee1d5);color:#5f4a16}
+html[data-pt43=gunduz] :is(.p39-gs){background:#ede0d3}
+html[data-pt43=gunduz] :is(.p39-gs .gs-dz button i){background:#e3d6c8}
+html[data-pt43=gunduz] :is(.p39-gs .gs-dz button.on){color:#5e4a16}
+html[data-pt43=gunduz] :is(.p39-hz){background:#ede0d3}
+html[data-pt43=gunduz] :is(.p39-hz h2){color:#634800}
+html[data-pt43=gunduz] :is(.p39-hero){background:linear-gradient(135deg,#e9dcd0,#efe2d5)}
+html[data-pt43=gunduz] :is(.p39-emb b){color:#5f4a16}
+html[data-pt43=gunduz] :is(.p39-emb.u){background:#e8dace}
+html[data-pt43=gunduz] :is(.p39-hero h1),html[data-pt43=gunduz] :is(.p39-h1),html[data-pt43=gunduz] :is(.p39-dh h1){color:#322a1a}
+html[data-pt43=gunduz] :is(.p39-prg button){background:#ede1d4}
+html[data-pt43=gunduz] :is(.p39-sts b){color:#624800}
+html[data-pt43=gunduz] :is(.p39-card h2){color:#624800}
+html[data-pt43=gunduz] :is(.p39-last){background:#e9dcd0}
+html[data-pt43=gunduz] :is(.p39-st.tamam){color:#006039}
+html[data-pt43=gunduz] :is(.p39-st.calis){color:#684600}
+html[data-pt43=gunduz] :is(.p39-st.uy){color:#724000}
+html[data-pt43=gunduz] :is(.p39-h2){color:#624800}
+html[data-pt43=gunduz] :is(.p39-un){background:linear-gradient(160deg,#eaddd1,#eee2d5)}
+html[data-pt43=gunduz] :is(.p39-un .un-ic){background:#e7d8cd}
+html[data-pt43=gunduz] :is(.p39-tc h3){color:#322a1a}
+html[data-pt43=gunduz] :is(.p39-ul button),html[data-pt43=gunduz] :is(.p39-ri){background:#ecded3}
+html[data-pt43=gunduz] :is(.p39-kzb){background:#eaded1}
+html[data-pt43=gunduz] :is(.p39-tags span){background:#eaddd0}
+html[data-pt43=gunduz] :is(.p39-tags span.uy){color:#724000}
+html[data-pt43=gunduz] :is(.p39-tabs button){background:#ece0d3}
+html[data-pt43=gunduz] :is(.p39-pager button){background:#ece0d3}
+html[data-pt43=gunduz] :is(.p39-sema){background:#ece0d3}
+html[data-pt43=gunduz] :is(.p39-sema figcaption){color:#634800}
+html[data-pt43=gunduz] :is(.p39-sema span){background:#e8dbcf}
+html[data-pt43=gunduz] :is(.p39-kv){background:#ece0d3}
+html[data-pt43=gunduz] :is(.p39-kv h4){color:#634800}
+html[data-pt43=gunduz] :is(.p39-kv span){background:#e8dbcf}
+html[data-pt43=gunduz] :is(.p39-oz h3){color:#322a1a}
+html[data-pt43=gunduz] :is(.p39-oz li p){color:#322a1a}
+html[data-pt43=gunduz] :is(.p39-30 h4){color:#006039}
+html[data-pt43=gunduz] :is(.p39-30 .k3 h4){color:#684600}
+html[data-pt43=gunduz] :is(.p39-30 .d3 h4){color:#7f3300}
+html[data-pt43=gunduz] :is(.p39-kod){background:radial-gradient(circle at 50% 0,#e6d7c5,#eee1d5)}
+html[data-pt43=gunduz] :is(.p39-kod .kd-ic){background:#e8dcce;color:#684600}
+html[data-pt43=gunduz] :is(.p39-kod h3){color:#5f4a16}
+html[data-pt43=gunduz] :is(.p39-kod .kd-kt){color:#322a1a}
+html[data-pt43=gunduz] :is(.p39-tb h3){color:#322a1a}
+html[data-pt43=gunduz] :is(.p39-tb th),html[data-pt43=gunduz] :is(.p39-tb td){border-bottom:1px solid #c3b4a2}
+html[data-pt43=gunduz] :is(.p39-tb thead th){background:#e7dace;color:#624800}
+html[data-pt43=gunduz] :is(.p39-tb tbody th){color:#634800;background:#eaded1}
+html[data-pt43=gunduz] :is(.p39-tb tbody tr:nth-child(even) td){background:#ebded1}
+html[data-pt43=gunduz] :is(.p39-kr .kr-vh span){background:#e8dbcf;color:#5f4a16}
+html[data-pt43=gunduz] :is(.p39-kr .kr-vg div){background:#eaddd1}
+html[data-pt43=gunduz] :is(.p39-kr .kr-ip){color:#684600}
+html[data-pt43=gunduz] :is(.p39-sn .sn-b h4){color:#006039}
+html[data-pt43=gunduz] :is(.p39-sn .sn-k h4){color:#684600}
+html[data-pt43=gunduz] :is(.p39-sn .sn-d h4){color:#7f3300}
+html[data-pt43=gunduz] :is(.p39-sn .sn-s h4){color:#2c4a8a}
+html[data-pt43=gunduz] :is(.p39-amb .fn){background:radial-gradient(circle,#ffe9b0 0,#d99a3c 55%,#e7ccb1 100%)}
+html[data-pt43=gunduz] :is(.p40){background:#f3e6d9;color:var(--p-ink,#312a1f)}
+html[data-pt43=gunduz] :is(.pil40){background:linear-gradient(90deg,#efdbd0,#eccbb7 40%,#edd1c4 70%,#efdcd1),#eed0c0}
+html[data-pt43=gunduz] :is(.nis40){background:radial-gradient(ellipse 60% 55% at 50% 40%,rgba(255,226,170,.5),transparent 70%),var(--kafes) 0 0/38px 38px,linear-gradient(#e7cbb7,#eddcd1)}
+html[data-pt43=gunduz] :is(.ust40){background:linear-gradient(180deg,rgba(240,228,215,0.86),rgba(240,228,215,0.6))}
+html[data-pt43=gunduz] :is(.ust40 button){color:var(--p-ink,#312a1f)}
+html[data-pt43=gunduz] :is(.mk40 b){color:#624800}
+html[data-pt43=gunduz] :is(.mk40 small){color:#332a1a}
+html[data-pt43=gunduz] :is(.nv40 button){color:#332a1a}
+html[data-pt43=gunduz] :is(.nv40 button .p39-i){color:#684600}
+html[data-pt43=gunduz] :is(.nv40 button.on){color:#624800}
+html[data-pt43=gunduz] :is(.ib40 .p39-i){color:#664700}
+html[data-pt43=gunduz] :is(.ipu40){background:rgba(240,228,215,0.78);color:#312a1f}
+html[data-pt43=gunduz] :is(.ipu40 i){color:#6d4400}
+html[data-pt43=gunduz] :is(.ipu40 b){color:#624800}
+html[data-pt43=gunduz] :is(.ipu40 small){color:#332a1a}
+html[data-pt43=gunduz] :is(.yrd40){color:#624800;background:rgba(240,228,215,0.7)}
+html[data-pt43=gunduz] :is(.alt40){background:linear-gradient(0deg,rgba(243,230,217,0.9),rgba(243,230,217,0.72) 62%,rgba(243,230,217,0))}
+html[data-pt43=gunduz] :is(.yon40){color:#312a1f;background:rgba(238,224,212,0.78)}
+html[data-pt43=gunduz] :is(.yon40 .p39-i){color:#6d4400}
+html[data-pt43=gunduz] :is(.bil40){background:rgba(239,226,214,0.78)}
+html[data-pt43=gunduz] :is(.bt40 b){color:#624800}
+html[data-pt43=gunduz] :is(.bt40 small){color:#332a1a}
+html[data-pt43=gunduz] :is(.bt40 span){color:#332a1a}
+html[data-pt43=gunduz] :is(.fav40){color:#5e4a1d;background:rgba(238,224,212,0.6)}
+html[data-pt43=gunduz] :is(.fav40.on){color:#6a4500}
+html[data-pt43=gunduz] :is(.gs40 button){color:#332a1a}
+html[data-pt43=gunduz] :is(.gs40 button.on){color:#624800}
+@media (min-width:1100px){html[data-pt43=gunduz] :is(.gs40){background:rgba(239,226,214,0.6)}}
+html[data-pt43=gunduz] :is(.hz40){background:#ede0d3}
+html[data-pt43=gunduz] :is(.hz40 h2){color:#634800}
+html[data-pt43=gunduz] :is(.hz40 button){color:#312a1f}
+html[data-pt43=gunduz] :is(.hz40 button .p39-i){color:#6d4400}
+html[data-pt43=gunduz] :is(.nt40){color:#332a1a}
+html[data-pt43=gunduz] :is(.p40-df){color:var(--p-mut,#332a1a)}
+html[data-pt43=gunduz] :is(.ar40 button){background:linear-gradient(160deg,#e9ddd0,#eee1d4);color:var(--p-ink,#312a1f)}
+html[data-pt43=gunduz] :is(.ar40-i){color:#6d4400}
+html[data-pt43=gunduz] :is(.ar40 b){color:#624800}
+html[data-pt43=gunduz] :is(.ar40 small){color:var(--p-mut,#332a1a)}
+html[data-pt43=gunduz] :is(.p40-h1){color:#624800}
+html[data-pt43=gunduz] :is(.fv40-k){background:var(--p-card,#ece0d3)}
+html[data-pt43=gunduz] :is(.fv40-a){color:var(--p-ink,#312a1f)}
+html[data-pt43=gunduz] :is(.fv40-a b){color:#624800}
+html[data-pt43=gunduz] :is(.fv40-a small){color:var(--p-mut,#332a1a)}
+html[data-pt43=gunduz] :is(.pf40-g .p39-i){color:#724000}
+html[data-pt43=gunduz] :is(.sahne40.gl .ust40){background:linear-gradient(180deg,rgba(240,225,214,0.94),rgba(240,225,214,0.86))}
+html[data-pt43=gunduz] :is(.sahne40.gl .bil40){background:rgba(237,225,212,0.9)}
+html[data-pt43=gunduz] :is(.sahne40.gl .alt40){background:linear-gradient(0deg,rgba(240,228,215,0.9),rgba(240,228,215,0.72) 62%,rgba(240,228,215,0))}
+html[data-pt43=gunduz] :is(.yuk40){background:rgba(237,225,212,0.88);color:#624800}
+html[data-pt43=gunduz] :is(.o41-ekran){background:#efe1d6;color:#312a1f}
+html[data-pt43=gunduz] :is(.o41-b){color:#312a1f;background:rgba(231,214,200,0.9)}
+html[data-pt43=gunduz] :is(.o41-mut){color:#5d4a23}
+html[data-pt43=gunduz] :is(.o41-ust){color:#664700}
+html[data-pt43=gunduz] :is(.o41-bas h1){color:#624800}
+html[data-pt43=gunduz] :is(.o41-oyun){background:#ece0d3}
+html[data-pt43=gunduz] :is(.o41-afis i){background:linear-gradient(90deg,#eac6af,#94603a 50%,#eac6af)}
+html[data-pt43=gunduz] :is(.o41-oyun.yakinda .o41-afis i){background:linear-gradient(90deg,#c0d2da,#56707a,#c0d2da)}
+html[data-pt43=gunduz] :is(.o41-ic h2){color:#624800}
+html[data-pt43=gunduz] :is(.o41-ic>p){color:#322a1a}
+html[data-pt43=gunduz] :is(.o41-etk){color:#5d4a23}
+html[data-pt43=gunduz] :is(.o41-bol b){color:#624800}
+html[data-pt43=gunduz] :is(.o41-bol small){color:#5d4a23}
+html[data-pt43=gunduz] :is(.o41-uy){color:#6b4500!important}
+html[data-pt43=gunduz] :is(.o41-yz){color:#6a4500}
+html[data-pt43=gunduz] :is(.o41-giris){background:radial-gradient(ellipse 70% 50% at 50% 30%,rgba(255,214,150,.35),transparent 70%),linear-gradient(180deg,#e9d6c7,#f0e1d6)}
+html[data-pt43=gunduz] :is(.o41-gkart){background:rgba(238,224,213,0.9)}
+html[data-pt43=gunduz] :is(.o41-gkart h1){color:#624800}
+html[data-pt43=gunduz] :is(.o41-odal b){color:#674700}
+html[data-pt43=gunduz] :is(.o41-odal span){color:#332a1a}
+html[data-pt43=gunduz] :is(.o41-kz summary){color:#6b4500}
+html[data-pt43=gunduz] :is(.o41-sahne.basit .o41-nes){background:rgba(235,221,209,0.8)}
+html[data-pt43=gunduz] :is(.o41-nes span){color:#312b1b;background:rgba(236,222,211,0.82)}
+html[data-pt43=gunduz] :is(.o41-kenar){color:#312b1a;background:rgba(236,222,211,0.72)}
+html[data-pt43=gunduz] :is(.o41-hud){background:linear-gradient(180deg,rgba(240,225,214,0.92),rgba(240,225,214,0.7))}
+html[data-pt43=gunduz] :is(.o41-ib){color:#674700;background:rgba(231,214,200,0.85)}
+html[data-pt43=gunduz] :is(.o41-baslik small){color:#664700}
+html[data-pt43=gunduz] :is(.o41-baslik b){color:#624800}
+html[data-pt43=gunduz] :is(.o41-puan){color:#6a4500}
+html[data-pt43=gunduz] :is(.o41-gorev){background:rgba(238,224,213,0.88)}
+html[data-pt43=gunduz] :is(.o41-gorev small){color:#5d4a23}
+html[data-pt43=gunduz] :is(.o41-panel){background:rgba(241,228,215,0.35)}
+html[data-pt43=gunduz] :is(.o41-yuva){background:linear-gradient(180deg,#7c4a27,#e9c9b5);color:#322b1a}
+html[data-pt43=gunduz] :is(.o41-ym){background:radial-gradient(circle,#ebd6c7,#e8c6af)}
+html[data-pt43=gunduz] :is(.o41-mh){color:#342a1a;background:radial-gradient(circle at 40% 35%,#e07a5e,#a83a2a 60%,#ffbcae)}
+html[data-pt43=gunduz] :is(.o41-raf){background:linear-gradient(180deg,#e9c9b5 0,#edd0bf 78%,#8a5830 78%,#9a6332 100%)}
+html[data-pt43=gunduz] :is(.o41-kt){color:#322a1b;background:linear-gradient(90deg,#f4c9bd 0 8px,#8a3f2a 8px)}
+html[data-pt43=gunduz] :is(.o41-kt:nth-child(3n+2)){background:linear-gradient(90deg,#c4dae6 0 8px,#3f6478 8px)}
+html[data-pt43=gunduz] :is(.o41-kt:nth-child(3n)){background:linear-gradient(90deg,#e6d7c2 0 8px,#8a6a2a 8px)}
+html[data-pt43=gunduz] :is(.o41-ok){color:#614a00;background:#edd0bf}
+html[data-pt43=gunduz] :is(.o41-yildizlar i){color:#5f4a1a}
+html[data-pt43=gunduz] :is(.o41-yildizlar i.on){color:#6e4200}
+html[data-pt43=gunduz] :is(.o41-yildizlar.buyuk small){color:#332a1a}
+html[data-pt43=gunduz] :is(.o41-son){background:radial-gradient(ellipse 70% 50% at 50% 0,rgba(255,226,170,.45),transparent 70%),linear-gradient(180deg,#e9d6c7,#f0e1d6)}
+html[data-pt43=gunduz] :is(.o41-skart){background:rgba(238,224,213,0.92)}
+html[data-pt43=gunduz] :is(.o41-skart h1){color:#624800}
+html[data-pt43=gunduz] :is(.o41-skart h2){color:#674700}
+html[data-pt43=gunduz] :is(.o41-ozet dt){color:#5d4a23}
+html[data-pt43=gunduz] :is(.o41-ozet dd){color:#624800}
+html[data-pt43=gunduz] :is(.o41-tab th){color:#664700}
+html[data-pt43=gunduz] :is(.o41-tab code){color:#6a4500}
+html[data-pt43=gunduz] :is(.o41-menu){background:rgba(243,230,217,0.72)}
+html[data-pt43=gunduz] :is(.o41-kart){background:#edddd4}
+html[data-pt43=gunduz] :is(.o41-kart h2){color:#624800}
+html[data-pt43=gunduz] :is(.o41-kal span){color:#5d4a23}
+html[data-pt43=gunduz] :is(.o41-kal button){color:#312a1f}
+html[data-pt43=gunduz] :is(.o41-hata){background:#edddd4}
+html[data-pt43=gunduz] :is(.o41-hata h2){color:#624800}
+html[data-pt43=gunduz] :is(.gc3){background:linear-gradient(155deg,color-mix(in srgb,var(--cb) 80%,#fff4e7),color-mix(in srgb,var(--cb) 58%,#fff4e7))}
+html[data-pt43=gunduz] :is(.hero.grade){background:linear-gradient(135deg,color-mix(in srgb,var(--cb) 74%,#dfe5f6),color-mix(in srgb,var(--cb) 62%,#fff4e7))}
+html[data-pt43=gunduz] :is(.hero.grade .lead),html[data-pt43=gunduz] :is(.hero.grade .eyebrow){color:#2b2b2b}
+html[data-pt43=gunduz] :is(.unum),html[data-pt43=gunduz] :is(body[data-g] .unum){background:linear-gradient(135deg,color-mix(in srgb,var(--cb) 84%,#fff4e7),color-mix(in srgb,var(--cb) 66%,#fff4e7))}
+html[data-pt43=gunduz] :is(button.p),html[data-pt43=gunduz] :is(.v-btn.p){background:linear-gradient(180deg,color-mix(in srgb,var(--btn) 86%,#fff4e7),color-mix(in srgb,var(--btn) 70%,#fff4e7))}
+html[data-pt43=gunduz] :is(.lk-see i){background:color-mix(in srgb,var(--btn) 74%,#fff4e7)}
+html[data-pt43=gunduz] :is(body[data-prem39] .gt .n){color:color-mix(in srgb,var(--gc,#6d4400) 40%,#2b2b2b)}
+.p43-kagit :is(.p39-top){background:linear-gradient(180deg,#eee1d4,#f0e3d6)}
+.p43-kagit :is(.p39-bar#p39bar),.p43-kagit :is(#p39bar){background:#efe2d5}
+.p43-kagit :is(.p39-bb){background:#ecded3}
+.p43-kagit :is(.p39-amb .tv){background:linear-gradient(180deg,#e8dbcf,#e2d2c4)}
+.p43-kagit :is(.p39-amb .fn){background:#e9dcd0}
+.p43-kagit :is(.p39-amb .zm){background:linear-gradient(90deg,transparent 46%,rgba(225,212,200,0.35) 46.5%,rgba(225,212,200,0.35) 47.5%,transparent 48%,transparent 52%,rgba(225,212,200,0.35) 52.5%,rgba(225,212,200,0.35) 53.5%,transparent 54%),linear-gradient(180deg,#a9a091,#ebe5da 70%,#f4efe6)}
+.p43-kagit :is(.p39-ok){background:rgba(240,228,215,0.78);color:#5e4a18}
+.p43-kagit :is(.p39-gir){background:radial-gradient(circle at 50% 40%,#e6d7c5,#eee1d5);color:#5f4a16}
+.p43-kagit :is(.p39-gs){background:#ede0d3}
+.p43-kagit :is(.p39-gs .gs-dz button i){background:#e3d6c8}
+.p43-kagit :is(.p39-gs .gs-dz button.on){color:#5e4a16}
+.p43-kagit :is(.p39-hz){background:#ede0d3}
+.p43-kagit :is(.p39-hz h2){color:#634800}
+.p43-kagit :is(.p39-hero){background:linear-gradient(135deg,#e9dcd0,#efe2d5)}
+.p43-kagit :is(.p39-emb b){color:#5f4a16}
+.p43-kagit :is(.p39-emb.u){background:#e8dace}
+.p43-kagit :is(.p39-hero h1),.p43-kagit :is(.p39-h1),.p43-kagit :is(.p39-dh h1){color:#322a1a}
+.p43-kagit :is(.p39-prg button){background:#ede1d4}
+.p43-kagit :is(.p39-sts b){color:#624800}
+.p43-kagit :is(.p39-card h2){color:#624800}
+.p43-kagit :is(.p39-last){background:#e9dcd0}
+.p43-kagit :is(.p39-st.tamam){color:#006039}
+.p43-kagit :is(.p39-st.calis){color:#684600}
+.p43-kagit :is(.p39-st.uy){color:#724000}
+.p43-kagit :is(.p39-h2){color:#624800}
+.p43-kagit :is(.p39-un){background:linear-gradient(160deg,#eaddd1,#eee2d5)}
+.p43-kagit :is(.p39-un .un-ic){background:#e7d8cd}
+.p43-kagit :is(.p39-tc h3){color:#322a1a}
+.p43-kagit :is(.p39-ul button),.p43-kagit :is(.p39-ri){background:#ecded3}
+.p43-kagit :is(.p39-kzb){background:#eaded1}
+.p43-kagit :is(.p39-tags span){background:#eaddd0}
+.p43-kagit :is(.p39-tags span.uy){color:#724000}
+.p43-kagit :is(.p39-tabs button){background:#ece0d3}
+.p43-kagit :is(.p39-pager button){background:#ece0d3}
+.p43-kagit :is(.p39-sema){background:#ece0d3}
+.p43-kagit :is(.p39-sema figcaption){color:#634800}
+.p43-kagit :is(.p39-sema span){background:#e8dbcf}
+.p43-kagit :is(.p39-kv){background:#ece0d3}
+.p43-kagit :is(.p39-kv h4){color:#634800}
+.p43-kagit :is(.p39-kv span){background:#e8dbcf}
+.p43-kagit :is(.p39-oz h3){color:#322a1a}
+.p43-kagit :is(.p39-oz li p){color:#322a1a}
+.p43-kagit :is(.p39-30 h4){color:#006039}
+.p43-kagit :is(.p39-30 .k3 h4){color:#684600}
+.p43-kagit :is(.p39-30 .d3 h4){color:#7f3300}
+.p43-kagit :is(.p39-kod){background:radial-gradient(circle at 50% 0,#e6d7c5,#eee1d5)}
+.p43-kagit :is(.p39-kod .kd-ic){background:#e8dcce;color:#684600}
+.p43-kagit :is(.p39-kod h3){color:#5f4a16}
+.p43-kagit :is(.p39-kod .kd-kt){color:#322a1a}
+.p43-kagit :is(.p39-tb h3){color:#322a1a}
+.p43-kagit :is(.p39-tb th),.p43-kagit :is(.p39-tb td){border-bottom:1px solid #c3b4a2}
+.p43-kagit :is(.p39-tb thead th){background:#e7dace;color:#624800}
+.p43-kagit :is(.p39-tb tbody th){color:#634800;background:#eaded1}
+.p43-kagit :is(.p39-tb tbody tr:nth-child(even) td){background:#ebded1}
+.p43-kagit :is(.p39-kr .kr-vh span){background:#e8dbcf;color:#5f4a16}
+.p43-kagit :is(.p39-kr .kr-vg div){background:#eaddd1}
+.p43-kagit :is(.p39-kr .kr-ip){color:#684600}
+.p43-kagit :is(.p39-sn .sn-b h4){color:#006039}
+.p43-kagit :is(.p39-sn .sn-k h4){color:#684600}
+.p43-kagit :is(.p39-sn .sn-d h4){color:#7f3300}
+.p43-kagit :is(.p39-sn .sn-s h4){color:#2c4a8a}
+.p43-kagit :is(.p39-amb .fn){background:radial-gradient(circle,#ffe9b0 0,#d99a3c 55%,#e7ccb1 100%)}
+.p43-kagit :is(.p40){background:#f3e6d9;color:var(--p-ink,#312a1f)}
+.p43-kagit :is(.pil40){background:linear-gradient(90deg,#efdbd0,#eccbb7 40%,#edd1c4 70%,#efdcd1),#eed0c0}
+.p43-kagit :is(.nis40){background:radial-gradient(ellipse 60% 55% at 50% 40%,rgba(255,226,170,.5),transparent 70%),var(--kafes) 0 0/38px 38px,linear-gradient(#e7cbb7,#eddcd1)}
+.p43-kagit :is(.ust40){background:linear-gradient(180deg,rgba(240,228,215,0.86),rgba(240,228,215,0.6))}
+.p43-kagit :is(.ust40 button){color:var(--p-ink,#312a1f)}
+.p43-kagit :is(.mk40 b){color:#624800}
+.p43-kagit :is(.mk40 small){color:#332a1a}
+.p43-kagit :is(.nv40 button){color:#332a1a}
+.p43-kagit :is(.nv40 button .p39-i){color:#684600}
+.p43-kagit :is(.nv40 button.on){color:#624800}
+.p43-kagit :is(.ib40 .p39-i){color:#664700}
+.p43-kagit :is(.ipu40){background:rgba(240,228,215,0.78);color:#312a1f}
+.p43-kagit :is(.ipu40 i){color:#6d4400}
+.p43-kagit :is(.ipu40 b){color:#624800}
+.p43-kagit :is(.ipu40 small){color:#332a1a}
+.p43-kagit :is(.yrd40){color:#624800;background:rgba(240,228,215,0.7)}
+.p43-kagit :is(.alt40){background:linear-gradient(0deg,rgba(243,230,217,0.9),rgba(243,230,217,0.72) 62%,rgba(243,230,217,0))}
+.p43-kagit :is(.yon40){color:#312a1f;background:rgba(238,224,212,0.78)}
+.p43-kagit :is(.yon40 .p39-i){color:#6d4400}
+.p43-kagit :is(.bil40){background:rgba(239,226,214,0.78)}
+.p43-kagit :is(.bt40 b){color:#624800}
+.p43-kagit :is(.bt40 small){color:#332a1a}
+.p43-kagit :is(.bt40 span){color:#332a1a}
+.p43-kagit :is(.fav40){color:#5e4a1d;background:rgba(238,224,212,0.6)}
+.p43-kagit :is(.fav40.on){color:#6a4500}
+.p43-kagit :is(.gs40 button){color:#332a1a}
+.p43-kagit :is(.gs40 button.on){color:#624800}
+@media (min-width:1100px){.p43-kagit :is(.gs40){background:rgba(239,226,214,0.6)}}
+.p43-kagit :is(.hz40){background:#ede0d3}
+.p43-kagit :is(.hz40 h2){color:#634800}
+.p43-kagit :is(.hz40 button){color:#312a1f}
+.p43-kagit :is(.hz40 button .p39-i){color:#6d4400}
+.p43-kagit :is(.nt40){color:#332a1a}
+.p43-kagit :is(.p40-df){color:var(--p-mut,#332a1a)}
+.p43-kagit :is(.ar40 button){background:linear-gradient(160deg,#e9ddd0,#eee1d4);color:var(--p-ink,#312a1f)}
+.p43-kagit :is(.ar40-i){color:#6d4400}
+.p43-kagit :is(.ar40 b){color:#624800}
+.p43-kagit :is(.ar40 small){color:var(--p-mut,#332a1a)}
+.p43-kagit :is(.p40-h1){color:#624800}
+.p43-kagit :is(.fv40-k){background:var(--p-card,#ece0d3)}
+.p43-kagit :is(.fv40-a){color:var(--p-ink,#312a1f)}
+.p43-kagit :is(.fv40-a b){color:#624800}
+.p43-kagit :is(.fv40-a small){color:var(--p-mut,#332a1a)}
+.p43-kagit :is(.pf40-g .p39-i){color:#724000}
+.p43-kagit :is(.sahne40.gl .ust40){background:linear-gradient(180deg,rgba(240,225,214,0.94),rgba(240,225,214,0.86))}
+.p43-kagit :is(.sahne40.gl .bil40){background:rgba(237,225,212,0.9)}
+.p43-kagit :is(.sahne40.gl .alt40){background:linear-gradient(0deg,rgba(240,228,215,0.9),rgba(240,228,215,0.72) 62%,rgba(240,228,215,0))}
+.p43-kagit :is(.yuk40){background:rgba(237,225,212,0.88);color:#624800}
+.p43-kagit :is(.o41-ekran){background:#efe1d6;color:#312a1f}
+.p43-kagit :is(.o41-b){color:#312a1f;background:rgba(231,214,200,0.9)}
+.p43-kagit :is(.o41-mut){color:#5d4a23}
+.p43-kagit :is(.o41-ust){color:#664700}
+.p43-kagit :is(.o41-bas h1){color:#624800}
+.p43-kagit :is(.o41-oyun){background:#ece0d3}
+.p43-kagit :is(.o41-afis i){background:linear-gradient(90deg,#eac6af,#94603a 50%,#eac6af)}
+.p43-kagit :is(.o41-oyun.yakinda .o41-afis i){background:linear-gradient(90deg,#c0d2da,#56707a,#c0d2da)}
+.p43-kagit :is(.o41-ic h2){color:#624800}
+.p43-kagit :is(.o41-ic>p){color:#322a1a}
+.p43-kagit :is(.o41-etk){color:#5d4a23}
+.p43-kagit :is(.o41-bol b){color:#624800}
+.p43-kagit :is(.o41-bol small){color:#5d4a23}
+.p43-kagit :is(.o41-uy){color:#6b4500!important}
+.p43-kagit :is(.o41-yz){color:#6a4500}
+.p43-kagit :is(.o41-giris){background:radial-gradient(ellipse 70% 50% at 50% 30%,rgba(255,214,150,.35),transparent 70%),linear-gradient(180deg,#e9d6c7,#f0e1d6)}
+.p43-kagit :is(.o41-gkart){background:rgba(238,224,213,0.9)}
+.p43-kagit :is(.o41-gkart h1){color:#624800}
+.p43-kagit :is(.o41-odal b){color:#674700}
+.p43-kagit :is(.o41-odal span){color:#332a1a}
+.p43-kagit :is(.o41-kz summary){color:#6b4500}
+.p43-kagit :is(.o41-sahne.basit .o41-nes){background:rgba(235,221,209,0.8)}
+.p43-kagit :is(.o41-nes span){color:#312b1b;background:rgba(236,222,211,0.82)}
+.p43-kagit :is(.o41-kenar){color:#312b1a;background:rgba(236,222,211,0.72)}
+.p43-kagit :is(.o41-hud){background:linear-gradient(180deg,rgba(240,225,214,0.92),rgba(240,225,214,0.7))}
+.p43-kagit :is(.o41-ib){color:#674700;background:rgba(231,214,200,0.85)}
+.p43-kagit :is(.o41-baslik small){color:#664700}
+.p43-kagit :is(.o41-baslik b){color:#624800}
+.p43-kagit :is(.o41-puan){color:#6a4500}
+.p43-kagit :is(.o41-gorev){background:rgba(238,224,213,0.88)}
+.p43-kagit :is(.o41-gorev small){color:#5d4a23}
+.p43-kagit :is(.o41-panel){background:rgba(241,228,215,0.35)}
+.p43-kagit :is(.o41-yuva){background:linear-gradient(180deg,#7c4a27,#e9c9b5);color:#322b1a}
+.p43-kagit :is(.o41-ym){background:radial-gradient(circle,#ebd6c7,#e8c6af)}
+.p43-kagit :is(.o41-mh){color:#342a1a;background:radial-gradient(circle at 40% 35%,#e07a5e,#a83a2a 60%,#ffbcae)}
+.p43-kagit :is(.o41-raf){background:linear-gradient(180deg,#e9c9b5 0,#edd0bf 78%,#8a5830 78%,#9a6332 100%)}
+.p43-kagit :is(.o41-kt){color:#322a1b;background:linear-gradient(90deg,#f4c9bd 0 8px,#8a3f2a 8px)}
+.p43-kagit :is(.o41-kt:nth-child(3n+2)){background:linear-gradient(90deg,#c4dae6 0 8px,#3f6478 8px)}
+.p43-kagit :is(.o41-kt:nth-child(3n)){background:linear-gradient(90deg,#e6d7c2 0 8px,#8a6a2a 8px)}
+.p43-kagit :is(.o41-ok){color:#614a00;background:#edd0bf}
+.p43-kagit :is(.o41-yildizlar i){color:#5f4a1a}
+.p43-kagit :is(.o41-yildizlar i.on){color:#6e4200}
+.p43-kagit :is(.o41-yildizlar.buyuk small){color:#332a1a}
+.p43-kagit :is(.o41-son){background:radial-gradient(ellipse 70% 50% at 50% 0,rgba(255,226,170,.45),transparent 70%),linear-gradient(180deg,#e9d6c7,#f0e1d6)}
+.p43-kagit :is(.o41-skart){background:rgba(238,224,213,0.92)}
+.p43-kagit :is(.o41-skart h1){color:#624800}
+.p43-kagit :is(.o41-skart h2){color:#674700}
+.p43-kagit :is(.o41-ozet dt){color:#5d4a23}
+.p43-kagit :is(.o41-ozet dd){color:#624800}
+.p43-kagit :is(.o41-tab th){color:#664700}
+.p43-kagit :is(.o41-tab code){color:#6a4500}
+.p43-kagit :is(.o41-menu){background:rgba(243,230,217,0.72)}
+.p43-kagit :is(.o41-kart){background:#edddd4}
+.p43-kagit :is(.o41-kart h2){color:#624800}
+.p43-kagit :is(.o41-kal span){color:#5d4a23}
+.p43-kagit :is(.o41-kal button){color:#312a1f}
+.p43-kagit :is(.o41-hata){background:#edddd4}
+.p43-kagit :is(.o41-hata h2){color:#624800}
+.p43-kagit :is(.gc3){background:linear-gradient(155deg,color-mix(in srgb,var(--cb) 80%,#fff4e7),color-mix(in srgb,var(--cb) 58%,#fff4e7))}
+.p43-kagit :is(.hero.grade){background:linear-gradient(135deg,color-mix(in srgb,var(--cb) 74%,#dfe5f6),color-mix(in srgb,var(--cb) 62%,#fff4e7))}
+.p43-kagit :is(.hero.grade .lead),.p43-kagit :is(.hero.grade .eyebrow){color:#2b2b2b}
+.p43-kagit :is(.unum),.p43-kagit :is(body[data-g] .unum){background:linear-gradient(135deg,color-mix(in srgb,var(--cb) 84%,#fff4e7),color-mix(in srgb,var(--cb) 66%,#fff4e7))}
+.p43-kagit :is(button.p),.p43-kagit :is(.v-btn.p){background:linear-gradient(180deg,color-mix(in srgb,var(--btn) 86%,#fff4e7),color-mix(in srgb,var(--btn) 70%,#fff4e7))}
+.p43-kagit :is(.lk-see i){background:color-mix(in srgb,var(--btn) 74%,#fff4e7)}
+.p43-kagit :is(body[data-prem39] .gt .n){color:color-mix(in srgb,var(--gc,#6d4400) 40%,#2b2b2b)}

@@ -1,0 +1,673 @@
+[
+ {
+  "id": "4-2018-U01",
+  "sinif": 4,
+  "program": "2018",
+  "unite": "GÜNLÜK HAYATTAKİ DİNÎ İFADELER",
+  "durum": "hazir",
+  "odalar": [
+   "raf",
+   "muhur",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "4-2018-U02",
+  "sinif": 4,
+  "program": "2018",
+  "unite": "İSLAM’I TANIYALIM",
+  "durum": "hazir",
+  "odalar": [
+   "yazit",
+   "muhur",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "4-2018-U03",
+  "sinif": 4,
+  "program": "2018",
+  "unite": "GÜZEL AHLAK",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "4-2018-U04",
+  "sinif": 4,
+  "program": "2018",
+  "unite": "HZ. MUHAMMED’İ TANIYALIM",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "raf",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "4-2018-U05",
+  "sinif": 4,
+  "program": "2018",
+  "unite": "DİN VE TEMİZLİK",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "4-2026-U01",
+  "sinif": 4,
+  "program": "2026",
+  "unite": "GÜNLÜK HAYAT VE DİN",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "4-2026-U02",
+  "sinif": 4,
+  "program": "2026",
+  "unite": "ALLAH SEVGİSİ",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "4-2026-U03",
+  "sinif": 4,
+  "program": "2026",
+  "unite": "PEYGAMBERLERİN SEVGİSİ",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "4-2026-U04",
+  "sinif": 4,
+  "program": "2026",
+  "unite": "AHLAKİ DEĞERLERİMİZ",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "4-2026-U05",
+  "sinif": 4,
+  "program": "2026",
+  "unite": "HAKLAR VE SORUMLULUKLAR",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "5-2026-U01",
+  "sinif": 5,
+  "program": "2026",
+  "unite": "ALLAH İNANCI",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "raf",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "5-2026-U02",
+  "sinif": 5,
+  "program": "2026",
+  "unite": "NAMAZ",
+  "durum": "hazir",
+  "odalar": [
+   "yazit",
+   "muhur",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "5-2026-U03",
+  "sinif": 5,
+  "program": "2026",
+  "unite": "KUR’AN-I KERİM",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "5-2026-U04",
+  "sinif": 5,
+  "program": "2026",
+  "unite": "PEYGAMBER KISSALARI",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "5-2026-U05",
+  "sinif": 5,
+  "program": "2026",
+  "unite": "MİMARİMİZDE DİNÎ MOTİFLER",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "raf",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "6-2026-U01",
+  "sinif": 6,
+  "program": "2026",
+  "unite": "PEYGAMBER VE İLAHİ KİTAP İNANCI",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "6-2026-U02",
+  "sinif": 6,
+  "program": "2026",
+  "unite": "RAMAZAN VE ORUÇ",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "raf",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "6-2026-U03",
+  "sinif": 6,
+  "program": "2026",
+  "unite": "AHLAKİ DAVRANIŞLAR",
+  "durum": "kismen",
+  "odalar": [
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "6-2026-U04",
+  "sinif": 6,
+  "program": "2026",
+  "unite": "PEYGAMBERLİĞİNDEN ÖNCE HZ. MUHAMMED",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "6-2026-U05",
+  "sinif": 6,
+  "program": "2026",
+  "unite": "KÜLTÜRÜMÜZDEKİ DİNÎ MOTİFLER",
+  "durum": "kismen",
+  "odalar": [
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "7-2026-U01",
+  "sinif": 7,
+  "program": "2026",
+  "unite": "MELEK VE AHİRET İNANCI",
+  "durum": "hazir",
+  "odalar": [
+   "yazit",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "7-2026-U02",
+  "sinif": 7,
+  "program": "2026",
+  "unite": "HAC, UMRE VE KURBAN",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "7-2026-U03",
+  "sinif": 7,
+  "program": "2026",
+  "unite": "İSLAM DÜŞÜNCESİNDE YORUMLAR",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "7-2026-U04",
+  "sinif": 7,
+  "program": "2026",
+  "unite": "PEYGAMBER OLARAK HZ. MUHAMMED",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "raf",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "7-2026-U05",
+  "sinif": 7,
+  "program": "2026",
+  "unite": "YAŞAYAN DÜNYA DİNLERİ",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "8-2018-U01",
+  "sinif": 8,
+  "program": "2018",
+  "unite": "KADER İNANCI",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "8-2018-U02",
+  "sinif": 8,
+  "program": "2018",
+  "unite": "ZEKÂT VE SADAKA",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit",
+   "raf+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "8-2018-U03",
+  "sinif": 8,
+  "program": "2018",
+  "unite": "DİN VE HAYAT",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "8-2018-U04",
+  "sinif": 8,
+  "program": "2018",
+  "unite": "HZ. MUHAMMED’İN ÖRNEKLİĞİ",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "8-2018-U05",
+  "sinif": 8,
+  "program": "2018",
+  "unite": "KUR’AN-I KERİM VE ÖZELLİKLERİ",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "8-2026-U01",
+  "sinif": 8,
+  "program": "2026",
+  "unite": "KADER İNANCI",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "8-2026-U02",
+  "sinif": 8,
+  "program": "2026",
+  "unite": "ZEKÂT VE SADAKA",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "8-2026-U03",
+  "sinif": 8,
+  "program": "2026",
+  "unite": "DİN VE SOSYAL HAYAT",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "8-2026-U04",
+  "sinif": 8,
+  "program": "2026",
+  "unite": "KUR’AN VE İNSAN",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "8-2026-U05",
+  "sinif": 8,
+  "program": "2026",
+  "unite": "MÜSLÜMANLARIN BİLİM VE KÜLTÜRE KATKISI",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "9-2026-U01",
+  "sinif": 9,
+  "program": "2026",
+  "unite": "ALLAH-İNSAN İLİŞKİSİ",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "9-2026-U02",
+  "sinif": 9,
+  "program": "2026",
+  "unite": "İSLAM’DA İNANÇ ESASLARI",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "9-2026-U03",
+  "sinif": 9,
+  "program": "2026",
+  "unite": "İSLAM’DA İBADETLER",
+  "durum": "hazir",
+  "odalar": [
+   "raf",
+   "muhur",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "9-2026-U04",
+  "sinif": 9,
+  "program": "2026",
+  "unite": "İSLAM’DA AHLAK İLKELERİ",
+  "durum": "hazir",
+  "odalar": [
+   "raf",
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "9-2026-U05",
+  "sinif": 9,
+  "program": "2026",
+  "unite": "KUR’AN’A GÖRE HZ. MUHAMMED",
+  "durum": "kismen",
+  "odalar": [
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "10-2026-U01",
+  "sinif": 10,
+  "program": "2026",
+  "unite": "İSLAM’DA VARLIK VE BİLGİ",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "10-2026-U02",
+  "sinif": 10,
+  "program": "2026",
+  "unite": "ALLAH’I TANIMAK",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "10-2026-U03",
+  "sinif": 10,
+  "program": "2026",
+  "unite": "İSLAM’IN EVRENSEL MESAJLARI",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "10-2026-U04",
+  "sinif": 10,
+  "program": "2026",
+  "unite": "DİN, ÇEVRE VE TEKNOLOJİ",
+  "durum": "kismen",
+  "odalar": [
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "10-2026-U05",
+  "sinif": 10,
+  "program": "2026",
+  "unite": "İSLAM DÜŞÜNCESİNDE İTİKADİ-SİYASİ VE FIKHİ YORUMLAR",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "11-2026-U01",
+  "sinif": 11,
+  "program": "2026",
+  "unite": "KADER, İRADE VE SORUMLULUK",
+  "durum": "kismen",
+  "odalar": [
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "11-2026-U02",
+  "sinif": 11,
+  "program": "2026",
+  "unite": "DİN, FELSEFE, BİLİM VE SANAT",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "11-2026-U03",
+  "sinif": 11,
+  "program": "2026",
+  "unite": "İSLAM MEDENİYETİ VE GÖNÜL COĞRAFYAMIZ",
+  "durum": "kismen",
+  "odalar": [
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "11-2026-U04",
+  "sinif": 11,
+  "program": "2026",
+  "unite": "İNANÇLA İLGİLİ MESELELER",
+  "durum": "kismen",
+  "odalar": [
+   "yazit+kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "11-2026-U05",
+  "sinif": 11,
+  "program": "2026",
+  "unite": "YAHUDİLİK VE HRİSTİYANLIK",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "12-2018-U01",
+  "sinif": 12,
+  "program": "2018",
+  "unite": "İSLAM VE BİLİM",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "12-2018-U02",
+  "sinif": 12,
+  "program": "2018",
+  "unite": "ANADOLU’DA İSLAM",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "12-2018-U03",
+  "sinif": 12,
+  "program": "2018",
+  "unite": "İSLAM DÜŞÜNCESİNDE TASAVVUFİ YORUMLAR",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "12-2018-U04",
+  "sinif": 12,
+  "program": "2018",
+  "unite": "GÜNCEL DİNÎ MESELELER",
+  "durum": "kismen",
+  "odalar": [
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "12-2018-U05",
+  "sinif": 12,
+  "program": "2018",
+  "unite": "HİNT VE ÇİN DİNLERİ",
+  "durum": "hazir",
+  "odalar": [
+   "muhur",
+   "kadran"
+  ],
+  "neden": ""
+ },
+ {
+  "id": "12-2026-U01",
+  "sinif": 12,
+  "program": "2026",
+  "unite": "KUR’AN-I KERİM",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "12-2026-U02",
+  "sinif": 12,
+  "program": "2026",
+  "unite": "DİN VE AİLE",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "12-2026-U03",
+  "sinif": 12,
+  "program": "2026",
+  "unite": "GÜNCEL DİNÎ MESELELER",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "12-2026-U04",
+  "sinif": 12,
+  "program": "2026",
+  "unite": "İSLAM DÜŞÜNCESİNDE TASAVVUFİ YORUMLAR",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ },
+ {
+  "id": "12-2026-U05",
+  "sinif": 12,
+  "program": "2026",
+  "unite": "HİNT VE ÇİN DİNLERİ",
+  "durum": "eksik",
+  "odalar": [],
+  "neden": "Bu ünite için oyun kurulamadı: içerikli konu yok. Kaynakta veri bulunmuyor."
+ }
+]

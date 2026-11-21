@@ -1,0 +1,419 @@
+[
+ {
+  "id": "0.1",
+  "name": "Sürüm V40.1 (index.html ve sürüm dosyası)",
+  "pass": true,
+  "detail": "V40.1"
+ },
+ {
+  "id": "0.2",
+  "name": "Veri blokları, kayıt sayıları ve rotalar V40.0 ile aynı",
+  "pass": true
+ },
+ {
+  "id": "0.3",
+  "name": "9 kapının konumu, sınıf eşleşmesi ve tabelası V40.0 ile birebir aynı",
+  "pass": true,
+  "detail": "4,5,6,7,8,9,10,11,12"
+ },
+ {
+  "id": "0.4",
+  "name": "Kamera pozları (durak, odak, giriş) ve yüzey dönüşümleri V40.0 ile aynı",
+  "pass": true
+ },
+ {
+  "id": "0.5",
+  "name": "Koridor dışındaki ekranlar (sınıf merkezi, ders, favoriler, ilerleme, oyunlar, öğretmen paneli, Klasik ana sayfa ve sınıflar) V40.0 ile aynı",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "0.6",
+  "name": "Sayfa/konsol hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "1.1",
+  "name": "Tam görünüm, yürüme durağı: kanat yüzeyi V40.0’dan belirgin biçimde aydınlık (ortalama parlaklık ≥85 ve en az +25)",
+  "pass": true,
+  "detail": {
+   "v400": {
+    "ort": 53.7,
+    "ss": 6.9,
+    "koyu": 0.1
+   },
+   "v401": {
+    "ort": 98.9,
+    "ss": 6.5,
+    "koyu": 0
+   }
+  }
+ },
+ {
+  "id": "1.2",
+  "name": "Tam görünüm, kapıya dönükken: iki kanat da aydınlık (≥85; damar farkı dışında birbirine yakın, fark ≤15) ve V40.0’dan en az +25",
+  "pass": true,
+  "detail": {
+   "v400": [
+    52.4,
+    55.5
+   ],
+   "v401": [
+    99.3,
+    88.6
+   ]
+  }
+ },
+ {
+  "id": "1.3",
+  "name": "Ahşap damarı görünür (düz renk değil): panel içinde parlaklık dağılımı var",
+  "pass": true,
+  "detail": {
+   "odak": {
+    "ort": 99.3,
+    "ss": 6.6,
+    "koyu": 0
+   },
+   "yuru": {
+    "ort": 98.9,
+    "ss": 6.5,
+    "koyu": 0
+   }
+  }
+ },
+ {
+  "id": "1.4",
+  "name": "Kapının bütününde siyaha yakın piksel oranı çok düşük (≤%3)",
+  "pass": true,
+  "detail": {
+   "kapi": {
+    "ort": 119.2,
+    "ss": 36.6,
+    "koyu": 0
+   },
+   "v400": {
+    "ort": 79.6,
+    "ss": 45,
+    "koyu": 13.6
+   }
+  }
+ },
+ {
+  "id": "1.5",
+  "name": "Ayrıntılar seçiliyor: kafes süsü (kontrast), kapı kolu (kanattan ≥40 parlak), üst pencere (≥120), kasa rengi kanattan ayrı",
+  "pass": true,
+  "detail": {
+   "kafes": {
+    "ort": 115,
+    "ss": 20.9,
+    "koyu": 0
+   },
+   "kol": {
+    "ort": 214.5,
+    "ss": 13.4,
+    "koyu": 0
+   },
+   "ust": {
+    "ort": 171.1,
+    "ss": 18.1,
+    "koyu": 0
+   },
+   "kasa": "rgb(108, 65, 36)"
+  }
+ },
+ {
+  "id": "1.6",
+  "name": "Seçim ışığı kapı yüzeyini örtmüyor: hale açık/kapalı kanat parlaklığı farkı ≤3, kapı bütününde ≤4",
+  "pass": true,
+  "detail": {
+   "hale": 99.3,
+   "halesiz": 99.3,
+   "kapi": [
+    119.2,
+    119.2
+   ]
+  }
+ },
+ {
+  "id": "1.7",
+  "name": "Seçili olmayan (kısılan) kapı siyaha gömülmüyor: parlaklık ≥60 (V40.0’da daha koyuydu)",
+  "pass": true,
+  "detail": {
+   "v400": {
+    "ort": 24.2,
+    "ss": 2.6,
+    "koyu": 100
+   },
+   "v401": {
+    "ort": 75.2,
+    "ss": 4.5,
+    "koyu": 0
+   }
+  }
+ },
+ {
+  "id": "1.8",
+  "name": "Kapı açıkken iki kanadın görünen (arka) yüzü de aydınlık (≥85), iç mekân aydınlık; kanatlar 3B dönmüş",
+  "pass": true,
+  "detail": {
+   "l": {
+    "ort": 127.3,
+    "ss": 23.8,
+    "koyu": 0
+   },
+   "r": {
+    "ort": 126.4,
+    "ss": 24.5,
+    "koyu": 0
+   },
+   "ic": {
+    "ort": 190.7,
+    "ss": 48.9,
+    "koyu": 0
+   },
+   "m": [
+    "matrix3d|visible|1",
+    "matrix3d|visible|1"
+   ]
+  }
+ },
+ {
+  "id": "1.9",
+  "name": "Açılış animasyonu sınıf merkezine ulaşıyor",
+  "pass": true
+ },
+ {
+  "id": "1.10",
+  "name": "Sade görünüm: kanatlar aydınlık (yürürken ve kapıya dönükken ≥85) ve V40.0 sade görünümünden en az +25",
+  "pass": true,
+  "detail": {
+   "v400": [
+    57.3,
+    56.9
+   ],
+   "v401": [
+    94.6,
+    95.7
+   ]
+  }
+ },
+ {
+  "id": "1.11",
+  "name": "Sade görünümde de ahşap damarı var (yedek doku), kafes ve kol seçiliyor, kısılan kapı ≥60",
+  "pass": true,
+  "detail": {
+   "odak": {
+    "ort": 95.7,
+    "ss": 7.6,
+    "koyu": 0
+   },
+   "kafes": {
+    "ort": 121.7,
+    "ss": 19,
+    "koyu": 0
+   },
+   "kisik": {
+    "ort": 72.3,
+    "ss": 6.1,
+    "koyu": 0
+   },
+   "bg": "linear-gradient(rgba(255, 238, 204, 0.22), rgba(255, 238, 204, 0) 36%, rgba(46, 22, 8, 0.1)), linear-gradient(90deg, rgba(255, 226, 180, 0.1), rgba(255, 226, 18"
+  }
+ },
+ {
+  "id": "2.1",
+  "name": "Dört doku canvas ile üretildi, doğrulandı ve CSS değişkenlerine uygulandı (kanat, lambri, zemin hesaplanmış stilinde)",
+  "pass": true,
+  "detail": {
+   "durum": {
+    "ok": [
+     "mermer",
+     "koyu",
+     "ceviz",
+     "tas"
+    ],
+    "hata": [],
+    "kaynak": "canvas"
+   },
+   "kb": 31
+  }
+ },
+ {
+  "id": "2.2",
+  "name": "Normal durumda konsolda doku uyarısı ve sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "2.3",
+  "name": "Doku hatası (toDataURL hata veriyor): hata kaydedildi ve konsola yazıldı, kullanıcıya teknik mesaj yok, aydınlık yedek ceviz dokusu kullanıldı (parlaklık ≥85, koyu piksel ≤%3)",
+  "pass": true,
+  "detail": {
+   "hata": [
+    {
+     "ad": "mermer",
+     "mesaj": "test: toDataURL engelli"
+    },
+    {
+     "ad": "koyu",
+     "mesaj": "test: toDataURL engelli"
+    }
+   ],
+   "uyarı": 4,
+   "l": {
+    "ort": 95.7,
+    "ss": 7.6,
+    "koyu": 0
+   },
+   "kp": {
+    "ort": 118,
+    "ss": 36.6,
+    "koyu": 0
+   }
+  }
+ },
+ {
+  "id": "2.4",
+  "name": "Doku hatası (canvas 2B bağlamı yok): hata kaydedildi ve konsola yazıldı, kullanıcıya teknik mesaj yok, aydınlık yedek ceviz dokusu kullanıldı (parlaklık ≥85, koyu piksel ≤%3)",
+  "pass": true,
+  "detail": {
+   "hata": [
+    {
+     "ad": "canvas",
+     "mesaj": "2B çizim bağlamı alınamadı"
+    }
+   ],
+   "uyarı": 1,
+   "l": {
+    "ort": 95.7,
+    "ss": 7.6,
+    "koyu": 0
+   },
+   "kp": {
+    "ort": 118,
+    "ss": 36.6,
+    "koyu": 0
+   }
+  }
+ },
+ {
+  "id": "2.5",
+  "name": "Doku hatası (canvas çıktısı bozuk (boş veri)): hata kaydedildi ve konsola yazıldı, kullanıcıya teknik mesaj yok, aydınlık yedek ceviz dokusu kullanıldı (parlaklık ≥85, koyu piksel ≤%3)",
+  "pass": true,
+  "detail": {
+   "hata": [
+    {
+     "ad": "mermer",
+     "mesaj": "geçersiz doku çıktısı (6 karakter)"
+    },
+    {
+     "ad": "koyu",
+     "mesaj": "geçersiz doku çıktısı (6 karakter)"
+    }
+   ],
+   "uyarı": 4,
+   "l": {
+    "ort": 95.7,
+    "ss": 7.6,
+    "koyu": 0
+   },
+   "kp": {
+    "ort": 118,
+    "ss": 36.6,
+    "koyu": 0
+   }
+  }
+ },
+ {
+  "id": "3.1",
+  "name": "360 / 390 / 820×1180 / 1024×768 / 1180×820 / 1440×900: 4, 9 ve 12. sınıf kapıları yürürken (≥80) ve kapıya dönükken (≥85) aydınlık; girişten bakışta ≥75; koyu piksel ≤%3",
+  "pass": true,
+  "detail": [
+   [
+    360,
+    4,
+    99.1,
+    88.5,
+    0
+   ],
+   [
+    360,
+    9,
+    99.2,
+    88.5,
+    0
+   ],
+   [
+    360,
+    12,
+    99.3,
+    88.5,
+    0
+   ],
+   [
+    360,
+    "giriş",
+    105.1
+   ],
+   [
+    390,
+    4,
+    98.9,
+    88.6,
+    0
+   ],
+   [
+    390,
+    9,
+    99,
+    88.6,
+    0
+   ],
+   [
+    390,
+    12,
+    99.1,
+    88.5,
+    0
+   ],
+   [
+    390,
+    "giriş",
+    105.4
+   ]
+  ]
+ },
+ {
+  "id": "4.1",
+  "name": "Sürükleyerek yürüme, kapı seçimi, kapıdan giriş ve aynı kapıya dönüş V40.0’daki gibi çalışıyor",
+  "pass": true,
+  "detail": {
+   "d1": {
+    "s": 1,
+    "mode": "yuru"
+   },
+   "s1": {
+    "mode": "odak",
+    "g": 7,
+    "kis": 8
+   },
+   "e1": {
+    "view": "psinif",
+    "pg": 7
+   },
+   "r1": {
+    "view": "pdunya",
+    "mode": "odak",
+    "g": 7,
+    "acik": 0
+   }
+  }
+ },
+ {
+  "id": "4.2",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ }
+]

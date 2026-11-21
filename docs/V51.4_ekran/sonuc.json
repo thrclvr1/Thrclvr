@@ -1,0 +1,217 @@
+[
+ {
+  "ad": "A1 sürüm V51.4, index.html aynı dosya; veri, müzik ve görsel blokları (15) V51.3 ile bayt bayt aynı",
+  "ok": true,
+  "ayr": ""
+ },
+ {
+  "ad": "A2 önceki sürüm dosyalarına dokunulmadı",
+  "ok": true,
+  "ayr": "yalnız v51.4"
+ },
+ {
+  "ad": "E1 Elmas “abdest”: İslam Dini ve Temizlik + Namaza Hazırlık: Şartlar konuları, abdest kavramı, sorular ve kartlar bulunur",
+  "ok": true,
+  "ayr": "{\"topics\":2,\"concepts\":1,\"questions\":5,\"flashcards\":7}"
+ },
+ {
+  "ad": "E2 Elmas: farklı sınıflardan sonuç gelir (4 ve 5) ve sınıf süzgeci yalnız o sınıfı gösterir",
+  "ok": true,
+  "ayr": "{\"s\":[4,5],\"g5\":true}"
+ },
+ {
+  "ad": "E3 Elmas: program ayarı 2018 / 2026 / tümü — her ayarda her sonuç kendi sınıfının seçili programında (pvOf); 2018 ayarında 2026 kaydı yok; “tümü”nde iki program",
+  "ok": true,
+  "ayr": "{\"2018\":{\"n\":8,\"ok\":true,\"py\":[\"2018\"]},\"2026\":{\"n\":15,\"ok\":true,\"py\":[\"2018\",\"2026\"]},\"all\":{\"n\":15,\"ok\":true,\"py\":[\"2018\",\"2026\"]}}"
+ },
+ {
+  "ad": "E4 Elmas: kazanım kodu ile arama sonuç verir; öğrenciye kod değil kazanımın işlendiği konu gösterilir; tıklayınca o konu açılır",
+  "ok": true,
+  "ayr": "{\"n\":1,\"t\":\"Evrendeki Düzeni Fark Etmek\",\"ekran\":\"Tümü\\nKazanımlar\\n1\\nKazanımlar\\n1\\nEvrendeki Düzeni Fark Etmek\\n5. sınıf · kazanımı bu konuda işlenir\",\"tid\":\"TPC-5-1-01\"}"
+ },
+ {
+  "ad": "E5 Elmas: kişi/eser araması sonuç verir",
+  "ok": true,
+  "ayr": "{\"ad\":\"Muhammed\",\"n\":32}"
+ },
+ {
+  "ad": "E6 Elmas: konu, soru (Mini test), kart (Kartlar) sonuçları doğru konuya ve sekmeye gider",
+  "ok": true,
+  "ayr": "{\"k\":true,\"s\":true,\"c\":true}"
+ },
+ {
+  "ad": "E7 Elmas: kavram penceresinde kaynak doğrulama metaverisi (Kitap s., “doğrulandı”, “editör onayı bekliyor”) yok",
+  "ok": true,
+  "ayr": "abdest\n5. sınıf\n2026 TYMM\nProgram kavramı\n\nÜnite: NAMAZ · MİMARİMİZDE DİNÎ MOTİFLER\n\nKonu anlatımında: “Namaz için abdes"
+ },
+ {
+  "ad": "E8 Elmas: eşleşme kelime başından — “namaz”, “din”, “ayet”, “hac” kelime ortasından ilgisiz kayıt getirmez",
+  "ok": true,
+  "ayr": "{\"din\":[],\"namaz\":[],\"ayet\":[],\"hac\":[]}"
+ },
+ {
+  "ad": "E9 Elmas: arama kayıtları değiştirmez (localStorage aynı; konu açınca yalnız var olan “son konu” kaydı)",
+  "ok": true,
+  "ayr": "arama sırasında karşılaştırma ayrı: false"
+ },
+ {
+  "ad": "L1 Altın “abdest”: konular (İslam Dini ve Temizlik, Namaza Hazırlık: Şartlar), abdest kavramı, sorular ve bilgi kartları bulunur (önceden yalnız konu başlığı ve kazanım kodu)",
+  "ok": true,
+  "ayr": "{\"topics\":2,\"concepts\":1,\"questions\":5,\"flashcards\":7}"
+ },
+ {
+  "ad": "L2 Altın: sonuçlar Altın’da seçili programda (her sınıf için V39.pv); farklı sınıflar (4 ve 5) gelir",
+  "ok": true,
+  "ayr": "[4,5]"
+ },
+ {
+  "ad": "L3 Altın: 5. sınıf programı 2018 yapılınca 5. sınıf sonuçları yalnız 2018 (2026 konusu “Namaza Hazırlık: Şartlar” düşer)",
+  "ok": true,
+  "ayr": "{\"ok\":true,\"konular\":[\"İslam Dini ve Temizlik\"]}"
+ },
+ {
+  "ad": "L4 Altın: konu → Altın ders ekranı; soru → Mini test sekmesi; kart → Kartlar sekmesi (Elmas ekranına gidilmez)",
+  "ok": true,
+  "ayr": "{\"k\":{\"view\":\"pders\",\"mod\":\"altin\",\"on\":true,\"prem\":true,\"pt\":true},\"s\":{\"view\":\"pders\",\"mod\":\"altin\",\"on\":true,\"prem\":true,\"pt\":true,\"tab\":\"test\"},\"c\":{\"view\":\"pders\",\"mod\":\"altin\",\"on\":true,\"prem\":true,\"pt\":true,\"tab\":\"kart\"}}"
+ },
+ {
+  "ad": "L5 Altın: kavram → Altın’da ayrıntı penceresi (Sözlükte aç / Elmas sözlüğü yok, metaveri yok) → ilgili konu Altın ders ekranında",
+  "ok": true,
+  "ayr": "{\"kv\":\"abdest\\n5. sınıf\\n2026 TYMM\\nProgram kavramı\\n\\nÜnite: NAMAZ · MİMARİMİZDE DİNÎ MOTİFLER\\n\\nKonu anlatımınd\",\"k\":{\"view\":\"pders\",\"mod\":\"altin\",\"on\":true,\"prem\":true}}"
+ },
+ {
+  "ad": "L6 Altın: ünite → Altın ünite ekranı; kazanım kodu ile arama → kod değil konu gösterilir → Altın ders ekranı",
+  "ok": true,
+  "ayr": "{\"u\":{\"view\":\"punite\",\"mod\":\"altin\",\"on\":true,\"prem\":true,\"pu\":true},\"kz\":{\"n\":1,\"t\":\"Evrendeki Düzeni Fark Etmek\"},\"kzAc\":{\"view\":\"pders\",\"mod\":\"altin\",\"on\":true,\"prem\":true,\"pt\":true}}"
+ },
+ {
+  "ad": "L7 Altın: sonuç metinlerinde kazanım kodu veya kaynak metaverisi yok; arama kayıtları değiştirmez",
+  "ok": true,
+  "ayr": ""
+ },
+ {
+  "ad": "T1 Öğretmen (Elmas oturumundan): öğretmen panelindeki arama düğmesi bağımsız Öğretmen Aramasını açar (öğrenci araması değil); öğretmen görünümündeki arama da oraya gider",
+  "ok": true,
+  "ayr": "{\"a\":{\"view\":\"ogara\",\"mod\":\"ogretmen\",\"kip\":\"ogretmen\"},\"g\":{\"view\":\"ogara\",\"q\":\"kader\"}}"
+ },
+ {
+  "ad": "T2 Öğretmen (Elmas oturumundan): “abdest” konu, kavram, soru ve kart sonuçlarını verir; her sonuçta sınıf, müfredat ve ünite yazar",
+  "ok": true,
+  "ayr": "[{\"c\":\"concepts\",\"t\":\"abdest\",\"m\":\"5. sınıf\\n2026 TYMM\\n2. Ünite: NAMAZ\"},{\"c\":\"topics\",\"t\":\"İslam Dini ve Temizlik\",\"m\":\"4. sınıf\\n2018 Programı\\n5. Ünite: DİN VE TEMİZLİK\"},{\"c\":\"topics\",\"t\":\"Namaza Hazırlık: Şartlar\",\"m\":\"5. sınıf\\n2026 TYMM\\n2. Ünite: NAMAZ\"}]"
+ },
+ {
+  "ad": "T3 Öğretmen (Elmas oturumundan): süzgeçler — 4. sınıf, 2026, 2018, içerik türü (soru) ve ünite (5. sınıf NAMAZ) doğru süzer; bütün sınıflar ve iki program birlikte aranabilir",
+  "ok": true,
+  "ayr": "{\"g4\":true,\"p26\":true,\"p18\":true,\"tur\":true,\"u\":true,\"hepsi\":{\"py\":[\"2018\",\"2026\"],\"g\":6}}"
+ },
+ {
+  "ad": "T4 Öğretmen (Elmas oturumundan): konu → öğretmen görünümünde açılır (öğretmen çubuğu + kazanım kartı)",
+  "ok": true,
+  "ayr": "{\"view\":\"topic\",\"kip\":\"ogretmen\",\"mod\":\"ogretmen\",\"bar\":true,\"kart\":true,\"t\":true}"
+ },
+ {
+  "ad": "T5 Öğretmen (Elmas oturumundan): kavram → ilgili konular listelenir, “İlgili konuyu öğretmen görünümünde aç” öğretmen görünümünü açar; konusu olmayan kavramda yönlendirme yok, açıkça belirtilir",
+  "ok": true,
+  "ayr": "{\"k\":{\"view\":\"topic\",\"kip\":\"ogretmen\",\"mod\":\"ogretmen\",\"bar\":true,\"kart\":true},\"bos\":\"cömert\\n5. sınıf\\n2026 TYMM\\nSözlük terimi\\nKitap s. 11, 158\\nKonuya bağlanamadı\\n\\nDers kitabı sayfası ve konu anlatımlarıyla \"}"
+ },
+ {
+  "ad": "T6 Öğretmen (Elmas oturumundan): kazanım → kod + metin + ilgili konular gösterilir; konu öğretmen görünümünde açılır",
+  "ok": true,
+  "ayr": "{\"s\":\"DKAB.5.1.1 Evrendeki mükemmel düzene ilişkin akıl yürütebilme\",\"n\":1}"
+ },
+ {
+  "ad": "T7 Öğretmen (Elmas oturumundan): soru → soru incelemesi (seçenekler, doğru cevap, bağlı konu) → konu öğretmen görünümünde Mini test sekmesinde",
+  "ok": true,
+  "ayr": "{\"tab\":\"test\"}"
+ },
+ {
+  "ad": "T8 Öğretmen (Elmas oturumundan): bilgi kartı → kart incelemesi (ön ve arka yüz) → konu öğretmen görünümünde Kartlar sekmesinde",
+  "ok": true,
+  "ayr": "{\"tab\":\"kart\"}"
+ },
+ {
+  "ad": "T9 Öğretmen (Elmas oturumundan): öğretmen araması son kullanılan Altın/Elmas modunu (dk-deneyim39, oturum bayrağı, V39.on, dk-mod50) ve ilerleme/öğretmen kayıtlarını değiştirmez",
+  "ok": true,
+  "ayr": "[]"
+ },
+ {
+  "ad": "T10 Öğretmen (Elmas oturumundan): ortak dizin bir kez kuruldu (üç ayrı dizin yok)",
+  "ok": true,
+  "ayr": "1"
+ },
+ {
+  "ad": "T1 Öğretmen (Altın oturumundan): öğretmen panelindeki arama düğmesi bağımsız Öğretmen Aramasını açar (öğrenci araması değil); öğretmen görünümündeki arama da oraya gider",
+  "ok": true,
+  "ayr": "{\"a\":{\"view\":\"ogara\",\"mod\":\"ogretmen\",\"kip\":\"ogretmen\"},\"g\":{\"view\":\"ogara\",\"q\":\"kader\"}}"
+ },
+ {
+  "ad": "T2 Öğretmen (Altın oturumundan): “abdest” konu, kavram, soru ve kart sonuçlarını verir; her sonuçta sınıf, müfredat ve ünite yazar",
+  "ok": true,
+  "ayr": "[{\"c\":\"concepts\",\"t\":\"abdest\",\"m\":\"5. sınıf\\n2026 TYMM\\n2. Ünite: NAMAZ\"},{\"c\":\"topics\",\"t\":\"İslam Dini ve Temizlik\",\"m\":\"4. sınıf\\n2018 Programı\\n5. Ünite: DİN VE TEMİZLİK\"},{\"c\":\"topics\",\"t\":\"Namaza Hazırlık: Şartlar\",\"m\":\"5. sınıf\\n2026 TYMM\\n2. Ünite: NAMAZ\"}]"
+ },
+ {
+  "ad": "T3 Öğretmen (Altın oturumundan): süzgeçler — 4. sınıf, 2026, 2018, içerik türü (soru) ve ünite (5. sınıf NAMAZ) doğru süzer; bütün sınıflar ve iki program birlikte aranabilir",
+  "ok": true,
+  "ayr": "{\"g4\":true,\"p26\":true,\"p18\":true,\"tur\":true,\"u\":true,\"hepsi\":{\"py\":[\"2018\",\"2026\"],\"g\":6}}"
+ },
+ {
+  "ad": "T4 Öğretmen (Altın oturumundan): konu → öğretmen görünümünde açılır (öğretmen çubuğu + kazanım kartı)",
+  "ok": true,
+  "ayr": "{\"view\":\"pders\",\"kip\":\"ogretmen\",\"mod\":\"ogretmen\",\"bar\":true,\"kart\":true,\"t\":true}"
+ },
+ {
+  "ad": "T5 Öğretmen (Altın oturumundan): kavram → ilgili konular listelenir, “İlgili konuyu öğretmen görünümünde aç” öğretmen görünümünü açar; konusu olmayan kavramda yönlendirme yok, açıkça belirtilir",
+  "ok": true,
+  "ayr": "{\"k\":{\"view\":\"pders\",\"kip\":\"ogretmen\",\"mod\":\"ogretmen\",\"bar\":true,\"kart\":true},\"bos\":\"cömert\\n5. sınıf\\n2026 TYMM\\nSözlük terimi\\nKitap s. 11, 158\\nKonuya bağlanamadı\\n\\nDers kitabı sayfası ve konu anlatımlarıyla \"}"
+ },
+ {
+  "ad": "T6 Öğretmen (Altın oturumundan): kazanım → kod + metin + ilgili konular gösterilir; konu öğretmen görünümünde açılır",
+  "ok": true,
+  "ayr": "{\"s\":\"DKAB.5.1.1 Evrendeki mükemmel düzene ilişkin akıl yürütebilme\",\"n\":1}"
+ },
+ {
+  "ad": "T7 Öğretmen (Altın oturumundan): soru → soru incelemesi (seçenekler, doğru cevap, bağlı konu) → konu öğretmen görünümünde Mini test sekmesinde",
+  "ok": true,
+  "ayr": "{\"tab\":\"test\"}"
+ },
+ {
+  "ad": "T8 Öğretmen (Altın oturumundan): bilgi kartı → kart incelemesi (ön ve arka yüz) → konu öğretmen görünümünde Kartlar sekmesinde",
+  "ok": true,
+  "ayr": "{\"tab\":\"kart\"}"
+ },
+ {
+  "ad": "T9 Öğretmen (Altın oturumundan): öğretmen araması son kullanılan Altın/Elmas modunu (dk-deneyim39, oturum bayrağı, V39.on, dk-mod50) ve ilerleme/öğretmen kayıtlarını değiştirmez",
+  "ok": true,
+  "ayr": "[]"
+ },
+ {
+  "ad": "T10 Öğretmen (Altın oturumundan): ortak dizin bir kez kuruldu (üç ayrı dizin yok)",
+  "ok": true,
+  "ayr": "1"
+ },
+ {
+  "ad": "P1 Elmas, Altın ve Öğretmen araması aynı sayfada: ortak dizin bir kez kuruldu; listeler aynı kayıt nesnelerini paylaşır",
+  "ok": true,
+  "ayr": "{\"kurulum\":1,\"n\":2946,\"ortak\":true,\"view\":\"ogara\"}"
+ },
+ {
+  "ad": "M Altın (360×640, klavye açıkken görünür alan 300 px): arama alanı görünür ve odakta, sonuçlar geliyor, liste kaydırılıyor, yatay taşma yok",
+  "ok": true,
+  "ayr": "{\"gor\":true,\"sonuc\":18,\"kay\":true,\"inputSonra\":true,\"odak\":true,\"tas\":0}"
+ },
+ {
+  "ad": "M Elmas (360×640, klavye açıkken görünür alan 300 px): arama alanı görünür ve odakta, sonuçlar geliyor, liste kaydırılıyor, yatay taşma yok",
+  "ok": true,
+  "ayr": "{\"gor\":true,\"sonuc\":21,\"kay\":true,\"inputSonra\":true,\"odak\":true,\"tas\":0}"
+ },
+ {
+  "ad": "M Öğretmen (360×640, klavye açıkken görünür alan 300 px): arama alanı görünür ve odakta, sonuçlar geliyor, liste kaydırılıyor, yatay taşma yok",
+  "ok": true,
+  "ayr": "{\"gor\":true,\"sonuc\":60,\"kay\":true,\"inputSonra\":true,\"odak\":true,\"tas\":0}"
+ },
+ {
+  "ad": "Z Sayfa hatası yok",
+  "ok": true,
+  "ayr": "[]"
+ }
+]

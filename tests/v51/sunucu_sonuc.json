@@ -1,0 +1,89 @@
+{
+ "tarih": "2026-11-21T17:54:49.170Z",
+ "sonuc": [
+  {
+   "ad": "B1 oturumsuz bildirim reddedilir (401)",
+   "ok": true
+  },
+  {
+   "ad": "B2 öğrenci soru bildirimi gönderir: benzersiz kimlikle kaydedilir, durum “yeni”",
+   "ok": true
+  },
+  {
+   "ad": "B3 aynı bildirim yeniden gönderilirse çift kayıt oluşmaz (idempotent, 200)",
+   "ok": true
+  },
+  {
+   "ad": "B4 başka kullanıcı aynı kimliği kullanamaz (409)",
+   "ok": true
+  },
+  {
+   "ad": "B5 geçersiz tür/kategori/kimlik/bağlam reddedilir (400)",
+   "ok": true
+  },
+  {
+   "ad": "B6 öğrenci tüm bildirimleri listeleyemez (403); yalnız kendi durumlarını görür",
+   "ok": true
+  },
+  {
+   "ad": "B7 editör listeyi alır; anonim bildirimde ad yok, diğerinde yalnız ad (e-posta hiç gönderilmez)",
+   "ok": true
+  },
+  {
+   "ad": "B8 kaynak sunucuda doğrulanır: öğretmen rolü olan hesap “öğretmen”, olmayan “öğrenci” sayılır",
+   "ok": true
+  },
+  {
+   "ad": "B9 otomatik alanlar saklanır (sınıf, müfredat, ünite, konu, kazanım, soru kimliği, bölüm, tarih, sürüm) ve benzerler aynı hedefte",
+   "ok": true
+  },
+  {
+   "ad": "B10 öğrenci bildirimin durumunu değiştiremez (403)",
+   "ok": true
+  },
+  {
+   "ad": "B11 editör incelemeye alır ve iç not ekler (not ve durum geçmişi saklanır)",
+   "ok": true
+  },
+  {
+   "ad": "B12 gerekçesiz “geçersiz” reddedilir; gerekçeyle kapatılır",
+   "ok": true
+  },
+  {
+   "ad": "B13 öğrenci kendi bildirimlerinin güncel durumunu görür (düzeltildi / geçersiz + gerekçe)",
+   "ok": true
+  },
+  {
+   "ad": "B14 editör duruma göre süzer",
+   "ok": true
+  },
+  {
+   "ad": "B15 CORS ön isteği PATCH yöntemine izin verir",
+   "ok": true
+  },
+  {
+   "ad": "B16 sunucu yeniden başlayınca bildirimler ve durumlar kaybolmaz (SQLite)",
+   "ok": true
+  },
+  {
+   "ad": "G1 öğretmen genel sorun bildirimi (konusuz) kaydedilir (201)",
+   "ok": true
+  },
+  {
+   "ad": "G2 öğretmen rolü olmayan hesap genel sorun bildiremez (403)",
+   "ok": true
+  },
+  {
+   "ad": "G3 geçersiz bölüm / öğrenci kaynağı / bağlamsız genel bildirim reddedilir (400)",
+   "ok": true
+  },
+  {
+   "ad": "G4 editör genel bildirimi görür: bölüm, sınıf, açıklama + ek not, kaynak öğretmen, e-posta yok",
+   "ok": true
+  },
+  {
+   "ad": "G5 öğretmen kendi bildiriminin editör durumunu görür",
+   "ok": true
+  }
+ ]
+}

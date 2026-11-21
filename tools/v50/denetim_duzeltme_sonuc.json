@@ -1,0 +1,400 @@
+{
+ "dosya": "index.html",
+ "md5": "1a3430a6d97177ae910bcbeeb1e579f3",
+ "tarih": "2026-11-19T10:12:12.459Z",
+ "baglam": 30,
+ "yazi": 1133,
+ "aaAlti": 0,
+ "sonuc": [
+  {
+   "ekran": "p:degistir",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:degistir",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:degistir",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:degistir",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mod-paneli",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mod-paneli",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mod-paneli",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mod-paneli",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil-mod",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 65,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil-mod",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 65,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil-mod",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 65,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil-mod",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 65,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-alan",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-alan",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-alan",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:profil",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 64,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:profil",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 64,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:profil",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 64,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:degistir",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:degistir",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:degistir",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:profil-alt",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 64,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:profil-alt",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 59,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:profil-alt",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 64,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:mod-paneli",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:mod-paneli",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:mod-paneli",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 14,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirimlerim",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 69,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirimlerim",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 69,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirimlerim",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 69,
+   "hata": [],
+   "kotu": []
+  }
+ ]
+}

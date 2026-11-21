@@ -1,0 +1,132 @@
+[
+ {
+  "ad": "A1 sürüm V51.5, index.html aynı; veri blokları V51.4 ile bayt bayt aynı; önceki sürüm dosyalarına dokunulmadı",
+  "ok": true,
+  "a": ""
+ },
+ {
+  "ad": "A2 HTML’de açık metin PIN (030792), e-posta adresi, SMTP parolası/e-posta API anahtarı yok; ilk PIN yalnız tuzlu özet",
+  "ok": true,
+  "a": ""
+ },
+ {
+  "ad": "B1 030792 ile başarılı giriş (PIN metin olarak; baştaki 0 korunur); editör alanı açılır",
+  "ok": true,
+  "a": "{\"ok\":true,\"view\":\"editor\",\"msg\":\"\",\"mode\":\"\"}"
+ },
+ {
+  "ad": "B2 Yanlış PIN (ör. 307920) ile giriş başarısız; hata ve kalan deneme gösterilir; hatalı giriş kaydedilir",
+  "ok": true,
+  "a": "{\"msg\":\"PIN hatalı. Kilitlenmeden önce kalan deneme: 4.\",\"att\":{\"n\":1,\"until\":0,\"r\":0}}"
+ },
+ {
+  "ad": "B3 Beş yanlış girişten sonra kilit: PIN alanı ve tuşlar kullanılamaz, kalan süre yazılır (ilk kilit 1 dk)",
+  "ok": true,
+  "a": "{\"kl\":{\"lock\":60,\"dis\":true,\"tus\":true,\"att\":{\"n\":0,\"until\":1795283335589,\"r\":1}},\"msg\":\"Çok fazla hatalı deneme. Giriş geçici olarak kilitli; kalan süre: 1 dk 0 sn.\"}"
+ },
+ {
+  "ad": "B4 Kilit süresince doğru PIN de kabul edilmez",
+  "ok": true,
+  "a": ""
+ },
+ {
+  "ad": "B5 Uygulama kapatılıp açılınca kilit korunur (deneme sayacı sıfırlanmaz)",
+  "ok": true,
+  "a": "{\"lock\":57,\"dis\":true,\"msg\":\"Çok fazla hatalı deneme. Giriş geçici olarak kilitli; kalan süre: 58 sn.\"}"
+ },
+ {
+  "ad": "B6 Tekrarlanan hatalı denemelerde kilit süresi kademeli artar (1 dk → 5 dk)",
+  "ok": true,
+  "a": "{\"lock\":300,\"r\":2}"
+ },
+ {
+  "ad": "B7 Kilit bitince doğru PIN ile giriş; başarılı girişte hatalı deneme sayacı ve kilit kademesi sıfırlanır",
+  "ok": true,
+  "a": "{\"sonra\":null}"
+ },
+ {
+  "ad": "B8 Öğretmen PIN kaydı (dk-ogretmen-pin) değişmedi; editör PIN’i öğretmen oturumu açmaz",
+  "ok": true,
+  "a": ""
+ },
+ {
+  "ad": "C1 Sunucu adresi yokken: “sıfırlama henüz yapılandırılmadı” açıkça yazar; e-posta gönderildi denmez; PIN değişmez",
+  "ok": true,
+  "a": "Editör PIN'ini sıfırla\n\nE-posta doğrulamasıyla.\n\nSıfırlama kullanılamıyor. Editör PIN sıfırlaması henüz yapılandırılmadı. E-postayla sıfırlama için bir sunucu kurulmalı ve adresi uygulamaya girilmelid"
+ },
+ {
+  "ad": "C2 Sunucu bağlı ama e-posta servisi yapılandırılmamışsa bu açıkça yazar; gönder düğmesi yok",
+  "ok": true,
+  "a": "Editör PIN'ini sıfırla\n\nE-posta doğrulamasıyla.\n\nSıfırlama kullanılamıyor. Sunucu bağlı, ancak e-posta servisi ya da editör e-posta adresi sunucuda yapılandırılmadı. Şu an e-posta gönderilemez.\n\nPIN'i"
+ },
+ {
+  "ad": "D1 Süresi dolmuş doğrulama kodu reddedilir; PIN ekranına geçilmez",
+  "ok": true,
+  "a": "{\"m\":\"Kodun süresi doldu. Yeni kod isteyin.\",\"mode\":\"kod\"}"
+ },
+ {
+  "ad": "D2 E-posta sıfırlama talebi: sunucu kodu kayıtlı editör adresine yazar (test modu açıkça bildirilir); kod ekranı açılır",
+  "ok": true,
+  "a": "Doğrulama kodu\n\nTest modu: kod sunucudaki test dizinine yazıldı; gerçek e-posta gönderilmedi. Kod saat 17:58'e kadar geçerli.\n\nE-postadaki 6 haneli kod\nKodu doğ"
+ },
+ {
+  "ad": "D3 Hatalı doğrulama kodu reddedilir, kalan deneme yazar; PIN değiştirilemez",
+  "ok": true,
+  "a": "{\"m\":\"Kod hatalı. Kalan deneme: 4.\",\"mode\":\"kod\",\"pin\":null}"
+ },
+ {
+  "ad": "D4 Doğrulama olmadan (sahte jetonla) yeni PIN kaydedilmez; sunucu reddeder ve bu ekranda kalıcı yazılır",
+  "ok": true,
+  "a": "{\"pin\":null,\"mode\":\"reset\",\"m\":\"Doğrulama geçerli değil ya da süresi doldu. Sıfırlamayı baştan başlatın. PIN değiştirilmedi.\"}"
+ },
+ {
+  "ad": "D5 Kod doğrulanınca yeni PIN adımı açılır; yeni PIN ilk (geçiş) PIN’iyle aynı olamaz",
+  "ok": true,
+  "a": "{\"a\":\"yeni\",\"m1\":\"Yeni PIN, ilk (geçiş) editör PIN'iyle aynı olamaz.\",\"mode\":\"yeni\"}"
+ },
+ {
+  "ad": "D6 Başarılı PIN sıfırlama: yeni PIN (048291, baştaki 0 korunur) kaydedilir, PIN sürümü artar, bu sekmedeki oturum kapalı",
+  "ok": true,
+  "a": "{\"mode\":\"login\",\"kayit\":{\"v\":2,\"salt\":\"48824ad5fabeb4fa214a5fd0\",\"h\":\"a48cb80511015cfd2ac227c07e6dc8c5a86028fe6cce338d79ac25f03bfa9768\",\"surum\":1,\"kaynak\":\"sifirlama\",\"sunucuSurumu\":1,\"at\":\"2026-11-21T17:48:28.366Z\"},\"oturum\":false}"
+ },
+ {
+  "ad": "D7 PIN sıfırlanınca eski editör oturumları kapanır (sıfırlamadan önce açılmış ikinci sekme artık editör değil)",
+  "ok": true,
+  "a": ""
+ },
+ {
+  "ad": "D8 Sıfırlamadan sonra eski PIN (030792) çalışmaz, yeni PIN çalışır",
+  "ok": true,
+  "a": "{\"eski\":\"PIN hatalı. Kilitlenmeden önce kalan deneme: 4.\"}"
+ },
+ {
+  "ad": "D9 PIN sıfırlanınca diğer veriler korunur: editör kayıtları (IndexedDB dk38 “ed”, sıfırlamadan önce yazılan not dahil), dk2 (yamalar, ilerleme), favoriler, öğretmen kaydı aynı",
+  "ok": true,
+  "a": "{\"fark\":[],\"ed\":true,\"not\":true,\"op\":\"{\\\"v\\\":2,\\\"salt\\\":\\\"abcd\\\",\\\"h\\\":\\\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\\\",\\\"len\\\":6}\",\"dk2\":\"{\\\"added\\\":{},\\\"patch\\\":{\\\"TPC-5-1-01\\\":{}},\\\"raw\\\":[],\\\"prog\\\":{\\\"DKAB-5-U01-O01\\\":{\\\"correct\\\":3,\\\"wrong\\\":1,\\\"mastery\\\":0.75}},\\\"cards\\\":{},\\\"wrong\\\":{},\\\"dataVersion\\\":\\\"v31\\\",\\\"migrationLog\\\":[{\\\"v\\\":\\\"v31\\\",\\\"at\\\":\\\"2026-11-21\\\",\\\"\"}"
+ },
+ {
+  "ad": "D10 İşlem tarihçesi (bu cihaz): sıfırlama talebi, hatalı kod, kod doğrulandı, PIN değişti, oturumlar kapatıldı, giriş",
+  "ok": true,
+  "a": "[\"giris\",\"hatali\",\"oturumlar-kapatildi\",\"pin-degisti\",\"kod-dogrulandi\",\"sifirlama-talep\",\"kod-hatali\",\"sifirlama-talep\",\"giris\"]"
+ },
+ {
+  "ad": "E1 Öğretmen PIN sistemi etkilenmez: öğretmen PIN’i editör alanını açmaz, yeni editör PIN’i olarak seçilemez; öğretmen paneli açılır, kayıt aynı",
+  "ok": true,
+  "a": "{\"m\":\"Editör PIN'i öğretmen PIN'iyle aynı olamaz.\",\"ed\":false,\"ogr\":true,\"pinAyni\":true}"
+ },
+ {
+  "ad": "E2 Eski (V38) editör PIN kaydı silinmez, dk-editor-pin38-v1-yedek515’e taşınır; ilk PIN 030792 geçerli",
+  "ok": true,
+  "a": "{\"y\":{\"tasindi\":\"2026-11-21T17:48:34.386Z\",\"v\":1,\"salt\":\"eski\",\"h\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"at\":\"2026-01-01\"},\"a\":null}"
+ },
+ {
+  "ad": "E3 Mevcut editör oturum/çıkış mekanizması korunur (V38 oturum anahtarı geçerli); 360×640’ta taşma yok, tuşlar ≥ 44 px",
+  "ok": true,
+  "a": "{\"tas\":0,\"tus\":true}"
+ },
+ {
+  "ad": "Z Sayfa hatası yok",
+  "ok": true,
+  "a": "[]"
+ }
+]

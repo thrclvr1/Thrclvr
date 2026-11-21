@@ -1,0 +1,668 @@
+[
+ {
+  "id": "0.1",
+  "name": "Sürüm V38.0 (index.html ve sürüm dosyası)",
+  "pass": true,
+  "detail": "V38.0"
+ },
+ {
+  "id": "0.2",
+  "name": "Veri blokları V37 ile aynı",
+  "pass": true,
+  "detail": "seed-sd:646784 seed-hide:118337 seed-rel:1282534 seed-km:153133 seed-yp:160447 seed-curriculum:7898092"
+ },
+ {
+  "id": "0.3",
+  "name": "Koleksiyon kayıt sayıları V37 ile aynı (müfredat, soru, kart, oyun…)",
+  "pass": true,
+  "detail": {
+   "versions": 3,
+   "tbSubheadings": 531,
+   "gaps": 32,
+   "textbooks": 9,
+   "tbUnits": 45,
+   "tbSections": 272,
+   "unitLinks": 60,
+   "outcomeLinks": 223,
+   "concepts": 629,
+   "entities": 378,
+   "sources": 14,
+   "units": 60,
+   "outcomes": 238,
+   "topics": 246,
+   "questions": 723,
+   "flashcards": 672,
+   "games": 526,
+   "videos": 1
+  }
+ },
+ {
+  "id": "0.4",
+  "name": "V37 rotaları korunuyor (+ yeni editor rotası)",
+  "pass": true,
+  "detail": [
+   "classes",
+   "dene",
+   "editor",
+   "exam",
+   "exams",
+   "links",
+   "ogretmen",
+   "pek",
+   "pekbol",
+   "sd",
+   "test",
+   "yanlis"
+  ]
+ },
+ {
+  "id": "0.5",
+  "name": "Öğretmen paneli işlevleri korunuyor",
+  "pass": true,
+  "detail": "50 + 70"
+ },
+ {
+  "id": "0.6",
+  "name": "Ders Atmosferi ve üst çubuk ses kontrolü duruyor",
+  "pass": true
+ },
+ {
+  "id": "0.7",
+  "name": "Açılışta sayfa/konsol hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "0.8",
+  "name": "Öğrenci ekranlarının tasarımı değişmedi (ana sayfa, sınıflar, konu, oyunlar, kendini dene: hesaplanmış stiller V37 ile aynı)",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "1.1",
+  "name": "Öğretmen oturumu açıkken bile editör alanı ayrı editör PIN'i istiyor (ilk girişte oluşturma, 6 hane)",
+  "pass": true,
+  "detail": {
+   "h": "Editör PIN'i oluştur",
+   "dots": 6,
+   "ed": false
+  }
+ },
+ {
+  "id": "1.2",
+  "name": "Eşleşmeyen editör PIN'i kaydedilmiyor",
+  "pass": true,
+  "detail": "PIN'ler eşleşmedi. Yeniden oluştur."
+ },
+ {
+  "id": "1.3",
+  "name": "Editör PIN'i oluşturuldu, ayrı oturum açıldı; PIN açık metin saklanmıyor",
+  "pass": true
+ },
+ {
+  "id": "1.4",
+  "name": "Editör oturumu kapatılınca editör PIN'i tekrar isteniyor; öğretmen oturumu etkilenmiyor",
+  "pass": true,
+  "detail": {
+   "h": "Editör Onay Alanı",
+   "t": "1"
+  }
+ },
+ {
+  "id": "1.5",
+  "name": "Öğretmen PIN'i (1111) editör PIN'i olarak kabul edilmiyor",
+  "pass": true
+ },
+ {
+  "id": "1.6",
+  "name": "5 hatalı editör PIN'inden sonra bekleme",
+  "pass": true,
+  "detail": "Çok fazla hatalı deneme. 30 saniye sonra tekrar dene."
+ },
+ {
+  "id": "1.7",
+  "name": "Doğru editör PIN'i ile giriş",
+  "pass": true
+ },
+ {
+  "id": "1.8",
+  "name": "Editör PIN'ini sıfırlama yalnızca PIN'i siliyor, onay kayıtları kalıyor",
+  "pass": true,
+  "detail": {
+   "pin": null,
+   "h": "Editör PIN'i oluştur",
+   "items": 1
+  }
+ },
+ {
+  "id": "1.9",
+  "name": "Editör erişim testlerinde sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "2.1",
+  "name": "Kategori sayıları gerçek kayıtlardan hesaplanıyor ve kutucuklar, listeler ile aynı",
+  "pass": true,
+  "detail": {
+   "bekleyen": 1387,
+   "kaynak": 254,
+   "eslesme": 223,
+   "duzeltme": 0,
+   "red": 0,
+   "onay": 0,
+   "yayinda": 0,
+   "log": 0
+  }
+ },
+ {
+  "id": "2.2",
+  "name": "Liste ekranındaki kayıt sayısı kategori sayısıyla aynı",
+  "pass": true,
+  "detail": {
+   "bekleyen": 1387,
+   "kaynak": 254,
+   "eslesme": 223
+  }
+ },
+ {
+  "id": "3.1",
+  "name": "İnceleme ekranında A–E bölümleri ve 4 işlem aynı ekranda",
+  "pass": true,
+  "detail": {
+   "A": true,
+   "B": true,
+   "C": true,
+   "D": true,
+   "E": true,
+   "acts": true
+  }
+ },
+ {
+  "id": "3.2",
+  "name": "Kaynak yoksa \"Kaynak bulunmuyor\" yazıyor (uydurma kaynak yok)",
+  "pass": true
+ },
+ {
+  "id": "4.1",
+  "name": "Onayla: kayıt onaylandı, öğrenci içeriği değişmedi (onay ≠ yayım)",
+  "pass": true,
+  "detail": {
+   "st": "onay",
+   "stud": "draft"
+  }
+ },
+ {
+  "id": "4.2",
+  "name": "Düzenle: yeni sürüm (v2) oluştu, v1 korundu, onay düştü, öğrenci içeriği değişmedi",
+  "pass": true,
+  "detail": {
+   "n": 2,
+   "st": "bekliyor"
+  }
+ },
+ {
+  "id": "4.3",
+  "name": "Karşılaştırma: eklenen/çıkarılan ifadeler işaretli",
+  "pass": true
+ },
+ {
+  "id": "4.4",
+  "name": "Düzeltme bekliyor: açıklama zorunlu, durum kaydedildi",
+  "pass": true,
+  "detail": "duzeltme"
+ },
+ {
+  "id": "5.1",
+  "name": "Yayımla: onaylı sürüm öğrenci içeriğine aktarıldı (durum: Yayında)",
+  "pass": true,
+  "detail": {
+   "pub": "v2",
+   "stud": "EDİTÖR DÜZELTMESİ: Okul bahçesinde renk renk, sıra sıra dik",
+   "st": "published",
+   "ed": "onaylandi"
+  }
+ },
+ {
+  "id": "5.2",
+  "name": "Yayımlanan metin öğrenci konu ekranında görünüyor",
+  "pass": true
+ },
+ {
+  "id": "5.3",
+  "name": "Yenilemeden sonra onay, sürümler, not, geçmiş ve yayın kalıcı (IndexedDB)",
+  "pass": true,
+  "detail": {
+   "st": "onay",
+   "n": 2,
+   "pub": "v2",
+   "note": "Kontrol notu 1",
+   "stud": "EDİTÖR DÜZELTMESİ: Okul bahçesinde renk renk, sıra sıra dik",
+   "hist": 7,
+   "store": "IndexedDB"
+  }
+ },
+ {
+  "id": "5.4",
+  "name": "Yayından kaldır: öğrenci içeriği ve yama katmanı yayım öncesine birebir döndü; onay korunuyor",
+  "pass": true,
+  "detail": {
+   "st": "draft"
+  }
+ },
+ {
+  "id": "5.5",
+  "name": "Eski sürüme dön: v1 içeriği v3 olarak eklendi, sürümler silinmedi, yeniden onay gerekiyor",
+  "pass": true,
+  "detail": {
+   "n": 3,
+   "st": "bekliyor"
+  }
+ },
+ {
+  "id": "5.6",
+  "name": "Onayı geri çek: yayından da kaldırıldı, geçmiş silinmedi (yalnızca eklendi)",
+  "pass": true,
+  "detail": {
+   "st": "bekliyor",
+   "h": 14,
+   "hBefore": 12
+  }
+ },
+ {
+  "id": "5.7",
+  "name": "Reddet: gerekçeyle kaydedildi, öğrenci içeriği silinmedi",
+  "pass": true
+ },
+ {
+  "id": "6.1",
+  "name": "Kaynak kontrolü bekleyen içerik onaylanamıyor/yayımlanamıyor; kaynak kontrolü kaydedilince yayımlanabiliyor",
+  "pass": true,
+  "detail": {
+   "g0": {
+    "dis": true,
+    "can": "Yalnızca onaylanmış içerik yayımlanabilir."
+   },
+   "g1": {
+    "cat": "bekleyen",
+    "dis": false
+   },
+   "g2": {
+    "st": "published",
+    "d": "kaynak-kontrolunden-gecti",
+    "prev": "kaynak-yetersiz",
+    "note": "Ders kitabı s.62–66 ile karşılaştırıldı"
+   }
+  }
+ },
+ {
+  "id": "6.2",
+  "name": "İçeriği hazırlanmamış konu onaylanamıyor (\"veri bulunmuyor\")",
+  "pass": true,
+  "detail": "Bu konunun içeriği henüz hazırlanmamış (Ders kitabında veri bulunmuyor). Onaylanacak metin yok."
+ },
+ {
+  "id": "6.3",
+  "name": "Kazanım eşleşmesi incelemesi: onay + yayım → eşleşme \"onaylandı\", kuyruktan arşive",
+  "pass": true,
+  "detail": {
+   "st": "onaylandı",
+   "by": "editor",
+   "cat": "onay"
+  }
+ },
+ {
+  "id": "6.4",
+  "name": "Son yapılan editör işlemleri kaydediliyor",
+  "pass": true,
+  "detail": {
+   "n": 18,
+   "a": [
+    "Yayımlandı",
+    "Onaylandı",
+    "Yayımlandı"
+   ]
+  }
+ },
+ {
+  "id": "6.5",
+  "name": "Onay Arşivi listesi sayıyla tutarlı",
+  "pass": true,
+  "detail": {
+   "n": 2,
+   "c": 2
+  }
+ },
+ {
+  "id": "7.1",
+  "name": "Editör yedeği: kayıtlar, sürümler, geçmiş ve günlük JSON'da",
+  "pass": true
+ },
+ {
+  "id": "7.0",
+  "name": "Onay akışında sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "7.2",
+  "name": "Hatalı / yanlış editör yedeği reddediliyor, kayıtlar değişmiyor",
+  "pass": true,
+  "detail": [
+   "Dosya okunamadı: geçerli JSON değil. Mevcut editör kayıtları korunuyor.",
+   "Geri yükleme yapılmadı; mevcut kayıtlar korunuyor.Bu dosya bir Editör Onay yedeği değil (app/v alanı yanlış)."
+  ]
+ },
+ {
+  "id": "7.3",
+  "name": "Editör yedeği geri yüklendi; ikinci kez yüklemede kayıt/sürüm/geçmiş tekrarlanmadı; yayın durumu otomatik uygulanmadı",
+  "pass": true,
+  "detail": {
+   "r1": {
+    "n": 3,
+    "v": 5,
+    "h": 20,
+    "log": 18,
+    "pub": 0
+   },
+   "r2": {
+    "n": 3,
+    "v": 5,
+    "h": 20,
+    "log": 18
+   }
+  }
+ },
+ {
+  "id": "7.4",
+  "name": "Geri yüklenen editör kayıtları yenilemeden sonra da duruyor",
+  "pass": true
+ },
+ {
+  "id": "8.1",
+  "name": "Diğer → Genel Bakış ve 13 bölüm menüsü (Haftalık ve Sınıflarım ana sekmelerde)",
+  "pass": true,
+  "detail": [
+   "Genel Bakış",
+   "Kazanımlar",
+   "Ders Planlarım",
+   "Ajanda ve Takvim",
+   "Raporlar",
+   "Notlar ve Taslaklar",
+   "Test ve Soru Bankası",
+   "Şablonlar",
+   "Hızlı Arama",
+   "Son İşlemler",
+   "Veri Yönetimi",
+   "Ayarlar",
+   "Editör Onay Alanı"
+  ]
+ },
+ {
+  "id": "8.2",
+  "name": "Bütün bölümler içerikle açılıyor",
+  "pass": true,
+  "detail": {
+   "genel": 1031,
+   "kaz": 433,
+   "plan": 153,
+   "takvim": 603,
+   "ilerleme": 962,
+   "notlar": 80,
+   "sinav": 660,
+   "sablon": 770,
+   "ara": 117,
+   "son": 151,
+   "yedek": 922,
+   "ayar": 629,
+   "editor": 224
+  }
+ },
+ {
+  "id": "8.3",
+  "name": "Not defteri: not/taslak eklendi ve listeleniyor",
+  "pass": true,
+  "detail": {
+   "n": 1,
+   "t": true,
+   "shown": true
+  }
+ },
+ {
+  "id": "8.4",
+  "name": "Sınav hazırlama: sorular yalnızca mevcut soru bankasından ve seçilen kazanımdan",
+  "pass": true,
+  "detail": {
+   "n": 3,
+   "allBank": true,
+   "title": "Deneme sınavı"
+  }
+ },
+ {
+  "id": "8.5",
+  "name": "Sınav metin dosyası soruları ve cevap anahtarını içeriyor",
+  "pass": true
+ },
+ {
+  "id": "8.6",
+  "name": "Raporlar: ünite tablosu kazanım ve plan verisiyle tutarlı",
+  "pass": true,
+  "detail": {
+   "sumT": 22,
+   "sumI": 1,
+   "t": 22,
+   "i": 1,
+   "pl": 1,
+   "table": true
+  }
+ },
+ {
+  "id": "8.7",
+  "name": "Şablon ders planı formuna uygulanıyor (dolu alan varsa önce onay soruluyor)",
+  "pass": true
+ },
+ {
+  "id": "8.8",
+  "name": "Hızlı arama kazanım kodunu buluyor",
+  "pass": true,
+  "detail": [
+   "Kazanım\n12.2.1 (2018) Türklerin Müslüman olma sürecini açıklar.\n12. sınıf 2018 · İşlendi",
+   "Ders planı\n2026-11-16 · 12. sınıf 12.2.1 (2018)\nDeneme hedefi"
+  ]
+ },
+ {
+  "id": "8.9",
+  "name": "Toplu kazanım işlemi: ünitedeki tüm kazanımlar güncellendi, günlüğe tek kayıt",
+  "pass": true,
+  "detail": {
+   "n": 5,
+   "all": true,
+   "log": 1,
+   "per": 0
+  }
+ },
+ {
+  "id": "8.10",
+  "name": "Son işlemler: kazanım durumu, not, sınav ve toplu işlem kayıtlı",
+  "pass": true,
+  "detail": [
+   "Kazanım durumu",
+   "Toplu kazanım işlemi",
+   "Sınav kaydedildi",
+   "Not eklendi"
+  ]
+ },
+ {
+  "id": "8.11",
+  "name": "Öğretmen yedeği: eski alanlar + haftalık plan + V38 (not, sınav, şablon, günlük)",
+  "pass": true
+ },
+ {
+  "id": "8.12",
+  "name": "Öğretmen araçlarında sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "8.13",
+  "name": "Öğretmen yedeği geri yüklendi; yerel not korundu; tekrar yüklemede not/sınav tekrarlanmadı; öncesinin kopyası alındı",
+  "pass": true,
+  "detail": {
+   "r1": {
+    "ok": true,
+    "notes": [
+     "NTyerel",
+     "NTmwjopi4zksv7b"
+    ],
+    "cls": 2,
+    "snap": true
+   },
+   "r2b": {
+    "notes": 2,
+    "ex": 1
+   }
+  }
+ },
+ {
+  "id": "8.14",
+  "name": "Hatalı/eksik yedek dosyası kayıtları değiştirmiyor",
+  "pass": true,
+  "detail": {
+   "a": false,
+   "c": false,
+   "same": true
+  }
+ },
+ {
+  "id": "8.15",
+  "name": "V37 biçimindeki (v38 alanı olmayan) eski yedek geri yükleniyor; V38 kayıtları korunuyor",
+  "pass": true,
+  "detail": {
+   "ok": true,
+   "cls": [
+    4
+   ],
+   "notes": true
+  }
+ },
+ {
+  "id": "8.16",
+  "name": "Son geri yüklemeyi geri al: önceki kayıtlara dönüldü",
+  "pass": true,
+  "detail": "12,5"
+ },
+ {
+  "id": "8.17",
+  "name": "Not ve sınav kayıtları yenilemeden sonra kalıcı",
+  "pass": true
+ },
+ {
+  "id": "9.light.1",
+  "name": "Gündüz: öğretmen modu, fildişi/şampanya zemin, bronz vurgular",
+  "pass": true,
+  "detail": {
+   "bodyBg": "rgb(246, 240, 228)",
+   "filled": "linear-gradient(rgb(156, 107, 44), rgb(111, 69, 24))"
+  }
+ },
+ {
+  "id": "9.light.2",
+  "name": "Gündüz: kazanım kartı özel (degrade zemin, motif, şerit, ayırıcı); diğer kartlar sade",
+  "pass": true,
+  "detail": {
+   "kz": "rgb(184, 137, 74)",
+   "un": "rgb(231, 216, 190)"
+  }
+ },
+ {
+  "id": "9.light.3",
+  "name": "Gündüz: metin kontrastı ≥ 4.5:1 (ölçülen öğeler)",
+  "pass": true,
+  "detail": ".og-top h1 15.1, .c-kaz .ogw-kt 13.6, .ogw-c.c-kaz .ogw-ch b 13.6, .v38-ks 6.0, .ogw-dt 6.0, .ogw-pt 6.0, .ogw-c.c-unite .ogw-cv 6.6, .v38-qa button b 15.1, .c-kaz .ogw-kr .ogw-b:not(.p) 5.6"
+ },
+ {
+  "id": "9.light.4",
+  "name": "Gündüz: durum renkleri ayrı (füme · lacivert · zümrüt · kehribar)",
+  "pass": true,
+  "detail": {
+   "bas": "#5C6068",
+   "plan": "#2B4A86",
+   "isl": "#13704D",
+   "tek": "#985A0F"
+  }
+ },
+ {
+  "id": "9.light.5",
+  "name": "Gündüz: sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "9.dark.1",
+  "name": "Gece: öğretmen modu, obsidyen zemin, altın vurgular",
+  "pass": true,
+  "detail": {
+   "bodyBg": "rgb(13, 12, 10)",
+   "filled": "linear-gradient(rgb(233, 199, 132), rgb(181, 135, 64))"
+  }
+ },
+ {
+  "id": "9.dark.2",
+  "name": "Gece: kazanım kartı özel (degrade zemin, motif, şerit, ayırıcı); diğer kartlar sade",
+  "pass": true,
+  "detail": {
+   "kz": "rgb(201, 162, 94)",
+   "un": "rgb(58, 49, 36)"
+  }
+ },
+ {
+  "id": "9.dark.3",
+  "name": "Gece: metin kontrastı ≥ 4.5:1 (ölçülen öğeler)",
+  "pass": true,
+  "detail": ".og-top h1 15.3, .c-kaz .ogw-kt 16.5, .ogw-c.c-kaz .ogw-ch b 16.5, .v38-ks 9.2, .ogw-dt 9.2, .ogw-pt 9.2, .ogw-c.c-unite .ogw-cv 8.6, .v38-qa button b 15.3, .c-kaz .ogw-kr .ogw-b:not(.p) 10.4"
+ },
+ {
+  "id": "9.dark.4",
+  "name": "Gece: durum renkleri ayrı (füme · lacivert · zümrüt · kehribar)",
+  "pass": true,
+  "detail": {
+   "bas": "#A4A7AE",
+   "plan": "#93B2EC",
+   "isl": "#54CB97",
+   "tek": "#E7A64C"
+  }
+ },
+ {
+  "id": "9.dark.5",
+  "name": "Gece: sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "10.1",
+  "name": "360 / 390 / 768 / 1024 / 1440 px: öğretmen paneli ve editör ekranlarında yatay taşma yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "10.2",
+  "name": "Aynı ekranlarda 44 px altında dokunma alanı yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "11.1",
+  "name": "V37 öğretmen PIN'i oluşturma/giriş ve üst çubuk ses kontrolü çalışıyor; yüzen oynatıcı yok",
+  "pass": true,
+  "detail": {
+   "playing": true,
+   "fab": 0
+  }
+ },
+ {
+  "id": "11.2",
+  "name": "Gerileme testinde sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ }
+]

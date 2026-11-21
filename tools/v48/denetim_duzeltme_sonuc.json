@@ -1,0 +1,192 @@
+{
+ "dosya": "index.html",
+ "md5": "54113485ea8a9008a50c32d109834b3c",
+ "tarih": "2026-11-18T11:39:20.424Z",
+ "baglam": 14,
+ "yazi": 728,
+ "aaAlti": 0,
+ "sonuc": [
+  {
+   "ekran": "p:calis",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 85,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calis",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 85,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calis",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 85,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calis",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 85,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-alan",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-alan",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-alan",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-alan",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:calis",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:calis",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:calis",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-alan",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-alan",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-alan",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  }
+ ]
+}
