@@ -1,3 +1,15 @@
+# Android APK — V51.7 (sürüm kodu 5107)
+
+**Dosya:** `apk/din-kulturu-v51.7.apk` (10,7 MB)
+- SHA-256: `a17d78d6d4761b4d84338b996514669b41fa6f16c4d57df6ac2f197c3c4a90ef`
+- İmza: V36 ve V51.6 ile aynı sertifika. Sertifika SHA-256 `48226315…a6ea`, SHA-1 `62:4F:81:04:2C:90:4D:5E:1E:32:B3:86:ED:45:F1:8B:AB:79:DB:52`. Eski sürümlerin üzerine veriler silinmeden kurulur.
+- Android tarafında değişiklik yok. İçindeki sayfa V51.7: kullanım rehberi eklendi (`docs/V51.7_rapor.md`).
+- Rehber tercihleri uygulamanın kendi kökeninde (`https://appassets.androidplatform.net`) localStorage `dk-rehber517`'de tutulur; güncellemede korunur.
+- **Test edilen:** derleme; `apksigner verify` (aynı sertifika); `aapt2` (paket, sürüm 51.7); APK içindeki `assets/index.html` = V51.7 (SHA-256 eşleşiyor).
+- **Test edilmeyen:** APK hiçbir telefonda açılmadı (emülatör yok). Rehber pencereleri yalnız Chromium'da Android ekran boyutlarıyla denendi.
+
+---
+
 # Android APK — V51.6 (sürüm kodu 5106)
 
 **Dosya:** `apk/din-kulturu-v51.6.apk` (10,7 MB)

@@ -1,0 +1,69 @@
+/* ===================== V51.7: kullanım rehberi (tanıtım penceresi, bölüm baloncukları, rehber merkezi) ===================== */
+/* tanıtım penceresi: seçim ekranının (#uye39, z 9000) da üstünde */
+.v-ov.rh517-ov{z-index:9500;align-items:center;justify-content:center;padding:16px;background:rgba(5,8,18,.62)}
+.rh517-k{box-sizing:border-box;width:min(420px,calc(100vw - 32px));max-height:calc(var(--vvh42,100dvh) - 32px);overflow-y:auto;overscroll-behavior:contain;border-radius:22px;padding:16px 20px 14px;box-shadow:0 18px 50px rgba(0,0,0,.35);font-size:15.5px;line-height:1.5;text-align:center}
+.rh517-k h2{margin:6px 0 6px;font-size:1.3rem;line-height:1.25}
+.rh517-k p{margin:0 0 6px}
+.rh517-kb{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:.84rem}
+.rh517-say{opacity:.8;font-variant-numeric:tabular-nums}
+.rh517-g{display:flex;justify-content:center;align-items:center;min-height:72px;margin:8px 0 2px}
+.rh517-g svg{display:block;max-width:100%}
+.rh517-iki{display:inline-flex;gap:18px;align-items:center}
+.rh517-nok{display:flex;justify-content:center;gap:7px;margin:10px 0 12px}
+.rh517-nok i{width:8px;height:8px;border-radius:50%;background:currentColor;opacity:.25}
+.rh517-nok i.on{opacity:1;width:22px;border-radius:5px}
+.rh517-alt{display:grid;grid-template-columns:1fr 1.4fr;gap:10px}
+.rh517-alt2{display:flex;justify-content:center;flex-wrap:wrap;gap:4px 14px;margin-top:8px}
+.rh517-k button,.rh517-bal button,.rh517-mz button,.rh517-prof button,.rh517-yb{font:inherit;cursor:pointer}
+.rh517-p{min-height:44px;padding:0 16px;border-radius:12px;border:0;font-weight:700}
+.rh517-on{min-height:44px;padding:0 14px;border-radius:12px;background:transparent;border:1.5px solid currentColor;opacity:.9}
+.rh517-on:disabled{opacity:.3;cursor:default}
+.rh517-l{min-height:40px;padding:0 4px;background:transparent;border:0;text-decoration:underline;text-underline-offset:3px;font-size:.9rem;color:inherit}
+.rh517-at{min-height:40px;padding:0 4px;background:transparent;border:0;text-decoration:underline;text-underline-offset:3px;color:inherit;font-size:.88rem}
+.rh517-k :focus-visible,.rh517-bal :focus-visible,.rh517-mz :focus-visible,.rh517-prof :focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+/* temalar (sabit renkler: rehber hangi modun içinden açılırsa açılsın kendi kimliğiyle görünür) */
+.rh517-genel{background:linear-gradient(180deg,#141c33,#0b1020);color:#eef1f7}
+.rh517-genel .rh517-g{color:#e3c27a}.rh517-genel .rh517-p{background:linear-gradient(180deg,#ecc884,#b8873f);color:#1a1206}
+.rh517-elmas{background:#ffffff;color:#0f1b33}
+.rh517-elmas .rh517-g,.rh517-elmas .rh517-nok{color:#1f5bd8}.rh517-elmas .rh517-p{background:#1f5bd8;color:#fff}.rh517-elmas .rh517-on{color:#1f5bd8}
+.rh517-altin{background:linear-gradient(180deg,#221a10,#140f08);color:#f3e9d2;border:1px solid rgba(217,180,106,.45)}
+.rh517-altin .rh517-g,.rh517-altin .rh517-nok{color:#e3c27a}.rh517-altin .rh517-p{background:linear-gradient(180deg,#ecc884,#b8873f);color:#1a1206}.rh517-altin .rh517-on{color:#e3c27a}
+.rh517-ogretmen{background:#ffffff;color:#1e293b;border:1px solid #cbd5e1}
+.rh517-ogretmen .rh517-p{background:#334e68;color:#fff}
+.rh517-editor{background:#ffffff;color:#13201f;border:1px solid #c7d6d4}
+.rh517-editor .rh517-p{background:#0f766e;color:#fff}
+/* bölüm baloncuğu ve vurgu halkası (alt pencerenin, z 80, altında kalır; Altın araması penceresinde üstünde) */
+.rh517-h{position:fixed;z-index:78;pointer-events:none;border-radius:12px;outline:3px solid #f59e0b;box-shadow:0 0 0 6px rgba(245,158,11,.28)}
+.rh517-h.ust{z-index:95}
+.rh517-bal{position:fixed;z-index:79;box-sizing:border-box;max-width:calc(100vw - 24px);padding:10px 14px 8px;border-radius:16px;box-shadow:0 10px 32px rgba(0,0,0,.28);font-size:15px;line-height:1.45}
+.rh517-bal.ust{z-index:96}
+.rh517-bal p{margin:4px 0 8px}
+.rh517-bb{display:flex;align-items:center;gap:8px;font-size:.86rem}.rh517-bb b{flex:1;min-width:0}.rh517-bb span{opacity:.75;font-variant-numeric:tabular-nums}
+.rh517-x{min-width:40px;min-height:40px;margin:-6px -8px -6px 0;border:0;background:transparent;color:inherit;font-size:1.4rem;line-height:1}
+.rh517-ba{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.rh517-ba .rh517-p{min-height:42px}
+.rh517-bd{display:block;font-size:.82rem;opacity:.85;margin-top:2px}
+.rh517-bal.rh517-elmas{border:1px solid #b9c9ee}
+/* rehber merkezi (alt pencere; modun kendi pencere stili içinde) */
+.rh517-mz{display:flex;flex-direction:column;gap:10px}
+.rh517-mzp,.rh517-mzn{margin:0;font-size:.92rem;opacity:.9}
+.rh517-oto{display:flex;align-items:center;gap:10px;min-height:44px;font-size:.95rem}.rh517-oto input{width:22px;height:22px}
+.rh517-lis{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.rh517-lis li{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 10px;padding:10px 12px;border-radius:14px;border:1px solid var(--line,rgba(127,127,127,.35))}
+.rh517-lis li>div{display:flex;flex-direction:column;min-width:0;flex:1 1 160px}.rh517-lis small{opacity:.75}
+.rh517-lis li>span{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.rh517-mz .rh517-p{background:var(--pri,#1f5bd8);color:#fff;min-height:40px}
+body[data-prem39] .rh517-mz .rh517-p{background:linear-gradient(180deg,#ecc884,#b8873f);color:#1a1206}
+body[data-ogrt37] .rh517-mz .rh517-p{background:#334e68;color:#fff}
+body[data-prem39] .rh517-lis li{border-color:var(--p-line)}
+.rh517-sif{min-height:44px;border-radius:12px;border:1.5px dashed currentColor;background:transparent;color:inherit;font-weight:600}
+/* Profilim kartı */
+.rh517-prof{margin:16px 0 8px;padding:14px 16px;border-radius:18px;border:1px solid var(--line);background:var(--surface);color:inherit}
+.rh517-prof h2{margin:0 0 4px;font-size:1.08rem}.rh517-prof p{margin:0 0 10px;font-size:.92rem;opacity:.9}
+.rh517-pb{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.rh517-prof.e .rh517-p{background:var(--pri,#1f5bd8);color:#fff}
+.rh517-prof.a{background:var(--p-card,#1e1710);border-color:var(--p-line,#5a4630);color:var(--p-ink,#f3e9d2)}
+.rh517-prof.a .rh517-p{background:linear-gradient(180deg,#ecc884,#b8873f);color:#1a1206}
+/* öğretmen / editör üst çubuğundaki “Rehber” düğmesi */
+.rh517-yb{min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--t37-line,var(--line));background:var(--t37-card,var(--surface));color:var(--t37-ink,inherit);font-weight:600}
+@media (prefers-reduced-motion:reduce){.v-ov.rh517-ov{animation:none}}
