@@ -1,0 +1,8 @@
+/* ===================== V51.5: editör PIN sıfırlama (mevcut pin37 tasarımı; yalnız ek öğeler) ===================== */
+.ed515-kod{display:block;width:100%;box-sizing:border-box;min-height:52px;margin:6px 0 4px;padding:0 14px;border-radius:14px;border:1.5px solid var(--t37-line2,var(--line));background:var(--t37-card,var(--surface));color:var(--t37-ink,inherit);font:inherit;font-size:1.4rem;letter-spacing:.4em;text-align:center}
+.ed515-kod:focus{outline:3px solid color-mix(in srgb,var(--t37-act,var(--pri)) 45%,transparent);outline-offset:1px}
+.ed515-test{padding:8px 12px;border-radius:12px;border:1px dashed var(--t37-line2,var(--line));font-size:.9rem}
+.ed515-yok p:first-child{line-height:1.5}
+.ed515-g{margin-top:10px;font-size:.86rem;text-align:left}.ed515-g summary{cursor:pointer;min-height:40px;display:flex;align-items:center}
+.ed515-g ul{margin:4px 0 0;padding-left:1.1em;display:flex;flex-direction:column;gap:2px}.ed515-g time{color:var(--t37-mut,var(--mut));font-variant-numeric:tabular-nums}
+.ed515-uyari{margin:0 0 8px;padding:8px 12px;border-radius:12px;border:1px solid color-mix(in srgb,#c0392b 45%,var(--t37-line,var(--line)));font-size:.92rem}

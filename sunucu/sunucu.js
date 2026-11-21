@@ -1,4 +1,4 @@
-// DKAB platformu — hesap, bulut kayıt ve hata/geri bildirim sunucusu (V46.0; bildirimler V48.0)
+// DKAB platformu — hesap, bulut kayıt ve hata/geri bildirim sunucusu (V46.0; bildirimler V48.0; editör PIN sıfırlama V51.5)
 // Bağımlılık yok: Node.js 22.13+ (node:http, node:crypto, node:sqlite).
 // Çalıştırma: GOOGLE_CLIENT_ID=... IZINLI_KOKENLER=https://thrclvr1.github.io node sunucu/sunucu.js
 // Ayrıntı: sunucu/README.md
@@ -90,6 +90,8 @@ function govdeOku(req) {
 }
 const sayac = new Map();
 function hizSiniri(ip, ad, n, ms) { const k = ad + ':' + ip, s = Date.now(), L = (sayac.get(k) || []).filter((t) => s - t < ms); L.push(s); sayac.set(k, L); return L.length <= n; }
+/* V51.5: editör PIN'i — e-posta doğrulamalı sıfırlama ve sunucu taraflı doğrulama (sunucu/editor_pin.js) */
+const EPIN = require('./editor_pin.js')(db, {yanit, govdeOku, hizSiniri, ozet});
 function oturumBul(req) { const m = /^Bearer ([A-Za-z0-9_-]{20,})$/.exec(req.headers.authorization || ''); if (!m) return null; const o = Q.otBul.get(ozet(m[1]), Date.now()); if (!o) return null; return {o, u: Q.kulId.get(o.kullanici_id), ham: m[1]}; }
 function veriGecerli(v) {
   if (!v || typeof v !== 'object' || Array.isArray(v)) return false;
@@ -124,12 +126,13 @@ const bEditorJSON = (r) => ({id: r.id, tur: r.tur, kategori: r.kategori, aciklam
 /* ---------- uç noktalar ---------- */
 async function isle(req, res) {
   const koken = req.headers.origin || '', izinli = A.kokenler.includes(koken);
-  const cors = izinli ? {'Access-Control-Allow-Origin': koken, 'Vary': 'Origin', 'Access-Control-Allow-Headers': 'Authorization, Content-Type', 'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, OPTIONS', 'Access-Control-Max-Age': '600'} : {};
+  const cors = izinli ? {'Access-Control-Allow-Origin': koken, 'Vary': 'Origin', 'Access-Control-Allow-Headers': 'Authorization, Content-Type, X-Editor-Oturum', 'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, OPTIONS', 'Access-Control-Max-Age': '600'} : {};
   const url = new URL(req.url, 'http://x'), yol = url.pathname, ip = req.socket.remoteAddress || '';
   if (req.method === 'OPTIONS') return yanit(res, izinli ? 204 : 403, undefined, cors);
   if (yol === '/api/saglik') return yanit(res, 200, {ok: true}, cors);
   if (koken && !izinli) return yanit(res, 403, {hata: 'Bu adresten gelen isteklere izin verilmiyor.'});
   if (yol === '/api/yapilandirma' && req.method === 'GET') return yanit(res, 200, {googleClientId: A.clientId, veriAnahtarlari: VERI_ANAHTAR}, cors);
+  if (yol.startsWith('/api/editor-pin/')) return EPIN(req, res, yol, ip, cors);
   if (yol === '/api/giris' && req.method === 'POST') {
     if (!hizSiniri(ip, 'giris', 20, 60e3)) return yanit(res, 429, {hata: 'Çok fazla deneme. Biraz bekleyin.'}, cors);
     const g = await govdeOku(req); let y;

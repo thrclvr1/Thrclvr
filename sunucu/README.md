@@ -87,6 +87,52 @@ Uygulamada **Profilim › Hesap › Sunucu ayarı › Sunucu adresini gir** böl
 - Sunucu kurulu değilse ya da giriş yapılmamışsa uygulama bildirimi cihazda **taslak** olarak saklar, “gönderildi” demez; bağlantı ve giriş olunca kendiliğinden gönderir. Taslaklar Profilim › Bildirimlerim'den JSON olarak dışa aktarılıp editör cihazında içe aktarılabilir.
 - Test: `node tests/v48/sunucu_test.js` (16 kontrol, gerçek Google'a bağlanmaz).
 
+## Editör PIN sıfırlama (V51.5)
+
+Uygulamadaki **Editör PIN'imi unuttum** düğmesi, bu sunucu kurulup e-posta servisi tanımlanmadan **çalışmaz**. O durumda uygulama “sıfırlama henüz yapılandırılmadı” yazar; “e-posta gönderildi” demez.
+
+**Akış:**
+
+1. Kullanıcı sıfırlama ister.
+2. Sunucu tek kullanımlık 6 haneli bir kod üretir ve kodu **yalnız sunucuda tanımlı** editör e-posta adresine gönderir.
+3. Kod en çok 5 kez denenebilir ve 10 dakika sonra geçersizleşir.
+4. Doğru kod 10 dakikalık, tek kullanımlık bir jeton verir.
+5. Yeni PIN yalnız bu jetonla kaydedilir. Kayıttan sonra PIN sürümü artar ve eski editör oturumları kapanır.
+6. İşlem geçmişi `ep_gecmis` tablosunda tutulur.
+
+**E-posta adresi, SMTP parolası ve API anahtarı yalnız sunucu ortam değişkenlerindedir; HTML'e hiçbiri yazılmaz.**
+
+| Değişken | Açıklama |
+|---|---|
+| `EDITOR_SIFIRLAMA_EPOSTASI` | Kodun gönderileceği editör e-posta adresi |
+| `EPOSTA_SAGLAYICI` | `smtp` ya da `resend` (`dosya` yalnız yerel testtir; gerçek e-posta göndermez, uygulama “test modu” yazar) |
+| `EPOSTA_GONDEREN` | Gönderen, ör. `DKAB <no-reply@alanadiniz.com>` |
+| `SMTP_SUNUCU`, `SMTP_PORT` (465), `SMTP_KULLANICI`, `SMTP_PAROLA` | SMTP (TLS, 465). Gmail için: hesapta 2 adımlı doğrulama açılır, **uygulama şifresi** oluşturulur; `SMTP_SUNUCU=smtp.gmail.com`, kullanıcı = Gmail adresi, parola = uygulama şifresi |
+| `RESEND_API_ANAHTARI` | `EPOSTA_SAGLAYICI=resend` ise |
+| `EP_KOD_SURE_SN` | Kod süresi (varsayılan 600 sn) |
+
+Örnek (Gmail SMTP):
+
+```bash
+EDITOR_SIFIRLAMA_EPOSTASI=editor-adresiniz@... \
+EPOSTA_SAGLAYICI=smtp EPOSTA_GONDEREN="DKAB <gonderen-adresiniz@...>" \
+SMTP_SUNUCU=smtp.gmail.com SMTP_PORT=465 SMTP_KULLANICI=gonderen-adresiniz@... SMTP_PAROLA=uygulama-sifresi \
+GOOGLE_CLIENT_ID=... IZINLI_KOKENLER=https://thrclvr1.github.io node sunucu/sunucu.js
+```
+
+Barındırma hizmetinde bu değerleri **gizli ortam değişkeni (secret)** olarak girin; depoya ya da HTML'e yazmayın.
+
+| Yöntem | Yol | Açıklama |
+|---|---|---|
+| GET | `/api/editor-pin/durum` | `{sifirlama, saglayici, test, pinSunucuda, kodDakika}` (e-posta adresi dönmez) |
+| POST | `/api/editor-pin/talep` | Kod üretir ve e-postayla gönderir → `{talepId, bitis, test}`. Yapılandırılmamışsa 503 `yapilandirilmadi`; gönderilemezse 502. Hız sınırı: adres başına 15 dakikada 3, toplam saatte 10 |
+| POST | `/api/editor-pin/dogrula` | `{talepId, kod}` → `{jeton}`; hatalı kod `kalan` döner; 5 hatada kod geçersiz; süre dolunca `suresi-doldu`; tek kullanımlık |
+| POST | `/api/editor-pin/tamamla` | `{jeton, pin}` (pin: 6 rakamlı **metin**) → PIN sunucuda scrypt özetiyle saklanır, sürüm artar, editör oturumları kapanır |
+| POST | `/api/editor-pin/giris` | `{pin}` → `{oturum, pinSurumu}`. Sunucu taraflı doğrulama; 5 hatada kademeli kilit (1 dk, 5 dk, 15 dk, 1 sa, 6 sa). **Üretim altyapısı:** uygulama şu an PIN'i cihazda doğrular (`V51.EdPin.SUNUCU_DOGRULAMA = false`) |
+| GET | `/api/editor-pin/gecmis` | `X-Editor-Oturum` başlığıyla işlem geçmişi |
+
+Test: `node tests/v51_5/sunucu_test.js` (dosya sağlayıcısı ve yerel sahte SMTP sunucusuyla; gerçek e-posta gönderilmez).
+
 ## Bilinen sınırlar
 
 - **Android sarmalayıcısı (WebView):** Google, gömülü WebView içinde OAuth girişine izin vermez (`disallowed_useragent`). APK'da Google girişi için yerel Android oturum açma (Credential Manager) eklenmesi gerekir. Bu yapılmadı.
