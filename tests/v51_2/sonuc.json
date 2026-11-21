@@ -1,0 +1,120 @@
+{
+ "tarih": "2026-11-21T10:56:38.801Z",
+ "sonuc": [
+  {
+   "ad": "A1 sürüm V51.2, index.html aynı dosya; V51.1 yedek dosyası duruyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 bütün veri blokları (müfredat, kazanım–konu ilişkileri, süreç bileşenleri, yıllık plan) V51.1 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "15 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı",
+   "ok": true,
+   "ayr": "yalnız v51.2"
+  },
+  {
+   "ad": "T1 Öğrenci (Elmas) konu listelerinde “anlatım taslağı”, “taslak hazır”, “kısmi”, “hazırlanıyor”, “inceleme/editör onayı bekliyor” gibi üretim etiketi görmez",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "T2 Öğrenci (Elmas) sınıf, ünite ve konu ekranlarında MEB kazanım kodu ve “Kazanımlar (MEB öğrenme çıktıları)” görmez",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "T3 Öğrenci süreç bileşenlerini görmez (Elmas)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "T11 Altın’da aynı kural: üretim etiketi, kazanım kodu, süreç bileşeni yok (sınıf merkezi, ünite, ders)",
+   "ok": true,
+   "ayr": "{\"u\":[],\"k\":[]}"
+  },
+  {
+   "ad": "T4 Öğretmen panelinden “İçeriği aç” → öğretmen görünümü açılır (çubuk + öğretmen bilgisi; mod: öğretmen)",
+   "ok": true,
+   "ayr": "{\"view\":\"topic\",\"kip\":\"ogretmen\",\"bar\":true,\"kart\":true,\"mod\":\"ogretmen\",\"t\":\"TPC-5-1-02\",\"kodlar\":[\"DKAB.5.1.2\"],\"beklenen\":[\"DKAB.5.1.2\"],\"surec\":[4],\"surecBek\":[4],\"dl\":\"Sınıf5. sınıfProgram2026 programı (Türkiye Yüzyılı Maarif Modeli)Ünite1. ALLAH İNANCI\",\"sinifPy\":[5,\"2026\"],\"last\":\"TPC-6-1-01\"}"
+  },
+  {
+   "ad": "T5 Öğretmen görünümünde doğru MEB kazanımları, kodları ve süreç bileşenleri (konunun kazanım ilişkisinden, aynı sınıf ve program); sınıf ve program bilgisi",
+   "ok": true,
+   "ayr": "{\"view\":\"topic\",\"kip\":\"ogretmen\",\"bar\":true,\"kart\":true,\"mod\":\"ogretmen\",\"t\":\"TPC-5-1-02\",\"kodlar\":[\"DKAB.5.1.2\"],\"beklenen\":[\"DKAB.5.1.2\"],\"surec\":[4],\"surecBek\":[4],\"dl\":\"Sınıf5. sınıfProgram2026 programı (Türkiye Yüzyılı Maarif Modeli)Ünite1. ALLAH İNANCI\",\"sinifPy\":[5,\"2026\"],\"last\":\"TPC-6-1-01\"}"
+  },
+  {
+   "ad": "T5b 2018 konusu: yalnız 4. sınıf 2018 kazanımları gösterilir (2018/2026 karışmaz)",
+   "ok": true,
+   "ayr": "{\"py\":\"2018\",\"kodlar\":[\"4.1.1 (2018)\"],\"hepsi2018\":[\"4.1.1 (2018)\"]}"
+  },
+  {
+   "ad": "T6 Öğretmen öğrenci ön izlemesine geçer (kazanım/süreç yok, çubuk duruyor) ve geri döner; “Öğretmen paneli” önceki konuma (aynı sekme ve hafta) döner",
+   "ok": true,
+   "ayr": "{\"t6\":{\"kip\":\"onizleme\",\"kart\":false,\"bar\":true,\"kod\":false},\"geriOgr\":\"ogretmen\",\"once\":{\"y\":500,\"wk\":\"{\\\"2026-2027\\\":2}\",\"tab\":\"hafta\",\"last\":\"TPC-6-1-01\"},\"sonra\":{\"view\":\"ogretmen\",\"y\":500,\"wk\":\"{\\\"2026-2027\\\":2}\",\"tab\":\"hafta\",\"okip\":\"\",\"last\":\"TPC-6-1-01\",\"prog\":{\"correct\":2,\"wrong\":1,\"mastery\":0.66}}}"
+  },
+  {
+   "ad": "T10 Öğretmenin önizlemesi öğrencinin “kaldığın yer” kaydını ve ilerlemesini değiştirmez",
+   "ok": true,
+   "ayr": "{\"once\":\"TPC-6-1-01\",\"sonra\":\"TPC-6-1-01\"}"
+  },
+  {
+   "ad": "T11b Altın’da da öğretmen görünümü aynı kuralla açılır (ders ekranı + öğretmen bilgisi)",
+   "ok": true,
+   "ayr": "{\"view\":\"pders\",\"kip\":\"ogretmen\",\"kart\":true,\"kod\":[\"DKAB.5.1.1\"]}"
+  },
+  {
+   "ad": "T7 Öğrenci öğretmen görünümüne doğrudan erişemez (ekran parametresi ya da G.okip elle verilse bile öğretmen oturumu yok → öğrenci görünümü)",
+   "ok": true,
+   "ayr": "{\"a\":{\"kip\":\"ogrenci\",\"okip\":\"\",\"bar\":false,\"kod\":false},\"b2\":{\"kip\":\"ogrenci\",\"bar\":false,\"kod\":false},\"c\":{\"view\":\"topic\",\"kip\":\"ogrenci\"}}"
+  },
+  {
+   "ad": "T8 Editör alanları (onay alanı, bildirim merkezi, kitap/künye, yayın ayarı) öğrenci ve öğretmen tarafından açılamaz",
+   "ok": true,
+   "ayr": "{\"öğrenci\":{\"editorListe\":false,\"edOk\":false,\"bildirim\":false,\"kitapUyari\":true,\"yayinEkrani\":false,\"sikiPenceresi\":false},\"öğretmen\":{\"editorListe\":false,\"edOk\":false,\"bildirim\":false,\"kitapUyari\":true,\"yayinEkrani\":false,\"sikiPenceresi\":false}}"
+  },
+  {
+   "ad": "T9 Geçiş dönemi (sıkı yayın kapalı): reddedilen, düzeltme bekleyen ve yayından kaldırılan konu öğrenciye gizli; diğerleri görünür (öğrenci ekranı boş kalmaz)",
+   "ok": true,
+   "ayr": "{\"gec\":[false,false,false,true,true,true,true],\"gecKonu\":243,\"liste\":28}"
+  },
+  {
+   "ad": "T9b Sıkı yayın açık: yalnız gerçekten yayımlanmış konu görünür (onay bekleyen, onaylı-yayımlanmamış, taslak gizli); Elmas ve Altın aynı",
+   "ok": true,
+   "ayr": "{\"siki\":[false,false,false,false,true,false,false],\"sikiKonu\":1,\"liste\":0}"
+  },
+  {
+   "ad": "T9c Sıkı yayında bile müfredat kayıtları (ünite, kazanım, kavram, kişi/eser) gizlenmez ve bozulmaz (V51.0 hatası düzeltildi)",
+   "ok": true,
+   "ayr": "{\"gec\":{\"units\":60,\"outcomes\":238,\"concepts\":629,\"entities\":378},\"siki\":{\"units\":60,\"outcomes\":238,\"concepts\":629,\"entities\":378}}"
+  },
+  {
+   "ad": "T9d Editör kontrol ekranı sayıları tutarlı: şu an görünen, sıkı yayında görecek (1), onaylı-yayımlanmamış (1), gizli (3), eksik sınıf listesi",
+   "ok": true,
+   "ayr": "{\"k\":{\"simdi\":243,\"siki\":1,\"onayli\":1,\"bekleyen\":241,\"gizli\":3,\"toplam\":246},\"eksik\":12}"
+  },
+  {
+   "ad": "T9e Sıkı yayın yalnız editör kontrol penceresinden açılır; pencerede öğrencinin göreceği sayılar ve eksik sınıflar yazılır",
+   "ok": true,
+   "ayr": "Sıkı yayını açSıkı yayın açılınca öğrenciler yalnız yayımlanmış içeriği görür:Konu 1 (şu an 243) · Soru 0 (şu an 723) · Kart 0 (şu an 672).1 onaylı kayıt henüz yayımlanmadı (Onay Arşivi › Seçilenleri yayımla).11 sınıf/programda öğrenci hiç konu göremez.İçerikler silinmez; sıkı yayını istediğin zaman"
+  },
+  {
+   "ad": "T10b İlerleme, favoriler, test sonuçları, yanlışlar, kartlar ve öğretmen planları korunur",
+   "ok": true,
+   "ayr": "{\"prog\":{\"correct\":3,\"wrong\":1,\"mastery\":0.75},\"cards\":{\"box\":2},\"wrong\":{\"Q-DKAB-5-0001\":1},\"mt\":{\"TPC-5-1-01\":{\"s\":4,\"n\":5}},\"fav\":{\"s\":[5],\"k\":[\"TPC-5-1-01\"]},\"plans\":1}"
+  },
+  {
+   "ad": "T12 Mobil (360/412 px): öğretmen görünümünde yatay taşma yok",
+   "ok": true,
+   "ayr": "{\"360\":0,\"412\":0}"
+  },
+  {
+   "ad": "Z1 sayfa hatası (pageerror) yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ]
+}
