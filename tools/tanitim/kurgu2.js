@@ -94,8 +94,9 @@ const s2 = (t0, t1, f) => Y2.push({ t0, t1, f });
 
 /* S1 · 0–8 açılış */
 s2(0, 8.3, (t) => {
-  logo({ a: K(t, [[1.3, 0], [2.3, 1], [7.6, 1], [8.1, 0, 'i']]), s: K(t, [[1.3, .82], [3.0, 1, 'o'], [6.9, 1.05, 'l'], [8.1, 6.5, 'i']]), y: -110,
-    bl: K(t, [[1.3, 18], [2.6, 0, 'o'], [7.3, 0], [8.1, 16, 'i']]), sup: K(t, [[2.5, -0.2], [3.9, 1.2]]), parA: K(t, [[2, 0], [3, .55], [7, .45]]) });
+  // içinden geçiş: 4K çizimde dev bir bulanık katman oluşmasın diye büyütme 3,4 kat ve bulanıklık 8 px ile sınırlı
+  logo({ a: K(t, [[1.3, 0], [2.3, 1], [7.4, 1], [7.95, 0, 'i']]), s: K(t, [[1.3, .82], [3.0, 1, 'o'], [6.9, 1.05, 'l'], [7.95, 3.4, 'i']]), y: -110,
+    bl: K(t, [[1.3, 18], [2.6, 0, 'o']]), sup: K(t, [[2.5, -0.2], [3.9, 1.2]]), parA: K(t, [[2, 0], [3, .55], [7, .45], [7.6, 0]]) });
   const ya = K(t, [[7.0, 1], [7.6, 0]]), yb = K(t, [[7.0, 0], [7.6, 10]]), tg = clamp((t - 3.2) / .9, 0, 1);
   yazi('a1t', { h: 'DKAB ÖĞRENME PLATFORMU', c: 'etiket', x: 0, y: 115, hiza: 'orta', a: E.o(tg) * ya, ls: (0.62 - .3 * E.o(tg)) + 'em', renk: ALTIN, bl: yb, fs: 22 });
   kelimeler('a1k', t, 4.2, 'Öğrenmenin yeni yolu.', { y: 215, a: ya, bl: yb, ara: .34, fs: 72 });

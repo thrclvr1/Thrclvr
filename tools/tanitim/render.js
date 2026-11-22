@@ -24,6 +24,7 @@ const srv = http.createServer((q, r) => {
 (async () => {
   const b = await chromium.launch({args: ['--disable-gpu-vsync', '--force-color-profile=srgb']});
   const p = await (await b.newContext({viewport: {width: W, height: H}, deviceScaleFactor: DPR})).newPage();
+  p.setDefaultTimeout(180000);
   p.on('pageerror', (e) => console.log('sayfa hatası:', e.message));
   p.on('console', (m) => { if (m.type() === 'error') console.log('konsol:', m.text()); });
   await p.goto(`http://127.0.0.1:${srv.address().port}/${V2 ? 'sahne2' : 'sahne'}.html?yon=${yon}`);

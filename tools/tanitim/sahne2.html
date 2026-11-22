@@ -306,7 +306,9 @@ function logo(o) {
   if (!o || o.a <= 0) { LOGO.style.display = 'none'; return; }
   LOGO.style.display = 'block'; const b = o.b || 300; LOGO.style.width = LOGO.style.height = b + 'px';
   LOGO.style.transform = `translate(-50%,-50%) translate(${o.x || 0}px,${o.y || 0}px) scale(${o.s ?? 1})`;
-  LOGO.style.opacity = o.a; LOGO.style.filter = `${(o.bl || 0) > .05 ? `blur(${o.bl}px) ` : ''}drop-shadow(0 0 ${o.par ?? 40}px rgba(245,170,80,${o.parA ?? .45}))`;
+  LOGO.style.opacity = o.a; const gol = (o.parA ?? .45) > .01 ? `drop-shadow(0 0 ${o.par ?? 40}px rgba(245,170,80,${o.parA ?? .45}))` : '';   // görünmeyen gölge 4K'da boşuna hesaplanmasın
+  LOGO.style.filter = `${(o.bl || 0) > .05 ? `blur(${o.bl}px) ` : ''}${gol}` || 'none';
+  LOGO.lastChild.style.display = (o.sup ?? -1) > -0.3 && (o.sup ?? -1) < 1.3 ? 'block' : 'none';
   const p = o.sup ?? -1; LOGO.lastChild.style.background = `linear-gradient(115deg, rgba(255,255,255,0) ${p * 140 - 40}%, rgba(255,240,210,.85) ${p * 140 - 20}%, rgba(255,255,255,0) ${p * 140}%)`;
 }
 /* kelime kelime beliren satır */
