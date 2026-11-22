@@ -1,6 +1,7 @@
 """Tanıtım videosu müziği ve ses efektleri — tamamen kodla sentezlenir (telifsiz; hiçbir örnek/kayıt kullanılmaz).
 
-Kullanım (depo kökünden):  python3 tools/tanitim/muzik.py
+Kullanım (depo kökünden):  python3 tools/tanitim/muzik.py [yatay dikey yatay2 dikey2]
+(yatay/dikey: V51.7 videosu; yatay2/dikey2: V51.8 videosu, 120 sn + 46 sn, Altın “çok yakında” bölümü epik)
 Çıktı: tools/tanitim/.ses/muzik_16x9.wav (90 sn) ve muzik_9x16.wav (42 sn), 44,1 kHz stereo.
 Yapı: 120 BPM (1 vuruş = 0,5 sn, 1 ölçü = 2 sn), Re minör; Dm – B♭ – F – C döngüsü.
 Ses efektleri (whoosh, click, impact, ışık parıltısı) video sahne zamanlarıyla eş: KURGU sözlüğü.
@@ -239,7 +240,115 @@ def yaz(ad, iz, sure):
     with wave.open(os.path.join(OUT, ad), 'wb') as w: w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes(d.tobytes())
     print('✓', ad, f'{sure} sn')
 
+
+# ======================= Video 2 (V51.8): 120 sn yatay + 46 sn dikey =======================
+def tom(iz, t, m=43, g=0.35):
+    n = int(0.7 * SR); tt = np.arange(n) / SR
+    f = mtof(m) * (1 + 0.6 * np.exp(-tt / 0.05)); y = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt / 0.32)
+    y += 0.25 * fft_filter(rng.standard_normal(n), hi=2500) * np.exp(-tt / 0.03)
+    iz.ekle(t, np.tanh(y * 1.2), g)
+
+def koro(iz, t0, t1, akor, g=0.10):
+    """insan sesine benzeyen yumuşak pad: titreşimli testere + 'a' sesli harfi biçimleyicileri"""
+    n = int((t1 - t0 + 1.5) * SR); tt = np.arange(n) / SR; e = env_adsr(n, 1.4, 0.5, 0.9, 1.6)
+    out = np.zeros(n)
+    for m in akor + [akor[0] + 12]:
+        for dt in (-0.1, 0.0, 0.1):
+            f = mtof(m + dt) * (1 + 0.006 * np.sin(2 * np.pi * (5 + dt * 3) * tt + rng.uniform(0, 6)))
+            ph = 2 * np.pi * np.cumsum(f) / SR
+            out += sum(np.sin(k * ph) / k for k in range(1, 14))
+    y = np.zeros(n)
+    for fc, bw, a in ((700, 130, 1.0), (1220, 160, .6), (2600, 260, .25)):   # 'a' formantları
+        y += a * fft_filter(out, lo=fc - bw, hi=fc + bw, slope=2.5)
+    iz.ekle(t0, y * e / 6, g, 0.0)
+
+def drone(iz, t0, t1, m=26, g=0.2):
+    n = int((t1 - t0) * SR); tt = np.arange(n) / SR; e = env_adsr(n, 2.0, 0.1, 1, 1.2)
+    y = osc(mtof(m), n, harm=10, pw=1.1) + 0.6 * osc(mtof(m + 7) * 1.002, n, harm=8, pw=1.2)
+    y = sweep_filter(y, 120, 900) * e
+    iz.ekle(t0, y, g)
+
+def epik_vurus(iz, t, g=0.7):
+    impact(iz, t, g * 0.8, buyuk=True); tom(iz, t, 38, g * 0.5); clap(iz, t, g * 0.25)
+    bell(iz, t, 62, g * 0.08); bell(iz, t + 0.01, 69, g * 0.06)
+
+def yatay2():
+    iz = Iz(121.5)
+    # 0–8 açılış
+    sub(iz, 0, 8.5, 0.22); pad_bolum(iz, 0, 8, parlak=0.35, g=0.10)
+    for t in (1.2, 2.7, 4.4, 5.9): bell(iz, t, [86, 81, 89, 84][int(t) % 4], 0.03, pan=rng.uniform(-.7, .7))
+    impact(iz, 2.0, 0.35); parilti(iz, 3.0, 0.05); riser(iz, 5.0, 8.0, 0.10); whoosh(iz, 7.9, 0.8, 0.14)
+    # 8–20 genel tanıtım + Elmas
+    impact(iz, 8.0, 0.35); pad_bolum(iz, 8, 20, parlak=0.65, g=0.10); arp(iz, 8, 20, 0.25, 1, 0.05); bas(iz, 12, 20, 0.5, 0.14)
+    davul(iz, 8, 20, clap_=False, hat8=False, g=0.6); davul(iz, 12, 20, kick_=False, clap_=False, hat8=True, g=0.7)
+    for t in (10.5, 11.0, 11.5, 12.0, 13.6, 18.8): click(iz, t, 0.06)
+    for t in (12.0, 14.0, 16.5): whoosh(iz, t, 0.6, 0.09)
+    riser(iz, 18.0, 20.0, 0.08); whoosh(iz, 19.95, 0.9, 0.16)
+    # 20–46 öğrenme yöntemleri: 2 ölçüde bir geçiş
+    impact(iz, 20.0, 0.45); pad_bolum(iz, 20, 46, parlak=0.9, g=0.10); arp(iz, 20, 46, 0.25, 1, 0.045)
+    bas(iz, 20, 46, 0.25, 0.16, desen=[0, 0, 1, 0]); davul(iz, 22, 46, hat8=True, g=0.8)
+    for t in (26, 30, 34, 38, 42): whoosh(iz, t, 0.7, 0.13); parilti(iz, t + 0.05, 0.035)
+    for t in np.arange(42.5, 44.0, 0.2): click(iz, t, 0.035)
+    riser(iz, 44.0, 46.0, 0.10)
+    # 46–62 kartlar, sözlükler, sınav ve test
+    impact(iz, 46.0, 0.45); pad_bolum(iz, 46, 62, parlak=1.0, g=0.09); arp(iz, 46, 62, 0.125, 2, 0.038, tau=0.09)
+    bas(iz, 46, 62, 0.25, 0.17, desen=[0, 0, 1, 0]); davul(iz, 46, 62, hat8=True, hat16=True, g=0.85)
+    whoosh(iz, 48.0, 0.5, 0.12); whoosh(iz, 50.0, 0.8, 0.13); whoosh(iz, 56.0, 0.7, 0.12); whoosh(iz, 58.5, 0.6, 0.11); whoosh(iz, 60.6, 0.6, 0.1)
+    click(iz, 60.1, 0.08); parilti(iz, 60.2, 0.05); riser(iz, 60.0, 62.0, 0.11)
+    # 62–75 oyunlar: en enerjik
+    impact(iz, 62.0, 0.55); pad_bolum(iz, 62, 75, parlak=1.3, g=0.09); arp(iz, 62, 75, 0.125, 2, 0.05, tau=0.08)
+    bas(iz, 62, 75, 0.125, 0.18, desen=[0, 1, 0, 0, 1, 0, 1, 0]); davul(iz, 62, 75, hat8=True, hat16=True, acik=True, g=1.0)
+    for t in (64.0, 67.0, 69.5, 72.5): whoosh(iz, t, 0.55, 0.12); impact(iz, t, 0.2)
+    for t in (64.75, 65.25, 65.9, 66.4): click(iz, t, 0.07)
+    click(iz, 68.3, 0.08); parilti(iz, 68.4, 0.05); riser(iz, 69.6, 70.2, 0.06)
+    whoosh(iz, 75.0, 1.0, 0.16)
+    # 75–87 cihazlar ve yakında web: parlak, ferah
+    impact(iz, 75.0, 0.35); pad_bolum(iz, 75, 87, parlak=1.1, g=0.10, oktav=0); arp(iz, 75, 87, 0.25, 2, 0.04, tau=0.2)
+    bas(iz, 75, 87, 0.5, 0.15); davul(iz, 75, 83, kick_yari=True, clap_=True, hat8=True, g=0.6)
+    for i, t in enumerate(np.arange(83, 87, 1.0)): bell(iz, t, [86, 89, 93, 98][i], 0.05, pan=(-.4 if i % 2 else .4))
+    whoosh(iz, 80.0, 0.6, 0.1); parilti(iz, 83.2, 0.06); whoosh(iz, 86.9, 0.9, 0.13)
+    # 87–99 öğretmen: sakin, profesyonel
+    pad_bolum(iz, 87, 99, parlak=0.55, g=0.10); arp(iz, 87, 99, 0.5, 1, 0.05, tau=0.25); bas(iz, 87, 99, 1.0, 0.13)
+    davul(iz, 87, 99, kick_yari=True, clap_=False, hat8=False, g=0.5)
+    for t in (90.5, 94.0, 96.5): whoosh(iz, t, 0.6, 0.08)
+    # 99–111 ALTIN MOD — epik
+    whoosh(iz, 99.0, 1.2, 0.18); drone(iz, 99.0, 111.5, 26, 0.22); sub(iz, 99, 111.5, 0.24)
+    koro(iz, 99.5, 103.0, [50, 57, 62], 0.12); koro(iz, 103.0, 107.0, [46, 53, 58], 0.14)
+    for k, t in enumerate(np.arange(100.0, 102.0, 0.5)): tom(iz, t, 40, 0.18 + 0.04 * k)
+    epik_vurus(iz, 102.0, 0.65)                                   # kapı açılıyor
+    for k, t in enumerate(np.arange(102.5, 106.0, 0.25)): tom(iz, t, [40, 43, 45, 47][k % 4], 0.14 + 0.02 * (k % 8))
+    riser(iz, 103.5, 106.0, 0.16); parilti(iz, 104.0, 0.06)
+    epik_vurus(iz, 106.0, 0.8); koro(iz, 106.0, 111.0, [50, 57, 62, 65], 0.15)   # ışık patlaması
+    epik_vurus(iz, 107.0, 0.6)                                    # ALTIN MOD
+    impact(iz, 108.5, 0.5, buyuk=True); bell(iz, 108.5, 74, 0.07); parilti(iz, 108.6, 0.06)   # ÇOK YAKINDA
+    whoosh(iz, 110.9, 1.0, 0.15)
+    # 111–120 final
+    impact(iz, 111.0, 0.55, buyuk=True); pad_bolum(iz, 111, 116, parlak=1.2, g=0.11); arp(iz, 111, 116, 0.125, 2, 0.045, tau=0.08)
+    bas(iz, 111, 116, 0.25, 0.16, desen=[0, 0, 1, 0]); davul(iz, 111, 115, hat8=True, hat16=True, g=0.85)
+    impact(iz, 116.0, 0.6, buyuk=True); pad(iz, 116, 120.5, [50, 57, 62], parlak=0.9, g=0.13); sub(iz, 116, 120.8, 0.18)
+    bell(iz, 116.0, 74, 0.06); bell(iz, 116.02, 81, 0.05); parilti(iz, 117.0, 0.04)
+    return iz, 120.0
+
+def dikey2():
+    iz = Iz(47.5)
+    sub(iz, 0, 4.5, 0.2); pad_bolum(iz, 0, 4, parlak=0.4, g=0.1); impact(iz, 1.0, 0.35); parilti(iz, 1.4, 0.05); riser(iz, 2.5, 4.0, 0.1); whoosh(iz, 3.95, 0.8, 0.14)
+    impact(iz, 4.0, 0.4); pad_bolum(iz, 4, 20, parlak=0.9, g=0.1); arp(iz, 4, 20, 0.25, 1, 0.045); bas(iz, 4, 20, 0.25, 0.16, desen=[0, 0, 1, 0]); davul(iz, 6, 20, g=0.8)
+    for t in (8, 10, 12, 14, 16, 18): whoosh(iz, t, 0.55, 0.12)
+    click(iz, 6.6, 0.07)
+    impact(iz, 20.0, 0.4); pad_bolum(iz, 20, 24, parlak=1.0, g=0.09); bas(iz, 20, 24, 0.25, 0.16); davul(iz, 20, 24, hat16=True, g=0.85); click(iz, 22.1, 0.08); parilti(iz, 22.2, 0.05)
+    impact(iz, 24.0, 0.5); pad_bolum(iz, 24, 30, parlak=1.3, g=0.09); arp(iz, 24, 30, 0.125, 2, 0.05, tau=0.08); bas(iz, 24, 30, 0.125, 0.18, desen=[0, 1, 0, 0, 1, 0, 1, 0]); davul(iz, 24, 30, hat16=True, acik=True)
+    for t in (26.0, 28.0): whoosh(iz, t, 0.55, 0.12)
+    whoosh(iz, 30.0, 0.8, 0.14); pad_bolum(iz, 30, 36, parlak=0.9, g=0.1); arp(iz, 30, 36, 0.25, 2, 0.04, tau=0.2); davul(iz, 30, 36, kick_yari=True, clap_=False, g=0.55)
+    parilti(iz, 31.6, 0.05); whoosh(iz, 33.0, 0.6, 0.1)
+    whoosh(iz, 36.0, 1.1, 0.17); drone(iz, 36.0, 42.5, 26, 0.22); sub(iz, 36, 42.5, 0.22); koro(iz, 36.3, 42.0, [50, 57, 62], 0.13)
+    for k, t in enumerate(np.arange(36.5, 38.0, 0.25)): tom(iz, t, 40, 0.15 + 0.03 * k)
+    epik_vurus(iz, 38.0, 0.7); riser(iz, 38.5, 40.0, 0.12); epik_vurus(iz, 40.0, 0.75); impact(iz, 41.0, 0.45, buyuk=True); bell(iz, 41.0, 74, 0.06)
+    impact(iz, 42.0, 0.55, buyuk=True); pad(iz, 42, 46.5, [50, 57, 62], parlak=0.9, g=0.13); sub(iz, 42, 46.8, 0.18); bell(iz, 42.0, 74, 0.06); parilti(iz, 43.0, 0.04)
+    return iz, 46.0
+
 if __name__ == '__main__':
     hangi = sys.argv[1:] or ['yatay', 'dikey']
     if 'yatay' in hangi: yaz('muzik_16x9.wav', *yatay())
     if 'dikey' in hangi: yaz('muzik_9x16.wav', *dikey())
+    if 'yatay2' in hangi: yaz('muzik2_16x9.wav', *yatay2())
+    if 'dikey2' in hangi: yaz('muzik2_9x16.wav', *dikey2())
