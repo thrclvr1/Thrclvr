@@ -43,3 +43,5 @@ tools/tanitim/.ses/
 tools/v51_8/.okunur/
 tests/v51_8/.gerileme/
 tools/tanitim/.kayit2/
+# 4K tanıtım videosu GitHub dosya sınırını (100 MB) aşabildiği için depoya eklenmez; render.js ile yeniden üretilir
+docs/tanitim/*-4k.mp4
