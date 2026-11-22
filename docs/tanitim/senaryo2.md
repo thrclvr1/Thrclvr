@@ -4,11 +4,11 @@
 
 | Dosya | Biçim | Süre | Kullanım |
 |---|---|---|---|
-| `dkab-tanitim-v51.8-16x9-4k.mp4` | 3840×2160 (4K), 30 fps, H.264 | 120 sn | Ana tanıtım |
-| `dkab-tanitim-v51.8-16x9.mp4` | 1920×1080, 30 fps, H.264 (4K karelerden küçültüldü) | 120 sn | Ana tanıtım |
-| `dkab-tanitim-v51.8-9x16.mp4` | 1080×1920, 30 fps, H.264 | 46 sn | Reels / Shorts / TikTok |
+| `dkab-tanitim-v51.8-16x9-4k.mp4` | 3840×2160 (4K), 30 fps, H.264, 105,7 MB | 120 sn | Ana tanıtım. GitHub'ın 100 MB dosya sınırı yüzünden depoya eklenmedi; `render.js` ile yeniden üretilir. |
+| `dkab-tanitim-v51.8-16x9.mp4` | 1920×1080, 30 fps, H.264, 38,3 MB (4K karelerden küçültüldü) | 120 sn | Ana tanıtım |
+| `dkab-tanitim-v51.8-9x16.mp4` | 1080×1920, 30 fps, H.264, 20,5 MB | 46 sn | Reels / Shorts / TikTok |
 
-- **Ses:** AAC 256 kb/sn, 48 kHz stereo, yaklaşık −14 LUFS.
+- **Ses:** AAC 256 kb/sn, 48 kHz stereo. Ölçülen düzey: yatay −13,2 LUFS (tepe −0,9 dBFS), dikey −13,5 LUFS (tepe −1,4 dBFS).
 - **Müzik ve efektler:** tamamen kodla sentezlendi (`tools/tanitim/muzik.py yatay2 dikey2`). Hazır müzik ya da ses örneği kullanılmadığı için telif sorunu yok.
 
 ## 1. Uygulamada doğrulanan özellikler
@@ -112,3 +112,5 @@ Kurgu `tools/tanitim/sahne2.html` (motor) ve `kurgu2.js` (zaman çizelgesi) dosy
   - Müzik dinlenemedi; yalnız düzeyi ölçüldü. Efekt dengesi kulakla doğrulanmadı.
   - Videolar gerçek telefon, televizyon ya da sosyal medya platformunda oynatılmadı.
 - **Kayıt sırasında fark edilen uygulama sorunu:** 1180 px ve üstü yatay ekranlarda (yatay tablet, masaüstü) konu ekranındaki sekme listesi dikey bir sütuna dönüşüyor ve içerik dar bir sütuna sıkışıyor. Bu yüzden videoda tabletler dikey kullanıldı. Ayrıca düzeltilmesi önerilir.
+
+**Önceki video hakkında:** `dkab-tanitim-v51.7-*.mp4` (ilk tanıtım) depoda duruyor. O video editör ekranlarını ve Altın Mod'u kullanılabilir hâlde gösteriyor; yayın için bu yeni video (v51.8) kullanılmalı.
