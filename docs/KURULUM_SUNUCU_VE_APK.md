@@ -12,6 +12,43 @@ Aşağıdaki **3 adımı yalnız siz yapabilirsiniz**, çünkü sizin hesapları
 
 ---
 
+## En kolay yol (V52.0): sunucusuz Google girişi
+
+V52.0'dan beri Google ile giriş için **sunucu gerekmez**. Yalnız aşağıdaki **Adım 1** (Google Cloud) yeterlidir; Adım 2 ve 3 (Gmail uygulama şifresi, Render) gerekmez.
+
+Bu yolda:
+- öğrenciler ve siz telefondan Google hesabıyla girersiniz;
+- yönetici girişi Google hesabınız + editör PIN'iniz ile yapılır.
+
+Sınırları:
+- ilerleme cihazda kalır (başka telefona taşınmaz);
+- editör PIN'ini e-postayla sıfırlama çalışmaz.
+
+Bunlar gerekirse ileride Adım 2–4 ile sunucu kurulur.
+
+1. **Adım 1'i yapın** (aşağıda): Web istemci kimliği + Android istemci kimliği.
+   - OAuth izin ekranı “Test” durumundaysa giriş yapacak **kendi Gmail hesaplarınızı Test kullanıcıları listesine ekleyin**.
+   - Öğrenciler de girecekse uygulamayı **yayınlayın (Publish)**.
+2. Telefona `apk/din-kulturu-v52.0.apk` kurun (aşağıda “APK kurulumu”).
+3. Uygulamada **Mod düğmesi › Yönetici / Editör girişi** → **“Google istemci kimliğini gir”**.
+   - Aynı yer: **Profilim › Hesap › Google girişi kurulumu**.
+   - Adım 1.3'teki **Web** istemci kimliğini (`…apps.googleusercontent.com`) yapıştırın → Kaydet.
+   - Android istemci kimliğini girmeyin; o yalnız Google Cloud'da durur.
+   - Bu kimlik gizli değildir; isterseniz bana da gönderebilirsiniz, sonraki sürümde uygulamaya varsayılan olarak yazarım.
+4. **Google ile doğrula** → kendi hesabınızı seçin → **“Bu hesabı yönetici yap (PIN ile)”** → editör PIN'iniz.
+   - Bu, her cihazda bir kez yapılır.
+   - Sonraki girişler: Google hesabı → PIN.
+5. Öğrenciler açılış ekranında ya da Profilim'de **Google ile giriş** ya da **Misafir olarak devam et** seçer.
+   - İstemci kimliği her cihaza bir kez girilmelidir; uygulamaya varsayılan olarak yazılana kadar.
+
+| Belirti | Neden / çözüm |
+|---|---|
+| “Kimlik belgesi bu uygulama için verilmemiş” | Uygulamaya **Android** kimliği girilmiş; **Web** istemci kimliğini girin |
+| “Google anahtarları alınamadı” | İnternet bağlantısı yok |
+| Tarayıcıda Google düğmesi çıkmıyor / “origin” hatası | Web istemcisinde yetkili kaynak `https://thrclvr1.github.io` değil |
+
+---
+
 ## Adım 1 — Google Cloud: Gmail ile giriş için iki istemci kimliği
 
 1. https://console.cloud.google.com adresine Gmail hesabınızla girin → üstten **Yeni proje** → ad: `DKAB` → Oluştur.
@@ -83,10 +120,10 @@ Aşağıdaki **3 adımı yalnız siz yapabilirsiniz**, çünkü sizin hesapları
 
 ## APK kurulumu
 
-1. `apk/din-kulturu-v51.6.apk` dosyasını telefona gönderin (e-posta, Drive, USB).
+1. En yeni APK'yı (`apk/din-kulturu-v52.0.apk`) telefona gönderin (e-posta, Drive, USB).
 2. Dosyaya dokunun → telefon “bilinmeyen kaynak” izni ister → izin verin → **Yükle**.
    - Play Protect “tanınmayan uygulama” diyebilir: **Yine de yükle**.
-3. V36 APK'sı yüklüyse bu sürüm onun **üzerine** kurulur, çünkü imza anahtarı aynı. Uygulamadaki ilerleme silinmez.
+3. Eski bir APK (V36, V51.6, V51.7) yüklüyse bu sürüm onun **üzerine** kurulur, çünkü imza anahtarı aynı. Uygulamadaki ilerleme silinmez.
 
 ## Bir şey çalışmazsa
 

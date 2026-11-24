@@ -1,0 +1,67 @@
+{
+ "tarih": "2026-11-24T11:01:21.284Z",
+ "gecen": 12,
+ "toplam": 12,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V52.0, index.html aynı; veri/müzik/görsel blokları V51.9 ile bayt bayt aynı; önceki sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 HTML’de Gmail/yönetici e-postası, açık PIN, client secret yok; istemci kimliği derlemede boş (uygulama içinden girilir)",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "T1 İstemci kimliği girilmemişken: yönetici ekranı “Google girişi henüz kurulmadı” + “Google istemci kimliğini gir” + geçiş dönemi; Profilim’de “Google girişi kurulumu”",
+   "ok": true,
+   "a": "{\"d\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Google girişi bu uygulamada henüz kurulmadı. Google Cloud'dan aldığın Web istemci kimliğini girdiğinde yönetici \",\"kart\":\"ak kullanıyorsun. İlerlemen yalnız bu cihazda saklanır.\\n\\nGoogle ile giriş\\n\\nGiriş yaptığında bu cihazdaki ilerlemen hesabına aktarılır; aynı kayıt iki kez eklenmez.\\n\\nSunucu ayarı\\nGoogle girişi kurulumu\"}"
+  },
+  {
+   "ad": "T1b İstemci kimliği uygulama içinden girilir: yanlış biçim reddedilir; doğru kimlikle sunucusuz Google girişi etkinleşir ve yalnız-PIN geçiş dönemi kapanır",
+   "ok": true,
+   "a": "{\"hata\":\"Kimlik “…apps.googleusercontent.com” ile biten bir Web istemci kimliği olmalı.\",\"r\":{\"ist\":\"123456789012-testistemci.apps.googleusercontent.com\",\"yerel\":true,\"gecis\":false}}"
+  },
+  {
+   "ad": "T2 Öğrenci açılış ekranından Google ile girer: belge uygulamada doğrulanır (sunucu yok), hesap bu cihazda kaydedilir; Profilim “Google ile giriş yapıldı (bu cihaz)”; Google kimliği yalnız özet olarak saklanır",
+   "ok": true,
+   "a": "{\"d\":{\"view\":\"profil46\",\"edOk\":false,\"adim1\":false,\"pin\":false,\"ed\":false,\"metin\":\"\",\"mod\":\"google\",\"yerel\":1,\"ad\":\"Ayşe Öğrenci\"},\"kart\":\"Hesap\\n\\nAyşe Öğrenci\\nogrenci@example.com\\n\\nGoogle ile giriş yapıldı (bu cihaz). İlerlemen bu cihazda saklanır; başka cihaza taşımak için hesap sunucusu gerekir.\\n\\n\"}"
+  },
+  {
+   "ad": "T3 Sahte imza, başka uygulamanın belgesi (aud), süresi dolmuş belge, Google dışı yayıncı, doğrulanmamış e-posta ve bozuk belge reddedilir; hiçbiri giriş yaptırmaz",
+   "ok": true,
+   "a": "{\"imza\":\"Kimlik belgesinin imzası doğrulanamadı.\",\"aud\":\"Kimlik belgesi bu uygulama için verilmemiş.\",\"sure\":\"Kimlik belgesinin süresi dolmuş; yeniden giriş yap.\",\"iss\":\"Kimlik belgesi Google tarafından verilmemiş.\",\"eposta\":\"Google hesabının e-postası doğrulanmamış.\",\"bozuk\":\"Kimlik belgesi biçimi geçersiz.\",\"mod\":\"misafir\"}"
+  },
+  {
+   "ad": "T4 Yönetici ilk kez: Google ile giriş → “bu cihazda yönetici olarak kayıtlı değil” → “Bu hesabı yönetici yap (PIN ile)” → yanlış PIN kaydetmez → doğru PIN ile hesap yönetici olur ve Editör Onay Alanı açılır; kayıtta e-posta/Google kimliği yok, yalnız özet",
+   "ok": true,
+   "a": "{\"d1\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi ✓ Google ile giriş yapıldı: Platform Yöneticisi Bu Google hesabı bu ciha\",\"d2\":\"ADIM 2 / 2 · EDİTÖR PIN'İ Editör Onay Alanı ✓ Google: Platform Yöneticisi — bu hesabı yönetici yapmak için editör PIN'in\",\"kayit\":\"{\\\"v\\\":1,\\\"hesaplar\\\":[{\\\"o\\\":\\\"633e896ebeabfb9b2882d6b4fe5a968f319837ebcd982dc442ba63e3d6c526a8\\\",\\\"ad\\\":\\\"Platform Yöneticisi\\\",\\\"t\"}"
+  },
+  {
+   "ad": "T5 Kayıtlı yönetici hesabı: editörden çıkıp yeniden girince Google oturumu sürdüğü için doğrudan “Adım 2/2 · Editör PIN’i” gelir ve PIN ile açılır",
+   "ok": true,
+   "a": "ADIM 2 / 2 · EDİTÖR PIN'İ Editör Onay Alanı ✓ Google ile doğrulandı: Platform Yöneticisi 6 haneli editör PIN'ini gir. Ed"
+  },
+  {
+   "ad": "T6 Google hesabından çıkınca yönetici oturumu kapanır; kayıtlı olmayan başka bir Google hesabı yönetici alanını açamaz (yalnız PIN ile onaylayarak kaydedilebilir)",
+   "ok": true,
+   "a": "ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi ✓ Google ile giriş yapıldı: Başka Kişi Bu Google hesabı bu cihazda henüz"
+  },
+  {
+   "ad": "T7 APK benzetimi: Google girişi Android’in kendi hesap seçicisine (köprü) gider, istemci kimliğiyle; belge uygulamada doğrulanır; öğrenci girişi ve yönetici kaydı + PIN APK’da da çalışır",
+   "ok": true,
+   "a": "{\"mi\":true,\"pencere\":{\"dugme\":true,\"gis\":false},\"d\":{\"mod\":\"google\",\"ad\":\"Ayşe Öğrenci\"},\"d2\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi ✓ Google ile giriş yapıldı: Plat\"}"
+  },
+  {
+   "ad": "T8 Öğrenci (Elmas) ve öğretmen ekranları V51.9 ile birebir aynı (ana sayfa, sınıflar, konu, arama, oyunlar, Çalışmam, öğretmen paneli)",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "T9 Bütün senaryolarda JavaScript hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}

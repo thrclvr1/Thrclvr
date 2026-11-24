@@ -196,7 +196,7 @@ const SAHTE_GIS = `window.google={accounts:{id:{initialize(c){window.__gis=c},re
     const ty = await g(B_YONETICI()), to = await g(B_OGRENCI());
     const ist = async (t) => (await fetch(SUN + '/api/bildirim?durum=yeni', {headers: {Authorization: 'Bearer ' + t, Origin: ORIGIN}})).status;
     const ben = await (await fetch(SUN + '/api/ben', {headers: {Authorization: 'Bearer ' + ty, Origin: ORIGIN}})).json();
-    const sahte = await fetch(SUN + '/api/giris', {method: 'POST', headers: {'Content-Type': 'application/json', Origin: ORIGIN}, body: JSON.stringify({credential: B_YONETICI().replace(/.$/, 'A')})});
+    const sahte = await fetch(SUN + '/api/giris', {method: 'POST', headers: {'Content-Type': 'application/json', Origin: ORIGIN}, body: JSON.stringify({credential: B_YONETICI().replace(/.$/, (c) => c === 'A' ? 'B' : 'A')})});
     ok('T11 Sunucu: yönetici hesabının rolü “editor”; yönetici uç noktası yöneticiye 200, öğrenciye 403; imzası bozuk belge reddedilir (401)', (ben.kullanici.roller || []).includes('editor') && await ist(ty) === 200 && await ist(to) === 403 && sahte.status === 401, {roller: ben.kullanici.roller});
   }
 
