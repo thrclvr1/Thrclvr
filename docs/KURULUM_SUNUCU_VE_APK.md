@@ -12,13 +12,14 @@ Aşağıdaki **3 adımı yalnız siz yapabilirsiniz**, çünkü sizin hesapları
 
 ---
 
-## Hiç kurulum olmadan (V52.2): telefondaki Google hesabıyla giriş, tek yönetici, Google yedeği
+## Hiç kurulum olmadan (V52.3): giriş ekranı, telefondaki Google hesabıyla giriş, tek yönetici, Google yedeği
 
-`apk/din-kulturu-v52.2.apk` dosyasını telefona kurun. Google Play için `apk/play/din-kulturu-v52.2.aab` dosyasını kullanın. Hiçbir ayar gerekmez.
+`apk/din-kulturu-v52.3.apk` dosyasını telefona kurun. Google Play için `apk/play/din-kulturu-v52.3.aab` dosyasını kullanın. Hiçbir ayar gerekmez.
 
+- **Uygulama açılınca önce giriş ekranı gelir** (içerik görünmez). Yalnız iki seçenek var: **Google ile giriş** (telefonun hesap listesi açılır) ya da **Misafir olarak devam et**. Bir kez seçen kişiye tekrar sorulmaz; “Çıkış yap” giriş ekranını geri getirir.
 - **Öğrenci:** “Google ile giriş” → telefonun kendi hesap listesi açılır → hesabınızı seçin. Ya da “Misafir olarak devam et”.
 - **Yönetici (yalnız tanımlı yönetici hesabı):**
-  1. Yönetici hesabıyla Google girişi yapın. “Yönetici girişi” düğmesi yalnız o zaman görünür (Mod düğmesi › Yönetici / Editör girişi).
+  1. Giriş ekranında Google ile giriş → yönetici hesabını seçin. Doğrudan yönetici şifresi ekranı açılır. (Uygulama içinde: Mod düğmesi › Yönetici / Editör girişi; yalnız yönetici hesabında görünür.)
   2. İlk kez: **“Yönetici şifreni belirle”**: 6 rakam, iki kez.
   3. Sonraki girişler: hesap → şifre. Unutursanız “Şifremi unuttum” → yeni şifre.
 - **Veriler:** her kişinin telefonu, uygulama verisini kendi Google hesabına yedekler (Android otomatik yedeği; genellikle günde bir kez, şarjda ve Wi-Fi'de). Uygulama yeniden kurulunca ya da yeni telefonda veriler geri gelir.
@@ -138,10 +139,10 @@ Bunlar gerekirse ileride Adım 2–4 ile sunucu kurulur.
 
 ## APK kurulumu
 
-1. En yeni APK'yı (`apk/din-kulturu-v52.2.apk`) telefona gönderin (e-posta, Drive, USB).
+1. En yeni APK'yı (`apk/din-kulturu-v52.3.apk`) telefona gönderin (e-posta, Drive, USB).
 2. Dosyaya dokunun → telefon “bilinmeyen kaynak” izni ister → izin verin → **Yükle**.
    - Play Protect “tanınmayan uygulama” diyebilir: **Yine de yükle**.
-3. Eski bir APK (V36, V51.6, V51.7, V52.0, V52.1) yüklüyse bu sürüm onun **üzerine** kurulur, çünkü imza anahtarı aynı. Uygulamadaki ilerleme silinmez.
+3. Eski bir APK (V36, V51.6, V51.7, V52.0, V52.1, V52.2) yüklüyse bu sürüm onun **üzerine** kurulur, çünkü imza anahtarı aynı. Uygulamadaki ilerleme silinmez.
 
 ## Bir şey çalışmazsa
 

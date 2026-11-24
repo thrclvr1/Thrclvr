@@ -1,0 +1,77 @@
+{
+ "tarih": "2026-11-24T13:46:35.773Z",
+ "gecen": 14,
+ "toplam": 14,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V52.3, index.html aynı; veri/müzik/görsel blokları V52.2 ile bayt bayt aynı; önceki sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 HTML’de Gmail adresi ve açık PIN yok",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "G1 APK ilk açılış: ayrı giriş ekranı en üstte; arkadaki uygulama içeriği görünmez; yalnız iki düğme (Google ile giriş, Misafir); e-posta/hesap/şifre gösterilmez",
+   "ok": true,
+   "a": "{\"gate\":true,\"gor\":[],\"ustte\":true,\"metin\":\"Din Kültürü ve Ahlak Bilgisi Devam etmek için giriş yap Google ile giriş Telefondaki Google hesabını seç Misafir olarak devam et Hesap gerekmez; ilerlemen bu telefonda saklanır Öğrenci ve yönetici girişi Google hesabıyla yapılır.\",\"dugme\":2,\"view\":\"home\",\"mod\":\"misafir\",\"ed\":false,\"edMetin\":\"\",\"uye\":true,\"hsGor\":false,\"giden\":[\"yedek-oku\",\"yedek-yaz\"]}"
+  },
+  {
+   "ad": "G1b Giriş ekranı açıkken gezinme denense de (geri tuşu/rota) ekran kalkmaz, içerik görünmez",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "G2 Google hesap seçici kapatılırsa (vazgeç) giriş ekranında kalınır; hata yazısı yok",
+   "ok": true,
+   "a": "[\"yedek-oku\",\"yedek-yaz\",\"hesap-sec\"]"
+  },
+  {
+   "ad": "G3 Öğrenci: Google’a basınca doğrudan telefonun hesap listesi; hesap seçilince giriş ekranı kalkar, uygulama açılır (seçim ekranındaki eski giriş kutusu gösterilmez); uygulama yeniden açılınca giriş ekranı tekrar gelmez",
+   "ok": true,
+   "a": "{\"k\":{\"gate\":false,\"mod\":\"google\",\"uye\":true,\"hsGor\":false},\"k2\":{\"gate\":false}}"
+  },
+  {
+   "ad": "G4 Çıkış yapınca giriş ekranı geri gelir",
+   "ok": true,
+   "a": "true"
+  },
+  {
+   "ad": "G5 Misafir: giriş ekranı kalkar, uygulama açılır; yeniden açılışta giriş ekranı tekrar gelmez",
+   "ok": true,
+   "a": "{\"k\":false,\"k2\":false}"
+  },
+  {
+   "ad": "G6 Yönetici hesabı seçilince giriş ekranı kalkar ve doğrudan “Yönetici şifreni belirle” ekranı açılır",
+   "ok": true,
+   "a": "{\"view\":\"editor\",\"ed\":\"ADIM 2 / 2 · YÖNETİCİ ŞİFRESİ\\n\\nYönetici şifreni belirle\\n\\n6 rakamdan oluşan kendi\"}"
+  },
+  {
+   "ad": "G7 Uygulama yeniden kurulup Google yedeği geri gelince aynı hesapla açılır; giriş ekranı tekrar sorulmaz",
+   "ok": true,
+   "a": "{\"gate\":false,\"mod\":\"google\"}"
+  },
+  {
+   "ad": "G8 360×640 ekranda yatay taşma yok, iki düğme de ekranda ve en az 48 px yüksek",
+   "ok": true,
+   "a": "{\"tasma\":false,\"icinde\":true,\"yuk\":[76,97]}"
+  },
+  {
+   "ad": "G9 Tarayıcıda (APK dışı) giriş ekranı yok; davranış V52.2 ile aynı",
+   "ok": true,
+   "a": "false"
+  },
+  {
+   "ad": "G10 Giriş sonrası öğrenci (Elmas) ve öğretmen ekranları V52.2 ile birebir aynı",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "G11 Bütün senaryolarda JavaScript hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}
