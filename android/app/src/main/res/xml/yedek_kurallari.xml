@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- V52.2: Android 12+ otomatik yedek. Yalnız uygulamanın kendi yazdığı yedek dosyası, kişinin kendi Google hesabına yedeklenir. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="file" path="dkab-yedek.json" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="file" path="dkab-yedek.json" />
+    </device-transfer>
+</data-extraction-rules>

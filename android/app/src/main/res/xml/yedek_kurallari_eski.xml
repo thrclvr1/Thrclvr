@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- V52.2: Android 11 ve öncesi otomatik yedek: yalnız uygulamanın yedek dosyası. -->
+<full-backup-content>
+    <include domain="file" path="dkab-yedek.json" />
+</full-backup-content>

@@ -1,0 +1,72 @@
+{
+ "tarih": "2026-11-24T13:27:48.197Z",
+ "gecen": 13,
+ "toplam": 13,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V52.2, index.html aynı; veri/müzik/görsel blokları V52.1 ile bayt bayt aynı; önceki sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 HTML’de e-posta adresi ve açık PIN yok; yönetici yalnız tek bir 64 haneli özetle gömülü; Android: yedek dosyası köprüsü + yalnız bu dosyayı içeren otomatik yedek kuralları",
+   "ok": true,
+   "a": "'c52d9fe8ee575c20069"
+  },
+  {
+   "ad": "Y1 Girişsizken ve öğrenci hesabıyla: açılış ekranında ve Mod panelinde “Yönetici girişi” düğmesi görünmez",
+   "ok": true,
+   "a": "{\"acilis\":false,\"m0\":false,\"m1\":false}"
+  },
+  {
+   "ad": "Y2 Öğrenci hesabı yönetici alanına doğrudan gitse de “yönetici değil” görür; şifre ekranı ve “Bu hesabı yönetici yap” yok",
+   "ok": true,
+   "a": "ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Bu Google hesabı (ogrenci.deneme@example.com) yönetici olarak tanımlı değil. Bu uygulamanın tek bir yönetici hesabı vardır. Öğrenme alanını misafir olarak ya da kendi Googl"
+  },
+  {
+   "ad": "Y3 Yönetici hesabıyla giriş: “Yönetici girişi” düğmesi görünür; ilk kez yönetici alanında “Yönetici şifreni belirle”; eski ortak PIN kabul edilmez; şifre iki kez girilip kaydedilir ve alan açılır",
+   "ok": true,
+   "a": "{\"d0\":\"ADIM 2 / 2 · YÖNETİCİ ŞİFRESİ Yönetici şifreni belirle 6 rakamdan oluşan kendi şifreni belirle. Bu şifreyi yalnız sen bileceksin; yönetici girişi bundan sonra G\",\"ilk\":{\"ok\":false,\"mode\":\"yeni\",\"msg\":\"Yeni PIN, ilk (geçiş) editör PIN'iyle aynı olamaz.\"},\"a2\":{\"ok\":true,\"mode\":\"\",\"msg\":\"\"}}"
+  },
+  {
+   "ad": "Y4 Sonraki girişte “Yönetici şifresi” sorulur; yanlış şifre açmaz, doğru şifre açar",
+   "ok": true,
+   "a": "ADIM 2 / 2 · YÖNETİCİ ŞİFRESİ Yönetici şifresi ✓ Google ile doğrulandı: yonetici.deneme@example.com 6 haneli editör PIN'"
+  },
+  {
+   "ad": "Y5 “Şifremi unuttum”: yönetici Google hesabıyla girildiği için e-posta istemeden yeni şifre belirlenir; eski şifre artık açmaz, yenisi açar",
+   "ok": true,
+   "a": "ADIM 2 / 2 · YÖNETİCİ ŞİFRESİ Yönetici şifreni belirle 6 rakamdan oluşan kendi şifreni belirle. Bu şifreyi yalnız sen bileceksin; yönetici girişi bundan sonra G"
+  },
+  {
+   "ad": "Y6 Yönetici Google hesabından çıkınca yönetici alanı kapanır ve yönetici düğmesi yeniden gizlenir",
+   "ok": true,
+   "a": "{\"ed\":false,\"gizli\":true}"
+  },
+  {
+   "ad": "Y7 Veriler yedek dosyasına yazılır (hesap, ilerleme, ayarlar); yeniden kurulumda ilk açılışta geri konur ve uygulama aynı hesapla, aynı ilerlemeyle açılır",
+   "ok": true,
+   "a": "{\"yaz1\":2,\"isaret\":{\"v\":1,\"geri\":\"2026-11-24T13:27:18.066Z\"}}"
+  },
+  {
+   "ad": "Y7b Yedek yokken ilk açılış: veri silinmez, işaret konur, ilk yedek yazılır",
+   "ok": true,
+   "a": "{\"isaret\":{\"v\":1,\"t\":\"2026-11-24T13:27:24.580Z\"},\"giden\":[\"yedek-oku\",\"yedek-yaz\"]}"
+  },
+  {
+   "ad": "Y8 Tarayıcıda (APK dışı) V52.1 ile aynı: düğme gizleme ve yedek devre dışı; yönetici ekranı V52.0/V52.1 kurulum açıklaması",
+   "ok": true,
+   "a": "{\"gizli\":false,\"hazir\":0,\"isaret\":null}"
+  },
+  {
+   "ad": "Y9 Öğrenci (Elmas) ve öğretmen ekranları V52.1 ile birebir aynı (APK adresinde)",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "Y10 Bütün senaryolarda JavaScript hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}

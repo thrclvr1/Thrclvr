@@ -10,6 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:theme="@style/Tema"
         android:allowBackup="true"
+        android:fullBackupContent="@xml/yedek_kurallari_eski"
+        android:dataExtractionRules="@xml/yedek_kurallari"
         android:supportsRtl="true">
 
         <activity

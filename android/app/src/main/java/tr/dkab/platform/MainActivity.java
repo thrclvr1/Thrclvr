@@ -2,6 +2,7 @@ package tr.dkab.platform;
 
 import android.accounts.AccountManager;
 import android.annotation.SuppressLint;
+import android.app.backup.BackupManager;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -49,7 +50,11 @@ import androidx.webkit.WebViewFeature;
 
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.OutputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.concurrent.Executor;
 
@@ -228,6 +233,8 @@ public class MainActivity extends Activity {
             if ("google".equals(tur)) { googleGiris(o.optString("istemci", ""), o.optString("nonce", ""), yanit); return; }
             if ("google-cikis".equals(tur)) { googleCikis(); return; }
             if ("hesap-sec".equals(tur)) { hesapSec(yanit); return; }
+            if ("yedek-yaz".equals(tur)) { yedekYaz(o.optString("veri", "")); return; }
+            if ("yedek-oku".equals(tur)) { yedekOku(yanit); return; }
             if (!"kaydet".equals(tur)) return;
             String ad = o.optString("ad", "dosya");
             String veri = o.optString("veri", "");
@@ -336,6 +343,44 @@ public class MainActivity extends Activity {
             if (eposta != null) o.put("eposta", eposta);
             if (hata != null) o.put("hata", hata);
             y.postMessage(o.toString());
+        } catch (Exception ignored) { }
+    }
+
+    /**
+     * V52.2: uygulama verisinin yedeği. Sayfa verilerini tek bir dosyaya yazar (files/dkab-yedek.json); Android otomatik
+     * yedeği (res/xml/yedek_kurallari*.xml) yalnız bu dosyayı kişinin kendi Google hesabına yedekler. Yeniden kurulumda
+     * dosya geri gelir ve sayfa ilk açılışta onu okuyup verileri geri koyar.
+     */
+    private static final String YEDEK = "dkab-yedek.json";
+
+    private void yedekYaz(String veri) {
+        if (veri == null || veri.isEmpty() || veri.length() > 20_000_000) return;
+        File hedef = new File(getFilesDir(), YEDEK), gecici = new File(getFilesDir(), YEDEK + ".yeni");
+        try (FileOutputStream os = new FileOutputStream(gecici)) {
+            os.write(veri.getBytes(StandardCharsets.UTF_8));
+            os.getFD().sync();
+        } catch (Exception e) { return; }
+        if (!gecici.renameTo(hedef)) { hedef.delete(); if (!gecici.renameTo(hedef)) return; }
+        try { new BackupManager(this).dataChanged(); } catch (Exception ignored) { }
+    }
+
+    private void yedekOku(JavaScriptReplyProxy yanit) {
+        String veri = null;
+        File f = new File(getFilesDir(), YEDEK);
+        if (f.isFile() && f.length() > 0 && f.length() < 20_000_000) {
+            try (FileInputStream is = new FileInputStream(f)) {
+                byte[] b = new byte[(int) f.length()];
+                int n = 0, r;
+                while (n < b.length && (r = is.read(b, n, b.length - n)) > 0) n += r;
+                veri = new String(b, 0, n, StandardCharsets.UTF_8);
+            } catch (Exception ignored) { veri = null; }
+        }
+        try {
+            JSONObject o = new JSONObject();
+            o.put("tur", "yedek-oku");
+            o.put("ok", veri != null);
+            if (veri != null) o.put("veri", veri);
+            yanit.postMessage(o.toString());
         } catch (Exception ignored) { }
     }
 
