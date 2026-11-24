@@ -1,0 +1,17 @@
+/* ===================== V51.9: yönetici girişi (Google + PIN) ===================== */
+.yn519 .yn519-k{margin:10px 0;padding:12px 14px;border-radius:14px;background:color-mix(in srgb,var(--ink,#1e293b) 6%,transparent);font-size:.92rem;line-height:1.5;text-align:left}
+.yn519 .yn519-k p{margin:0}
+.yn519-gecis{margin:10px 0;padding:12px 14px;border-radius:14px;border:1px solid #d97706;background:color-mix(in srgb,#f59e0b 12%,transparent);font-size:.9rem;line-height:1.5;text-align:left}
+.yn519-gecis p{margin:0}
+.yn519-g{display:inline-flex;align-items:center;justify-content:center;gap:10px}
+.yn519-g svg{background:#fff;border-radius:50%;padding:3px;box-sizing:content-box}
+.yn519-ok{margin:2px 0 8px;font-weight:600;color:#15803d}
+html[data-theme="dark"] .yn519-ok{color:#4ade80}
+.yn519-gecis-u{margin:2px 0 8px;font-size:.88rem;color:#b45309}
+html[data-theme="dark"] .yn519-gecis-u{color:#fbbf24}
+/* açılış ekranı: misafir / Google seçeneklerinin altında yönetici bağlantısı */
+.yn519-l{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:44px;margin-top:10px;padding:8px 12px;border-radius:14px;border:1px dashed currentColor;background:transparent;color:inherit;font:600 .92rem var(--sans,system-ui,sans-serif);opacity:.85;cursor:pointer}
+.yn519-l small{font-weight:400;opacity:.85}
+.yn519-l:hover{opacity:1}
+/* düzeltme: açılış (seçim) ekranı açıkken açılan alt pencereler (Google ile giriş vb.) o ekranın arkasında kalıyordu (z 80 < 9000) */
+html.uye39-acik body>.v-ov{z-index:9100}

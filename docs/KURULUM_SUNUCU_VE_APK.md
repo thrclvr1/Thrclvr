@@ -47,7 +47,7 @@ Aşağıdaki **3 adımı yalnız siz yapabilirsiniz**, çünkü sizin hesapları
 | Değer | Ne girilecek |
 |---|---|
 | `GOOGLE_CLIENT_ID` | Adım 1.3'teki Web istemci kimliği |
-| `EDITOR_EPOSTALARI` | Editör olacak Gmail adresi (sizinki) |
+| `EDITOR_EPOSTALARI` | **Yönetici** olacak Gmail adresi (sizinki). V51.9'dan beri yönetici girişi bu hesapla Google doğrulaması + editör PIN'i ile yapılır. Birden çok yönetici için virgülle ayırın. |
 | `OGRETMEN_EPOSTALARI` | Öğretmen rolü verilecek Gmail adresleri (virgülle; boş bırakılabilir) |
 | `EDITOR_SIFIRLAMA_EPOSTASI` | Editör PIN sıfırlama kodunun gideceği adres (sizinki) |
 | `SMTP_KULLANICI` | Gönderen Gmail adresi (sizinki) |
@@ -57,6 +57,21 @@ Aşağıdaki **3 adımı yalnız siz yapabilirsiniz**, çünkü sizin hesapları
 4. **Apply / Create** → birkaç dakika sonra sunucu adresi çıkar (ör. `https://dkab-sunucu.onrender.com`).
    - Tarayıcıda `…/api/saglik` adresi `{"ok":true}` göstermeli.
 5. **Ücret:** veriler (bulut kayıtları) kalıcı diskte tutulur. Render'da disk yalnız ücretli **Starter** planda vardır (aylık birkaç dolar). Ücretsiz planda her yeniden başlatmada kayıtlar silinir; bu yüzden `render.yaml` Starter plan ister.
+
+## Yönetici girişi (V51.9: Google + PIN)
+
+- Yönetici (Editör Onay Alanı) girişi iki adımlıdır:
+  1. Google ile doğrulama.
+  2. Editör PIN'i.
+- Yönetici, Render'daki `EDITOR_EPOSTALARI` değerine yazdığınız Gmail hesabıdır. Bu adres yalnız sunucuda durur; uygulamanın HTML dosyasında yoktur.
+- **Kurulum bitince bana şu iki bilgiyi gönderin.** İkisi de gizli bilgi değildir; şifre, SMTP parolası gibi gizli bilgileri sohbete yazmayın.
+  - Adım 1.3'teki **Web istemci kimliği** (`…apps.googleusercontent.com`)
+  - Adım 3'teki **sunucu adresi** (`https://…onrender.com`)
+- Ben de yeni sürümde:
+  - sunucu adresini uygulamaya varsayılan olarak yazarım; öğrenciler hiçbir şey girmeden Google ile girebilir;
+  - **geçiş dönemini kapatırım**: yalnız PIN ile yönetici girişi tamamen kalkar;
+  - aynı imza anahtarıyla yeni APK üretirim.
+- Kurulum bitene kadar: sunucu adresi girilmemiş cihazda yönetici alanına “Geçiş dönemi: PIN ile devam et” ile girilebilir (açık uyarıyla). Bir cihaza sunucu adresi girildiği ya da orada bir kez Google ile doğrulama yapıldığı anda bu seçenek o cihazda kapanır.
 
 ## Adım 4 — Uygulamaya bağlamak
 
