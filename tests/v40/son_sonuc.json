@@ -1,0 +1,751 @@
+[
+ {
+  "id": "0.1",
+  "name": "Sürüm V40.0 (index.html ve sürüm dosyası)",
+  "pass": true,
+  "detail": "V40.0"
+ },
+ {
+  "id": "0.2",
+  "name": "Veri blokları V39 ile aynı",
+  "pass": true
+ },
+ {
+  "id": "0.3",
+  "name": "Koleksiyon kayıt sayıları V39 ile aynı (ayrı premium içerik kaydı yok)",
+  "pass": true,
+  "detail": {
+   "versions": 3,
+   "tbSubheadings": 531,
+   "gaps": 32,
+   "textbooks": 9,
+   "tbUnits": 45,
+   "tbSections": 272,
+   "unitLinks": 60,
+   "outcomeLinks": 223,
+   "concepts": 629,
+   "entities": 378,
+   "sources": 14,
+   "units": 60,
+   "outcomes": 238,
+   "topics": 246,
+   "questions": 723,
+   "flashcards": 672,
+   "games": 526,
+   "videos": 1
+  }
+ },
+ {
+  "id": "0.4",
+  "name": "V39 rotaları korunuyor; yalnızca Favoriler (pfav) eklendi",
+  "pass": true,
+  "detail": [
+   "pfav"
+  ]
+ },
+ {
+  "id": "0.5",
+  "name": "Normal üyelik ekranları ile öğretmen paneli ve Editör alanı V39 ile birebir aynı (13 ekran, hesaplanmış stiller)",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "0.6",
+  "name": "Değiştirilmeyen Premium ekranları (ünite, özet, ilerleme) V39 ile aynı",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "0.7",
+  "name": "Açılışta ve ekran geçişlerinde sayfa/konsol hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "1.1",
+  "name": "Premium açılışında koridor (pdunya) ve 9 kapı; sıra ve sınıf adları gerçek veriden (V39.GR, aşama)",
+  "pass": true,
+  "detail": [
+   "4. Sınıf/İlkokul",
+   "5. Sınıf/Ortaokul",
+   "6. Sınıf/Ortaokul",
+   "7. Sınıf/Ortaokul",
+   "8. Sınıf/Ortaokul",
+   "9. Sınıf/Ortaöğretim",
+   "10. Sınıf/Ortaöğretim",
+   "11. Sınıf/Ortaöğretim",
+   "12. Sınıf/Ortaöğretim"
+  ]
+ },
+ {
+  "id": "1.2",
+  "name": "Kapılar iki duvarda dengeli: 4-6-8-10 sol duvar, 5-7-9-11 sağ duvar, 12 koridorun sonundaki odak duvarında",
+  "pass": true,
+  "detail": {
+   "sol": [
+    4,
+    6,
+    8,
+    10
+   ],
+   "sag": [
+    5,
+    7,
+    9,
+    11
+   ],
+   "uc": [
+    12
+   ]
+  }
+ },
+ {
+  "id": "1.3",
+  "name": "Kapılar koridor boyunca derinlikte sıralı (sınıf büyüdükçe uzaklaşıyor), birbirinin üstüne binmiyor",
+  "pass": true,
+  "detail": [
+   -900,
+   -1340,
+   -1780,
+   -2220,
+   -2660,
+   -3100,
+   -3540,
+   -3980,
+   -4800
+  ]
+ },
+ {
+  "id": "1.4",
+  "name": "Perspektif: girişten bakınca yakın kapı büyük, uzak kapı küçük görünüyor (gerçek izdüşüm)",
+  "pass": true,
+  "detail": [
+   205,
+   146,
+   114,
+   93,
+   79,
+   68,
+   60,
+   54,
+   44
+  ]
+ },
+ {
+  "id": "1.5",
+  "name": "Ortak 3B bağlam yok (her yüzey kendi perspektifiyle çiziliyor); açılış konumu koridor girişi",
+  "pass": true,
+  "detail": {
+   "view": "pdunya",
+   "n": 9,
+   "D": [
+    {
+     "g": 4,
+     "x": -480,
+     "z": -775,
+     "rot": "90",
+     "tab": "4. Sınıf",
+     "st": "İlkokul"
+    },
+    {
+     "g": 5,
+     "x": 480,
+     "z": -1465,
+     "rot": "-90",
+     "tab": "5. Sınıf",
+     "st": "Ortaokul"
+    },
+    {
+     "g": 6,
+     "x": -480,
+     "z": -1655,
+     "rot": "90",
+     "tab": "6. Sınıf",
+     "st": "Ortaokul"
+    },
+    {
+     "g": 7,
+     "x": 480,
+     "z": -2345,
+     "rot": "-90",
+     "tab": "7. Sınıf",
+     "st": "Ortaokul"
+    },
+    {
+     "g": 8,
+     "x": -480,
+     "z": -2535,
+     "rot": "90",
+     "tab": "8. Sınıf",
+     "st": "Ortaokul"
+    },
+    {
+     "g": 9,
+     "x": 480,
+     "z": -3225,
+     "rot": "-90",
+     "tab": "9. Sınıf",
+     "st": "Ortaöğretim"
+    },
+    {
+     "g": 10,
+     "x": -480,
+     "z": -3415,
+     "rot": "90",
+     "tab": "10. Sınıf",
+     "st": "Ortaöğretim"
+    },
+    {
+     "g": 11,
+     "x": 480,
+     "z": -4105,
+     "rot": "-90",
+     "tab": "11. Sınıf",
+     "st": "Ortaöğretim"
+    },
+    {
+     "g": 12,
+     "x": -125,
+     "z": -4800,
+     "rot": "0",
+     "tab": "12. Sınıf",
+     "st": "Ortaöğretim"
+    }
+   ],
+   "GR": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "stages": [
+    "İlkokul",
+    "Ortaokul",
+    "Ortaokul",
+    "Ortaokul",
+    "Ortaokul",
+    "Ortaöğretim",
+    "Ortaöğretim",
+    "Ortaöğretim",
+    "Ortaöğretim"
+   ],
+   "mode": "yuru",
+   "s": -1,
+   "pre3d": "flat",
+   "per": "478px"
+  }
+ },
+ {
+  "id": "1.6",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "2.1",
+  "name": "Sola sürükleme kamerayı koridorda ileri yürütüyor (dünya hareket ediyor; kamera z azalıyor, bakış açısı değişiyor)",
+  "pass": true,
+  "detail": {
+   "s0": {
+    "s": -1,
+    "x": 0,
+    "z": 320,
+    "yaw": 0,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -146,
+    "cur": -1
+   },
+   "mid": {
+    "s": 0.48,
+    "x": 46.7,
+    "z": -440.2,
+    "yaw": -12.4,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -5606,
+    "cur": 0
+   },
+   "s1": {
+    "s": 1,
+    "x": -120,
+    "z": -740,
+    "yaw": 32,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -2159,
+    "cur": 1
+   }
+  }
+ },
+ {
+  "id": "2.2",
+  "name": "Sağa sürükleme geri yürütüyor; bırakınca en yakın durağa oturuyor",
+  "pass": true,
+  "detail": {
+   "s1": {
+    "s": 1,
+    "x": -120,
+    "z": -740,
+    "yaw": 32,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -2159,
+    "cur": 1
+   },
+   "s2": {
+    "s": -1,
+    "x": 0,
+    "z": 320,
+    "yaw": 0,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -146,
+    "cur": -1
+   }
+  }
+ },
+ {
+  "id": "2.3",
+  "name": "İleri / Geri düğmeleri bir kapı ileri-geri yürüyor; gösterge güncelleniyor",
+  "pass": true,
+  "detail": [
+   {
+    "s": 1,
+    "x": -120,
+    "z": -740,
+    "yaw": 32,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -2159,
+    "cur": 1
+   },
+   {
+    "s": 2,
+    "x": 120,
+    "z": -1180,
+    "yaw": -32,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -475,
+    "cur": 2
+   },
+   {
+    "s": 1,
+    "x": -120,
+    "z": -740,
+    "yaw": 32,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -2159,
+    "cur": 1
+   }
+  ]
+ },
+ {
+  "id": "2.4",
+  "name": "Klavye: sağ/sol ok tuşları yürütüyor",
+  "pass": true,
+  "detail": [
+   {
+    "s": 2,
+    "x": 120,
+    "z": -1180,
+    "yaw": -32,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -475,
+    "cur": 2
+   },
+   {
+    "s": 1,
+    "x": -120,
+    "z": -740,
+    "yaw": 32,
+    "mode": "yuru",
+    "sel": -1,
+    "floor": -2159,
+    "cur": 1
+   }
+  ]
+ },
+ {
+  "id": "2.5",
+  "name": "Dikey hareket kamerayı yürütmüyor; sayfanın dikey kaydırması açık (touch-action: pan-y)",
+  "pass": true,
+  "detail": {
+   "ta": "pan-y",
+   "v0": 1,
+   "v1": 1
+  }
+ },
+ {
+  "id": "2.6",
+  "name": "Alttaki 4–12 göstergesinden doğrudan bir kapıya gidiliyor",
+  "pass": true,
+  "detail": {
+   "s": 7,
+   "x": -120,
+   "z": -3380,
+   "yaw": 32,
+   "mode": "yuru",
+   "sel": -1,
+   "floor": -23953,
+   "cur": 7
+  }
+ },
+ {
+  "id": "2.7",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "3.1",
+  "name": "Kapıya dokununca kamera kapıya dönüyor, kapı altın ışıkla seçiliyor, diğerleri kısılıyor",
+  "pass": true,
+  "detail": {
+   "mode": "odak",
+   "sel": 2,
+   "yaw": -90,
+   "sec": "6",
+   "kis": 8,
+   "hl": "1",
+   "info": "6. SınıfOrtaokul · 2026 programı (Türkiye Yüzyılı Maarif Modeli)5 ünite · 20 konu Sınıfa Gir",
+   "want": "5 ünite · 20 konu",
+   "pv": "2026 programı (Türkiye Yüzyılı Maarif Modeli)"
+  }
+ },
+ {
+  "id": "3.2",
+  "name": "Alt panelde sınıf adı, aşama, program ve gerçek ünite/konu sayısı",
+  "pass": true,
+  "detail": "6. SınıfOrtaokul · 2026 programı (Türkiye Yüzyılı Maarif Modeli)5 ünite · 20 konu Sınıfa Gir"
+ },
+ {
+  "id": "3.3",
+  "name": "İkinci dokunuşta kapı kanatları menteşe ekseninde dönerek açılıyor (3B dönüş, yalnızca saydamlık değil)",
+  "pass": true,
+  "detail": {
+   "acik": true,
+   "l": "matrix3d(-0.0899983, 0, 0.995942, 0, 0, 1, 0, 0, -0.995942, 0, -0.0899983, 0, 0, 0, 4, 1)",
+   "r": "matrix3d(-0.0899983, 0, -0.995942, 0, 0, 1, 0, 0, 0.995942, 0, -0.0899983, 0, 0, 0, 4, 1)",
+   "view": "pdunya"
+  }
+ },
+ {
+  "id": "3.4",
+  "name": "Kamera kapıdan içeri geçiyor (sıcak ışık geçişi) ve doğru sınıf merkezi açılıyor",
+  "pass": true,
+  "detail": {
+   "pd": {
+    "perde": true,
+    "z": -232
+   },
+   "cc": {
+    "view": "psinif",
+    "pg": 6,
+    "tools": [
+     "Üniteler",
+     "Anlatım",
+     "Özet",
+     "Kodlama",
+     "Hikâye",
+     "Tablo",
+     "Karışanlar",
+     "Mini Test",
+     "Kartlar",
+     "Oyunlar",
+     "Sınav Odaklı"
+    ],
+    "gel": true,
+    "son": 6
+   }
+  }
+ },
+ {
+  "id": "3.5",
+  "name": "Sınıf merkezinde öğrenme araçları: Üniteler, Anlatım, Özet, Kodlama, Hikâye, Tablo, Karışanlar, Mini Test, Kartlar, Oyunlar, Sınav Odaklı",
+  "pass": true,
+  "detail": [
+   "Üniteler",
+   "Anlatım",
+   "Özet",
+   "Kodlama",
+   "Hikâye",
+   "Tablo",
+   "Karışanlar",
+   "Mini Test",
+   "Kartlar",
+   "Oyunlar",
+   "Sınav Odaklı"
+  ]
+ },
+ {
+  "id": "3.6",
+  "name": "Araç sayıları gerçek kayıtlardan (V39.av ile aynı); verisi olmayan araç “Kaynakta veri bulunmuyor.” diyor",
+  "pass": true,
+  "detail": {
+   "M": {
+    "anlat": 20,
+    "ozet": 20,
+    "otuz": 20,
+    "kod": 20,
+    "kar": 11,
+    "kart": 20,
+    "oyun": 20,
+    "test": 20,
+    "sin": 20,
+    "kay": 20,
+    "tab": 5,
+    "hik": 6
+   },
+   "shown": {
+    "anlat": 20,
+    "ozet": 20,
+    "kod": 20,
+    "hik": 6,
+    "tab": 5,
+    "kar": 11,
+    "test": 20,
+    "kart": 20,
+    "oyun": 20,
+    "sin": 20
+   },
+   "dis": []
+  }
+ },
+ {
+  "id": "3.7",
+  "name": "“Anlatım” aracı aynı sınıf/programdaki bir konunun Anlatım sekmesini açıyor",
+  "pass": true,
+  "detail": {
+   "view": "pders",
+   "tab": "anlat",
+   "g": 6,
+   "py": "2026",
+   "pv": "2026"
+  }
+ },
+ {
+  "id": "3.8",
+  "name": "Koridora dönünce geldiği kapının önünde (6. sınıf) duruluyor; kanatlar kapanıyor",
+  "pass": true,
+  "detail": {
+   "rt0": {
+    "view": "pdunya",
+    "acik": true
+   },
+   "rt": {
+    "view": "pdunya",
+    "mode": "odak",
+    "sel": 2,
+    "g": 6,
+    "acik": false,
+    "cur": 2
+   }
+  }
+ },
+ {
+  "id": "3.9",
+  "name": "Klavye: Tab kapıya odaklanıp kamerayı çeviriyor, Enter kapıyı açıp sınıfa giriyor",
+  "pass": true,
+  "detail": {
+   "kb": {
+    "f": "k40 sec",
+    "mode": "odak",
+    "sel": 2
+   },
+   "kv": {
+    "view": "psinif",
+    "pg": 6
+   }
+  }
+ },
+ {
+  "id": "3.10",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "4.1",
+  "name": "Cam üst çubuk: Ana Panel (etkin), İlerleme, Favoriler, Planım; ilk ziyarette gezinme ipucu",
+  "pass": true,
+  "detail": {
+   "nav": [
+    "Ana Panel",
+    "İlerleme",
+    "Favoriler",
+    "Planım"
+   ],
+   "cur": "Ana Panel",
+   "ip": true
+  }
+ },
+ {
+  "id": "4.2",
+  "name": "Kapı bilgisindeki yıldız sınıfı favorilere ekliyor; dk-ilerleme39 içindeki eski alanlar (z, t, prog) korunuyor",
+  "pass": true,
+  "detail": {
+   "z": {
+    "a": "1"
+   },
+   "t": {
+    "x": {
+     "q": 1
+    }
+   },
+   "prog": {
+    "9": "2018"
+   },
+   "son": {},
+   "ipucu40": 1,
+   "fav": {
+    "s": [
+     9
+    ],
+    "k": []
+   },
+   "sonSinif": 9
+  }
+ },
+ {
+  "id": "4.3",
+  "name": "Favoriler ekranı favori sınıfı listeliyor; boş konu listesi açıkça belirtiliyor",
+  "pass": true,
+  "detail": {
+   "view": "pfav",
+   "items": [
+    "9. Sınıf"
+   ],
+   "empty": [
+    "Henüz favori konu eklemedin."
+   ]
+  }
+ },
+ {
+  "id": "4.4",
+  "name": "Planım mevcut Tekrar Planı ekranını açıyor (premium çubuğuyla)",
+  "pass": true,
+  "detail": {
+   "view": "pekbol",
+   "k": "plan",
+   "bar": true
+  }
+ },
+ {
+  "id": "4.5",
+  "name": "İlerleme düğmesi ve profil paneli (sade görünüm, yardım, ses, favoriler, deneyim, öğretmen paneli; hesap sistemi olmadığı açıkça yazıyor)",
+  "pass": true,
+  "detail": {
+   "il": "pilerleme",
+   "pf": [
+    "Sade görünüme geç",
+    "Koridor yardımı",
+    "Ses",
+    "Favorilerim",
+    "Deneyimi değiştir",
+    "Öğretmen Paneli"
+   ]
+  }
+ },
+ {
+  "id": "4.6",
+  "name": "Sade görünüm açılıyor ve hatırlanıyor (bitki, yansıma, doku gibi süsler kapanıyor)",
+  "pass": true,
+  "detail": {
+   "lite": true,
+   "st": 1,
+   "bit": "none"
+  }
+ },
+ {
+  "id": "4.7",
+  "name": "“?” düğmesi koridor yardımını açıyor",
+  "pass": true,
+  "detail": 5
+ },
+ {
+  "id": "4.8",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "4.9",
+  "name": "Azaltılmış hareket tercihinde kamera atlamalı gidiyor, kapı animasyonsuz açılıyor",
+  "pass": true,
+  "detail": {
+   "rs": {
+    "s": 3,
+    "tw": false
+   },
+   "rv": {
+    "view": "psinif",
+    "pg": 7
+   }
+  }
+ },
+ {
+  "id": "5.1",
+  "name": "Telefon ve yatay tablette 38 kamera konumunda çizilmemiş alan ≤ %1,5 (yalnızca bilinçli bırakılan ince eşik/boşluk çizgileri)",
+  "pass": true,
+  "detail": [
+   [
+    "1024px s7.5",
+    0.74
+   ],
+   [
+    "1024px s8",
+    0.73
+   ],
+   [
+    "1024px o8",
+    0.72
+   ],
+   [
+    "390px s7.5",
+    0.68
+   ]
+  ]
+ },
+ {
+  "id": "6.1",
+  "name": "360 / 390 / 768 / 820 dikey / 1024 / 1180 yatay / 1440 px: koridor, sınıf merkezi, favoriler yatay taşmasız; odakta tabela ve kapı görünür alanda",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "6.2",
+  "name": "Koridor arayüzünde dokunma alanları ≥44 px (gösterge ≥30×44 px)",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "6.3",
+  "name": "Koridor gezintisi dk2, öğretmen kayıtları, öğretmen PIN’i ve üyelik tercihini değiştirmiyor",
+  "pass": true
+ },
+ {
+  "id": "6.4",
+  "name": "Öğretmen paneli premium oturumdan açılınca kendi tasarımıyla",
+  "pass": true,
+  "detail": {
+   "prem": false,
+   "ogrt": true,
+   "panel": true
+  }
+ },
+ {
+  "id": "6.5",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ }
+]

@@ -1,0 +1,155 @@
+{
+ "tarih": "2026-11-19T10:25:57.903Z",
+ "sonuc": [
+  {
+   "ad": "A1 sürüm V50.0, index.html aynı dosya; V49.0 yedek dosyası duruyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 içerik, kazanım, kimlik ve müzik blokları V49.0 ile bayt bayt aynı; yalnız iki görsel bloğu eklendi",
+   "ok": true,
+   "ayr": "15 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı (V49.0 dahil)",
+   "ok": true,
+   "ayr": "yalnız v50.0"
+  },
+  {
+   "ad": "A4 gömülü görseller depodaki WebP dosyalarıyla aynı (kaynak: kaynaklar/v50-gorsel/*.png)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "G1 Elmas kütüphane görseli Elmas kartında, Altın kütüphane görseli Altın kartında (yüklendi, 1280×720)",
+   "ok": true,
+   "ayr": "{\"elmas\":{\"src\":\"blob:\",\"w\":1280,\"h\":720,\"filtre\":\"none\",\"fit\":\"cover\",\"yuk\":true,\"radius\":\"16px\"},\"altin\":{\"src\":\"blob:\",\"w\":1280,\"h\":720,\"filtre\":\"none\",\"fit\":\"cover\",\"yuk\":true,\"radius\":\"16px\"},\"capraz\":false,\"ortu\":0,\"yazi\":0}"
+  },
+  {
+   "ad": "G2 görsellerde filtre ve üst örtü yok; köşeler yuvarlatılmış; üzerinde yazı yok",
+   "ok": true,
+   "ayr": "{\"elmas\":{\"src\":\"blob:\",\"w\":1280,\"h\":720,\"filtre\":\"none\",\"fit\":\"cover\",\"yuk\":true,\"radius\":\"16px\"},\"altin\":{\"src\":\"blob:\",\"w\":1280,\"h\":720,\"filtre\":\"none\",\"fit\":\"cover\",\"yuk\":true,\"radius\":\"16px\"},\"capraz\":false,\"ortu\":0,\"yazi\":0}"
+  },
+  {
+   "ad": "G3 360 / 390 / 820 / 1280 px’te görsel çerçevesi görselin kendi oranında (16:9 → kırpılmaz, bozulmaz), taşma yok",
+   "ok": true,
+   "ayr": "{\"360\":[{\"oran\":1.778,\"tam\":true},{\"oran\":1.778,\"tam\":true}],\"390\":[{\"oran\":1.778,\"tam\":true},{\"oran\":1.778,\"tam\":true}],\"820\":[{\"oran\":1.778,\"tam\":true},{\"oran\":1.778,\"tam\":true}],\"1280\":[{\"oran\":1.778,\"tam\":true},{\"oran\":1.778,\"tam\":true}]}"
+  },
+  {
+   "ad": "M1 Öğretmen → Altın: Altın açılır, öğretmen oturumu kapanır, renkler Altın",
+   "ok": true,
+   "ayr": "{\"mod\":\"altin\",\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"altin\",\"t\":1795083806243},\"deneyim\":\"premium\",\"bn\":false}"
+  },
+  {
+   "ad": "M2 Öğretmen → Elmas: Elmas açılır, Elmas teması (koyu) geri gelir",
+   "ok": true,
+   "ayr": "{\"mod\":\"elmas\",\"v\":\"home\",\"on\":false,\"prem\":false,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"elmas\",\"t\":1795083810692},\"deneyim\":\"normal\",\"bn\":false}"
+  },
+  {
+   "ad": "M3 Altın → Elmas",
+   "ok": true,
+   "ayr": "{\"mod\":\"elmas\",\"v\":\"home\",\"on\":false,\"prem\":false,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"elmas\",\"t\":1795083807375},\"deneyim\":\"normal\",\"bn\":false}"
+  },
+  {
+   "ad": "M4 Elmas → Altın (ve Elmas/Altın → Öğretmen)",
+   "ok": true,
+   "ayr": "{\"a\":{\"mod\":\"altin\",\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"ogrt\":false,\"ogrOturum\":false,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"altin\",\"t\":1795083808480},\"deneyim\":\"premium\",\"bn\":false},\"b\":{\"mod\":\"ogretmen\",\"v\":\"ogretmen\",\"on\":false,\"prem\":false,\"ogrt\":true,\"ogrOturum\":true,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"ogretmen\",\"t\":1795083805139},\"deneyim\":\"normal\",\"bn\":false}}"
+  },
+  {
+   "ad": "M5 son mod tercihi her geçişte kaydedilir (dk-mod50; Elmas/Altın için dk-deneyim39 da)",
+   "ok": true,
+   "ayr": "[\"Elmas→Öğretmen:ogretmen\",\"Öğretmen→Altın:altin\",\"Altın→Elmas:elmas\",\"Elmas→Altın:altin\",\"Altın→Öğretmen:ogretmen\",\"Öğretmen→Elmas:elmas\"]"
+  },
+  {
+   "ad": "M6 Profilim › Öğrenme Modum: üç mod kartı, etkin mod işaretli; tıklayınca o moda geçer; Görünüm’deki ayrı “Öğrenme alanı” satırı kaldırıldı",
+   "ok": true,
+   "ayr": "[\"normal→altin:altin etkin=Elmas Sınıfı\",\"premium→elmas:elmas etkin=Altın Sınıfı\",\"normal→ogretmen:ogretmen etkin=Elmas Sınıfı\"]"
+  },
+  {
+   "ad": "M7 her modun üst menüsünde tek bir mod düğmesi (Elmas üst çubuğu, Altın koridoru ve sınıf merkezi, öğretmen paneli); ≥40 px",
+   "ok": true,
+   "ayr": "[\"go('home') n=1 44\",\"go('pdunya') n=1 40\",\"go('psinif',{pg:7}) n=1 44\",\"go('ogretmen') n=1 44\"]"
+  },
+  {
+   "ad": "M8 düğme ortak paneli açar: üç mod kartı, açıklamalar, etkin mod işaretli; seçilen moda geçilir",
+   "ok": true,
+   "ayr": "[\"Elmas Sınıfı→altin\",\"Altın Sınıfı→elmas\",\"Altın Sınıfı→ogretmen\",\"Öğretmen Modu→altin\"]"
+  },
+  {
+   "ad": "M9 Görünüm ve ses › Öğrenme alanı aynı ortak mod kartlarını kullanır (ayrı mod yönetimi yok)",
+   "ok": true,
+   "ayr": "{\"n\":3,\"eski\":0}"
+  },
+  {
+   "ad": "N1 seçili sınıf korunur: Elmas 7. sınıf → Altın 7. Sınıf Merkezi",
+   "ok": true,
+   "ayr": "{\"v\":\"psinif\",\"pg\":7}"
+  },
+  {
+   "ad": "N2 Android geri tuşu: mod değişmez (Altın kalır); aynı ekrana denk gelen kayıt (7. sınıf) atlanır, bir önceki ekran (ana sayfa) Altın karşılığıyla (koridor) açılır; eski arayüz yok",
+   "ok": true,
+   "ayr": "[\"pdunya:altin:true\"]"
+  },
+  {
+   "ad": "N3 öğretmen modundan ve Elmas’a geçtikten sonra geri: önceki mod etkinleşmez, tema doğru",
+   "ok": true,
+   "ayr": "{\"g2\":{\"mod\":\"altin\",\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"ogrt\":false,\"ogrOturum\":true,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"altin\",\"t\":1795083874278},\"deneyim\":\"premium\",\"bn\":false},\"g3\":{\"mod\":\"elmas\",\"v\":\"home\",\"on\":false,\"prem\":false,\"ogrt\":false,\"ogrOturum\":true,\"tema\":\"dark\",\"eski\":false,\"son\":{\"v\":1,\"son\":\"elmas\",\"t\":1795083875576},\"deneyim\":\"normal\",\"bn\":false}}"
+  },
+  {
+   "ad": "N4 ortak ekranlar (Çalışma Merkezim, Profilim, ayarlar) mod değişince aynı ekranda ve konumda kalır",
+   "ok": true,
+   "ayr": "{\"v\":\"calis45\",\"y\":500}"
+  },
+  {
+   "ad": "N5 ilerleme, yanlışlar, günlük hedef, favoriler ve son sınıf bütün geçişlerden sonra korunur",
+   "ok": true,
+   "ayr": "{\"prog\":1,\"wrong\":1,\"hedef\":30,\"fav\":\"{\\\"s\\\":[7],\\\"k\\\":[\\\"TPC-5-1-01\\\"]}\",\"son\":7}"
+  },
+  {
+   "ad": "N6 sayfa yenilenince son mod korunur (Altın, Elmas; öğretmen oturumu sürüyorsa Öğretmen Modu)",
+   "ok": true,
+   "ayr": "[\"altin→altin:pdunya\",\"elmas→elmas:home\",\"ogretmen→ogretmen:ogretmen\"]"
+  },
+  {
+   "ad": "T1 geçiş animasyonu: Altın’a sıcak altın ışık katmanı kısa sürede gelip gider (toplam < 1 sn)",
+   "ok": true,
+   "ayr": "{\"s\":{\"sinif\":\"gc50 altin gir\",\"op\":\"0.561669\"},\"son\":\"gc50\"}"
+  },
+  {
+   "ad": "T2 “hareketi azalt” açıkken animasyon yapılmaz, geçiş anında olur",
+   "ok": true,
+   "ayr": "{\"katman\":false,\"mod\":\"altin\"}"
+  },
+  {
+   "ad": "T3 Altın alt menüsü (Koridor · Sınıfım · Oyunlar · Çalışmam · Profilim) sınıf, oyun, çalışma ve profil ekranlarında; koridorda gizli; etkin sekme doğru",
+   "ok": true,
+   "ayr": "[\"go('psinif',{pg:5}):{\\\"on\\\":\\\"sinif\\\",\\\"adet\\\":5}\",\"go('poyun'):{\\\"on\\\":\\\"oyun\\\",\\\"adet\\\":5}\",\"go('calis45'):{\\\"on\\\":\\\"calis\\\",\\\"adet\\\":5}\",\"go('profil46'):{\\\"on\\\":\\\"profil\\\",\\\"adet\\\":5}\",\"go('pdunya'):null\",\"go('poyna',{oyn:'kut:null\"]"
+  },
+  {
+   "ad": "T4 Altın alt menüsü çalışır ve sayfa sonundaki içeriğin üstünü kapatmaz",
+   "ok": true,
+   "ayr": "{\"nvg\":\"calis45\",\"ust\":{\"nav\":764,\"son\":743}}"
+  },
+  {
+   "ad": "T5 360 px telefon ve 820 px tablette (Elmas/Altın) profil, mod paneli, ana ekran ve öğretmen paneli taşmıyor",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "R1 önceki ekranlar açılır (sınıflar, konu, oyunlar, test, çalışma, editör, ses), taşma yok",
+   "ok": true,
+   "ayr": "[\"siniflar:true:0\",\"konu:true:0\",\"oyunlar:true:0\",\"test:true:0\",\"calis:true:0\",\"editor:true:0\",\"ses:true:0\"]"
+  },
+  {
+   "ad": "R2 hesap (Google/misafir), bildirim, ses paneli ve V49 karışma düzeltmesi yerinde",
+   "ok": true,
+   "ayr": "{\"hesap\":true,\"bildir\":true,\"ses\":true,\"duzelt\":true}"
+  },
+  {
+   "ad": "P0 testler boyunca sayfada JavaScript hatası yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ]
+}

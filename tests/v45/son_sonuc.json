@@ -1,0 +1,162 @@
+{
+ "tarih": "2026-11-17T21:52:58.743Z",
+ "md5": "1c2fe4b51db7bd26b1a42c6114f993e6",
+ "sonuc": [
+  {
+   "ad": "A1 sürüm V45.0 (V31.VER ve app-version), index.html aynı dosya",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 müfredat/ilişki/sure-dua/yıllık plan ve müzik blokları V44.0 ile bayt bayt aynı (hiçbir kaydın durumu topluca değiştirilmedi)",
+   "ok": true,
+   "ayr": "13 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı (V44.0 yedek olarak duruyor)",
+   "ok": true,
+   "ayr": "yalnız v45.0"
+  },
+  {
+   "ad": "B1 sınıflandırma sayıları: konu bölümleri A/B/C ve sorular (kaynakla doğrulanan / türetilen / editör gereken)",
+   "ok": true,
+   "ayr": "{\"t\":{\"A\":816,\"B\":1860,\"C\":699},\"q\":[593,130],\"fc\":109,\"g\":5}"
+  },
+  {
+   "ad": "B2 kayıtların status alanı değişmedi (yayın durumu topluca “published” yapılmadı)",
+   "ok": true,
+   "ayr": "{\"s\":{\"topics\":{\"toplam\":246,\"A\":16,\"B\":0,\"C\":56,\"AB+C\":174,\"neden\":{\"kaynak-eksik\":338,\"editor\":329,\"kunye\":8,\"hadis\":9,\"mezhep\":15},\"bloklar\":{\"A\":816,\"B\":1860,\"C\":699},\"icerikYok\":56},\"questions\":{\"toplam\":723,\"A\":0,\"B\":593,\"C\":130,\"AB+C\":0,\"neden\":{\"kaynaksiz\":3,\"kaynak-eksik\":92,\"editor\":34,\"mezhep\":1}},\"flashcards\":{\"toplam\":672,\"A\":0,\"B\":563,\"C\":109,\"AB+C\":0,\"neden\":{\"kaynaksiz\":3,\"kaynak-eksik\":90,\"editor\":14,\"mezhep\":2}},\"games\":{\"toplam\":526,\"A\":0,\"B\":521,\"C\":5,\"AB+C\":0,\"neden\":{\"kaynaksiz\":2,\"mezhep\":2,\"kunye\":1}},\"concepts\":{\"toplam\":629,\"A\":629,\"B\":0,\"C\":0,\"AB+C\":0,\"neden\":{}},\"entities\":{\"toplam\":378,\"A\":341,\"B\":0,\"C\":37,\"AB+C\":0,\"neden\":{\"kaynaksiz\":37}}},\"yay\":0,\"st\":[\"draft\",\"review\"]}"
+  },
+  {
+   "ad": "B3 önizleme kapalıyken (yayın kipi) kaynakla doğrulanan/türetilen içerik görünür, editör kontrolü gereken soru görünmez",
+   "ok": true,
+   "ayr": "{\"konuGor\":190,\"konuTop\":190,\"qcGor\":0,\"qbGor\":593,\"qb\":593}"
+  },
+  {
+   "ad": "B4 editör kuyruğu yalnız gerçekten kontrol gerektiren (C) kayıtları içerir",
+   "ok": true,
+   "ayr": "{\"topics\":{\"bek\":230,\"gerek\":230},\"questions\":{\"bek\":130,\"gerek\":130},\"flashcards\":{\"bek\":109,\"gerek\":109},\"games\":{\"bek\":5,\"gerek\":5}}"
+  },
+  {
+   "ad": "B5 konu sayfası: editör notu yalnız C paragraflarda; başlıkta kaynak etiketi; “editör onayı bekliyor” yazısı yok",
+   "ok": true,
+   "ayr": "{\"dvb\":6,\"n\":6,\"kd\":[\"Kaynakla doğrulandı · 2 bölüm\",\"Kaynaktan türetildi · 12 bölüm\",\"Editör kontrolü gerekli · 15 bölüm\",\"Kaynakla doğrulandı · 2 bölüm\",\"Kaynaktan türetildi · 12 bölüm\",\"Editör kontrolü gerekli · 15 bölüm\"],\"bek\":false}"
+  },
+  {
+   "ad": "B6 oyun kartları: “editör onayı bekliyor” yerine gerçek durum (kaynaktan türetildi / editör kontrolü gerekli)",
+   "ok": true,
+   "ayr": "{\"bek\":false,\"tur\":true}"
+  },
+  {
+   "ad": "C1 dokuz sınıfa (4–12) ayrı dünya: farklı ad, sahne ve görev karışımı",
+   "ok": true,
+   "ayr": "{\"gr\":[4,5,6,7,8,9,10,11,12],\"ad\":9,\"sahne\":9,\"tip\":9,\"kisi\":[\"Elif\",\"Bilge Baykuş\",\"Ada\",\"Gözlemci Nehir Hoca\",\"Can\",\"Kervanbaşı Rüzgâr Usta\",\"Zeynep\",\"Saatçi Kemal Dede\",\"Mert\",\"Kule bekçisi Selin\",\"Defne\",\"Arşivci Tarık Hoca\",\"Kerem\",\"Haritacı Lale\",\"Ece\",\"Konsey sözcüsü Yusuf\",\"Deniz\",\"Danışman Aslı Hoca\"],\"hazir\":[\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\"]}"
+  },
+  {
+   "ad": "C2 karakterler kurgusal: peygamber, sahabe ya da dinî şahsiyet karakterleştirilmemiş",
+   "ok": true,
+   "ayr": "[\"Elif\",\"Bilge Baykuş\",\"Ada\",\"Gözlemci Nehir Hoca\",\"Can\",\"Kervanbaşı Rüzgâr Usta\",\"Zeynep\",\"Saatçi Kemal Dede\",\"Mert\",\"Kule bekçisi Selin\",\"Defne\",\"Arşivci Tarık Hoca\",\"Kerem\",\"Haritacı Lale\",\"Ece\",\"Konsey sözcüsü Yusuf\",\"Deniz\",\"Danışman Aslı Hoca\"]"
+  },
+  {
+   "ad": "C3 her sınıfta bütün ünitelerde en az 3 keşif noktası ve en az 3 soruluk bölge kapısı var",
+   "ok": true,
+   "ayr": "[\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\",\"5/5\"]"
+  },
+  {
+   "ad": "C4 bütün oyun içeriği kaynak kayıtlarından: notlar kitapla doğrulanmış (A) paragraf, sorular/etkinlikler editör kontrolü gerektirmeyen (A/B) kayıt",
+   "ok": true,
+   "ayr": "{\"kotu\":0,\"top\":492}"
+  },
+  {
+   "ad": "C5 oyun merkezinde “Sınıf Dünyaları” kartı hibrit görevlerde",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "C6 harita: ilk bölge açık, diğerleri kilitli (önceki bölge tamamlanınca açılır)",
+   "ok": true,
+   "ayr": "[true,false,false,false,false]"
+  },
+  {
+   "ad": "C7 bölgedeki bütün noktalar (not, diyalog, bulmaca) çözülebilir; hepsi bitince bölge kapısı açılır",
+   "ok": true,
+   "ayr": "5 nokta"
+  },
+  {
+   "ad": "C8 bölge kapısı %70 altında açılmaz; yanlış sorular tekrar listesine (Yanlışlarım) eklenir",
+   "ok": true,
+   "ayr": "{\"y\":{\"son\":\"Kapı henüz açılmadı0 / 5 doğru (en az %70 gerekir). Yanlış soruların tekrar listende.\\nTekrar deneBölgeye dön\",\"bitti\":false,\"w\":5},\"w0\":0}"
+  },
+  {
+   "ad": "C9 kapı geçilince ödül ve yıldız; kayıt dk-oyun41.oyunlar.dunya45.g6 (v:1, bölge, günce)",
+   "ok": true,
+   "ayr": "{\"n\":{\"not0\":1,\"not1\":1,\"kar0\":1,\"bul0\":1,\"kar1\":1},\"kapi\":{\"puan\":100,\"yildiz\":3,\"t\":\"2026-11-17T21:52:12.113Z\"},\"bitti\":true}"
+  },
+  {
+   "ad": "C10 sayfa yeniden açılınca ilerleme korunur, ikinci bölge açılır",
+   "ok": true,
+   "ayr": "[true,true,false,false,false]"
+  },
+  {
+   "ad": "C11 Günce: bulunan notlar kaynak bilgisiyle listelenir",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "C12 8. sınıf LGS Kulesi: kat sınavı süreli; Menü ile duraklatınca süre durur, devam edince işler",
+   "ok": true,
+   "ayr": "{\"s1\":318,\"s2\":318,\"s3\":317}"
+  },
+  {
+   "ad": "C13 sınıf merkezinde o sınıfın dünyasına giriş (9. sınıf: Akademi Arşivi)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "D1 Klasik ana sayfada “Çalışma Merkezim” girişi",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "D2 günlük hedef sayacı her cevabı sayar (dk-calis45)",
+   "ok": true,
+   "ayr": "{\"gun\":3,\"oc\":[\"DKAB-5-U01-O01\"]}"
+  },
+  {
+   "ad": "D3 yanlış cevaplanan kazanım “Zayıf kazanımlar”da, konusu “Sana önerilenler”de, konu başarı haritasında zayıf",
+   "ok": true,
+   "ayr": "{\"zayif\":[\"DKAB.5.1.1\"],\"oneri\":[\"Evrendeki Düzeni Fark Etmek\"],\"harita\":1,\"kod\":[\"DKAB.5.1.1\"]}"
+  },
+  {
+   "ad": "D4 Çalışma Merkezim 390 px’te yatay taşma yok",
+   "ok": true,
+   "ayr": "{\"sw\":390,\"w\":390,\"tas\":[]}"
+  },
+  {
+   "ad": "D5 doğru çözülen soru tekrar listesinden çıkar (yanlışlar 0)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "D6 Premium İlerlemem ekranında Çalışma Merkezim girişi",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "D7 Premium oturumda Çalışma Merkezim açılır (Premium kabuğunda)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "E1 yeni ekranlar 360 px telefon, 800×1280 tablet, 780×360 yatay: taşma yok, dokunma alanları ≥ 44 px",
+   "ok": true,
+   "ayr": "12 ölçüm"
+  },
+  {
+   "ad": "F1 sayfa hatası yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ],
+ "hata": []
+}

@@ -1,0 +1,40 @@
+/* ===================== V51.1 ===================== */
+/* Alt pencere açıkken alt menüler pencerenin önüne geçmez (kök neden: #bn50 z-index 900 > .v-ov 80) */
+.bn50{z-index:70!important}
+body:has(.v-ov) #bn50,body:has(.v-ov) nav.bnav{display:none!important}
+.v-sf{position:relative;z-index:2}
+.v-sf button[aria-busy=true]{opacity:.75;cursor:progress}
+#b48-h.b51-bilgi{color:var(--ink)}
+.b51-yg{margin-top:6px;min-height:40px;padding:0 12px;border-radius:12px;font:600 .85rem var(--sans);border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+/* Mod panelinde ayrı yönetici/editör girişi */
+.ed51-giris{display:block;width:100%;margin-top:8px;min-height:44px;padding:8px 12px;border-radius:14px;border:1px dashed color-mix(in srgb,var(--ink) 30%,transparent);background:transparent;color:inherit;font:600 .9rem var(--sans);cursor:pointer}
+.ed51-giris small{font-weight:400;opacity:.85}
+/* Haftalık kazanım kartı: yalnız “İçeriği aç” */
+.ogw-kr{display:flex!important}
+.ogw-kr>.ogw-b{flex:1 1 100%!important;width:100%}
+/* Editör toplu işlemleri */
+.tp51{position:sticky;top:calc(var(--tp51-ust,0px) + 6px);z-index:6;margin:10px 0;padding:12px;border-radius:16px;border:1px solid var(--t37-line,var(--line));background:var(--t37-card,var(--surface));box-shadow:0 10px 26px -14px rgba(0,0,0,.45)}
+.tp51-ust{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:8px}
+.tp51-ust b{font-size:1rem}
+.tp51-ust small{color:var(--t37-mut,var(--mut))}
+.tp51-bb{display:flex;flex-wrap:wrap;gap:8px}
+.tp51-bb button{min-height:44px;padding:0 12px;border-radius:12px;font:600 .85rem var(--sans);border:1px solid var(--t37-line,var(--line));background:transparent;color:inherit;cursor:pointer}
+.tp51-bb button.p{background:#7a4e1a;border-color:transparent;color:#fff}
+.tp51-bb button.tehlike{border-color:#b3261e;color:#b3261e}
+:root[data-theme=dark] .tp51-bb button.tehlike{border-color:#f2b8b5;color:#f2b8b5}
+.tp51-bb button:disabled{opacity:.45;cursor:not-allowed}
+.tp51-il{margin-top:8px;font-weight:600}
+.tp51-li{display:flex;align-items:stretch;gap:6px}
+.tp51-li>.ed38-row{flex:1;min-width:0}
+.tp51-cb{flex:none;display:grid;place-items:center;width:48px;min-height:48px;border-radius:14px;border:1px solid var(--t37-line,var(--line));background:var(--t37-card,var(--surface));cursor:pointer}
+.tp51-cb input{width:24px;height:24px;margin:0;accent-color:#7a4e1a;cursor:pointer}
+.tp51-li.sec>.ed38-row,.tp51-li.sec>.tp51-cb{outline:2px solid #7a4e1a;outline-offset:-1px}
+.tp51-ret ul,.tp51-rp ul{margin:6px 0;padding-left:18px}
+.tp51-ret li small,.tp51-rp li small{display:block;color:var(--mut)}
+.tp51-say{list-style:none;display:flex;gap:8px;padding:0!important;flex-wrap:wrap}
+.tp51-say li{padding:6px 10px;border-radius:10px;border:1px solid var(--line)}
+.tp51-say li.ok{border-color:#2e7d4f}.tp51-say li.ht{border-color:#b3261e}
+.tp51-gc{list-style:none;padding:0;display:grid;gap:10px}
+.tp51-gc li>div{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}
+.tp51-gc small{color:var(--mut)}
+@media (max-width:600px){.tp51{padding:10px}.tp51-ust{margin-bottom:6px}.tp51-bb{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin;padding-bottom:2px}.tp51-bb button{flex:none;white-space:nowrap}}

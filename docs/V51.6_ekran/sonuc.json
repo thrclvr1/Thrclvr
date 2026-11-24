@@ -1,0 +1,67 @@
+[
+ {
+  "ad": "A1 sürüm V51.6, index.html aynı; veri blokları V51.5 ile bayt bayt aynı; önceki sürüm dosyalarına dokunulmadı",
+  "ok": true,
+  "a": ""
+ },
+ {
+  "ad": "A2 APK: V36 ile aynı imza sertifikası (SHA-256 48226315…), paket tr.dkab.platform, sürüm 51.6 (5106), yalnız INTERNET izni",
+  "ok": true,
+  "a": "SHA-1 digest: 624f81042c904d5e1e32b386ed45f18bab79db52"
+ },
+ {
+  "ad": "A3 APK içindeki assets/index.html, V51.6 dosyasıyla birebir aynı; Google oturum açma (Credential Manager) kodu APK’da",
+  "ok": true,
+  "a": "{\"ic\":\"c044576295b9\",\"dex\":\"8\"}"
+ },
+ {
+  "ad": "C1 APK içinde (appassets.androidplatform.net + DKAndroid köprüsü) Google girişi Android’in kendi penceresine yönlenir; Google’ın web betiği (GIS) yüklenmez",
+  "ok": true,
+  "a": "{\"pencere\":\"Google ile giriş\\n\\nGoogle hesabınla giriş yaptığında ilerlemen sunucuda saklanır ve başka cihazda kaldığın yerden devam e\",\"giden\":[{\"tur\":\"google\",\"istemci\":\"test-istemci.apps.googleusercontent.com\"}]}"
+ },
+ {
+  "ad": "C2 Yerel pencereden gelen kimlik belgesi gerçek sunucuda doğrulanır: oturum açılır (mod google, kullanıcı adı) ve ilerleme eşitlenir",
+  "ok": true,
+  "a": "{\"mod\":\"google\",\"ad\":\"APK Öğrenci\",\"surum\":1,\"hata\":\"\"}"
+ },
+ {
+  "ad": "C3 Sunucudaki bulut kaydı telefondaki ilerlemeyi içerir (dk2.prog)",
+  "ok": true,
+  "a": "1"
+ },
+ {
+  "ad": "C4 Çıkışta oturum kapanır ve Android’e “google-cikis” iletilir (bir sonraki girişte hesap yeniden seçilir)",
+  "ok": true,
+  "a": "{\"h\":\"misafir\",\"giden\":[\"google\",\"google-cikis\"]}"
+ },
+ {
+  "ad": "C5 Kullanıcı Google penceresini kapatırsa “Giriş iptal edildi” yazar; giriş yapıldı denmez; yeniden denenebilir",
+  "ok": true,
+  "a": "{\"m\":\"Giriş iptal edildi.\",\"mod\":\"misafir\",\"dugme\":true}"
+ },
+ {
+  "ad": "C6 Başka bir uygulamaya verilmiş (aud yanlış) belge sunucuda reddedilir; giriş yapılmaz",
+  "ok": true,
+  "a": "{\"m\":\"Google kimliği doğrulanamadı: hedef kitle\",\"mod\":\"misafir\"}"
+ },
+ {
+  "ad": "C7 Sunucuya ulaşılamazsa açıkça yazar, giriş yapılmaz",
+  "ok": true,
+  "a": "{\"m\":\"Sunucuya ulaşılamadı. İnternet bağlantısını ve sunucu adresini kontrol et.\",\"mod\":\"misafir\"}"
+ },
+ {
+  "ad": "C8 Sunucu adresi yoksa önce sunucu adresi istenir (giriş denemesi yapılmaz)",
+  "ok": true,
+  "a": "Hesap sunucusu\n\nGoogle ile giriş için önce sunucu adresini gir. Sunucu kurulumu: sunucu/README.md\n\nSunucu adresi\n\nBu adr"
+ },
+ {
+  "ad": "C9 Tarayıcıda (Android köprüsü yokken) eski Google akışı aynen kalır (GIS düğmesi alanı)",
+  "ok": true,
+  "a": "{\"mi\":false,\"gis\":true,\"an\":false}"
+ },
+ {
+  "ad": "Z Sayfa hatası yok",
+  "ok": true,
+  "a": "[]"
+ }
+]

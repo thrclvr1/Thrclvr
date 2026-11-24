@@ -1,0 +1,157 @@
+{
+ "tarih": "2026-11-17T20:23:49.013Z",
+ "gecen": 30,
+ "toplam": 30,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V44.0 (V31.VER ve app-version), index.html aynı dosya",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 müfredat/ilişki/sure-dua/yıllık plan ve müzik blokları V43.0 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "13 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı",
+   "ok": true,
+   "ayr": "yalnız v44.0"
+  },
+  {
+   "ad": "B1 seçim ekranı: başlık altında uygulama amblemi (geometrik süs kaldırıldı, sol üst tekrarı gizli); öğretmen ve editör girişleri ayrı",
+   "ok": true,
+   "ayr": "{\"amb\":true,\"motif\":false,\"logo\":\"none\",\"gizli\":[\"hidden\"],\"htmlBg\":\"rgb(9, 12, 11)\",\"ogr\":\"Öğretmen girişi\",\"ed\":true}"
+  },
+  {
+   "ad": "B2 seçim ekranı açıkken arkadaki sayfa gizli, sayfa zemini obsidyen (adres çubuğu kayarken açılan şeritte başka ekran görünmez)",
+   "ok": true,
+   "ayr": "{\"amb\":true,\"motif\":false,\"logo\":\"none\",\"gizli\":[\"hidden\"],\"htmlBg\":\"rgb(9, 12, 11)\",\"ogr\":\"Öğretmen girişi\",\"ed\":true}"
+  },
+  {
+   "ad": "B3 seçim ekranı geri tuşuyla kapanınca önceki sayfa görünür ve kaydırma konumu korunur",
+   "ok": true,
+   "ayr": "{\"y0\":600,\"r2\":{\"acik\":false,\"y\":600,\"gor\":\"visible\",\"view\":\"grade\"}}"
+  },
+  {
+   "ad": "C1 öğrenci: yalnız öğrenci rolü; tanımsız eylem ve veri yönetimi REDDEDİLİR; öğrenme izinli",
+   "ok": true,
+   "ayr": "{\"roller\":[\"ogrenci\"],\"veri\":false,\"yok\":false,\"ogrenme\":true,\"kilit\":\"none\",\"kart\":false}"
+  },
+  {
+   "ad": "C2 öğrenci ekranında yönetim araçları yok (üst çubuk “Yönetim” kilidi ve ana sayfa öğretmen kartı)",
+   "ok": true,
+   "ayr": "{\"roller\":[\"ogrenci\"],\"veri\":false,\"yok\":false,\"ogrenme\":true,\"kilit\":\"none\",\"kart\":false}"
+  },
+  {
+   "ad": "C3 veri yönetimi rotası öğrencide yetki kapısı gösterir (içerik düzenleme açılmaz)",
+   "ok": true,
+   "ayr": "{\"kapi\":true,\"duzen\":false}"
+  },
+  {
+   "ad": "C4 Klasik ayarlarda yalnız “Öğretmen / editör girişi” bağlantısı",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "C5 Premium profil: “Öğretmen Paneli” aracı yok, “Öğretmen / editör girişi” var",
+   "ok": true,
+   "ayr": "\n  Sade görünüme geçZayıf cihazlar için doku, ışık ve süsleri azaltır.\n  Koridor yardımıKaydırma, kapı seçme ve giriş\n  SesOrtam sesleri ve ses düzeyi\n  FavorilerimSınıflar ve konular\n  Deneyimi değiş"
+  },
+  {
+   "ad": "C6 editör oturumu: veri yönetimi açılır, kilit görünür; editör yetkisi öğretmen paneli yetkisi vermez",
+   "ok": true,
+   "ayr": "{\"roller\":[\"ogrenci\",\"editor\"],\"veri\":true,\"ogrPanel\":false,\"kapi\":false,\"kilit\":\"grid\"}"
+  },
+  {
+   "ad": "D1 öğretmen Ana Panel: yalnız altı bölüm (Kazanımlar ilk ve geniş), öğrenci alt menüsü yok; diğer modüllerin kodu duruyor",
+   "ok": true,
+   "ayr": "{\"tiles\":[\"Kazanımlar\",\"Hızlı Arama\",\"Son İşlemler\",\"Veri Yönetimi\",\"Ayarlar\",\"Editör Onayı\"],\"ek\":0,\"bnav\":\"none\",\"kodVar\":true}"
+  },
+  {
+   "ad": "E1 normal: çok konulu kazanımda her konu “İçeriği aç”la doğru ekranda açılır, panel kapanır (V43’te hiçbiri açılmıyordu)",
+   "ok": true,
+   "ayr": "[{\"v\":\"topic\",\"t\":\"TPC-5-2-02\",\"ui\":0},{\"v\":\"topic\",\"t\":\"TPC-5-2-03\",\"ui\":0},{\"v\":\"topic\",\"t\":\"TPC-5-2-03a\",\"ui\":0}]"
+  },
+  {
+   "ad": "E2 normal: konudan geri tuşu öğretmen paneline döner",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "E1 premium: çok konulu kazanımda her konu “İçeriği aç”la doğru ekranda açılır, panel kapanır (V43’te hiçbiri açılmıyordu)",
+   "ok": true,
+   "ayr": "[{\"v\":\"pders\",\"t\":\"TPC-5-2-02\",\"ui\":0},{\"v\":\"pders\",\"t\":\"TPC-5-2-03\",\"ui\":0},{\"v\":\"pders\",\"t\":\"TPC-5-2-03a\",\"ui\":0}]"
+  },
+  {
+   "ad": "E2 premium: konudan geri tuşu öğretmen paneline döner",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "E3 içeriği hazırlanmamış konu tamamlanmış gibi açılmaz; açık uyarı verilir",
+   "ok": true,
+   "ayr": "{\"bos\":\"TPC-4-1-01\",\"r\":{\"view\":\"home\",\"panel\":\"Günlük Konuşmalarda Dinî İfadelerBu konunun içeriği henüz hazırlanmadı. Ders kitabında veri bulunmuyor.Konu sayfasında kaynak bağlantıları ve kitap sayfası gösterilebilir.Konu sayfasını açTamam\"}}"
+  },
+  {
+   "ad": "E4 Premium aramada sonuca dokununca ders açılır (aynı panel-kapanma yarışı; ortak düzeltme)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "F1 Zamanın İzinde: 3 bölüm (4. sınıf 2018 ×2, Hicret 7. sınıf 2026); Bilgi Laboratuvarı: ünite bölümleri",
+   "ok": true,
+   "ayr": "{\"z\":[\"Hz. Muhammed’in (sav) Doğumu, Çocukluk ve Gençlik Yılları\",\"Hz. Muhammed’in (sav) Mekke ve Medine Yılları\",\"HİCRET\"],\"lab\":\"23/34\"}"
+  },
+  {
+   "ad": "F2 üç oyun da ortak motor arayüzünü (initialize…destroy) sağlıyor; bütün bölüm kaynakları kaynak kontrolünden geçmiş kayıtlar",
+   "ok": true,
+   "ayr": "[true,true,true]"
+  },
+  {
+   "ad": "F3 gece: Zamanın İzinde — Orta/Zor kilitli başlar; Menü duraklatır; görev bitince kaydedilir; çıkıp sayfa yenilenince “Devam et” aynı görevden sürer; seviye biter, yıldız ve puan kaydedilir; Orta açılır",
+   "ok": true,
+   "ayr": "{\"kilit\":[\"kolay:false\",\"orta:true\",\"zor:true\"],\"dur\":{\"durdu\":true,\"menu\":true},\"adim\":1,\"dv\":\"Görev 2 / 2 · İpuçlarından kişi ya da yer\",\"bitti\":true,\"kayit\":{\"kolay\":{\"yildiz\":1,\"puan\":30,\"sure\":7,\"t\":\"2026-11-17T20:23:06.974Z\"}}}"
+  },
+  {
+   "ad": "F4 oyun merkezi: Öğrenme oyunları / Hibrit görevler / Macera oyunları (macera “Geliştiriliyor”, oynanabilir gösterilmiyor)",
+   "ok": true,
+   "ayr": "{\"kat\":[\"Öğrenme oyunları\",\"Hibrit görevler\",\"Macera oyunları\"],\"devam\":true}"
+  },
+  {
+   "ad": "F5 gece: Bilgi Laboratuvarı — Kolay seviye istasyonları biter, kaydedilir, Orta seviye açılır",
+   "ok": true,
+   "ayr": "{\"lbit\":true,\"sev\":{\"kolay\":{\"yildiz\":1,\"puan\":40,\"sure\":6,\"t\":\"2026-11-17T20:23:13.896Z\"}}}"
+  },
+  {
+   "ad": "F6 oyun profili: öğrenme yıldızları/puanı hibrit ve macera puanlarından ayrı; günlük görev ve başarım güncellenir",
+   "ok": true,
+   "ayr": "{\"og\":{\"yildiz\":2,\"puan\":70,\"en\":234},\"gunluk\":{\"ad\":\"Bugün bir seviye tamamla\",\"ok\":true}}"
+  },
+  {
+   "ad": "F3 gunduz: Zamanın İzinde — Orta/Zor kilitli başlar; Menü duraklatır; görev bitince kaydedilir; çıkıp sayfa yenilenince “Devam et” aynı görevden sürer; seviye biter, yıldız ve puan kaydedilir; Orta açılır",
+   "ok": true,
+   "ayr": "{\"kilit\":[\"kolay:false\",\"orta:true\",\"zor:true\"],\"dur\":{\"durdu\":true,\"menu\":true},\"adim\":1,\"dv\":\"Görev 2 / 2 · İpuçlarından kişi ya da yer\",\"bitti\":true,\"kayit\":{\"kolay\":{\"yildiz\":1,\"puan\":30,\"sure\":7,\"t\":\"2026-11-17T20:23:32.840Z\"}}}"
+  },
+  {
+   "ad": "F5 gunduz: Bilgi Laboratuvarı — Kolay seviye istasyonları biter, kaydedilir, Orta seviye açılır",
+   "ok": true,
+   "ayr": "{\"lbit\":true,\"sev\":{\"kolay\":{\"yildiz\":1,\"puan\":37,\"sure\":7,\"t\":\"2026-11-17T20:23:40.919Z\"}}}"
+  },
+  {
+   "ad": "F7 Kayıp Bilgeliğin Kütüphanesi: hikâye girişi ve oda açılıyor, nesneler ve kayıt yerinde",
+   "ok": true,
+   "ayr": "{\"oda\":true,\"nes\":6,\"kayit\":true}"
+  },
+  {
+   "ad": "G WCAG AA denetimi (tam kaydırma; hafif mod açık/kapalı; Klasik açık/koyu; Premium Gündüz/Gece; V44 ekranları dahil) bu derleme için AA altı 0",
+   "ok": true,
+   "ayr": "{\"md5Eslesir\":true,\"baglam\":201,\"yazi\":8384,\"aaAlti\":0}"
+  },
+  {
+   "ad": "H sayfa hatası (JS) yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ]
+}

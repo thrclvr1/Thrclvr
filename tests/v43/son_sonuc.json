@@ -1,0 +1,177 @@
+{
+ "tarih": "2026-11-17T19:00:08.668Z",
+ "gecen": 34,
+ "toplam": 34,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V43.0 (V31.VER ve <meta name=\"app-version\">), index.html aynı dosya",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 müfredat/ilişki/sure-dua/yıllık plan ve 7 müzik bloğu V42.0 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "13 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı",
+   "ok": true,
+   "ayr": "yalnız v43.0"
+  },
+  {
+   "ad": "B1 Gece + Klasik açık + hafif mod kapalı: profil, ses, deneyim, arama panelleri opak koyu, başlık oranı ≥ 7 (V42’de 1.0–1.6 idi)",
+   "ok": true,
+   "ayr": "profil:rgb(27, 20, 14)/15.3 ses:rgb(27, 20, 14)/15.3 degistir:rgb(27, 20, 14)/15.3 arama:rgb(27, 20, 14)/15.3"
+  },
+  {
+   "ad": "B2 türetilmiş cam değişkeni (--gl3) Premium’da <body> düzeyinde, Premium yüzeyiyle hesaplanıyor",
+   "ok": true,
+   "ayr": "{\"gl3\":\"color-mix(in srgb,#1E1710 90%,transparent)\",\"sf\":\"#1E1710\"}"
+  },
+  {
+   "ad": "C1 varsayılan Premium teması Gece; Klasik tercihi açık olsa da Premium’da data-theme=dark",
+   "ok": true,
+   "ayr": "{\"pt\":\"gece\",\"th\":\"dark\",\"lite\":false,\"pref\":null,\"kt\":\"light\",\"view\":\"pdunya\"}"
+  },
+  {
+   "ad": "C2 koridorda güneş/ay düğmesi (≥44 px, erişilebilir ad)",
+   "ok": true,
+   "ayr": "{\"w\":44,\"h\":44,\"l\":\"Gündüz moduna geç\"}"
+  },
+  {
+   "ad": "C3 düğmeyle Gündüz: data-pt43=gunduz, data-theme=light, tercih kalıcı; Klasik tercihi (dk-theme) değişmedi",
+   "ok": true,
+   "ayr": "{\"pt\":\"gunduz\",\"th\":\"light\",\"lite\":false,\"pref\":\"gunduz\",\"kt\":\"light\",\"view\":\"pdunya\"}"
+  },
+  {
+   "ad": "C4 yeniden açılışta Gündüz, <body> çizilmeden önce uygulanıyor (beyaz/siyah parlama yok)",
+   "ok": true,
+   "ayr": "{\"pt\":\"gunduz\",\"th\":\"light\"}"
+  },
+  {
+   "ad": "C5 Klasik’e geçince Premium teması bırakılır, Klasik kendi tercihini kullanır (light)",
+   "ok": true,
+   "ayr": "{\"pt\":\"\",\"th\":\"light\",\"lite\":false,\"pref\":\"gunduz\",\"kt\":\"light\",\"view\":\"home\"}"
+  },
+  {
+   "ad": "C6 Klasik tercihi koyu iken Premium’a dönüş: Premium Gündüz korunur (tercihler bağımsız)",
+   "ok": true,
+   "ayr": "{\"pt\":\"gunduz\",\"th\":\"light\",\"lite\":false,\"pref\":\"gunduz\",\"kt\":\"dark\",\"view\":\"pdunya\"}"
+  },
+  {
+   "ad": "C7 profil: Gündüz / Gece / Otomatik seçici",
+   "ok": true,
+   "ayr": "[\"Gündüz:true\",\"Gece:false\",\"Otomatik:false\"]"
+  },
+  {
+   "ad": "C8 Otomatik: cihaz teması açıkken Gündüz, koyuya dönünce anında Gece",
+   "ok": true,
+   "ayr": "{\"o1\":\"gunduz\",\"o2\":\"gece\"}"
+  },
+  {
+   "ad": "C9 360 px: üst çubuklarda tema ve Klasik düğmeleri var, çakışma ve taşma yok",
+   "ok": true,
+   "ayr": "tamam"
+  },
+  {
+   "ad": "C9 390 px: üst çubuklarda tema ve Klasik düğmeleri var, çakışma ve taşma yok",
+   "ok": true,
+   "ayr": "tamam"
+  },
+  {
+   "ad": "C9 420 px: üst çubuklarda tema ve Klasik düğmeleri var, çakışma ve taşma yok",
+   "ok": true,
+   "ayr": "tamam"
+  },
+  {
+   "ad": "D gece: ders ekranının bütün sekmeleri (anlat, ozet, otuz, kod, hik, tab, kar, kart, oyun, test, sin, kay) krem kitap sayfasında, gövde yazısı koyu kahve (oran ≥ 7)",
+   "ok": true,
+   "ayr": "anlat:14.6 ozet:14.6 otuz:14.6 kod:13.2 hik:14.1 tab:8.4 kar:14.6 kart:8.4 oyun:8.4 test:8.4 sin:8.4 kay:14.6"
+  },
+  {
+   "ad": "D gunduz: ders ekranının bütün sekmeleri (anlat, ozet, otuz, kod, hik, tab, kar, kart, oyun, test, sin, kay) krem kitap sayfasında, gövde yazısı koyu kahve (oran ≥ 7)",
+   "ok": true,
+   "ayr": "anlat:14.6 ozet:14.6 otuz:14.6 kod:13.2 hik:14.1 tab:8.4 kar:14.6 kart:8.4 oyun:8.4 test:8.4 sin:8.4 kay:14.6"
+  },
+  {
+   "ad": "E gece: oyun kartı katmanları (sınıf·kapsam, başlık, konu, açıklama, öğe sayısı, kaynak durumu, giriş işareti) ayrı ve okunur (≥4.5)",
+   "ok": true,
+   "ayr": "{\"n\":3,\"ust\":\"5. sınıf · Konu\",\"bas\":\"Doğru cevabı bul\",\"konu\":\"Evrendeki Düzeni Fark Etmek\",\"say\":\"3 öğe\",\"durum\":[\"Kaynak kontrolünden geçti\",\"Editör onayı bekliyor\"],\"parca\":[true,true,true,true,true,true],\"bg\":\"rgb(30, 23, 16)\",\"oranlar\":[14.85,12.72,10.08,14.85,11.35]}"
+  },
+  {
+   "ad": "E gece: sınav (Kendini Dene) kartlarında başlık, açıklama ve sayı ≥ 4.5",
+   "ok": true,
+   "ayr": "12 yazı"
+  },
+  {
+   "ad": "E gunduz: oyun kartı katmanları (sınıf·kapsam, başlık, konu, açıklama, öğe sayısı, kaynak durumu, giriş işareti) ayrı ve okunur (≥4.5)",
+   "ok": true,
+   "ayr": "{\"n\":3,\"ust\":\"5. sınıf · Konu\",\"bas\":\"Doğru cevabı bul\",\"konu\":\"Evrendeki Düzeni Fark Etmek\",\"say\":\"3 öğe\",\"durum\":[\"Kaynak kontrolünden geçti\",\"Editör onayı bekliyor\"],\"parca\":[true,true,true,true,true,true],\"bg\":\"rgb(255, 251, 243)\",\"oranlar\":[15.74,12.61,8.5,15.74,6.68]}"
+  },
+  {
+   "ad": "E gunduz: sınav (Kendini Dene) kartlarında başlık, açıklama ve sayı ≥ 4.5",
+   "ok": true,
+   "ayr": "12 yazı"
+  },
+  {
+   "ad": "E Klasik oyun kartları değişmedi (yeni kart düzeni yalnız Premium’da)",
+   "ok": true,
+   "ayr": "{\"yeni\":0,\"eski\":3}"
+  },
+  {
+   "ad": "F gece: çalan parça adı belirgin, aktif satır altın 2 px kenar + “Çalıyor” rozeti, oynat/duraklat altın ve koyu simgeli, müzik çalıyor",
+   "ok": true,
+   "ayr": "{\"ad\":\"Kutsal Eşikte\",\"onKenar\":\"2px rgb(226, 183, 101)\",\"digerKenar\":\"1px\",\"rozet\":\"Çalıyor\",\"ppBg\":\"linear-gradient(rgb(242, 211, \",\"ppRenk\":\"rgb(11, 16, 32)\",\"t\":2.089796}"
+  },
+  {
+   "ad": "F gunduz: çalan parça adı belirgin, aktif satır altın 2 px kenar + “Çalıyor” rozeti, oynat/duraklat altın ve koyu simgeli, müzik çalıyor",
+   "ok": true,
+   "ayr": "{\"ad\":\"Kutsal Eşikte\",\"onKenar\":\"2px rgb(122, 80, 18)\",\"digerKenar\":\"1px\",\"rozet\":\"Çalıyor\",\"ppBg\":\"linear-gradient(rgb(242, 211, \",\"ppRenk\":\"rgb(26, 18, 6)\",\"t\":2.113016}"
+  },
+  {
+   "ad": "G gece 360 px klavye benzetimi: başlık + kapat + giriş alanı görünür (sonuçlar kaydırılırken giriş sabit), yazılan okunur, uzun liste kayar",
+   "ok": true,
+   "ayr": "{\"deger\":\"de\",\"odak\":true,\"girdi\":true,\"baslik\":true,\"kapat\":true,\"kaydi\":true,\"sonuc\":40,\"renk\":\"rgb(243, 234, 219)\",\"bg\":\"rgb(42, 32, 22)\",\"oran\":\"13.4\"}"
+  },
+  {
+   "ad": "G gece 412 px klavye benzetimi: başlık + kapat + giriş alanı görünür (sonuçlar kaydırılırken giriş sabit), yazılan okunur, uzun liste kayar",
+   "ok": true,
+   "ayr": "{\"deger\":\"de\",\"odak\":true,\"girdi\":true,\"baslik\":true,\"kapat\":true,\"kaydi\":true,\"sonuc\":40,\"renk\":\"rgb(243, 234, 219)\",\"bg\":\"rgb(42, 32, 22)\",\"oran\":\"13.4\"}"
+  },
+  {
+   "ad": "G gunduz 360 px klavye benzetimi: başlık + kapat + giriş alanı görünür (sonuçlar kaydırılırken giriş sabit), yazılan okunur, uzun liste kayar",
+   "ok": true,
+   "ayr": "{\"deger\":\"de\",\"odak\":true,\"girdi\":true,\"baslik\":true,\"kapat\":true,\"kaydi\":true,\"sonuc\":40,\"renk\":\"rgb(42, 30, 18)\",\"bg\":\"rgb(244, 234, 218)\",\"oran\":\"13.6\"}"
+  },
+  {
+   "ad": "G gunduz 412 px klavye benzetimi: başlık + kapat + giriş alanı görünür (sonuçlar kaydırılırken giriş sabit), yazılan okunur, uzun liste kayar",
+   "ok": true,
+   "ayr": "{\"deger\":\"de\",\"odak\":true,\"girdi\":true,\"baslik\":true,\"kapat\":true,\"kaydi\":true,\"sonuc\":40,\"renk\":\"rgb(42, 30, 18)\",\"bg\":\"rgb(244, 234, 218)\",\"oran\":\"13.6\"}"
+  },
+  {
+   "ad": "H1 Premium ders → Klasik (konu, Klasik teması) → geri: Premium ders Gündüz’de → geri: sınıf merkezi",
+   "ok": true,
+   "ayr": "{\"a\":\"topic/light\",\"g1\":\"pders/gunduz\",\"g2\":\"psinif\"}"
+  },
+  {
+   "ad": "H2 seçim ekranı açıkken geri: yalnız seçim ekranı kapanır",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "H3 yeni ve güncellenen düğmelerin dokunma alanı ≥ 44 px (yükseklik)",
+   "ok": true,
+   "ayr": "[]"
+  },
+  {
+   "ad": "I denetim v2 (tam kaydırma; hafif mod açık/kapalı; Klasik açık/koyu; Premium Gündüz/Gece) bu derleme için: AA altı 0",
+   "ok": true,
+   "ayr": "{\"md5Eslesir\":true,\"baglam\":167,\"yazi\":7594,\"aaAlti\":0}"
+  },
+  {
+   "ad": "J sayfa hatası (JS) yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ]
+}

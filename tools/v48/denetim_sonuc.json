@@ -1,0 +1,4402 @@
+{
+ "dosya": "index.html",
+ "md5": "0e0a20c48d4358c67adca5fbd1faef83",
+ "tarih": "2026-11-18T11:20:27.490Z",
+ "baglam": 332,
+ "yazi": 12420,
+ "aaAlti": 2,
+ "sonuc": [
+  {
+   "ekran": "p:koridor",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:koridor",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:koridor",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:koridor",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:yardim",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:yardim",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:yardim",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:yardim",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 13,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ses",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ses",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ses",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ses",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ses-calar",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 37,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ses-calar",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 37,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ses-calar",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 37,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ses-calar",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 37,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:tum-sesler",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:tum-sesler",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:tum-sesler",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:tum-sesler",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:arama",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 7,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:arama",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 7,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:arama",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 7,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:arama",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 7,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:degistir",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:degistir",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:degistir",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:degistir",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:sinif",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 49,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:sinif",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 49,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:sinif",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 49,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:sinif",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 49,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:unite",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:unite",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:unite",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:unite",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-anlat",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 65,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-anlat",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 65,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-anlat",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 65,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-anlat",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 65,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-ozet",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 40,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-ozet",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 40,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-ozet",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 40,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-ozet",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 40,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-otuz",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-otuz",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-otuz",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-otuz",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-kod",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-kod",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-kod",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-kod",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-hik",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 36,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-hik",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 36,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-hik",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 36,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-hik",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 36,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-tab",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-tab",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-tab",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-tab",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-kar",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 66,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-kar",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 66,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-kar",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 66,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-kar",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 66,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-sin",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-sin",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-sin",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-sin",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-test",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 28,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-test",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 28,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-test",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 28,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ders-test",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 28,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ozet",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ozet",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ozet",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ozet",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ilerleme",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 44,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ilerleme",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 44,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ilerleme",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 44,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ilerleme",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 44,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:favoriler",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:favoriler",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:favoriler",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:favoriler",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-merkezi",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 56,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-merkezi",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 56,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-merkezi",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 56,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-merkezi",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 56,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-giris",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-giris",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-giris",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-giris",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-menu",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 6,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-menu",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 6,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-menu",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 6,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-menu",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 6,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyunlar",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 166,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyunlar",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 166,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyunlar",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 166,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyunlar",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 166,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-listesi",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 73,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-listesi",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 73,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-listesi",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 73,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-listesi",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 73,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dene",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 16,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dene",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 16,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dene",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 16,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dene",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 16,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mini-test-kur",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mini-test-kur",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mini-test-kur",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mini-test-kur",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-merkezi-44",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 56,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-merkezi-44",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 56,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-merkezi-44",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 56,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:oyun-merkezi-44",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 56,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-bolum",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 16,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-bolum",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 16,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-bolum",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 16,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-bolum",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 16,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-giris",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-giris",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-giris",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-giris",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 18,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-sira",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-sira",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-sira",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:zaman-sira",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:lab-bolum",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 124,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:lab-bolum",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 124,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:lab-bolum",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 124,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:lab-bolum",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 124,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:lab-gorev",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 15,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:lab-gorev",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 15,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:lab-gorev",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 15,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:lab-gorev",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 15,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:giris-44",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 7,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:giris-44",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 7,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:giris-44",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 7,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:giris-44",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 7,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-secim",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-secim",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-secim",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-secim",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 41,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-harita",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-harita",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-harita",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-harita",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-bolge",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-bolge",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-bolge",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-bolge",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-not",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-not",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-not",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-not",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-soru",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-soru",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-soru",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-soru",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-bulmaca",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-bulmaca",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-bulmaca",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-bulmaca",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-kapi",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 26,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-kapi",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 26,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-kapi",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 26,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:dunya-kapi",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 26,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calis",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 85,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calis",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 85,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calis",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 85,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calis",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 85,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-alan",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-alan",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-alan",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-alan",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-tema",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-tema",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-tema",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-tema",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-hareket",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-hareket",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-hareket",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-hareket",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-ses",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 44,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-ses",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 44,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-ses",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 44,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-ses",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 44,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-atmosfer",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-atmosfer",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-atmosfer",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:ayar-atmosfer",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 39,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 39,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 39,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:profil",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 39,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:acilis-giris",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:acilis-giris",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:acilis-giris",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:acilis-giris",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-secim",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-secim",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-secim",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-secim",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-giris",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-giris",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-giris",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-giris",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 17,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-bulmaca",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-bulmaca",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-bulmaca",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-bulmaca",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:hesap-sunucu",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 6,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:hesap-sunucu",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 6,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:hesap-sunucu",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 6,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:hesap-sunucu",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 6,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-bulmaca-alt",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-bulmaca-alt",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-bulmaca-alt",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:kut-bulmaca-alt",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mini-test-soru",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mini-test-soru",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mini-test-soru",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:mini-test-soru",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 22,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:sinav-rehberi",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 109,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:sinav-rehberi",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 109,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:sinav-rehberi",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 109,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:sinav-rehberi",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 109,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:pekistir",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 36,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:pekistir",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 36,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:pekistir",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 36,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:pekistir",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 36,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calisma-masasi",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calisma-masasi",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calisma-masasi",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:calisma-masasi",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 21,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:bildirim-icerik",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:bildirim-icerik",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:bildirim-icerik",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:bildirim-icerik",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:bildirim-soru",
+   "pt": "gece",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:bildirim-soru",
+   "pt": "gece",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gece",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:bildirim-soru",
+   "pt": "gunduz",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "p:bildirim-soru",
+   "pt": "gunduz",
+   "kt": "dark",
+   "lite": true,
+   "durum": {
+    "pt": "gunduz",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ana",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:siniflar",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:siniflar",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:siniflar",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:sinif5",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 139,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:sinif5",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 139,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:sinif5",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 139,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:konu",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 69,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:konu",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 69,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:konu",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 69,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:konu-test",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 43,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:konu-test",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 43,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:konu-test",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 43,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:oyunlar",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 205,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:oyunlar",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 205,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:oyunlar",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 205,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:dene",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:dene",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:dene",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 20,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:pek",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 40,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:pek",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 40,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:pek",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 40,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:sd",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:sd",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:sd",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 58,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayarlar",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayarlar",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayarlar",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ses",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ses",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ses",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 35,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ogretmen-ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ogretmen-ana",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ogretmen-ana",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:veri-yetki",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:veri-yetki",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:veri-yetki",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 12,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:calis",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Henüz çalışılmadı",
+     "s": "small",
+     "oran": 3.87,
+     "esik": 4.5,
+     "fg": [
+      74,
+      86,
+      112
+     ],
+     "bg": [
+      187,
+      188,
+      192
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 81,
+    "kotu": [
+     {
+      "m": "Henüz çalışılmadı",
+      "s": "small",
+      "oran": 3.87,
+      "esik": 4.5,
+      "fg": [
+       74,
+       86,
+       112
+      ],
+      "bg": [
+       187,
+       188,
+       192
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:calis",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:calis",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 81,
+   "hata": [],
+   "kotu": [
+    {
+     "m": "Henüz çalışılmadı",
+     "s": "small",
+     "oran": 3.87,
+     "esik": 4.5,
+     "fg": [
+      74,
+      86,
+      112
+     ],
+     "bg": [
+      187,
+      188,
+      192
+     ]
+    }
+   ],
+   "ilkOlcum": {
+    "n": 81,
+    "kotu": [
+     {
+      "m": "Henüz çalışılmadı",
+      "s": "small",
+      "oran": 3.87,
+      "esik": 4.5,
+      "fg": [
+       74,
+       86,
+       112
+      ],
+      "bg": [
+       187,
+       188,
+       192
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ekran": "k:ayar-alan",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-alan",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-alan",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 23,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-tema",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-tema",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-tema",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-hareket",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-hareket",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-hareket",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 25,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-ses",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 48,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-ses",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 48,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-ses",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 48,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-atmosfer",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-atmosfer",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:ayar-atmosfer",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 27,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:atmosfer",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:atmosfer",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:atmosfer",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 34,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:profil",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 43,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:profil",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 43,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:profil",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 43,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:hesap-sunucu",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 5,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:hesap-sunucu",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 5,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:hesap-sunucu",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 5,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:arama",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 67,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:arama",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 67,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:arama",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 67,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:degistir",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:degistir",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:degistir",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 9,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirim-icerik",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirim-icerik",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirim-icerik",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirim-soru",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirim-soru",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirim-soru",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 19,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirim-merkezi",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 62,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirim-merkezi",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 62,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirim-merkezi",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 62,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirimlerim",
+   "pt": "-",
+   "kt": "light",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 50,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirimlerim",
+   "pt": "-",
+   "kt": "dark",
+   "lite": false,
+   "durum": {
+    "pt": "",
+    "th": "dark"
+   },
+   "n": 50,
+   "hata": [],
+   "kotu": []
+  },
+  {
+   "ekran": "k:bildirimlerim",
+   "pt": "-",
+   "kt": "light",
+   "lite": true,
+   "durum": {
+    "pt": "",
+    "th": "light"
+   },
+   "n": 50,
+   "hata": [],
+   "kotu": []
+  }
+ ]
+}

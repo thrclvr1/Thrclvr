@@ -1,0 +1,35 @@
+/* ===================== V51.8: Altın Mod “Çok yakında” ekranı ve rozetleri ===================== */
+/* seçim ekranının (#uye39, 9000) ve rehber tanıtımının (9500) da üstünde */
+html.yk518-kilit,html.yk518-kilit body{overflow:hidden}
+.yk518{position:fixed;inset:0;z-index:9600;display:flex;align-items:center;justify-content:center;box-sizing:border-box;padding:max(16px,env(safe-area-inset-top)) 16px max(16px,env(safe-area-inset-bottom));
+ background:radial-gradient(120% 80% at 50% 38%,rgba(70,46,12,.96) 0%,rgba(20,14,6,.97) 48%,rgba(6,5,3,.98) 100%);color:#f6ecd4;font-family:var(--sans,system-ui,sans-serif);animation:yk518g .32s ease-out}
+.yk518-kv{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.yk518-kv i{position:absolute;left:var(--x);top:var(--y);width:var(--b);height:var(--b);border-radius:50%;background:radial-gradient(circle,#fff3cf 0,#e9bd62 45%,rgba(233,189,98,0) 72%);opacity:.0;animation:yk518p 5.5s ease-in-out var(--g) infinite}
+.yk518-k{position:relative;box-sizing:border-box;width:min(440px,100%);max-height:calc(var(--vvh42,100dvh) - 32px);overflow-y:auto;overscroll-behavior:contain;text-align:center;
+ padding:22px 22px 20px;border-radius:26px;background:linear-gradient(180deg,rgba(38,27,12,.92),rgba(18,13,7,.94));
+ border:1px solid rgba(233,196,120,.55);box-shadow:0 0 0 1px rgba(0,0,0,.4),0 24px 60px rgba(0,0,0,.55),0 0 80px rgba(233,180,90,.18) inset}
+.yk518-x{position:absolute;z-index:2;top:8px;right:8px;width:44px;height:44px;border-radius:50%;border:0;background:transparent;color:#f1d79a;font-size:1.7rem;line-height:1;cursor:pointer}
+.yk518-x:hover{background:rgba(241,215,154,.1)}
+.yk518-g{display:flex;justify-content:center;margin:6px 0 4px;filter:drop-shadow(0 0 22px rgba(241,198,106,.45))}
+.yk518-svg{display:block;width:clamp(110px,32vw,150px);height:auto}
+.yk518-e{margin:4px 0 2px;font-weight:700;font-size:.9rem;letter-spacing:.32em;color:#e8c47a}
+.yk518-h{position:relative;margin:2px 0 10px;font-family:var(--serif,Georgia,serif);font-weight:700;font-size:clamp(2rem,9vw,2.7rem);line-height:1.1;letter-spacing:.02em;
+ background:linear-gradient(100deg,#c9963f 0%,#f7e3ad 30%,#fffbe9 45%,#f1c66a 60%,#b9862f 100%);background-size:220% 100%;background-position:100% 0;-webkit-background-clip:text;background-clip:text;color:transparent;animation:yk518s 2.4s ease-out .3s 1 both}
+.yk518-m{margin:0 auto 18px;max-width:34ch;font-size:1.05rem;line-height:1.55;color:#f3e7cc}
+.yk518-p{display:block;width:100%;text-wrap:balance;min-height:52px;padding:10px 18px;border-radius:16px;border:0;cursor:pointer;font:700 1.02rem var(--sans,system-ui,sans-serif);
+ background:linear-gradient(180deg,#f2d28c,#c4913f);color:#1a1206;box-shadow:0 6px 18px rgba(196,145,63,.35)}
+.yk518-p:hover{filter:brightness(1.05)}
+.yk518 :focus-visible{outline:3px solid #fff3cf;outline-offset:3px}
+@keyframes yk518g{from{opacity:0}to{opacity:1}}
+@keyframes yk518p{0%,100%{opacity:0;transform:translateY(0)}50%{opacity:.85;transform:translateY(-10px)}}
+@keyframes yk518s{from{background-position:100% 0}to{background-position:0 0}}
+@media (prefers-reduced-motion:reduce){.yk518,.yk518-h{animation:none}.yk518-h{background-position:30% 0}.yk518-kv i{animation:none;opacity:.5}}
+html.nomotion .yk518,html.nomotion .yk518-h{animation:none}html.nomotion .yk518-kv i{animation:none;opacity:.5}
+@media (max-height:560px){.yk518-g{display:none}.yk518-k{padding-top:18px}}
+/* “Çok yakında” rozeti: Altın kartlarında (Mod paneli, Profilim, Ayarlar, seçim ekranı, Elmas Oyunlar) */
+.yk518-rz{display:inline-block;margin:2px 0 0 6px;padding:2px 10px;border-radius:999px;font-style:normal;font-weight:700;font-size:.78rem;letter-spacing:.02em;
+ background:linear-gradient(180deg,#f2d28c,#c4913f);color:#1a1206;vertical-align:middle}
+em.mk50-gec.yk518-rz{margin-left:0}
+.o42-ets .yk518-rz{margin-left:8px}
+/* seçim ekranı açıkken diğer öğeler gizlenir (V42 kuralı); “Çok yakında” ekranı onun üstünde görünür kalır */
+html.uye39-acik body>#yk518.yk518:not(#yk518-a):not(#yk518-b){visibility:visible!important}

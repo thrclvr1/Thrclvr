@@ -1,0 +1,16 @@
+/* ===================== V40.2: WebGL koridor katmanı =====================
+   Koridor tek <canvas> üzerinde çizilir; kapılar bu yüzeyin üstünde saydam, gerçek düğmelerdir.
+   WebGL yoksa .gl sınıfı eklenmez ve V40.1 CSS koridoru aynen çalışır. */
+.kam40.gl{left:0;top:0;width:100%;height:100%;perspective:none}
+.kam40.gl .gl40{position:absolute;left:0;top:0;width:100%;height:100%;display:block;pointer-events:none}
+.kam40.gl .k40.g{position:absolute;display:block;background:transparent;border:0;padding:0;margin:0;transform:none;cursor:pointer;pointer-events:auto;border-radius:48% 48% 3px 3px/24% 24% 3px 3px;-webkit-tap-highlight-color:transparent}
+.kam40.gl .k40.g.gz{left:0;top:0;width:1px;height:1px;opacity:0;pointer-events:none}
+.kam40.gl .k40.g:focus-visible{outline:3px solid #E2B765;outline-offset:3px;box-shadow:0 0 0 6px rgba(20,13,8,.55)}
+/* hafif kenar gölgesi: yüzeyler aydınlık olduğu için yalnızca üst/alt arayüzün okunması için */
+.sahne40.gl .hava40{background:linear-gradient(180deg,rgba(20,12,6,.22),transparent 14%,transparent 80%,rgba(20,12,6,.30))}
+.sahne40.gl{background:#efe2c8}
+/* üst çubuk ve bilgi kartı: bulanıklık filtresi yerine opak cam (telefonda ek GPU katmanı oluşturmaz) */
+.sahne40.gl .ust40{-webkit-backdrop-filter:none;backdrop-filter:none;background:linear-gradient(180deg,rgba(26,17,10,.94),rgba(26,17,10,.86))}
+.sahne40.gl .bil40{-webkit-backdrop-filter:none;backdrop-filter:none;background:rgba(28,19,12,.9)}
+.sahne40.gl .alt40{background:linear-gradient(0deg,rgba(20,13,8,.9),rgba(20,13,8,.72) 62%,rgba(20,13,8,0))}
+.yuk40{position:absolute;z-index:3;left:50%;top:44%;transform:translate(-50%,-50%);padding:10px 16px;border-radius:14px;background:rgba(28,19,12,.88);color:#f6dca6;font:600 .9rem Literata,Georgia,serif;pointer-events:none;font-style:normal}

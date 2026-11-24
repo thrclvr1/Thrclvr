@@ -1,0 +1,87 @@
+{
+ "tarih": "2026-11-24T10:03:21.315Z",
+ "gecen": 16,
+ "toplam": 16,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V51.9, index.html aynı; veri/müzik/görsel blokları V51.8 ile bayt bayt aynı; önceki sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 HTML’de yönetici e-postası, Gmail adresi, açık PIN ya da gizli anahtar yok; geçiş ayarı GECIS:true, varsayılan sunucu boş",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "T1 Yönetici girişi iki adım: önce “Google ile doğrula” (PIN tuş takımı yok), yönetici hesabıyla doğrulanınca “Adım 2/2 · Editör PIN’i” ve “Google ile doğrulandı”; PIN sonrası Editör Onay Alanı açılır",
+   "ok": true,
+   "a": "{\"d0\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Yönetici olarak tanımlı Google h\",\"d1\":\"ADIM 2 / 2 · EDİTÖR PIN'İ Editör Onay Alanı ✓ Google ile doğrulandı: Platform Yöneticisi 6 haneli editör PIN'ini gir. Ed\",\"d2\":{\"edOk\":true,\"ed\":true}}"
+  },
+  {
+   "ad": "T4 Google hesabından çıkılınca yönetici (editör) oturumu da kapanır; editör alanı yeniden Google doğrulaması ister",
+   "ok": true,
+   "a": "{\"d3\":{\"edOk\":false,\"kayit\":null},\"d4\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Yönetici ola\"}"
+  },
+  {
+   "ad": "T2 Yönetici listesinde olmayan Google hesabı: “yönetici olarak tanımlı değil”, PIN ve PIN sıfırlama açılmaz; “Başka Google hesabıyla giriş” ile yönetici hesabına geçilince PIN adımı gelir",
+   "ok": true,
+   "a": "{\"d1\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Bu Google hesabı (Ayşe Öğrenci) yönetici olarak tanımlı değil. Yöneticil\",\"z\":{\"adim1\":true,\"reset\":false},\"d2\":\"ADIM 2 / 2 · EDİTÖR PIN'İ Editör Onay Alanı ✓ Google ile doğrulandı: Platform Yöneticisi 6 haneli ed\"}"
+  },
+  {
+   "ad": "T3 Eski (yalnız PIN) editör oturumu Google doğrulaması olmadan editör alanını açmaz",
+   "ok": true,
+   "a": "{\"d\":{\"edOk\":false},\"d1\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Yönetici ola\"}"
+  },
+  {
+   "ad": "T5 Geçiş dönemi: sunucu adresi girilmemiş cihazda “henüz kurulmadı” açıklaması ve “PIN ile devam et”; PIN ekranında geçiş uyarısı; sunucu adresi girildiği anda yalnız-PIN oturumu geçersizleşir",
+   "ok": true,
+   "a": "{\"d0\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Google doğrulaması için hesap sunucusu henüz kurulmadı. Kurulum tamamlan\",\"d1\":\"ADIM 2 / 2 · EDİTÖR PIN'İ Editör Onay Alanı Geçiş dönemi: Google doğrulaması henüz kurulmadı; yalnız PIN ile giriliyor. \",\"d3\":{\"edOk\":false,\"izin\":false}}"
+  },
+  {
+   "ad": "T6 Bu cihazda daha önce Google ile yönetici doğrulaması yapıldıysa geçiş dönemi (yalnız PIN) seçeneği görünmez",
+   "ok": true,
+   "a": "ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Google doğrulaması için hesap sunucusu henüz kurulmadı. Kurulum tamamlanınca yönetici girişi Google hesabı + PIN"
+  },
+  {
+   "ad": "T7 Sunucuya ulaşılamazsa yönetici alanı açılmaz (PIN ve geçiş seçeneği yok); “Yeniden dene” sunulur",
+   "ok": true,
+   "a": "ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Sunucuya ulaşılamadı. Google doğrulaması yapılmadan yönetici alanı açılmaz. İnternet bağlantısını ya da sunucuyu"
+  },
+  {
+   "ad": "T8a Açılış ekranında “Google ile giriş”, “Misafir olarak devam et” ve “Yönetici girişi (Google + PIN)” var; sunucu kurulmadıysa Google düğmesi öğrenciden adres istemez, “henüz açılmadı, misafir olarak devam edebilirsin” der; misafir olarak Elmas açılır",
+   "ok": true,
+   "a": "{\"s\":{\"g\":true,\"m\":true,\"y\":\" Yönetici girişi (Google + PIN)\"},\"yok\":\"Google ile giriş Google ile giriş henüz açılmadı. Şimdilik misafir olarak devam edebilirsin; ilerlemen bu cihazda saklanır. Google girişi aç\",\"m\":{\"view\":\"home\",\"uye\":false,\"mod\":\"misafir\",\"misafir\":1}}"
+  },
+  {
+   "ad": "T8b Açılış ekranında “Google ile giriş” penceresi açılış ekranının ÜSTÜNDE görünür (V51.8 ve öncesinde arkasında kalıyordu); öğrenci Google ile giriş yapar (sunucu belgeyi doğrular); öğrenci hesabı yönetici alanını açamaz",
+   "ok": true,
+   "a": "{\"ust\":true,\"g\":{\"mod\":\"google\",\"ad\":\"Ayşe Öğrenci\",\"roller\":[\"ogrenci\"],\"edOk\":false},\"d\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Bu Google hesabı (Ayşe Öğrenci) \"}"
+  },
+  {
+   "ad": "T9 Mod paneli › “Yönetici / Editör girişi (Google + PIN)” yönetici girişinin 1. adımını açar",
+   "ok": true,
+   "a": "{\"et\":\"Yönetici / Editör girişi (Google + PIN)\",\"d\":\"ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Yönetici ola\"}"
+  },
+  {
+   "ad": "T10 Öğrenci (Elmas) ve öğretmen ekranları V51.8 ile birebir aynı HTML’i üretir (ana sayfa, sınıflar, konu, arama, oyunlar, Çalışmam, Profilim, öğretmen paneli)",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "T11 Sunucu: yönetici hesabının rolü “editor”; yönetici uç noktası yöneticiye 200, öğrenciye 403; imzası bozuk belge reddedilir (401)",
+   "ok": true,
+   "a": "{\"roller\":[\"ogrenci\",\"editor\"]}"
+  },
+  {
+   "ad": "T12 Yönetici giriş ekranı 360, 412 ve 768 genişlikte taşmaz; düğme en az 44 px",
+   "ok": true,
+   "a": "[{\"w\":360,\"tasma\":false,\"icinde\":true,\"dugme\":48},{\"w\":412,\"tasma\":false,\"icinde\":true,\"dugme\":48},{\"w\":768,\"tasma\":false,\"icinde\":true,\"dugme\":48}]"
+  },
+  {
+   "ad": "T13 Bütün senaryolarda JavaScript hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}

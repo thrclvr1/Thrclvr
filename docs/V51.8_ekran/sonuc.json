@@ -1,0 +1,122 @@
+{
+ "tarih": "2026-11-22T08:27:12.263Z",
+ "gecen": 23,
+ "toplam": 23,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V51.8, index.html aynı; veri/müzik/görsel blokları V51.7 ile bayt bayt aynı; önceki sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 Altın silinmedi: V51.7’nin bütün kodu V51.8’de aynen duruyor (yalnız V51.Altin modülü ve CSS eklendi); tek merkezi ayar ACIK:false",
+   "ok": true,
+   "a": "{\"ekli\":19029}"
+  },
+  {
+   "ad": "T1 Ana ekrandaki Mod düğmesi › Altın Sınıfı kartı: kartta “Çok yakında” rozeti; dokununca “ALTIN MOD · ÇOK YAKINDA...” ekranı açılır, panel kapanır, mod Elmas kalır",
+   "ok": true,
+   "a": "{\"d\":{\"view\":\"home\",\"on\":false,\"yk\":true,\"kaynak\":\"V50.Mod.gec\",\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"normal\",\"ss\":null},\"metin\":{\"e\":\"ALTIN MOD\",\"h\":\"ÇOK YAKINDA...\",\"m\":\"Yeni bir öğrenme deneyimi için hazırlıklarımız devam ediyor. Altın Mod çok yakında seninle!\",\"b\":\"Elmas Mod ile öğrenmeye devam et\",\"odak\":\"yk518-p\",\"panel\":false}}"
+  },
+  {
+   "ad": "T1b Escape ve × ekranı kapatır; uygulama Elmas ana sayfasında kalır",
+   "ok": true,
+   "a": "{\"view\":\"home\",\"on\":false,\"yk\":false,\"kaynak\":null,\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"normal\",\"ss\":null}"
+  },
+  {
+   "ad": "T2 Başka ekranlardan Altın’a geçiş (Profilim mod kartı, Ayarlar › Öğrenme alanı, Elmas Oyunlar › Oyun Dünyası kartı, Kullanım Rehberi › Altın rehberi, eski geçiş işlevleri, Elmas oyun onay ekranının “Altın’da aç”ı) hep aynı ekranı açar; hiçbirinde Altın açılmaz",
+   "ok": true,
+   "a": "{\"profilRozet\":true,\"profil\":\"ekran/profil46/elmas\",\"ayar\":\"ekran/ayar47/elmas\",\"dunyaYazi\":\"Kayıp Bilgeliğin Kütüphanesi, Sınıf Dünyaları, Zamanın İzinde, Bilgi Laboratuvarı · Altın Öğrenme Alanı Çok yakında\",\"dunya\":\"ekran/games/elmas\",\"dunyaDevam\":\"YOK/games/elmas\",\"rehberDurum\":\"Çok yakında\",\"rehber\":\"ekran/games/elmas\",\"rehberModal\":false,\"V42.gec\":\"ekran/games/elmas\",\"V39.toPremium\":\"ekran/games/elmas\",\"V50.Mod.gec\":\"ekran/games/elmas\",\"V47.alanSec\":\"ekran/games/elmas\",\"altindaAc\":\"ekran/games/elmas\",\"onYaz\":false}"
+  },
+  {
+   "ad": "T6a “Elmas Mod ile öğrenmeye devam et” (Elmas Oyunlar ekranından): ekran kapanır, kullanıcı Elmas Oyunlar’da kalır",
+   "ok": true,
+   "a": "{\"view\":\"games\",\"on\":false,\"yk\":false,\"kaynak\":null,\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"normal\",\"ss\":null}"
+  },
+  {
+   "ad": "T3 Doğrudan rota denemeleri (pdunya, psinif, punite, pders, pozet, poyun, poyna) engellenir: Altın ekranı çizilmez, Elmas karşılığı açılır (sınıf/konu korunur) ve “Çok yakında” gösterilir",
+   "ok": true,
+   "a": "{\"pdunya\":{\"ok\":true,\"view\":\"home\"},\"psinif\":{\"ok\":true,\"view\":\"grade\",\"g\":5},\"punite\":{\"ok\":true,\"view\":\"grade\",\"g\":5},\"pders\":{\"ok\":true,\"view\":\"topic\",\"g\":5,\"t\":\"TPC-5-2-02\"},\"pozet\":{\"ok\":true,\"view\":\"grade\",\"g\":6,\"t\":\"TPC-5-2-02\"},\"poyun\":{\"ok\":true,\"view\":\"games\",\"g\":6,\"t\":\"TPC-5-2-02\"},\"poyna\":{\"ok\":true,\"view\":\"games\",\"g\":6,\"t\":\"TPC-5-2-02\"}}"
+  },
+  {
+   "ad": "T3b Elmas Profilim’in “Sınıf sınıf ilerleme” ve “Favorilerim” ekranları (pilerleme, pfav) Elmas bileşenleriyle açılmaya devam eder; engellenmez",
+   "ok": true,
+   "a": "{\"il\":{\"v\":\"pilerleme\",\"il\":true,\"yk\":false,\"on\":false},\"fv\":{\"v\":\"pfav\",\"fv\":true,\"yk\":false,\"on\":false}}"
+  },
+  {
+   "ad": "T4 Altın’ı hatırlayan kullanıcı uygulamayı açınca Elmas ana sayfası + “Çok yakında” ekranı; yenilemede de Altın kapalı kalır; kayıtlı tercih kendiliğinden silinmez",
+   "ok": true,
+   "a": "{\"a1\":{\"view\":\"home\",\"on\":false,\"yk\":true,\"kaynak\":\"rota:pdunya\",\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"premium\",\"ss\":null},\"a2\":{\"view\":\"home\",\"on\":false,\"yk\":true,\"kaynak\":\"rota:pdunya\",\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"premium\",\"ss\":null}}"
+  },
+  {
+   "ad": "T4b “Elmas Mod ile öğrenmeye devam et” seçimi Elmas tercihini kaydeder; sonraki açılışta ekran yeniden çıkmaz",
+   "ok": true,
+   "a": "{\"a3\":{\"view\":\"home\",\"on\":false,\"yk\":false,\"kaynak\":null,\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"normal\",\"ss\":null},\"a4\":{\"view\":\"home\",\"on\":false,\"yk\":false,\"kaynak\":null,\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"normal\",\"ss\":null}}"
+  },
+  {
+   "ad": "T4c Önceki oturumdan kalan Altın bayrağı (sessionStorage dk-deneyim39-aktif) Altın’ı açmaz; bayrak temizlenir",
+   "ok": true,
+   "a": "{\"view\":\"home\",\"on\":false,\"yk\":true,\"kaynak\":\"rota:pdunya\",\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"normal\",\"ss\":null}"
+  },
+  {
+   "ad": "T6b Açılış seçim ekranı: Altın kartında “Çok yakında” rozeti ve düğmesi; dokununca aynı ekran seçim ekranının üstünde açılır; “Elmas Mod ile öğrenmeye devam et” Elmas ana sayfasını açar",
+   "ok": true,
+   "a": "{\"r\":{\"b\":\"Çok yakında\",\"rz\":true},\"d1\":{\"view\":\"home\",\"on\":false,\"yk\":true,\"kaynak\":\"V39.toPremium\",\"prem\":false,\"altinDom\":false,\"uye\":true,\"mod\":\"elmas\",\"son\":\"\",\"ss\":null},\"d2\":{\"view\":\"home\",\"on\":false,\"yk\":false,\"kaynak\":null,\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"normal\",\"ss\":null}}"
+  },
+  {
+   "ad": "T5 Geri tuşu: “Çok yakında” açıkken geri tuşu yalnız ekranı kapatır (aynı sayfada kalınır); engellenen rotadan sonra geri/ileri hep Elmas ekranlarına döner, hiçbir adımda Altın ya da boş ekran yok",
+   "ok": true,
+   "a": "[\"[ÇY] grade\",\"grade\",\"[ÇY] grade\",\"grade\",\"grade\",\"classes\",\"classes\"]"
+  },
+  {
+   "ad": "T6c Öğretmen Modu’ndan Altın’a geçiş denemesi aynı ekranı açar; “Elmas Mod ile öğrenmeye devam et” Elmas Sınıfı’na geçirir",
+   "ok": true,
+   "a": "{\"o1\":{\"view\":\"ogretmen\",\"og\":true,\"mod\":\"ogretmen\"},\"o2\":{\"view\":\"ogretmen\",\"on\":false,\"yk\":true,\"kaynak\":\"V50.Mod.gec\",\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"ogretmen\",\"son\":\"normal\",\"ss\":null},\"o3\":{\"view\":\"home\",\"on\":false,\"yk\":false,\"kaynak\":null,\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"normal\",\"ss\":null}}"
+  },
+  {
+   "ad": "T7 Elmas Mod korunur: ana sayfa, Sınıflar, sınıf sayfaları, konu anlatımı, arama, bilgi kartları, Çalışmam, ilerleme, favoriler, sureler-dualar V51.7 ile birebir aynı HTML’i üretir",
+   "ok": true,
+   "a": "{\"fark\":[],\"ekran\":11}"
+  },
+  {
+   "ad": "T7b Elmas konu ekranı: anlatım, konu sonu geçişi ve mini test çalışır",
+   "ok": true,
+   "a": "{\"kg\":{\"kg\":true,\"metin\":2228},\"test\":true,\"mt\":4,\"geri\":true}"
+  },
+  {
+   "ad": "T8 Ortak Etkinlik Oyunları Elmas’ta açılır ve oynanır (oyun listesi + oyun ekranları); Altın’a geçmez, “Çok yakında” çıkmaz",
+   "ok": true,
+   "a": "{\"n\":525,\"g\":{\"view\":\"game\",\"on\":false,\"yk\":false,\"icerik\":299},\"oyun\":3}"
+  },
+  {
+   "ad": "T9 Öğretmen Modu etkilenmez: panel, sekmeler, öğretmen görünümünde konu ve Öğretmen Araması V51.7 ile aynı çalışır",
+   "ok": true,
+   "a": "{\"o7\":{\"panel\":27,\"sekmeler\":[\"Haftalık\",\"Sınıflarım\",\"Araçlar\"],\"gorunum\":{\"view\":\"topic\",\"kip\":\"ogretmen\",\"on\":false},\"ara\":{\"view\":\"ogara\",\"n\":0}},\"o8\":{\"panel\":27,\"sekmeler\":[\"Haftalık\",\"Sınıflarım\",\"Araçlar\"],\"gorunum\":{\"view\":\"topic\",\"kip\":\"ogretmen\",\"on\":false},\"ara\":{\"view\":\"ogara\",\"n\":0}}}"
+  },
+  {
+   "ad": "T10 Kullanıcı kayıtları korunur: ilerleme (dk2, dk-ilerleme39), oyun kayıtları (dk-oyun41), çalışma hedefi (dk-calis45), mod kaydı (dk-mod50) Altın denemelerinden sonra bayt bayt aynı (dk2 açılışta uygulamanın olağan biçimlendirmesinden geçer; içerik kaybı yok)",
+   "ok": true,
+   "a": "{\"degisen\":[],\"kayip\":[]}"
+  },
+  {
+   "ad": "T11 Tek merkezi ayar: V51.Altin açılınca Altın Mod V51.7’deki gibi çalışır (koridor açılır); yeniden kapatılınca Elmas’a döner",
+   "ok": true,
+   "a": "{\"a\":{\"view\":\"pdunya\",\"on\":true,\"yk\":false,\"kaynak\":null,\"prem\":true,\"altinDom\":true,\"uye\":false,\"mod\":\"altin\",\"son\":\"premium\",\"ss\":\"1\"},\"k\":{\"view\":\"home\",\"on\":false,\"yk\":true,\"kaynak\":\"rota:pdunya\",\"prem\":false,\"altinDom\":false,\"uye\":false,\"mod\":\"elmas\",\"son\":\"premium\",\"ss\":null}}"
+  },
+  {
+   "ad": "T12 Telefon (360, 390, 412, yatay) ve tablette ekran taşmaz: kart görünür alanın içinde, yatay kaydırma yok, düğme en az 44 px ve ulaşılabilir, metin ≥ 16 px",
+   "ok": true,
+   "a": "[\"tel-360x640: sığıyor\",\"tel-390x844: sığıyor\",\"tel-412x915: sığıyor\",\"tel-yatay-915x412: sığıyor\",\"tablet-768x1024: sığıyor\",\"tablet-yatay-1280x800: sığıyor\"]"
+  },
+  {
+   "ad": "T13 İlk açılış tanıtımı Altın’ı “çok yakında” diye anar (açık olduğunu söylemez)",
+   "ok": true,
+   "a": "2 / 4\nTanıtımı atla\nİki öğrenme alanı\n\nElmas Sınıfı sade ve hızlıdır: dersler, testler, bilgi kartları ve Etkinlik Oyunları burada. Altın Sınıfı (3B koridor ve oyun dünyası) çok yakında açılacak.\n\nÖnc"
+  },
+  {
+   "ad": "T14 Bütün senaryolarda JavaScript hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}

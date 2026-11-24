@@ -1,0 +1,289 @@
+{
+ "S": [
+  {
+   "ad": "A1 sürüm V51.3, index.html aynı dosya; V51.2 dosyası duruyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 paket açılınca bütün veri, müzik ve görsel blokları (15) V51.2 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "15"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı",
+   "ok": true,
+   "ayr": "yalnız v51.3"
+  },
+  {
+   "ad": "A4 HTML boyutu küçüldü (V51.2 → V51.3)",
+   "ok": true,
+   "ayr": "{\"v512\":20551381,\"v513\":12088077,\"okunur\":20561096,\"yuzde\":41.2,\"gz512\":8080667,\"gz513\":8098897}"
+  },
+  {
+   "ad": "A5 Tarayıcıda açılan veri metinleri V51.2 ile aynı (SHA-256), açıcı hatasız; uygulama açıldı",
+   "ok": true,
+   "ayr": "{\"Z\":{\"ok\":true,\"bloklar\":5,\"ms\":141,\"hata\":null},\"n\":6}"
+  },
+  {
+   "ad": "K1 Elmas: konu sırası 4–12. sınıfların hepsinde o modun sınıf/ünite ekranındaki sırayla birebir aynı",
+   "ok": true,
+   "ayr": "{\"4\":16,\"5\":35,\"6\":20,\"7\":20,\"8\":25,\"9\":20,\"10\":17,\"11\":16,\"12\":21}"
+  },
+  {
+   "ad": "K2 Elmas: ilk konuda “önceki” yok (“ilk konusu” notu), “sonraki” var; ileri/geri doğru konuya gider",
+   "ok": true,
+   "ayr": "{\"ilk\":{\"var\":true,\"ilk\":true,\"onceYok\":true,\"sonraki\":true},\"ileri\":{\"t\":true,\"view\":\"topic\",\"mod\":\"elmas\",\"on\":false},\"geri\":true,\"uniteMetni\":\"Sonraki konu · yeni üniteORUÇ VE KUR’AN AYI RAMAZAN2. Ünite: RAMAZAN VE ORUÇ\",\"unite\":{\"t\":true,\"u\":true},\"uniteGeri\":true,\"son\":{\"sinif\":true,\"sonrakiYok\":true},\"sinifa\":{\"view\":\"grade\",\"g\":6},\"geriTusu\":{\"t\":true,\"view\":\"topic\",\"mod\":\"elmas\"},\"sekme\":1,\"kayit\":true,\"dokunma\":80,\"n\":20,\"alanSayisi\":1}"
+  },
+  {
+   "ad": "K3 Elmas: ünite değişiminde sıradaki ünitenin ilk konusuna geçer (yeni ünite adı gösterilir) ve geri döner",
+   "ok": true,
+   "ayr": "{\"u\":{\"t\":true,\"u\":true},\"m\":\"Sonraki konu · yeni üniteORUÇ VE KUR’AN AYI RAMAZAN2. Ünite: RAMAZAN VE ORUÇ\"}"
+  },
+  {
+   "ad": "K4 Elmas: son konuda “sonraki” yerine “Sınıf sayfasına dön” çıkar ve doğru sınıfa döner",
+   "ok": true,
+   "ayr": "{\"view\":\"grade\",\"g\":6}"
+  },
+  {
+   "ad": "K5 Elmas: geçişte mod değişmez (elmas); geri tuşu önceki konuya aynı modda döner",
+   "ok": true,
+   "ayr": "{\"ileri\":{\"t\":true,\"view\":\"topic\",\"mod\":\"elmas\",\"on\":false},\"geri\":{\"t\":true,\"view\":\"topic\",\"mod\":\"elmas\"}}"
+  },
+  {
+   "ad": "K6 Elmas: ilerleme, test sonuçları ve mod tercihi geçişten etkilenmez; sekme değişince geçiş bir kez görünür; düğme ≥ 44 px; tek program (2018/2026 karışmaz)",
+   "ok": true,
+   "ayr": "{\"kayit\":true,\"sekme\":1,\"px\":80,\"n\":20}"
+  },
+  {
+   "ad": "K1 Altın: konu sırası 4–12. sınıfların hepsinde o modun sınıf/ünite ekranındaki sırayla birebir aynı",
+   "ok": true,
+   "ayr": "{\"4\":16,\"5\":35,\"6\":20,\"7\":20,\"8\":25,\"9\":20,\"10\":17,\"11\":16,\"12\":21}"
+  },
+  {
+   "ad": "K2 Altın: ilk konuda “önceki” yok (“ilk konusu” notu), “sonraki” var; ileri/geri doğru konuya gider",
+   "ok": true,
+   "ayr": "{\"ilk\":{\"var\":true,\"ilk\":true,\"onceYok\":true,\"sonraki\":true},\"ileri\":{\"t\":true,\"view\":\"pders\",\"mod\":\"altin\",\"on\":true},\"geri\":true,\"uniteMetni\":\"Sonraki konu · yeni üniteORUÇ VE KUR’AN AYI RAMAZAN2. Ünite: RAMAZAN VE ORUÇ\",\"unite\":{\"t\":true,\"u\":true},\"uniteGeri\":true,\"son\":{\"sinif\":true,\"sonrakiYok\":true},\"sinifa\":{\"view\":\"psinif\",\"g\":6},\"geriTusu\":{\"t\":true,\"view\":\"pders\",\"mod\":\"altin\"},\"sekme\":1,\"kayit\":true,\"dokunma\":80,\"n\":20,\"alanSayisi\":1}"
+  },
+  {
+   "ad": "K3 Altın: ünite değişiminde sıradaki ünitenin ilk konusuna geçer (yeni ünite adı gösterilir) ve geri döner",
+   "ok": true,
+   "ayr": "{\"u\":{\"t\":true,\"u\":true},\"m\":\"Sonraki konu · yeni üniteORUÇ VE KUR’AN AYI RAMAZAN2. Ünite: RAMAZAN VE ORUÇ\"}"
+  },
+  {
+   "ad": "K4 Altın: son konuda “sonraki” yerine “Sınıf sayfasına dön” çıkar ve doğru sınıfa döner",
+   "ok": true,
+   "ayr": "{\"view\":\"psinif\",\"g\":6}"
+  },
+  {
+   "ad": "K5 Altın: geçişte mod değişmez (altin); geri tuşu önceki konuya aynı modda döner",
+   "ok": true,
+   "ayr": "{\"ileri\":{\"t\":true,\"view\":\"pders\",\"mod\":\"altin\",\"on\":true},\"geri\":{\"t\":true,\"view\":\"pders\",\"mod\":\"altin\"}}"
+  },
+  {
+   "ad": "K6 Altın: ilerleme, test sonuçları ve mod tercihi geçişten etkilenmez; sekme değişince geçiş bir kez görünür; düğme ≥ 44 px; tek program (2018/2026 karışmaz)",
+   "ok": true,
+   "ayr": "{\"kayit\":true,\"sekme\":1,\"px\":80,\"n\":20}"
+  },
+  {
+   "ad": "K7 Öğretmen görünümünde “sonraki konu” öğretmen görünümünde kalır (öğretmen çubuğu ve bilgisi)",
+   "ok": true,
+   "ayr": "{\"a\":{\"kip\":\"ogretmen\",\"kg\":true},\"kip\":\"ogretmen\",\"okip\":\"ogretmen\",\"t\":\"TPC-5-1-02\",\"bar\":true,\"mod\":\"ogretmen\"}"
+  },
+  {
+   "ad": "K8 Öğretmen oturumu yokken geçiş öğrenci görünümünde kalır (öğretmen bağlamı taşınmaz)",
+   "ok": true,
+   "ayr": "{\"kip\":\"ogrenci\",\"okip\":null,\"bar\":false}"
+  },
+  {
+   "ad": "O1 Elmas: “Etkinlik oyunları” açılır, oyunlar listelenir ve oyun Elmas’ta oynanır",
+   "ok": true,
+   "ayr": "{\"h\":\"Etkinlik oyunları\",\"n\":30,\"k3\":true,\"oyn\":false,\"oyun\":{\"view\":\"game\",\"mod\":\"elmas\",\"on\":false},\"dunya\":{\"view\":\"poyun\",\"mod\":\"elmas\",\"onay\":true,\"on\":false}}"
+  },
+  {
+   "ad": "O2 Elmas: 3B Oyun Dünyası yalnız bilgi kartı; dokununca onay ekranı açılır, mod değişmez; 3B oyunlar Elmas listesine kopyalanmamış",
+   "ok": true,
+   "ayr": "{\"view\":\"poyun\",\"mod\":\"elmas\",\"onay\":true,\"on\":false}"
+  },
+  {
+   "ad": "O3 Altın: Oyun Dünyası › “Etkinlik oyunlarına git” Altın tasarımında açılır; oyun Altın’da oynanır",
+   "ok": true,
+   "ayr": "{\"uc\":{\"kut\":true,\"dunya\":true},\"e\":{\"view\":\"games\",\"mod\":\"altin\",\"prem\":true,\"h\":\"Etkinlik oyunları\",\"n\":30,\"bg\":\"linear-gradient(135deg, color(srgb 0.286745 0.228235 0.136078), rgb(42, 32, 22))\"},\"o\":{\"view\":\"game\",\"mod\":\"altin\",\"on\":true}}"
+  },
+  {
+   "ad": "O4 Altın: 3B Oyun Dünyası (Kütüphane, sınıf dünyaları) Altın’da duruyor; Etkinlik oyunları başlığı altın tonda (mavi-mor değil)",
+   "ok": true,
+   "ayr": "{\"uc\":{\"kut\":true,\"dunya\":true},\"bg\":\"linear-gradient(135deg, color(srgb 0.286745 0.228235 0.136078), rgb(42, 32, 22))\"}"
+  },
+  {
+   "ad": "Ö1 Öğretmen paneli yalnız “Haftalık · Sınıflarım · Araçlar”; Araçlar yalnız “Sorun Bildir”",
+   "ok": true,
+   "ayr": "{\"sek\":[\"Haftalık\",\"Sınıflarım\",\"Araçlar\"],\"sub\":[\"Sorun Bildir\"]}"
+  },
+  {
+   "ad": "Ö2 Haftalık kartlarda ve hafta şeridinde başlandı/işlendi durumu (✓), “Ders hazırla”, editör/yönetici işlevi yok; plan verisi duruyor",
+   "ok": true,
+   "ayr": "{\"yasak\":\"\",\"serit\":\"\",\"hafta\":true}"
+  },
+  {
+   "ad": "Ö3 Öğretmen kaydı (sınıflar, planlar, eski durum alanı) korunuyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "B1 Bildir (320×568, Elmas): gönder düğmesi görünür, alt menünün arkasında değil (alt menü gizli), klavye açıkken de basılabilir; ≥ 44 px",
+   "ok": true,
+   "ayr": "{\"g1\":{\"ust\":true,\"alt\":true,\"h\":45,\"bn\":\"-\",\"bnav\":\"none\",\"ov513\":true},\"g2\":{\"ust\":true,\"alt\":true,\"h\":45,\"bn\":\"-\",\"bnav\":\"none\",\"ov513\":true}}"
+  },
+  {
+   "ad": "B2 Bildir (320): sunucu yokken çift dokunuş tek kayıt; “bu cihazda kayıtlı” denir, “gönderildi” denmez",
+   "ok": true,
+   "ayr": "{\"n\":1,\"d\":\"taslak\",\"acik\":false,\"toast\":\"Bildirimin bu cihazda kayıtlı. Merkezi sunucu bağlı olmadığı için gönderilmedi (Profilim › Bildirimlerim).\"}"
+  },
+  {
+   "ad": "B1 Bildir (360×640, Altın): gönder düğmesi görünür, alt menünün arkasında değil (alt menü gizli), klavye açıkken de basılabilir; ≥ 44 px",
+   "ok": true,
+   "ayr": "{\"g1\":{\"ust\":true,\"alt\":true,\"h\":45,\"bn\":\"none\",\"bnav\":\"none\",\"ov513\":true},\"g2\":{\"ust\":true,\"alt\":true,\"h\":45,\"bn\":\"none\",\"bnav\":\"none\",\"ov513\":true}}"
+  },
+  {
+   "ad": "B2 Bildir (360): sunucu yokken çift dokunuş tek kayıt; “bu cihazda kayıtlı” denir, “gönderildi” denmez",
+   "ok": true,
+   "ayr": "{\"n\":1,\"d\":\"taslak\",\"acik\":false,\"toast\":\"Bildirimin bu cihazda kayıtlı. Merkezi sunucu bağlı olmadığı için gönderilmedi (Profilim › Bildirimlerim).\"}"
+  },
+  {
+   "ad": "B1 Bildir (412×915, Elmas): gönder düğmesi görünür, alt menünün arkasında değil (alt menü gizli), klavye açıkken de basılabilir; ≥ 44 px",
+   "ok": true,
+   "ayr": "{\"g1\":{\"ust\":true,\"alt\":true,\"h\":45,\"bn\":\"-\",\"bnav\":\"none\",\"ov513\":true},\"g2\":{\"ust\":true,\"alt\":true,\"h\":45,\"bn\":\"-\",\"bnav\":\"none\",\"ov513\":true}}"
+  },
+  {
+   "ad": "B2 Bildir (412): sunucu yokken çift dokunuş tek kayıt; “bu cihazda kayıtlı” denir, “gönderildi” denmez",
+   "ok": true,
+   "ayr": "{\"n\":1,\"d\":\"taslak\",\"acik\":false,\"toast\":\"Bildirimin bu cihazda kayıtlı. Merkezi sunucu bağlı olmadığı için gönderilmedi (Profilim › Bildirimlerim).\"}"
+  },
+  {
+   "ad": "Y1 İçeriği hazırlanmamış konular (Elmas) hata vermeden açılır, “henüz hazırlanmadı” der; öğrenci kaynak iskeletini (Kaynak bilgisi, MEB çıktısı, sayfa bağlantısı) görmez; içerik üretilmedi",
+   "ok": true,
+   "ayr": "{\"toplam\":246,\"bos\":56,\"hata\":[]}"
+  },
+  {
+   "ad": "Y2 İçeriği hazırlanmamış konular (Altın) hata vermeden açılır, Altın’da kalır; kaynak iskeleti öğrenciye görünmez",
+   "ok": true,
+   "ayr": "{\"n\":56,\"hata\":[]}"
+  },
+  {
+   "ad": "D1 320×568, 360×640, 412×915, yatay 915×412 ve tablet 800×1280’de (Elmas ve Altın: ana, sınıf, konu, oyunlar) yatay taşma yok",
+   "ok": true,
+   "ayr": "{}"
+  },
+  {
+   "ad": "D2 Konu geçişi en alta kaydırınca alt menünün arkasında kalmıyor (tüm boyutlarda)",
+   "ok": true,
+   "ayr": "{}"
+  },
+  {
+   "ad": "D3 Döndürme benzetimi (412×915 ↔ 915×412): ders ekranı ve mod korunur, taşma yok",
+   "ok": true,
+   "ayr": "{\"r\":{\"view\":\"pders\",\"t\":\"TPC-5-1-02\",\"tas\":0,\"kg\":true,\"mod\":\"altin\"},\"r2\":{\"view\":\"pders\",\"t\":\"TPC-5-1-02\",\"tas\":0,\"mod\":\"altin\"}}"
+  },
+  {
+   "ad": "D4 Alt pencere açıkken alt menü gizleme :has() desteklemeyen WebView için JS sınıfıyla da çalışır (body.ov513)",
+   "ok": true,
+   "ayr": "{\"a\":true,\"b\":false}"
+  },
+  {
+   "ad": "D5 Elmas etkinlik oyunu 360×640: taşma yok",
+   "ok": true,
+   "ayr": "{\"view\":\"game\",\"tas\":0,\"kucuk\":[]}"
+  },
+  {
+   "ad": "Z Sayfa hatası yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ],
+ "OLC": {
+  "boyut": {
+   "v512": 20551381,
+   "v513": 12088077,
+   "okunur": 20561096,
+   "yuzde": 41.2,
+   "gz512": 8080667,
+   "gz513": 8098897
+  },
+  "acici": {
+   "ok": true,
+   "bloklar": 5,
+   "ms": 141,
+   "hata": null
+  },
+  "bosKonular": {
+   "toplam": 246,
+   "bos": 56,
+   "ozet": {
+    "4-2026": [
+     "TPC-4-1-01 Günlük Konuşmalarda Dinî İfadeler",
+     "TPC-4-1-02 Bir Dua Tanıyorum: Sübhaneke Duası ve Anlamı",
+     "TPC-4-1-03 ÜNİTEMİZİ DEĞERLENDİRELİM",
+     "TPC-4-2-01 Allah’ın (cc) birliğini ve yüceliğini kavray",
+     "TPC-4-2-02 Allah’ın (cc) kullarına olan sevgisini müşahede ed",
+     "TPC-4-2-03 Dua etme ihtiyacı konusunda analitik düşün",
+     "TPC-4-2-04 Kelimeitevhit ve kelimeişehadet hakkında bilgi toplay",
+     "TPC-4-2-05 Amentü duasını ve bu duanın anlamını okuyarak yorumlay",
+     "TPC-4-3-01 Peygamberlerin çocuk sevgisiyle ilgili naklî delilleri kullan",
+     "TPC-4-3-02 Peygamberlerin toplumlarına olan sevgisini idrak ed",
+     "TPC-4-3-03 Peygamberlerin çevre sevgisine ilişkin akıl yürüt",
+     "TPC-4-3-04 Peygamberlerin çalışmayı sevdiğine dair çıkarım yap",
+     "TPC-4-3-05 Salli ve Barik dualarını ve bu duaların anlamlarını okuyarak yorumlay",
+     "TPC-4-4-01 Din Güzel Ahlaktır",
+     "TPC-4-4-02 İnsani İlişkilerin Temeli: Sevgi ve Saygı",
+     "TPC-4-4-03 Bir Sure Tanıyorum: Fatiha Suresi ve Anlamı",
+     "TPC-4-5-01 Kişisel hakları sentezley",
+     "TPC-4-5-02 Mahremiyeti anlay",
+     "TPC-4-5-03 İnsanlara karşı sorumluluklarını özetley",
+     "TPC-4-5-04 Allah’a (cc) karşı sorumluluklarını çözümley",
+     "TPC-4-5-05 Rabbena dualarını ve bu duaların anlamlarını okuyarak yorumlay"
+    ],
+    "8-2026": [
+     "TPC-8-1-01 Kader ve Kaza İnancı",
+     "TPC-8-1-02 İnsanın İradesi ve Kader",
+     "TPC-8-1-03 Kaderle İlgili Kavramlar",
+     "TPC-8-1-04 Bir Ayet Tanıyorum: Ayetelkürsi ve Anlamı",
+     "TPC-8-2-01 İslam’ın Paylaşmaya ve Yardımlaşmaya Verdiği Önem",
+     "TPC-8-2-02 Zekât ve Sadaka İbadeti",
+     "TPC-8-2-03 Bir Sure Tanıyorum: Maun Suresi ve Anlamı",
+     "TPC-8-3-01 Dinin Temel Gayesi",
+     "TPC-8-3-02 Bir Sure Tanıyorum: Asr Suresi ve Anlamı",
+     "TPC-8-4-01 İnsanın Kur’an-ı Kerim’de anlatılan özellikleri hakkında ayet meallerine başvur",
+     "TPC-8-4-02 Kur’an-ı Kerim’in rehberliğini özetley",
+     "TPC-8-4-03 Kur’an-ı Kerim’e göre Hz. Muhammed’in (sav) örnekliğini çözümley",
+     "TPC-8-4-04 Hz. Lokman’ın öğütlerini kendi hayatına yansıt",
+     "TPC-8-4-05 Ayetelkürsi’yi ve bu ayetin anlamını okuyarak yorumlay",
+     "TPC-8-5-01 İslam kültür ve medeniyetinin esasları konusunu sentezley",
+     "TPC-8-5-02 İslam’ın bilime verdiği önemi ve katkıyı sorgulay",
+     "TPC-8-5-03 Müslüman bilim insanlarının bilim ve kültüre katkılarını irdeley"
+    ],
+    "12-2026": [
+     "TPC-12-1-01 Kur’an-ı Kerim’in tarihî süreci hakkında bilgi toplay",
+     "TPC-12-1-02 Kur’an-ı Kerim’in ana konularını ve temel özelliklerini sentezley",
+     "TPC-12-1-03 Kur’an-ı Kerim’in anlaşılmasında temel ilkeleri özetley",
+     "TPC-12-1-04 Kur’an-ı Kerim’in kültürümüze etkisini yorumlay",
+     "TPC-12-1-05 İsra suresinin 9. ayetinin mesajlarını anlamak için Kur’an-ı Kerim meallerine başvur",
+     "TPC-12-2-01 İslam’ın aile kurumuna verdiği önemi yorumlay",
+     "TPC-12-2-02 Aile içi iletişim ve etkileşim sürecini çözümley",
+     "TPC-12-2-03 Aile hayatında dikkat edilmesi gereken ahlaki değerleri özetley",
+     "TPC-12-2-04 Ahkaf suresinin 15. ayetindeki mesajları anlamak için Kur’an-ı Kerim meallerine başvur",
+     "TPC-12-3-01 Dinî Meselelerin Çözümünde Temel İlke ve Yöntemler",
+     "TPC-12-3-02 Gıda Maddeleri ve Bağımlılıkla İlgili Meseleler",
+     "TPC-12-3-03 Sağlık ve Tıpla İlgili Meseleler",
+     "TPC-12-3-04 Kur’an’dan Mesajlar: Enam suresinin 151-152. ayet",
+     "TPC-12-4-01 Tasavvufi Düşüncenin Oluşumu",
+     "TPC-12-4-02 Tasavvufi Düşüncenin Ahlaki Boyutu",
+     "TPC-12-4-03 Kültürümüzde Etkin Olan Tasavvufi Yorumlar",
+     "TPC-12-4-04 Kur’an’dan Mesajlar: Hucurat suresinin 10. ayet",
+     "TPC-12-5-01 Konfüçyanizm"
+    ]
+   },
+   "hata": []
+  }
+ }
+}

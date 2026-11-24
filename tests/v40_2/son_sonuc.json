@@ -1,0 +1,346 @@
+[
+ {
+  "id": "0.1",
+  "name": "Sürüm V40.2 (index.html ve sürüm dosyası); koridor WebGL ile çiziliyor (tek canvas)",
+  "pass": true,
+  "detail": {
+   "ver": "V40.2",
+   "gl": true,
+   "cv": 1
+  }
+ },
+ {
+  "id": "0.2",
+  "name": "Veri blokları, kayıt sayıları ve rotalar V40.1 ile aynı",
+  "pass": true
+ },
+ {
+  "id": "0.3",
+  "name": "9 kapının dünya konumu, sınıf eşleşmesi ve erişilebilir adı V40.1 ile birebir aynı",
+  "pass": true,
+  "detail": "4,5,6,7,8,9,10,11,12"
+ },
+ {
+  "id": "0.4",
+  "name": "Kamera pozları (durak, odak, giriş, ara noktalar), odak uzaklığı ve bakış açısı V40.1 ile aynı",
+  "pass": true
+ },
+ {
+  "id": "0.5",
+  "name": "Koridor dışındaki ekranlar (sınıf merkezi, ders, favoriler, ilerleme, oyunlar, öğretmen paneli, Klasik ana sayfa/sınıflar/kendini dene) V40.1 ile aynı",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "0.6",
+  "name": "Sayfa/konsol hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "1.10",
+  "name": "390×844 tam görünüm, 28 kamera konumu: çok koyu piksel ≤%3, tamamen koyu 24 px hücre yok, ortalama parlaklık ≥120",
+  "pass": true,
+  "detail": {
+   "enKoyu": [
+    "o0",
+    {
+     "ort": 172.9,
+     "koyu": 0.82,
+     "koyuHucre": 0
+    }
+   ],
+   "enKoyuHucre": 0,
+   "enDusuk": 132.9,
+   "d": {
+    "kaynak": "webgl",
+    "q": 1,
+    "lite": false,
+    "dpr": 1
+   }
+  }
+ },
+ {
+  "id": "1.11",
+  "name": "390×844 sade görünüm, 28 kamera konumu: çok koyu piksel ≤%3, tamamen koyu 24 px hücre yok, ortalama parlaklık ≥120",
+  "pass": true,
+  "detail": {
+   "enKoyu": [
+    "o0",
+    {
+     "ort": 173,
+     "koyu": 0.6,
+     "koyuHucre": 0
+    }
+   ],
+   "enKoyuHucre": 0,
+   "enDusuk": 133,
+   "d": {
+    "kaynak": "webgl",
+    "q": 0.5,
+    "lite": true,
+    "dpr": 1
+   }
+  }
+ },
+ {
+  "id": "1.30",
+  "name": "1024×768 tam görünüm, 28 kamera konumu: çok koyu piksel ≤%3, tamamen koyu 24 px hücre yok, ortalama parlaklık ≥120",
+  "pass": true,
+  "detail": {
+   "enKoyu": [
+    "o0",
+    {
+     "ort": 169.5,
+     "koyu": 0.28,
+     "koyuHucre": 0
+    }
+   ],
+   "enKoyuHucre": 0,
+   "enDusuk": 164.5,
+   "d": {
+    "kaynak": "webgl",
+    "q": 1,
+    "lite": false,
+    "dpr": 1
+   }
+  }
+ },
+ {
+  "id": "1.31",
+  "name": "1024×768 sade görünüm, 28 kamera konumu: çok koyu piksel ≤%3, tamamen koyu 24 px hücre yok, ortalama parlaklık ≥120",
+  "pass": true,
+  "detail": {
+   "enKoyu": [
+    "o0",
+    {
+     "ort": 169.5,
+     "koyu": 0.24,
+     "koyuHucre": 0
+    }
+   ],
+   "enKoyuHucre": 0,
+   "enDusuk": 164.6,
+   "d": {
+    "kaynak": "webgl",
+    "q": 0.5,
+    "lite": true,
+    "dpr": 1
+   }
+  }
+ },
+ {
+  "id": "1.5",
+  "name": "Kamera yürürken (6 animasyon karesi): sahnede çok koyu piksel ≤%3, tamamen koyu bölge yok",
+  "pass": true,
+  "detail": [
+   {
+    "ort": 149.8,
+    "koyu": 0.19,
+    "koyuHucre": 0
+   },
+   {
+    "ort": 149.5,
+    "koyu": 0.12,
+    "koyuHucre": 0
+   },
+   {
+    "ort": 155.2,
+    "koyu": 0.11,
+    "koyuHucre": 0
+   },
+   {
+    "ort": 158.1,
+    "koyu": 0.15,
+    "koyuHucre": 0
+   },
+   {
+    "ort": 158.1,
+    "koyu": 0.15,
+    "koyuHucre": 0
+   },
+   {
+    "ort": 158.1,
+    "koyu": 0.15,
+    "koyuHucre": 0
+   }
+  ]
+ },
+ {
+  "id": "1.6",
+  "name": "Alt bilgi kartı içeriğiyle birlikte görünüyor (sınıf adı, sayılar, Sınıfa Gir); bulanıklık filtresi kaldırıldı",
+  "pass": true,
+  "detail": {
+   "txt": "10. Sınıf Ortaöğretim · 2026 programı (Türkiye Yüzyılı Maarif Modeli) 5 ünite · 17 konu Sınıfa Gir",
+   "btn": true,
+   "h": 116,
+   "vis": "visible",
+   "bg": "rgba(28, 19, 12, 0.9)",
+   "bd": "none"
+  }
+ },
+ {
+  "id": "2.1",
+  "name": "Sola sürükleme kamerayı ileri yürütüyor ve durağa oturtuyor",
+  "pass": true,
+  "detail": {
+   "s0": {
+    "s": -1,
+    "z": 320,
+    "mode": "yuru",
+    "g": 0
+   },
+   "s1": {
+    "s": 1,
+    "z": -740,
+    "mode": "yuru",
+    "g": 0
+   }
+  }
+ },
+ {
+  "id": "2.2",
+  "name": "Kapıya dokununca (WebGL üstündeki saydam düğme) kamera kapıya dönüyor, kapı seçiliyor, altın hale çiziliyor",
+  "pass": true,
+  "detail": {
+   "kut": {
+    "gz": false,
+    "x": 77.796875,
+    "y": 432.5125,
+    "w": 107,
+    "h": 312
+   },
+   "s2": {
+    "mode": "odak",
+    "g": 6,
+    "kis": 8,
+    "gl": 1
+   }
+  }
+ },
+ {
+  "id": "2.3",
+  "name": "İkinci dokunuşta kanatlar menteşeden açılıyor (çizicide açı > 40°) ve 6. sınıf merkezine giriliyor",
+  "pass": true,
+  "detail": {
+   "ac": {
+    "acik": true,
+    "a": 101,
+    "view": "pdunya"
+   },
+   "gir": {
+    "view": "psinif",
+    "pg": 6
+   }
+  }
+ },
+ {
+  "id": "2.4",
+  "name": "Koridora dönünce aynı kapının önünde duruluyor, kanatlar kapanıyor",
+  "pass": true,
+  "detail": {
+   "view": "pdunya",
+   "mode": "odak",
+   "g": 6,
+   "a": 0,
+   "acik": 0
+  }
+ },
+ {
+  "id": "2.5",
+  "name": "Klavye: ok tuşu yürütüyor; Tab kapıya odaklanıp kamerayı çeviriyor; Enter kapıyı açıp sınıfa giriyor",
+  "pass": true,
+  "detail": {
+   "k1": {
+    "s": 3,
+    "z": -1620,
+    "mode": "yuru",
+    "g": 0
+   },
+   "kb": {
+    "f": "k40 g sec",
+    "mode": "odak",
+    "g": 4
+   },
+   "kv": {
+    "view": "psinif",
+    "pg": 4
+   }
+  }
+ },
+ {
+  "id": "2.6",
+  "name": "Alttaki göstergeden 12. sınıfa (koridor sonu) gidiliyor",
+  "pass": true,
+  "detail": {
+   "s": 8,
+   "z": -3750,
+   "mode": "yuru",
+   "g": 0
+  }
+ },
+ {
+  "id": "2.7",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "3.1",
+  "name": "WebGL alınamazsa CSS koridoruna düşülüyor, konsola uyarı yazılıyor, ekranda teknik mesaj yok, kapılar çalışıyor",
+  "pass": true,
+  "detail": {
+   "d": {
+    "gl": false,
+    "kaynak": "bekliyor",
+    "z40": 73,
+    "kn": 18,
+    "cv": 0
+   },
+   "s": {
+    "mode": "odak",
+    "g": 7
+   },
+   "warn": [
+    "[V40.2] WebGL kullanılamıyor; CSS koridoru kullanılacak: WebGL bağlamı alınamadı"
+   ]
+  }
+ },
+ {
+  "id": "4.1",
+  "name": "360 / 390 / 768 / 820×1180 / 1024×768 / 1180×820 / 1440×900: yatay taşma yok, çizim yüzeyi sahneyle aynı boyutta, odakta koyu bölge yok (koyu bronz sınıf tabelası tek hücre doldurabilir: ≤%0,5)",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "4.2",
+  "name": "Koridor arayüzünde dokunma alanları ≥44 px (gösterge ≥30×44 px)",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "5.1",
+  "name": "Gezinti dk2, öğretmen kayıtları, PIN ve üyelik tercihini değiştirmiyor; favoriler ve eski ilerleme alanları korunuyor",
+  "pass": true,
+  "detail": {
+   "fav": {
+    "s": [
+     7
+    ],
+    "k": []
+   },
+   "son": 12
+  }
+ },
+ {
+  "id": "5.2",
+  "name": "Öğretmen paneli premium oturumdan kendi tasarımıyla açılıyor",
+  "pass": true
+ },
+ {
+  "id": "5.3",
+  "name": "Sayfa hatası yok",
+  "pass": true,
+  "detail": []
+ }
+]

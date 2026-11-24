@@ -1,0 +1,155 @@
+{
+ "tarih": "2026-11-18T21:16:21.770Z",
+ "sonuc": [
+  {
+   "ad": "A1 sürüm V49.0, index.html aynı dosya; V48.0 yedek dosyası duruyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 içerikler, kazanımlar, kimlikler ve müzik blokları V48.0 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "13 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı (V48.0 dahil)",
+   "ok": true,
+   "ayr": "yalnız v49.0"
+  },
+  {
+   "ad": "A4 HTML içinde gizli bilgi yok",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "G1 “Altın” yanında altın külçesi: üç yüzlü metalik prizma (ön, üst, yan yüz), güneş/çiçek simgesi yok",
+   "ok": true,
+   "ayr": "{\"t\":\"Altın\",\"poli\":4,\"kulce\":3,\"gunes\":0,\"mavi\":0,\"en\":35,\"boy\":20}"
+  },
+  {
+   "ad": "G2 “Elmas” yanında pırlanta: çok yüzlü kesim (taç + köşk ≥ 20 yüzey), mavi-gümüş tonlar",
+   "ok": true,
+   "ayr": "{\"t\":\"Elmas\",\"poli\":31,\"kulce\":0,\"gunes\":0,\"mavi\":23,\"en\":26,\"boy\":20}"
+  },
+  {
+   "ad": "G3 iki büyük alan görseli yeni (V49 vektör kompozisyonları, üzerinde yazı yok, dosya indirmez)",
+   "ok": true,
+   "ayr": "{\"kn\":{\"poli\":176,\"metin\":0,\"img\":0,\"r\":0.5818181818181818},\"kp\":{\"poli\":168,\"metin\":0,\"img\":0,\"r\":0.5818181818181818}}"
+  },
+  {
+   "ad": "G4 görseller 360 / 390 / 820 px’te kırpılmadan (çerçeve oranı 640:374 = 0,584) ve taşmadan",
+   "ok": true,
+   "ayr": "{\"360\":{\"oran\":[0.584,0.584],\"tas\":0},\"390\":{\"oran\":[0.584,0.584],\"tas\":0},\"820\":{\"oran\":[0.584,0.584],\"tas\":0}}"
+  },
+  {
+   "ad": "G5 açılış ekranı arka planı: sekiz kollu çiçek rozetleri; haç/artı çizgisi ve eski girih yok",
+   "ok": true,
+   "ayr": "{\"svg\":true,\"hac\":false,\"roz\":32,\"poligon\":0,\"yildiz8\":false}"
+  },
+  {
+   "ad": "G6 açılış ekranında altı köşeli yıldız / altıgen yok (bütün çokgenler taranır)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "M1 dört görünümde (Elmas açık/koyu, Altın gece/gündüz) arka plan sekiz kollu çiçek rozetleri; haç/artı yok; 6 kat simetri yok",
+   "ok": true,
+   "ayr": "{\"elmas-acik\":{\"gorunur\":true,\"roz\":16,\"hac\":false,\"alti\":0},\"elmas-koyu\":{\"gorunur\":true,\"roz\":16,\"hac\":false,\"alti\":0},\"altin-gece\":{\"gorunur\":true,\"roz\":16,\"hac\":false,\"alti\":0},\"altin-gunduz\":{\"gorunur\":true,\"roz\":16,\"hac\":false,\"alti\":0}}"
+  },
+  {
+   "ad": "M2 Elmas gümüş/kristal, Altın altın/bronz tonlarında; dört desen birbirinden farklı",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "P1 elmas: profil kartı, üç istatistik kutusu (kazanım halkası %50), üç hızlı erişim kartı",
+   "ok": true,
+   "ayr": "{\"ust\":true,\"ad\":\"Misafir öğrenci\",\"ist\":3,\"halka\":\"%50\",\"hz\":[\"go('calis45')|Bugün 2/20 cevap\",\"go('pilerleme')|7. sınıfta kaldın\",\"go('pfav')|2 favori\"],\"bos\":true,\"sat\":[true,true,true,true,true],\"google\":true,\"sunucu\":true,\"prog\":[\"Sunucu ayarı\",\"Program sürümü ve taslak görünümü\",\"Öğretmen ve editör\"]}"
+  },
+  {
+   "ad": "P2 elmas: Bildirimlerim boş durum kartı; Görünüm ve ses satırları simgeli (5); hesap, sunucu, program ve öğretmen/editör bölümleri duruyor",
+   "ok": true,
+   "ayr": "{\"ust\":true,\"ad\":\"Misafir öğrenci\",\"ist\":3,\"halka\":\"%50\",\"hz\":[\"go('calis45')|Bugün 2/20 cevap\",\"go('pilerleme')|7. sınıfta kaldın\",\"go('pfav')|2 favori\"],\"bos\":true,\"sat\":[true,true,true,true,true],\"google\":true,\"sunucu\":true,\"prog\":[\"Sunucu ayarı\",\"Program sürümü ve taslak görünümü\",\"Öğretmen ve editör\"]}"
+  },
+  {
+   "ad": "P3 elmas: hızlı erişim kartları ilgili ekranları açar",
+   "ok": true,
+   "ayr": "[\"calis45\",\"pilerleme\",\"pfav\"]"
+  },
+  {
+   "ad": "P4 elmas: Profilim 360 px’te taşmıyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "P1 altin: profil kartı, üç istatistik kutusu (kazanım halkası %50), üç hızlı erişim kartı",
+   "ok": true,
+   "ayr": "{\"ust\":true,\"ad\":\"Misafir öğrenci\",\"ist\":3,\"halka\":\"%50\",\"hz\":[\"go('calis45')|Bugün 2/20 cevap\",\"go('pilerleme')|7. sınıfta kaldın\",\"go('pfav')|2 favori\"],\"bos\":true,\"sat\":[true,true,true,true,true],\"google\":true,\"sunucu\":true,\"prog\":[\"Sunucu ayarı\",\"Program sürümü ve taslak görünümü\",\"Öğretmen ve editör\"]}"
+  },
+  {
+   "ad": "P2 altin: Bildirimlerim boş durum kartı; Görünüm ve ses satırları simgeli (5); hesap, sunucu, program ve öğretmen/editör bölümleri duruyor",
+   "ok": true,
+   "ayr": "{\"ust\":true,\"ad\":\"Misafir öğrenci\",\"ist\":3,\"halka\":\"%50\",\"hz\":[\"go('calis45')|Bugün 2/20 cevap\",\"go('pilerleme')|7. sınıfta kaldın\",\"go('pfav')|2 favori\"],\"bos\":true,\"sat\":[true,true,true,true,true],\"google\":true,\"sunucu\":true,\"prog\":[\"Sunucu ayarı\",\"Program sürümü ve taslak görünümü\",\"Öğretmen ve editör\"]}"
+  },
+  {
+   "ad": "P3 altin: hızlı erişim kartları ilgili ekranları açar",
+   "ok": true,
+   "ayr": "[\"calis45\",\"pilerleme\",\"pfav\"]"
+  },
+  {
+   "ad": "P4 altin: Profilim 360 px’te taşmıyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "E1 Elmas ana sayfa → Altın’a geç → geri tuşu: Elmas ana sayfası Elmas’ta açılır; eski (V31) ana sayfa görünmez",
+   "ok": true,
+   "ayr": "{\"a1\":{\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"eski\":false,\"h46\":false,\"tema\":\"dark\"},\"a2\":{\"v\":\"home\",\"on\":false,\"prem\":false,\"eski\":false,\"h46\":true,\"tema\":\"dark\"}}"
+  },
+  {
+   "ad": "E2 ters yön: Altın sınıf merkezi → Elmas’a geç → geri: Altın sınıf merkezi Altın’da açılır",
+   "ok": true,
+   "ayr": "{\"b1\":{\"v\":\"grade\",\"on\":false,\"prem\":false,\"eski\":false,\"h46\":false,\"tema\":\"dark\"},\"b2\":{\"v\":\"psinif\",\"on\":true,\"prem\":true,\"eski\":false,\"h46\":false,\"tema\":\"dark\"}}"
+  },
+  {
+   "ad": "E3 güvenlik ağı: rota ile deneyim uyuşmazsa çizimden önce doğru karşılığa çevrilir (her iki yönde)",
+   "ok": true,
+   "ayr": "{\"g1\":{\"v\":\"pdunya\",\"d\":\"home → pdunya (Altın)\"},\"g3\":{\"v\":\"home\",\"on\":false,\"d\":\"pdunya → home (Elmas)\"}}"
+  },
+  {
+   "ad": "E4 tema değişimi ve yenilemede doğru arayüz korunur (Elmas koyu ↔ Altın gündüz/gece; yenileme; ana sayfaya dönüş)",
+   "ok": true,
+   "ayr": "{\"t0\":{\"v\":\"home\",\"on\":false,\"prem\":false,\"eski\":false,\"h46\":true,\"tema\":\"dark\"},\"t1\":{\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"eski\":false,\"h46\":false,\"tema\":\"light\"},\"t2\":{\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"eski\":false,\"h46\":false,\"tema\":\"dark\"},\"t3\":{\"v\":\"pdunya\",\"on\":true,\"prem\":true,\"eski\":false,\"h46\":false,\"tema\":\"dark\"},\"t4\":{\"v\":\"home\",\"on\":false,\"prem\":false,\"eski\":false,\"h46\":true,\"tema\":\"dark\"},\"t5\":{\"v\":\"home\",\"on\":false,\"prem\":false,\"eski\":false,\"h46\":true,\"tema\":\"dark\"},\"t6\":{\"v\":\"home\",\"on\":false,\"prem\":false,\"eski\":false,\"h46\":true,\"tema\":\"light\"},\"t7\":{\"v\":\"home\",\"on\":false,\"prem\":false,\"eski\":false,\"h46\":true,\"tema\":\"light\"}}"
+  },
+  {
+   "ad": "E5 Altın’da sınıf, ders, profil, çalışma, ana sayfa ve dört geri adım: hep Altın arayüzü, eski ana sayfa yok",
+   "ok": true,
+   "ayr": "[\"psinif\",\"pders\",\"profil46\",\"calis45\",\"pdunya\",\"calis45\",\"profil46\",\"pders\",\"psinif\"]"
+  },
+  {
+   "ad": "R1 ilerleme, favori ses ve hedef kayıtları korunur; Google/misafir giriş işlevleri yerinde",
+   "ok": true,
+   "ayr": "{\"prog\":1,\"wr\":1,\"hedef\":30,\"fav\":\"brown\",\"hesap\":\"misafir\",\"fn\":true}"
+  },
+  {
+   "ad": "R2 Elmas ekranları (ana, sınıflar, konu, oyunlar, çalışma, ayarlar, öğretmen paneli, test) açılır, taşma yok",
+   "ok": true,
+   "ayr": "[\"ana:true:0\",\"siniflar:true:0\",\"sinif:true:0\",\"konu:true:0\",\"oyunlar:true:0\",\"calis:true:0\",\"ayar:true:0\",\"ogretmen:true:0\",\"test:true:0\"]"
+  },
+  {
+   "ad": "R3 öğretmen paneli PIN istemeden açılıyor",
+   "ok": true,
+   "ayr": "{\"v\":\"ogretmen\",\"pin\":false}"
+  },
+  {
+   "ad": "R4 Altın ekranları (koridor, sınıf, ders, Oyun Dünyası, Kütüphane, ilerleme) açılır, taşma yok",
+   "ok": true,
+   "ayr": "[\"koridor:pdunya:0\",\"sinif:psinif:0\",\"ders:pders:0\",\"oyun:poyun:0\",\"kutuphane:poyna:0\",\"ilerleme:pilerleme:0\"]"
+  },
+  {
+   "ad": "P0 testler boyunca sayfada JavaScript hatası yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ]
+}

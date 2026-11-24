@@ -1,0 +1,127 @@
+[
+ {
+  "ad": "A1 sürüm V51.7, index.html aynı; veri blokları V51.6 ile bayt bayt aynı; önceki sürüm dosyaları ve V51.6 APK’sı değişmedi",
+  "ok": true,
+  "a": ""
+ },
+ {
+  "ad": "A2 Rehber sistemi harici kütüphane/ağ kaynağı kullanmaz (rehber kodunda http adresi yok)",
+  "ok": true,
+  "a": ""
+ },
+ {
+  "ad": "T1 İlk kurulumda genel tanıtım gösterilir (seçim ekranının üstünde): 4 kısa adım, ilerleme göstergesi, Önceki/Sonraki, Başla",
+  "ok": true,
+  "a": "{\"adimlar\":[\"DKAB Öğrenme Platformu\",\"İki öğrenme alanı\",\"Derslere ulaşmak\",\"İlerlemeni takip et\"]}"
+ },
+ {
+  "ad": "T2 Tanıtım atlanınca uygulama normal açılır: seçim ekranı kullanılabilir, Elmas seçilip ana sayfa açılır; durum “atlandi”",
+  "ok": true,
+  "a": "{\"view\":\"home\",\"mod\":\"elmas\",\"d\":\"atlandi\"}"
+ },
+ {
+  "ad": "T4 Elmas moduna ilk girişte Elmas rehberi (Elmas renkleriyle) gösterilir",
+  "ok": true,
+  "a": "{\"tema\":\"elmas\",\"say\":\"1 / 6\",\"b\":\"Elmas Öğrenme Alanı\",\"nok\":6}"
+ },
+ {
+  "ad": "T3 Altın moduna ilk girişte Altın rehberi (Altın renkleriyle) gösterilir; Altın’a özel oyunlar ve Etkinlik Oyunları ayrı anlatılır",
+  "ok": true,
+  "a": "[\"Altın Öğrenme Alanı\",\"Sınıflar ve üniteler\",\"Konu anlatımı\",\"Arama\",\"Altın’a özel oyunlar\",\"Etkinlik Oyunları\",\"Çalışma ve ilerleme\"]"
+ },
+ {
+  "ad": "T5 Altın ve Elmas rehberleri bağımsız: Altın tamamlandıktan sonra Elmas’a ilk girişte Elmas rehberi ayrıca çıkar; Altın’ın durumu değişmez",
+  "ok": true,
+  "a": "{\"mm2\":{\"tema\":\"elmas\",\"say\":\"1 / 6\",\"b\":\"Elmas Öğrenme Alanı\",\"nok\":6},\"altin\":{\"n\":1,\"d\":\"tamam\",\"t\":\"2026-11-21T18:47:25.581Z\"},\"elmas\":null}"
+ },
+ {
+  "ad": "T6a Elmas ana sayfa: arama alanı ve alt menü (Derslerim, Oyunlar, Çalışmam, Profilim) sırayla vurgulanır; kutu ekranda, hedefi ve alt menüyü kapatmaz",
+  "ok": true,
+  "a": "{\"adim\":[\"Buradan konu, kavram ve soru arayabilirsin.\",\"Derslerim: sınıfını seçerek ünite ve konulara ulaşabilirsin.\",\"Oyunlar: öğrendiklerini oyunlarla pekiştirebilirsin.\",\"Çalışmam: çözdüğün soruları ve ilerlemeni burada takip edebilirsin.\",\"Profilim: kişisel tercihlerini ve rehber ayarlarını buradan yönetebilirsin.\",\"Mod: Elmas ile Altın arasında geçiş. İlerlemen iki modda ortaktır.\"],\"b1\":{\"icinde\":true,\"k\":true,\"nav\":true}}"
+ },
+ {
+  "ad": "T6b Derslerim ve Oyunlar bölümlerine ilk girişte kendi baloncukları çıkar (gerçek öğeleri işaretler); alt menünün üstüne binmez",
+  "ok": true,
+  "a": "{\"b2\":\"elmas.derslerim\",\"b3\":\"elmas.oyun\"}"
+ },
+ {
+  "ad": "T6c “Bana tekrar göster”: rehber bir sonraki girişte yeniden çıkar",
+  "ok": true,
+  "a": "{\"dt\":\"tekrar\",\"b4\":\"elmas.oyun\"}"
+ },
+ {
+  "ad": "T9 “Bir daha gösterme” uygulama yeniden açılınca korunur (Oyunlar baloncuğu çıkmaz); diğer bölümün (Çalışmam) rehberi etkilenmez",
+  "ok": true,
+  "a": "{\"b5\":null,\"b6\":\"elmas.calis\"}"
+ },
+ {
+  "ad": "T6d Oyun oynarken ve öğretmen görünümünde öğrenci baloncukları çıkmaz",
+  "ok": true,
+  "a": "{\"oyun\":false,\"ogrGorunum\":null,\"kip\":\"ogretmen\"}"
+ },
+ {
+  "ad": "T6e Altın: koridorda arama düğmesi Altın renkli baloncukla vurgulanır; arama penceresinde arama alanı; Oyun Dünyası’nda Altın’a özel oyunlar",
+  "ok": true,
+  "a": "{\"b1\":\"altin.ana\",\"b2\":\"altin.arama\",\"b3\":\"altin.oyun\"}"
+ },
+ {
+  "ad": "T7 Öğretmen rehberi yalnız öğretmen alanında: öğrenci ekranında çıkmaz, öğretmen panelinde çıkar (öğretmen teması, “Rehber” düğmesi); öğrenci rehber merkezinde öğretmen/editör yok",
+  "ok": true,
+  "a": "{\"r\":{\"ogrenciMerkez\":[\"genel\",\"altin\",\"elmas\",\"ders\",\"arama\",\"oyun\",\"calis\"],\"pinEkrani\":null,\"ogrOturumOgrenciEkrani\":null,\"ogretmen\":\"ogretmen.panel\",\"ogrTema\":\"rh517-bal rh517-ogretmen\",\"yb\":true,\"ogrMerkez\":[\"genel\",\"altin\",\"elmas\",\"ders\",\"arama\",\"oyun\",\"calis\",\"ogretmen\"]},\"panelAdim\":[\"Öğretmen paneli üç bölümdür: H\",\"Rehber: öğretmen rehberini bur\",\"Mod: öğrenci alanlarına geçiş.\",\"Öğretmen modundan buradan çıka\"],\"araclar\":\"ogretmen.araclar\"}"
+ },
+ {
+  "ad": "T8 Editör rehberi yalnız editör alanında ve oturumla: PIN ekranında çıkmaz, editör panelinde çıkar (editör teması); merkezde editör rehberi yalnız editör oturumunda",
+  "ok": true,
+  "a": "{\"pin\":null,\"ed\":\"editor.ana\"}"
+ },
+ {
+  "ad": "T8b Editör: inceleme listesi → içerik inceleme ve toplu işlemler; kayıt ekranı → kaynak/doğrulama ve onay/düzeltme rehberleri",
+  "ok": true,
+  "a": "{\"liste\":\"editor.inceleme\",\"liste2\":\"editor.toplu\",\"kayit\":\"editor.kaynak\",\"kayit2\":\"editor.onay\"}"
+ },
+ {
+  "ad": "T10 Profilim’de “Kullanım Rehberi”; merkezde istenen başlıklar; “Bir daha gösterme” denmiş Oyunlar rehberi “Göster” ile yeniden açılır; tanıtım yeniden izlenebilir",
+  "ok": true,
+  "a": "{\"merkez\":[\"Uygulamayı tanı — Görüldü\",\"Altın Sınıfı rehberi — Henüz gösterilmedi\",\"Elmas Sınıfı rehberi — Görüldü\",\"Dersler ve konu anlatımları — Kısmen görüldü\",\"Arama kullanımı — Henüz gösterilmedi\",\"Oyunlar ve etkinlikler — Kapalı (bir daha gösterme)\",\"Çalışma takibi — Kısmen görüldü\"],\"yeniden\":\"elmas.oyun\"}"
+ },
+ {
+  "ad": "T11 “Tüm rehberleri yeniden başlat” yalnız rehber tercihlerini sıfırlar: ders ilerlemesi, kart kutuları, oyun puanları, favoriler, oyun kayıtları ve editör kayıtları aynı",
+  "ok": true,
+  "a": "{\"fark\":[],\"r\":{\"v\":1,\"otomatik\":true,\"r\":{}}}"
+ },
+ {
+  "ad": "T12 360×640: tanıtım penceresi ekrana sığar, düğmeler ≥ 40 px, yatay taşma yok; baloncuk ekranda, hedefi ve alt menüyü kapatmaz",
+  "ok": true,
+  "a": "{\"m\":{\"icinde\":true,\"tas\":0,\"dugme\":true},\"b1\":{\"id\":\"elmas.ana\",\"m\":\"Buradan konu, kavram ve soru arayabilirsin.\",\"ad\":\"Ana sayfa\",\"icinde\":true,\"hedefiKapatmaz\":true,\"navKapatmaz\":true,\"ring\":{\"w\":48,\"h\":52},\"tema\":\"elmas\"}}"
+ },
+ {
+  "ad": "T12 412×915: tanıtım penceresi ekrana sığar, düğmeler ≥ 40 px, yatay taşma yok; baloncuk ekranda, hedefi ve alt menüyü kapatmaz",
+  "ok": true,
+  "a": "{\"m\":{\"icinde\":true,\"tas\":0,\"dugme\":true},\"b1\":{\"id\":\"elmas.ana\",\"m\":\"Buradan konu, kavram ve soru arayabilirsin.\",\"ad\":\"Ana sayfa\",\"icinde\":true,\"hedefiKapatmaz\":true,\"navKapatmaz\":true,\"ring\":{\"w\":52,\"h\":52},\"tema\":\"elmas\"}}"
+ },
+ {
+  "ad": "T12 915×412: tanıtım penceresi ekrana sığar, düğmeler ≥ 40 px, yatay taşma yok; baloncuk ekranda, hedefi ve alt menüyü kapatmaz",
+  "ok": true,
+  "a": "{\"m\":{\"icinde\":true,\"tas\":0,\"dugme\":true},\"b1\":{\"id\":\"elmas.ana\",\"m\":\"Buradan konu, kavram ve soru arayabilirsin.\",\"ad\":\"Ana sayfa\",\"icinde\":true,\"hedefiKapatmaz\":true,\"navKapatmaz\":true,\"ring\":{\"w\":52,\"h\":52},\"tema\":\"elmas\"}}"
+ },
+ {
+  "ad": "T12b Klavye açıkken (görünür alan 300 px) tanıtım penceresi ekranda kalır, içinde kaydırılır ve düğmelere ulaşılır",
+  "ok": true,
+  "a": "{\"sigar\":true,\"kaydir\":true,\"dugme\":true}"
+ },
+ {
+  "ad": "T13 İnternet bağlantısı yokken rehberler çalışır (mod rehberi ve baloncuk açılır, ağ isteği yapılmaz)",
+  "ok": true,
+  "a": "{\"istek\":[]}"
+ },
+ {
+  "ad": "T14 “Rehberleri kendiliğinden göster” kapalıyken hiçbir rehber çıkmaz; rehber kodu hata verse de gezinme sürer",
+  "ok": true,
+  "a": "{\"a\":false,\"view\":\"classes\",\"kart\":9}"
+ },
+ {
+  "ad": "Z Sayfa hatası yok",
+  "ok": true,
+  "a": "[]"
+ }
+]

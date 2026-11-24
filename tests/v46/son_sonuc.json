@@ -1,0 +1,187 @@
+{
+ "tarih": "2026-11-17T23:05:58.291Z",
+ "md5": "69c228a5b5ff767a648ac3818fb8c6fe",
+ "sonuc": [
+  {
+   "ad": "A1 sürüm V46.0, index.html aynı dosya; V45.0 yedek dosyası duruyor",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "A2 içerik kayıtları ve kimlikleri (veri ve müzik blokları) V45.0 ile bayt bayt aynı",
+   "ok": true,
+   "ayr": "13 blok"
+  },
+  {
+   "ad": "A3 önceki sürüm dosyalarına dokunulmadı",
+   "ok": true,
+   "ayr": "yalnız v46.0"
+  },
+  {
+   "ad": "A4 HTML kodunda gizli bilgi yok (client secret, istemci kimliği, oturum belirteci); veri blokları hariç tarandı",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "B1 oyun ekranları parmakla kaydırılınca içeriğin sonuna ulaşılır (Galaxy S9+, Galaxy Tab S4, yatay telefon; 8 ekran)",
+   "ok": true,
+   "ayr": "24 ölçüm, 19 ekranda kaydırma gerekti"
+  },
+  {
+   "ad": "B2 3B oda sahnesinde yatay sürükleme etrafa baktırır, sayfa kaymaz (sahne ekran yüksekliğine sabit)",
+   "ok": true,
+   "ayr": "{\"y0\":0,\"s1\":{\"yaw\":25.6,\"y\":0,\"tam\":true,\"h\":658}}"
+  },
+  {
+   "ad": "B3 sahne üstündeki panel (Defter) kendi içinde parmakla kayar, arkadaki sayfa kaymaz",
+   "ok": true,
+   "ayr": "{\"pk0\":{\"sh\":6733,\"ch\":560,\"st\":0},\"pk1\":{\"st\":282,\"y\":0}}"
+  },
+  {
+   "ad": "C1 envanter: 60 ünite (iki program) hazır / kısmen / eksik olarak çıkarıldı",
+   "ok": true,
+   "ayr": "{\"hazir\":26,\"eksik\":15,\"kismen\":19}"
+  },
+  {
+   "ad": "C2 seçili programa göre 4–12. sınıflarda bölüm var; listedeki bütün bölümler oynanabilir",
+   "ok": true,
+   "ayr": "{\"n\":45,\"sinif\":\"4,5,6,7,8,9,10,11,12\"}"
+  },
+  {
+   "ad": "C3 bölümler yalnız kendi sınıf/program/ünite kayıtlarından kurulur; sorular ünitenin kaynak denetimli (A/B) sorularıdır; 2018 ile 2026 karışmaz",
+   "ok": true,
+   "ayr": "{\"err\":[],\"nerr\":0,\"n\":44,\"tur\":[\"Renkli Raflar Odası\",\"Mühürlü Kapı Odası\",\"Bilmece Taşı Odası\",\"Mühür Salonu\",\"Yazıt Galerisi\",\"Dağınık Arşiv\",\"Eşleştirme Salonu\",\"Boşluk Salonu\",\"Kategori Salonu\",\"Deneme Kapısı\",\"Şifreli Kapı\",\"Belge Mühürleri Odası\",\"Kırık Kitabe Odası\",\"Tasnif Odası\"],\"sekil\":[\"raf,muhur,yazit+k\",\"yazit,muhur,raf+k\",\"muhur,yazit,raf+k\",\"muhur,raf,yazit+k\",\"muhur,raf+k\",\"muhur,yazit+k\",\"yazit+k\",\"yazit,raf+k\",\"kadran\",\"muhur,kadran\",\"raf,yazit+k\"]}"
+  },
+  {
+   "ad": "C4 odalar çeşitli: farklı oda türleri ve oda dizilimleri (aynı üç oda kopyalanmadı)",
+   "ok": true,
+   "ayr": "{\"odaAdlari\":14,\"dizilim\":[\"raf,muhur,yazit+k\",\"yazit,muhur,raf+k\",\"muhur,yazit,raf+k\",\"muhur,raf,yazit+k\",\"muhur,raf+k\",\"muhur,yazit+k\",\"yazit+k\",\"yazit,raf+k\",\"kadran\",\"muhur,kadran\",\"raf,yazit+k\"]}"
+  },
+  {
+   "ad": "C5 5. sınıf 1. ünitenin elle kurulmuş bölümü (V41) aynen korunuyor",
+   "ok": true,
+   "ayr": "Düzen Salonu,İsimler Arşivi,Yazıt Odası"
+  },
+  {
+   "ad": "C6 7. sınıf “İslam Düşüncesinde Yorumlar” bölümü baştan sona oynandı (3 oda + şifreli kapı): yıldızlar ve kayıt",
+   "ok": true,
+   "ayr": "{\"yildiz\":{\"0\":3,\"1\":3,\"2\":3},\"puan\":{\"0\":100,\"1\":100,\"2\":200}}"
+  },
+  {
+   "ad": "C7 10. sınıf kısa bölüm (yalnız şifreli kapı odası) baştan sona oynandı",
+   "ok": true,
+   "ayr": "{\"yildiz\":{\"0\":3}}"
+  },
+  {
+   "ad": "C8 her ünitenin kaydı ayrı (dk-oyun41.oyunlar.kutuphane.<bölüm>)",
+   "ok": true,
+   "ayr": "[\"7-2026-U03\",\"10-2026-U01\"]"
+  },
+  {
+   "ad": "C9 bölüm seçimi: tamamlanan bölüm yıldızıyla görünür",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "C10 4–12 her sınıfta Kütüphane odası ve Sınıf Dünyası açılıyor",
+   "ok": true,
+   "ayr": "4:4-2018-U01:7/5 5:5-2026-U01:6/5 6:6-2026-U01:6/5 7:7-2026-U01:7/5 8:8-2018-U01:6/5 9:9-2026-U01:5/5 10:10-2026-U01:5/5 11:11-2026-U01:7/5 12:12-2018-U01:6/5"
+  },
+  {
+   "ad": "D1 Klasik ana sayfa: dört ana giriş (Derslerim, Oyunlar, Çalışmam, Profilim); alt menü beş düğme",
+   "ok": true,
+   "ayr": "{\"kut\":[\"Derslerim\",\"Oyunlar\",\"Çalışmam\",\"Profilim\"],\"nav\":[\"Ana sayfa\",\"Derslerim\",\"Oyunlar\",\"Çalışmam\",\"Profilim\"],\"dugme\":6}"
+  },
+  {
+   "ad": "D2 konu ekranı: Öğren / Pekiştir / Kendini Dene; yalnız seçili grubun sekmeleri görünür, hiçbir sekme silinmedi; kaynak etiketleri açılır bölümde",
+   "ok": true,
+   "ayr": "{\"t1\":{\"seg\":[\"Öğren\",\"Pekiştir\",\"Kendini Dene\"],\"gor\":[\"Anlatım\",\"Özet\",\"30 Sn\",\"Hikâye\",\"Kaynaklar\"],\"hepsi\":12,\"kay\":true},\"t2\":{\"gor\":[\"Oyun\",\"Mini Test\",\"Sınav\"],\"on\":\"Mini Test\"}}"
+  },
+  {
+   "ad": "D3 taşınan bölümler ulaşılabilir: Derslerim → Sureler ve Dualar, Kavramlar, Kişiler, Bağlantılar; Çalışmam → Pekiştir, Kendini Dene, Sınavlar",
+   "ok": true,
+   "ayr": "{\"c\":[\"Sureler ve Dualar\",\"Kavramlar\",\"Kişiler ve eserler\",\"Bağlantılar\"],\"ca\":[\"Pekiştir\",\"Kendini Dene\",\"Sınavlar\"]}"
+  },
+  {
+   "ad": "D4 Profilim: Hesap (misafir + Google ile giriş), İlerlemem, Görünüm, program sürümü, öğretmen ve editör",
+   "ok": true,
+   "ayr": "[\"Hesap\",\"Sunucu ayarı\",\"İlerlemem\",\"Görünüm\",\"Program sürümü ve taslak görünümü\",\"Öğretmen ve editör\"]"
+  },
+  {
+   "ad": "D5 eski ekranların hepsi (Pekiştir, Kendini Dene, Yanlışlarım, Kartlar, Sözlük, Sureler, Sınavlar, Bağlantılar, Oyunlar, Arama) hâlâ açılıyor",
+   "ok": true,
+   "ayr": "pek:pek:6 dene:dene:2 yanlis:yanlis:3 cards:cards:4 kavram:kavram:93 kisi:kisi:65 sd:sd:4 exams:exams:2 links:links:1 games:games:38 search:search:3"
+  },
+  {
+   "ad": "D6 öğretmen paneli PIN istemeden açılıyor; editör onayı öğretmen panelinde değil (ayrı alan)",
+   "ok": true,
+   "ayr": "{\"panel\":true,\"pin\":false,\"sekme\":[\"Haftalık\",\"Sınıflarım\",\"Araçlar\"],\"nav\":[\"home\",\"classes\",\"games\",\"calis\",\"profil\",\"ogretmen\"],\"sub\":[\"genel\",\"kaz\",\"ara\",\"son\",\"yedek\",\"ayar\"]}"
+  },
+  {
+   "ad": "D7 öğretmen düğmesi yalnız öğretmen modunda; “Öğretmen modundan çık” sonrası öğrenci ekranında yok",
+   "ok": true,
+   "ayr": "{\"o\":[\"home\",\"classes\",\"games\",\"calis\",\"profil\",\"ogretmen\"],\"o2\":{\"view\":\"home\",\"nav\":[\"home\",\"classes\",\"games\",\"calis\",\"profil\"],\"ok\":false}}"
+  },
+  {
+   "ad": "D8 editör alanı ayrı kalıyor (kendi PIN ekranı)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "D9 Klasik ↔ Premium geçişi kaldığı yeri koruyor (6. sınıf)",
+   "ok": true,
+   "ayr": "{\"g1\":{\"view\":\"psinif\",\"pg\":6,\"prem\":true},\"g2\":{\"view\":\"grade\",\"g\":6,\"prem\":false,\"nav\":5}}"
+  },
+  {
+   "ad": "D10 Premium: koridor menüsü aynı dört alan; tekrar eden Hızlı Erişim yok; sınıf merkezinde araçlar açılır bölümde; ders ekranında üç ana sekme",
+   "ok": true,
+   "ayr": "{\"pn\":{\"nav\":[\"Derslerim\",\"Oyunlar\",\"Çalışmam\",\"Profilim\"],\"hz\":\"none\"},\"ps\":{\"ar\":true,\"acik\":false},\"pd\":{\"seg\":3,\"gizli\":7,\"kay\":true}}"
+  },
+  {
+   "ad": "E1 açılış: “Google ile giriş” ve “Misafir olarak devam et”; misafir seçilince hesapsız girilir (ilerleme cihazda)",
+   "ok": true,
+   "ayr": "{\"s0\":{\"blok\":true,\"g\":true,\"m\":true},\"s1\":{\"mod\":\"misafir\",\"misafir\":1,\"view\":\"home\"}}"
+  },
+  {
+   "ad": "E2 sunucu adresi yokken Google girişi bulut kaydı varmış gibi davranmaz: sunucu adresi ister",
+   "ok": true,
+   "ayr": "Hesap sunucusu\n\nGoogle ile giriş için önce sunucu adresini gir. Sunucu kurulumu: sunucu/README.md\n\nSunucu adresi\n\nBu adr"
+  },
+  {
+   "ad": "E3 sunucu adresi profilde kaydediliyor ve sunucu deneniyor (/api/saglik)",
+   "ok": true,
+   "ayr": ""
+  },
+  {
+   "ad": "E4 giriş: sunucu kimlik belgesini doğruladı; misafir ilerlemesi hesaba aktarıldı (kazanım, yanlış, oyun kaydı)",
+   "ok": true,
+   "ayr": "{\"g1\":{\"ok\":true,\"surum\":1},\"surum\":1}"
+  },
+  {
+   "ad": "E5 aynı veri tekrar eşitlenince iki kez eklenmez (kazanım sayıları değişmez)",
+   "ok": true,
+   "ayr": "{\"once\":\"{\\\"DKAB-6-U01-O01\\\":{\\\"userId\\\":\\\"local\\\",\\\"outcomeId\\\":\\\"DKAB-6-U01-O01\\\",\\\"mastery\\\":0.67,\",\"iki\":\"{\\\"DKAB-6-U01-O01\\\":{\\\"userId\\\":\\\"local\\\",\\\"outcomeId\\\":\\\"DKAB-6-U01-O01\\\",\\\"mastery\\\":0.67,\"}"
+  },
+  {
+   "ad": "E6 başka cihazdan aynı hesapla giriş: ilerleme ve oyun kaydı geri yüklendi (kaldığı yerden)",
+   "ok": true,
+   "ayr": "{\"r2\":{\"ok\":true,\"surum\":4}}"
+  },
+  {
+   "ad": "E7 iki cihazın ilerlemesi birleşir: ikinci cihazdaki yeni kazanım ve daha ileri oyun kaydı birinci cihaza geldi",
+   "ok": true,
+   "ayr": "{\"o71\":true,\"oyun\":2}"
+  },
+  {
+   "ad": "E8 çıkış yapınca misafir moduna dönülür; bu cihazdaki ilerleme silinmez (istenirse “cihazı temizle”)",
+   "ok": true,
+   "ayr": "{\"mod\":\"misafir\",\"prog\":2}"
+  },
+  {
+   "ad": "F1 sayfa hatası yok",
+   "ok": true,
+   "ayr": "[]"
+  }
+ ],
+ "hata": []
+}
