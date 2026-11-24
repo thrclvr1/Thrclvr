@@ -1,5 +1,6 @@
 package tr.dkab.platform;
 
+import android.accounts.AccountManager;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -67,6 +68,7 @@ public class MainActivity extends Activity {
 
     private static final int REQ_FILE_CHOOSER = 1;
     private static final int REQ_SAVE_FILE = 2;
+    private static final int REQ_HESAP = 3;
 
     /** Sayfadaki "JSON olarak yedekle" gibi blob indirmelerini Android'e iletir. */
     private static final String DOWNLOAD_HOOK =
@@ -225,6 +227,7 @@ public class MainActivity extends Activity {
             String tur = o.optString("tur");
             if ("google".equals(tur)) { googleGiris(o.optString("istemci", ""), o.optString("nonce", ""), yanit); return; }
             if ("google-cikis".equals(tur)) { googleCikis(); return; }
+            if ("hesap-sec".equals(tur)) { hesapSec(yanit); return; }
             if (!"kaydet".equals(tur)) return;
             String ad = o.optString("ad", "dosya");
             String veri = o.optString("veri", "");
@@ -305,6 +308,37 @@ public class MainActivity extends Activity {
         } catch (Exception ignored) { }
     }
 
+    /**
+     * V52.1: telefondaki Google hesabını seçme. Android'in kendi hesap seçicisi açılır (yalnız com.google hesapları);
+     * Google Cloud ayarı ya da izin gerekmez. Seçilen hesabın adı (e-posta) sayfaya verilir.
+     */
+    private JavaScriptReplyProxy hesapYanit;
+
+    private void hesapSec(JavaScriptReplyProxy yanit) {
+        hesapYanit = yanit;
+        try {
+            Intent i = AccountManager.newChooseAccountIntent(null, null, new String[]{"com.google"},
+                    null, null, null, null);
+            startActivityForResult(i, REQ_HESAP);
+        } catch (Exception e) {
+            hesapCevap(false, null, "Telefonun hesap seçicisi açılamadı.");
+        }
+    }
+
+    private void hesapCevap(boolean ok, String eposta, String hata) {
+        JavaScriptReplyProxy y = hesapYanit;
+        hesapYanit = null;
+        if (y == null) return;
+        try {
+            JSONObject o = new JSONObject();
+            o.put("tur", "hesap-sec");
+            o.put("ok", ok);
+            if (eposta != null) o.put("eposta", eposta);
+            if (hata != null) o.put("hata", hata);
+            y.postMessage(o.toString());
+        } catch (Exception ignored) { }
+    }
+
     private void googleCikis() {
         if (credentialManager == null) credentialManager = CredentialManager.create(this);
         credentialManager.clearCredentialStateAsync(new ClearCredentialStateRequest(), new CancellationSignal(), anaIs,
@@ -323,6 +357,10 @@ public class MainActivity extends Activity {
                 fileCallback.onReceiveValue(u != null ? new Uri[]{u} : null);
                 fileCallback = null;
             }
+        } else if (requestCode == REQ_HESAP) {
+            String ad = (resultCode == RESULT_OK && data != null) ? data.getStringExtra(AccountManager.KEY_ACCOUNT_NAME) : null;
+            if (ad != null && !ad.isEmpty()) hesapCevap(true, ad, null);
+            else hesapCevap(false, null, "iptal");
         } else if (requestCode == REQ_SAVE_FILE) {
             byte[] bytes = pendingSaveBytes;
             pendingSaveBytes = null;

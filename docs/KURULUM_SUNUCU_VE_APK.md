@@ -12,6 +12,22 @@ Aşağıdaki **3 adımı yalnız siz yapabilirsiniz**, çünkü sizin hesapları
 
 ---
 
+## Hiç kurulum olmadan (V52.1): telefondaki Google hesabıyla giriş
+
+`apk/din-kulturu-v52.1.apk` dosyasını telefona kurun. Hiçbir ayar gerekmez.
+
+- **Öğrenci:** “Google ile giriş” → telefonun kendi hesap listesi açılır → hesabınızı seçin.
+- **Yönetici:** Mod düğmesi › Yönetici / Editör girişi › **Google ile doğrula** → hesabınızı seçin.
+  - İlk kez: **“Bu hesabı yönetici yap (PIN ile)”** → editör PIN'iniz.
+  - Sonraki girişler: hesap → PIN.
+
+Sınırlar:
+- Yalnız APK'da çalışır; web sitesinde değil.
+- İlerleme telefonda kalır.
+- Yönetici alanının asıl koruması PIN'dir.
+
+Aşağıdaki Google Cloud ve sunucu adımları yalnız imzalı doğrulama, web sitesinde Google girişi ya da cihazlar arası ilerleme istenirse gerekir.
+
 ## En kolay yol (V52.0): sunucusuz Google girişi
 
 V52.0'dan beri Google ile giriş için **sunucu gerekmez**. Yalnız aşağıdaki **Adım 1** (Google Cloud) yeterlidir; Adım 2 ve 3 (Gmail uygulama şifresi, Render) gerekmez.
@@ -120,10 +136,10 @@ Bunlar gerekirse ileride Adım 2–4 ile sunucu kurulur.
 
 ## APK kurulumu
 
-1. En yeni APK'yı (`apk/din-kulturu-v52.0.apk`) telefona gönderin (e-posta, Drive, USB).
+1. En yeni APK'yı (`apk/din-kulturu-v52.1.apk`) telefona gönderin (e-posta, Drive, USB).
 2. Dosyaya dokunun → telefon “bilinmeyen kaynak” izni ister → izin verin → **Yükle**.
    - Play Protect “tanınmayan uygulama” diyebilir: **Yine de yükle**.
-3. Eski bir APK (V36, V51.6, V51.7) yüklüyse bu sürüm onun **üzerine** kurulur, çünkü imza anahtarı aynı. Uygulamadaki ilerleme silinmez.
+3. Eski bir APK (V36, V51.6, V51.7, V52.0) yüklüyse bu sürüm onun **üzerine** kurulur, çünkü imza anahtarı aynı. Uygulamadaki ilerleme silinmez.
 
 ## Bir şey çalışmazsa
 

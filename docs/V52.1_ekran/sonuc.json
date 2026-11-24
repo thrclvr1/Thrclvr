@@ -1,0 +1,62 @@
+{
+ "tarih": "2026-11-24T12:55:09.611Z",
+ "gecen": 11,
+ "toplam": 11,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V52.1, index.html aynı; veri/müzik/görsel blokları V52.0 ile bayt bayt aynı; önceki sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 HTML’de Gmail adresi ve açık PIN yok; Android tarafı “hesap-sec” köprüsünü telefonun hesap seçicisiyle (yalnız com.google) karşılıyor",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "K1 APK: “Google ile giriş”e basınca ara pencere olmadan doğrudan telefonun Google hesap seçicisi istenir; seçilen hesapla giriş yapılır; Profilim “Telefondaki Google hesabınla giriş yapıldı”; kurulum bölümü yok",
+   "ok": true,
+   "a": "{\"d\":{\"view\":\"profil46\",\"edOk\":false,\"adim1\":false,\"pin\":false,\"ed\":false,\"metin\":\"\",\"mod\":\"google\",\"cihaz\":1,\"ad\":\"ogrenci.deneme@example.com\",\"sheet\":false,\"giden\":[\"hesap-sec\"]},\"kart\":\"Hesap\\n\\nogrenci.deneme@example.com\\n\\nTelefondaki Google hesabınla giriş yapıldı. İlerlemen bu cihazda saklanır; başka cihaza taşımak için hesap sunucusu gerekir.\\n\\nÇıkış yap\"}"
+  },
+  {
+   "ad": "K2 Hesap seçici kapatılırsa (vazgeç) misafir olarak kalınır, hata yok; ikinci denemede giriş yapılır",
+   "ok": true,
+   "a": "{\"view\":\"profil46\",\"edOk\":false,\"adim1\":false,\"pin\":false,\"ed\":false,\"metin\":\"\",\"mod\":\"misafir\",\"sheet\":false,\"giden\":[\"hesap-sec\"]}"
+  },
+  {
+   "ad": "K2b İkinci denemede seçilen hesapla giriş",
+   "ok": true,
+   "a": "ogrenci.deneme@example.com"
+  },
+  {
+   "ad": "K3 Yönetici: kurulum/geçiş ekranı yok, “Telefondaki Google hesabınla doğrula” → hesap seçici → “kayıtlı değil” → “Bu hesabı yönetici yap (PIN ile)” → yanlış PIN kaydetmez → doğru PIN → Editör Onay Alanı; kayıtta e-posta yok",
+   "ok": true,
+   "a": "{\"d2\":\"ADIM 2 / 2 · EDİTÖR PIN'İ Editör Onay Alanı ✓ Google: yonetici.deneme@example.com — bu hesabı yönetici yapmak için editör PIN'ini gir 6 haneli editör PIN'ini gir. Editör PIN'i 1 2 3 4 5 6 7 8 9 0 ⌫ Ed\",\"d2pin\":true,\"yanlis\":{\"ok\":false,\"view\":\"editor\"},\"kayit0\":null,\"pr\":{\"ok\":true,\"view\":\"editor\"},\"d3ed\":true,\"kayit\":\"{\\\"v\\\":1,\\\"hesaplar\\\":[{\\\"o\\\":\\\"03fe68c8f744669af641053b2365e75e45c0afb8808b15774d4fee426ec3811d\\\"\"}"
+  },
+  {
+   "ad": "K4 Kayıtlı yönetici hesabı: yeniden girişte doğrudan “Adım 2/2 · Editör PIN’i”",
+   "ok": true,
+   "a": "ADIM 2 / 2 · EDİTÖR PIN'İ Editör Onay Alanı ✓ Google ile doğrulandı: yonetici.deneme@example.com 6 haneli editör PIN'ini"
+  },
+  {
+   "ad": "K5 Google hesabından çıkınca yönetici oturumu kapanır; telefondaki başka bir hesap yönetici alanını açamaz",
+   "ok": true,
+   "a": "ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi ✓ Google ile giriş yapıldı: ogrenci.deneme@example.com Bu Google hesabı "
+  },
+  {
+   "ad": "K6 Tarayıcıda (APK dışında) telefon hesap seçicisi yolu kapalı; V52.0 davranışı aynen (kurulum açıklaması + geçiş dönemi)",
+   "ok": true,
+   "a": "ADIM 1 / 2 · GOOGLE DOĞRULAMASI Yönetici girişi Google girişi bu uygulamada henüz kurulmadı. Google Cloud'dan aldığın Web istemci kimliğini "
+  },
+  {
+   "ad": "K7 Öğrenci (Elmas) ve öğretmen ekranları V52.0 ile birebir aynı (APK adresinde)",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "K8 Bütün senaryolarda JavaScript hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}
