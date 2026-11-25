@@ -1,0 +1,177 @@
+{
+ "tarih": "2026-11-25T11:37:27.126Z",
+ "gecen": 34,
+ "toplam": 34,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V54.0, index.html aynı; veri blokları V53.0 ile bayt bayt aynı (içerik silinmedi); eski sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 HTML’de Gmail adresi ve açık PIN yok; Altın hâlâ kapalı (ACIK: false)",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "E1 Ana sayfa sade: alt menüdeki Çalışmam ve Profilim kartları kaldırıldı; Derslerim, Oyunlar, sınıf bilgisi, arama, “devam et/başla” ve günlük hedef var",
+   "ok": true,
+   "a": "{\"kart\":[\"classes\",\"games\"],\"dv\":true,\"sinif\":true,\"ara\":true}"
+  },
+  {
+   "ad": "E2 Derslerim 4–12 bütün sınıfları gösterir (yönlendirme yok); öğrencinin sınıfı “Sınıfım” rozetiyle işaretli",
+   "ok": true,
+   "a": "{\"view\":\"classes\",\"g\":[5,4,6,7,8,9,10,11,12],\"ben\":\"5\\nsınıf\\n35/35 konuda içerik\\nSınıfım\"}"
+  },
+  {
+   "ad": "E3 Ünite konu listeleri akordiyon: başta kapalı, dokununca açılır/kapanır, açık durum hatırlanır; ünite açıklaması korunur",
+   "ok": true,
+   "a": "{\"s\":5,\"unite\":5,\"dugme\":5,\"kapali\":5,\"korunan\":true,\"acildi\":true,\"kapandi\":true,\"hatirla\":true,\"tid\":\"TPC-7-1-01\",\"sonra\":5,\"son54\":null}"
+  },
+  {
+   "ad": "E4 Başka sınıfın (7.) konusuna bakmak öğrencinin sınıfını (5.) ve “devam et” kaydını değiştirmez",
+   "ok": true,
+   "a": "{\"s\":5,\"unite\":5,\"dugme\":5,\"kapali\":5,\"korunan\":true,\"acildi\":true,\"kapandi\":true,\"hatirla\":true,\"tid\":\"TPC-7-1-01\",\"sonra\":5,\"son54\":null}"
+  },
+  {
+   "ad": "E5 Bağlantılar: Yönetim sekmesi öğrenciye görünmez; elle açılmak istense de Kavram Haritası’na döner; yönetim işlevi yetki ister",
+   "ok": true,
+   "a": "{\"btn\":false,\"tab\":\"kavram\",\"harita\":true,\"fn\":\"Bu bölüm yalnız editör içindir.\"}"
+  },
+  {
+   "ad": "E6 Öğretmen de Yönetim’i göremez; yalnız editör oturumunda görünür",
+   "ok": true,
+   "a": "{\"ogr\":false,\"ed\":true}"
+  },
+  {
+   "ad": "E7 Oyun adları tutarlı: Beni Bul!, Kavram Köprüsü, Zihin Sandığı, Zaman Yolculuğu, Kelimeyi Anlat Bakalım, Çark Çevirme; eski adlar görünmez",
+   "ok": true,
+   "a": "{\"yeni\":[\"Beni Bul!\",\"Kavram Köprüsü\",\"Zihin Sandığı\",\"Zaman Yolculuğu\",\"Kelimeyi Anlat Bakalım\",\"Çark Çevirme\"],\"eski\":[]}"
+  },
+  {
+   "ad": "E8 Ben Kimim (Beni Bul!) ipuçlarında sınıf, sayfa ve “Konu:” gibi teknik bilgiler yok",
+   "ok": true,
+   "a": "0"
+  },
+  {
+   "ad": "S1 Sınıf açılışta zorunlu değil; öğrenci Derslerim’e girerken sorulur ve “Şimdilik geç” var; geçince oturum boyunca sorulmaz; öğretmen oturumunda sorulmaz",
+   "ok": true,
+   "a": "{\"a\":false,\"b2\":{\"ov\":true,\"gec\":true},\"c\":false,\"t\":false}"
+  },
+  {
+   "ad": "T1 Öğretmen panelinde Tema düğmesi sekme değişiminde ve panel yeniden çizilince kaybolmaz, tek kopya",
+   "ok": true,
+   "a": "{\"ilk\":true,\"donus\":1,\"L\":{\"altin-gece\":[\"#0D0C0A\",\"#F2EADB\",\"#BDB09A\",\"#17150F\",\"#DDB86F\",\"#1A1206\"],\"altin-gunduz\":[\"#F6F1E7\",\"#241B10\",\"#5A4B36\",\"#FFFFFF\",\"#7A5012\",\"#FFFFFF\"],\"lacivert-gece\":[\"#0B1322\",\"#EDF1F8\",\"#AEB9CB\",\"#121C30\",\"#D8B56A\",\"#10131A\"],\"lacivert-gunduz\":[\"#EEF1F6\",\"#16213A\",\"#4E5A70\",\"#FFFFFF\",\"#7A5A1C\",\"#FFFFFF\"],\"zumrut-gece\":[\"#0A1512\",\"#EEF5F1\",\"#A9BFB4\",\"#10201B\",\"#D9B76E\",\"#0E1510\"],\"zumrut-gunduz\":[\"#EEF3EF\",\"#14261F\",\"#4A5F55\",\"#FFFFFF\",\"#6E5418\",\"#FFFFFF\"],\"murekkep-gece\":[\"#15101A\",\"#F3EDF5\",\"#BDB0C2\",\"#1E1725\",\"#D99A6C\",\"#1A0F0A\"],\"murekkep-gunduz\":[\"#F4EFF3\",\"#23182A\",\"#5E5164\",\"#FFFFFF\",\"#8A4F27\",\"#FFFFFF\"],\"kumtasi-gece\":[\"#17120E\",\"#F5EEE6\",\"#C2B3A3\",\"#211A14\",\"#D7A06A\",\"#1A100A\"],\"kumtasi-gunduz\":[\"#F5EFE7\",\"#2A1F15\",\"#5E4F40\",\"#FFFDF9\",\"#84501F\",\"#FFFFFF\"]}}"
+  },
+  {
+   "ad": "T2 Öğretmen teması ve gündüz/gece ayrı ayrı uygulanır, yeniden açılışta korunur (Zümrüt · gündüz)",
+   "ok": true,
+   "a": "{\"btn\":true,\"bg\":\"#EEF3EF\",\"mod\":\"gunduz\"}"
+  },
+  {
+   "ad": "T3 Öğretmen temalarının 10 görünümü okunur: yazı/zemin ≥ 7, ikincil yazı/kart ≥ 4.5, düğme yazısı ≥ 4.5",
+   "ok": true,
+   "a": "{\"altin-gece\":[16.4,8.6,9.8],\"altin-gunduz\":[15.1,8.4,7],\"lacivert-gece\":[16.4,8.6,9.5],\"lacivert-gunduz\":[14.1,7,6.4],\"zumrut-gece\":[16.8,8.7,9.7],\"zumrut-gunduz\":[14.1,6.9,7.1],\"murekkep-gece\":[16.3,8.4,7.9],\"murekkep-gunduz\":[15,7.4,6.5],\"kumtasi-gece\":[16.2,8.4,8.1],\"kumtasi-gunduz\":[14.1,7.7,6.7]}"
+  },
+  {
+   "ad": "AL1 Editör oturumu olsa bile önizleme başlatılmadan Altın kapalı; öğrenciye “Çok yakında”",
+   "ok": true,
+   "a": "{\"on\":false,\"yk\":true}"
+  },
+  {
+   "ad": "AL2 Altın’a ilk girişte gündüz/gece sorulur; ayrı yüzen önizleme menüsü yok",
+   "ok": true,
+   "a": "{\"gg\":true,\"on53\":false}"
+  },
+  {
+   "ad": "AL3 Altın ana sayfası: devam et, günlük hedef, Çalışma Masam, Derslerim, Oyun Dünyası ve Keşif; editör önizleme notu ve “Önizlemeden çık” akışta",
+   "ok": true,
+   "a": "Editör önizlemesi · Altın öğrencilere henüz açık değil Önizlemeden çık Öğrenme alanım 5. sınıf merkezine gir 0 /20 Günlük hedef Çalışma Masam Bugün yeni bir konuya başla Planın ve analizlerin › Derslerim 5. sınıf ve diğer sınıflar Oyun Dünyası Altın oyunları, hikâyeli görevler Keşif Sureler ve Duala"
+  },
+  {
+   "ad": "AL4 Altın’da “Çalışmam” Çalışma Masam’ı açar: plan, hedefler, eksik konular, yanlışlar, tekrar, ünite başarısı, tamamlanan konular, son çalışılanlar, 4 haftalık gelişim, öğrenme geçmişi",
+   "ok": true,
+   "a": "{\"view\":\"acalis53\",\"h\":\"Çalışma Masam\",\"b\":[],\"tamam\":true}"
+  },
+  {
+   "ad": "AL5 Altın Profilim › Görünüm: 5 tema + gündüz/gece seçimi; editör için “Önizlemeden çık”",
+   "ok": true,
+   "a": "{\"gor\":true,\"tema\":5,\"mod\":2,\"cik\":true}"
+  },
+  {
+   "ad": "AL6 Gündüz/gece temadan bağımsız: tema değişince mod değişmez (gece→gece, gündüz→gündüz)",
+   "ok": true,
+   "a": "{\"o\":{\"altin-gece\":[\"#130E0A\",\"#F3EADB\",\"#CFC2AA\",\"#1E1710\",\"#E2B765\",\"#1A1206\"],\"altin-gunduz\":[\"#F2EADB\",\"#2A1E12\",\"#5B4733\",\"#FFFBF3\",\"#7A5012\",\"#FFFFFF\"],\"lacivert-gece\":[\"#0B1322\",\"#EDF1F8\",\"#AEB9CB\",\"#121C30\",\"#D8B56A\",\"#10131A\"],\"lacivert-gunduz\":[\"#EEF1F6\",\"#16213A\",\"#4E5A70\",\"#FFFFFF\",\"#7A5A1C\",\"#FFFFFF\"],\"zumrut-gece\":[\"#0A1512\",\"#EEF5F1\",\"#A9BFB4\",\"#10201B\",\"#D9B76E\",\"#0E1510\"],\"zumrut-gunduz\":[\"#EEF3EF\",\"#14261F\",\"#4A5F55\",\"#FFFFFF\",\"#6E5418\",\"#FFFFFF\"],\"murekkep-gece\":[\"#15101A\",\"#F3EDF5\",\"#BDB0C2\",\"#1E1725\",\"#D99A6C\",\"#1A0F0A\"],\"murekkep-gunduz\":[\"#F4EFF3\",\"#23182A\",\"#5E5164\",\"#FFFFFF\",\"#8A4F27\",\"#FFFFFF\"],\"kumtasi-gece\":[\"#17120E\",\"#F5EEE6\",\"#C2B3A3\",\"#211A14\",\"#D7A06A\",\"#1A100A\"],\"kumtasi-gunduz\":[\"#F5EFE7\",\"#2A1F15\",\"#5E4F40\",\"#FFFDF9\",\"#84501F\",\"#FFFFFF\"]},\"modSonra\":\"gece\",\"modSonra2\":\"gunduz\"}"
+  },
+  {
+   "ad": "AL7 Altın temaları (5 × gündüz/gece) birbirinden farklı ve okunur: yazı/zemin ≥ 7, ikincil yazı/kart ≥ 4.5, vurgu düğmesi yazısı ≥ 4.5",
+   "ok": true,
+   "a": "{\"altin-gece\":[16.1,10.1,9.9],\"altin-gunduz\":[13.6,8.5,7],\"lacivert-gece\":[16.4,8.6,9.5],\"lacivert-gunduz\":[14.1,7,6.4],\"zumrut-gece\":[16.8,8.7,9.7],\"zumrut-gunduz\":[14.1,6.9,7.1],\"murekkep-gece\":[16.3,8.4,7.9],\"murekkep-gunduz\":[15,7.4,6.5],\"kumtasi-gece\":[16.2,8.4,8.1],\"kumtasi-gunduz\":[14.1,7.7,6.7]}"
+  },
+  {
+   "ad": "O1 Altın Oyunları doğrudan Oyun Dünyası’nın içinde: 8 oyun + hikâyeli görevler (Kütüphane, Sınıf Dünyaları)",
+   "ok": true,
+   "a": "{\"n\":8,\"ad\":[\"Zirve Yarışı\",\"Beni Bul!\",\"Gizemli Şahsiyet\",\"Harf Halkası\",\"Harf Avı\",\"Bilgi Arenası\",\"Kelimeyi Anlat Bakalım\",\"Gizli Bilgin\"],\"hikaye\":true,\"eski\":false}"
+  },
+  {
+   "ad": "O2 Beni Bul!: aşamalı ipuçları (önce yalnız tür, “Yeni ipucu” ile artar), 4 seçenek, erken bilene çok puan (2. ipuçta 70), açıklama; ipuçlarında teknik bilgi ve cevap yok",
+   "ok": true,
+   "a": "{\"n\":8,\"ilk\":1,\"sec\":4,\"icerir\":true,\"teknik\":0,\"sizinti\":0,\"ikinci\":2,\"puan\":70,\"ack\":true}"
+  },
+  {
+   "ad": "O3 Gizemli Şahsiyet yalnız şahsiyet kayıtlarıyla",
+   "ok": true,
+   "a": "{\"n\":7,\"tur\":[\"kisi\"]}"
+  },
+  {
+   "ad": "O4 Harf Halkası: yalnız kaydı olan harfler (Ğ yok), cevap o harfle başlar, soruda cevap gizli; doğru (büyük harfle de) +10, pas sona atar, yanlış işaretlenir",
+   "ok": true,
+   "a": "{\"n\":27,\"harf\":true,\"sizinti\":0,\"ğ\":false,\"p1\":10,\"pas\":true,\"yanlis\":true}"
+  },
+  {
+   "ad": "O5 Bilgi Arenası: 8 kategori, zorluk seçimi; seçilen kategoriden 10 soru; doğru cevap ve açıklama",
+   "ok": true,
+   "a": "{\"kat\":8,\"say\":{\"inanc\":32,\"kuran\":44,\"ibadet\":45,\"kavram\":10,\"peygamber\":14},\"n\":10,\"hepsi\":true,\"dogru\":1,\"ack\":true}"
+  },
+  {
+   "ad": "O6 Gizli Bilgin (aynı cihazda): her oyuncuya sırayla rol; tam bir Gizli Bilgin, diğerleri kavramı görür; oylama → yakalanınca son tahmin → puan tablosu",
+   "ok": true,
+   "a": "{\"n\":4,\"kelime\":true,\"tekGizli\":true,\"asama\":\"ipucu\",\"tahmin\":\"tahmin\",\"son\":\"son\",\"puan\":3}"
+  },
+  {
+   "ad": "O7 Kelimeyi Anlat Bakalım: kartlarda 4–5 yasaklı kelime; takım adları; doğru +1, yasaklı −1, pas (3 hak); tur sonunda sıra diğer takıma; maç sonucu; kart tekrarı yok",
+   "ok": true,
+   "a": "{\"kart\":12,\"yasak\":true,\"skorA\":0,\"pasKalan\":0,\"ekran\":true,\"sira\":1,\"asama\":\"ara\",\"son\":\"son\",\"skor\":[0,2],\"tekrar\":true,\"sonuc\":true}"
+  },
+  {
+   "ad": "O8 Zirve Yarışı korunur (10 soru) ve Oyun Dünyası’ndan açılır; alt boşluk alt menüye yer bırakır",
+   "ok": true,
+   "a": "{\"n\":10,\"view\":\"aoyun53\",\"geri\":true,\"pad\":130}"
+  },
+  {
+   "ad": "O9 Harf Avı: kutu sayısı kelime uzunluğuyla aynı; doğru tahmin çözer ve kitap cümlesini açıklama olarak gösterir; sayfa sonuna kaydırınca klavyenin son tuşu alt menünün üstünde; ı/i/I/İ Türkçe büyük harfe doğru çevrilir",
+   "ok": true,
+   "a": "{\"kutu\":true,\"cozuldu\":true,\"ack\":true,\"klavye\":true,\"ustte\":true,\"iI\":\"IİIİ\"}"
+  },
+  {
+   "ad": "Y1 Editör “Oyun içerikleri” alanı: 4 form; eklenen kart/soru oyun havuzuna girer; öğrenci bu alanı açamaz",
+   "ok": true,
+   "a": "{\"ogr\":true,\"r\":{\"giris\":true,\"form\":4,\"anlat\":true,\"arena\":true}}"
+  },
+  {
+   "ad": "K1 360×640: oyunlarda, Çalışma Masam’da ve Altın ana sayfasında yatay taşma yok",
+   "ok": true,
+   "a": "{\"benibul\":true,\"halka\":true,\"arena\":true,\"gizli\":true,\"anlat\":true,\"zirve\":true,\"harf\":true,\"masa\":true,\"ana\":true}"
+  },
+  {
+   "ad": "G1 Konu anlatımı ve arama ekranları V53.0 ile birebir aynı",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "Z1 Bütün senaryolarda JavaScript hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}
