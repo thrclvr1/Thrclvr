@@ -1,0 +1,137 @@
+{
+ "tarih": "2026-11-25T10:11:38.799Z",
+ "gecen": 26,
+ "toplam": 26,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V53.0, index.html aynı; veri/müzik/görsel blokları V52.3 ile bayt bayt aynı (içerik, müfredat, soru havuzu silinmedi); eski sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 HTML’de Gmail adresi ve açık PIN yok; Altın merkezi ayarı hâlâ kapalı (ACIK: false)",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "H1 Misafir: profil kartında “Misafir öğrenci” ve “Misafir · bu cihazda”; hesap türü “Misafir”",
+   "ok": true,
+   "a": "{\"ust\":\"PROFİLİM Misafir öğrenci Misafir · bu cihazda Elmas Öğrenme Alanı 8. sınıf\",\"kart\":\"Profil bilgilerim Hesap türü Misafir (hesapsız) Takma ad Belirlenmedi Belirle Sınıfım 8. sınıf Değiştir Misafir olarak bu cihazda devam ediyorsun. Google ile giriş yaparsan bu ilerleme hesabına taşınır.\"}"
+  },
+  {
+   "ad": "H2 Google ile giriş yapan kullanıcı artık “Misafir öğrenci” görünmez: adı (yoksa e-postası) ve “Google hesabı · bu cihazda”; e-posta hesap bilgilerinde",
+   "ok": true,
+   "a": "{\"ust\":\"PROFİLİM ayse.deneme@example.com Google hesabı · bu cihazda Elmas Öğrenme Alanı 8. sınıf\",\"kart\":\"Profil bilgilerim Hesap türü Google hesabı E-posta ayse.deneme@example.com Takma ad Belirlenmedi Belirle Sınıfım 8. sınıf Değiştir\"}"
+  },
+  {
+   "ad": "H3 Misafirken yapılan ilerleme Google hesabına taşınır (kaybolmaz)",
+   "ok": true,
+   "a": "{\"once\":2,\"tasindi\":2}"
+  },
+  {
+   "ad": "H4 Takma ad belirlenir ve profilde görünür; Google hesap bilgisi (ad/e-posta) değişmez",
+   "ok": true,
+   "a": "{\"ust\":\"PROFİLİM Ayşe Nur Google hesabı · bu cihazda Elmas Öğrenme Alanı 8. sınıf\"}"
+  },
+  {
+   "ad": "H5 Hesaplar karışmaz: A çıkınca cihaz boş misafire döner; B kendi (boş) ilerlemesiyle başlar, A’nın takma adını görmez; A geri girince yalnız kendi ilerlemesi ve takma adı gelir",
+   "ok": true,
+   "a": "{\"misafirSonra\":0,\"bIlk\":0,\"aGeri\":[\"DKAB-8-U01-O01\",\"DKAB-8-U01-O02\"]}"
+  },
+  {
+   "ad": "S1 İlk açılış: giriş ekranından sonra “Hangi sınıfta okuyorsun?” (4–12, 9 seçenek); seçmeden içerik görünmez",
+   "ok": true,
+   "a": "{\"ov\":true,\"gor\":0,\"btn\":9}"
+  },
+  {
+   "ad": "S2 8. sınıf seçilince: Derslerim 8. sınıf sayfasını açar; ana sayfada “Sınıfım: 8. sınıf”; Etkinlik oyunlarında yalnız 8. sınıf oyun ve soruları",
+   "ok": true,
+   "a": "{\"s\":8,\"view\":\"grade\",\"g\":8,\"bar\":true,\"ev\":\"8 Sınıfım: 8. sınıf Derslerime git · sınıfını Profilim’den değiştirebilirsin\",\"gameGr\":[8],\"qGr\":[8]}"
+  },
+  {
+   "ad": "S3 Sınıf 9’a değiştirilince 8. sınıftaki ilerleme silinmez; “Bütün sınıflar” ile diğer sınıflar açılabilir",
+   "ok": true,
+   "a": "{\"s2\":{\"s\":9,\"eski\":true,\"son\":9},\"bt\":{\"view\":\"classes\",\"kart\":9,\"metin\":true}}"
+  },
+  {
+   "ad": "M1 Mod panelinde “Giriş ekranını aç” en üstte (Elmas/Altın/Öğretmen kartlarından önce)",
+   "ok": true,
+   "a": "{\"ilk\":true,\"ust\":true}"
+  },
+  {
+   "ad": "Y1 Altın normal öğrenciye ve öğretmene kapalı: “Çok yakında” açılır; öğretmen oturumu editör yetkisi vermez; Altın Oyunları adresi doğrudan açılmaz",
+   "ok": true,
+   "a": "{\"ogr\":{\"on\":false,\"yk\":true},\"ogrt\":{\"on\":false,\"ed\":false,\"yk\":true,\"view\":\"games\",\"aoyun\":false}}"
+  },
+  {
+   "ad": "Y2 Editör, Editör Onay Alanı’ndaki “Altın’ı önizle” ile Altın’a girer; üstte “Editör önizlemesi” şeridi",
+   "ok": true,
+   "a": "{\"btn\":true,\"on\":true,\"view\":\"pdunya\",\"serit\":true}"
+  },
+  {
+   "ad": "Y3 Altın Gelişmiş Çalışma Merkezi gerçek cevaplardan: eksik konular, ünite başarısı, hedefler ve bugünkü plan; öğrenciye kazanım kodu gösterilmez",
+   "ok": true,
+   "a": "Altın · Gelişmiş Çalışma Merkezi Sana özel çalışma 7. sınıf · Bütün değerler bu cihazdaki gerçek cevaplarından hesaplanır. Bugünkü planın HAC VE UMRE İBADETİ konusunu tekrar et (başarı %0). Günlük hedef için 17 cevap daha ver. Hedefler 3/20 Bugün 3/140 Bu hafta Per 0 Cum 0 Cmt 0 Paz 0 Pzt 0 Sal 0 Ça"
+  },
+  {
+   "ad": "Y4 Veri yokken uydurma yüzde gösterilmez; “Henüz … yok” yazar",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "Y5 Editör çıkışında Altın önizlemesi kapanır (Altın yine herkese kapalı)",
+   "ok": true,
+   "a": "{\"on\":false,\"acik\":false,\"serit\":false}"
+  },
+  {
+   "ad": "T1 Altın teması değişir (arka plan ve kart değişkenleri; Royal → Ocean → Emerald) ve tercih saklanır",
+   "ok": true,
+   "a": "{\"r0\":\"#130E0A\",\"ocean\":\"#0A1220\",\"bg\":\"rgb(10, 18, 32)\",\"emerald\":\"#08140F\",\"altinKayit\":\"emerald\"}"
+  },
+  {
+   "ad": "T2 Uygulama yeniden açılınca seçilen tema korunur",
+   "ok": true,
+   "a": "#08140F"
+  },
+  {
+   "ad": "T3 Öğretmen Modu’nda “Tema” düğmesi; 6 temanın hepsi uygulanıyor ve okunur (yazı/zemin ≥ 7, ikincil yazı ≥ 4.5, düğme yazısı ≥ 4.5)",
+   "ok": true,
+   "a": "{\"royal\":{\"ink\":16.4,\"mutKart\":8.6,\"dugme\":9.8},\"ocean\":{\"ink\":16.5,\"mutKart\":9.5,\"dugme\":11.3},\"emerald\":{\"ink\":16.8,\"mutKart\":9.9,\"dugme\":10.4},\"amethyst\":{\"ink\":16.3,\"mutKart\":9.9,\"dugme\":9.2},\"pearl\":{\"ink\":15.8,\"mutKart\":7.9,\"dugme\":6.6},\"crimson\":{\"ink\":15.8,\"mutKart\":9.2,\"dugme\":7.8}}"
+  },
+  {
+   "ad": "O1 Elmas Etkinlik oyunlarında “Çarkıfelek” yerine “Çark Çevirme” yazar (oyun aynı)",
+   "ok": true,
+   "a": "{\"cark\":true,\"eski\":false}"
+  },
+  {
+   "ad": "O2 Zirve Yarışı: 10 farklı soru (8. sınıf, kolaydan zora), %50 jokeri yanlışları gizler, 2 şık bırakır, doğru cevaplarla zirve 32.000 puan; cevaptan sonra açıklama",
+   "ok": true,
+   "a": "{\"hub\":2,\"n\":10,\"zor\":[\"easy\",\"easy\",\"easy\",\"easy\",\"medium\",\"medium\",\"medium\",\"medium\",\"hard\",\"hard\"],\"gr\":[8],\"tekil\":10,\"gizli\":3,\"kalan\":2,\"ack\":true,\"kazanc\":32000,\"son\":\"‹ Altın Oyunları Zirve Yarışı Zirveye ulaştın! 32.000 puan Yeni rekor! En iyi: 32.000 Yeniden oyna Altın Oyunları\"}"
+  },
+  {
+   "ad": "O3 Zirve Yarışı: barajı geçtikten sonra yanlış cevapta baraj puanı (1.000) kalır",
+   "ok": true,
+   "a": "{\"bitti\":true,\"kazanc\":1000}"
+  },
+  {
+   "ad": "O4 Harf Avı: kelimeler ders kitabı kavramlarından (8. sınıf, 4–7 harf, Türkçe harfler); ipucunda kavram gizli ve teknik bilgi yok; ilk harf yeşil, doğru tahmin çözer ve puan verir",
+   "ok": true,
+   "a": "{\"n\":5,\"uygun\":true,\"ipucu\":\"İpucu: Peygamber, Allah'ın ▢▢▢▢▢▢ olduğunu ve ▢▢▢▢▢▢liği sevdiğini bildirerek insanları paylaşmaya teşvik etmiştir.\",\"gizli\":true,\"teknik\":false,\"renk\":[\"dg\",\"yok\",\"yok\",\"yok\",\"yok\",\"yok\"],\"cozuldu\":true,\"puan\":50}"
+  },
+  {
+   "ad": "G1 Konu anlatımı, sınıf sayfası, arama, bağlantılar ve öğretmen paneli V52.3 ile birebir aynı (yeni eklenen sınıf kartı/çubuğu ve Tema düğmesi dışında)",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "K1 360×640: sınıf seçiminde taşma yok, düğmeler ≥ 48 px",
+   "ok": true,
+   "a": "{\"tasma\":false,\"yuk\":[72,72,72,72,72,72,72,72,72],\"icinde\":true}"
+  },
+  {
+   "ad": "Z1 Bütün senaryolarda JavaScript hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}
