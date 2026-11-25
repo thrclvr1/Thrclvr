@@ -1,0 +1,127 @@
+{
+ "tarih": "2026-11-25T13:13:22.424Z",
+ "gecen": 24,
+ "toplam": 24,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V55.0, index.html aynı; veri blokları V54.0 ile bayt bayt aynı (içerik silinmedi); eski sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 HTML’de Gmail adresi ve açık PIN yok; Altın hâlâ kapalı (ACIK: false)",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "E1 Derslerim akordiyonu gerçek: başta bütün üniteler kapalı (gövde yüksekliği 0, inert, hiçbir konu görünmez), başlıkta “N konu”; dokununca yalnız o ünite açılır, başka üniteye dokununca önceki kapanır, tekrar dokununca kapanır",
+   "ok": true,
+   "a": "{\"unite\":5,\"hepsiAk55\":true,\"bas\":[0,0,0,0,0],\"inert\":true,\"sayi\":[\"4 konu\",\"4 konu\",\"3 konu\",\"3 konu\",\"2 konu\"],\"gorunenKonu\":0,\"bir\":[518,0,0,0,0],\"tikla\":4,\"iki\":[0,497,0,0,0],\"kapandi\":[0,0,0,0,0],\"aria\":\"false\"}"
+  },
+  {
+   "ad": "E2 Elmas alt menü: Ana sayfa, Derslerim, Oyunlar, Çalışmam, Profilim seçili durumu gece ve gündüzde doğru (tek seçili + aria-current)",
+   "ok": true,
+   "a": "{\"dark:home\":\"home|1\",\"dark:grade\":\"classes|1\",\"dark:games\":\"games|1\",\"dark:calis45\":\"calis|1\",\"dark:profil46\":\"profil|1\",\"dark:pek\":\"calis|1\",\"light:home\":\"home|1\",\"light:grade\":\"classes|1\",\"light:games\":\"games|1\",\"light:calis45\":\"calis|1\",\"light:profil46\":\"profil|1\",\"light:pek\":\"calis|1\"}"
+  },
+  {
+   "ad": "E3 Elmas Çalışmam sade: temel ilerleme (tamamlanan konu, genel kazanım başarısı) + günlük hedef + tekrar/test erişimi; gelişmiş analiz (öneriler, zayıf kazanımlar, konu başarı tablosu, 7 günlük grafik) yok; başarı gerçek kayıttan (%75, yalnız 4. sınıf)",
+   "ok": true,
+   "a": "{\"yok\":[],\"ec\":true,\"oran\":\"Temel ilerlemem\\n0/15\\nTamamlanan konu · 4. sınıf\\n%75\\nGenel kazanım başarısı\\n3 doğru · 1 yanlış cevap\\n\\nBir konunun mini testinde %70 ve üstü yaptığında konu tamamlanmış sayılır.\",\"var\":[\"Günlük hedef\",\"Pekiştir\",\"Kendini Dene\",\"Tamamlanan konu\",\"Genel kazanım başarısı\"],\"hfk\":false}"
+  },
+  {
+   "ad": "E4 Dinleme Merkezi: “Oynatıcıyı yenile” ve oynatıcı yok; tek düğme “Duaları Dinleyelim” (veri kaynağındaki YouTube oynatma listesi); teknik hata metni yok; sure sayfasında da aynı tek düğme",
+   "ok": true,
+   "a": "{\"dugmeler\":[\"Duaları Dinleyelim\"],\"href\":\"https://www.youtube.com/playlist?list=PLYAqyNbNrjxig5HRAIWMmxJKialLvZOv-\",\"iframe\":false,\"metin\":false,\"detay\":[\"Duaları Dinleyelim\"],\"detayMetin\":false}"
+  },
+  {
+   "ad": "E5 “İçeriği hazır konu” gibi editör bilgisi öğrencinin Profilim ekranında yok; editör oturumunda görünür",
+   "ok": true,
+   "a": "{\"ogr\":false,\"ed\":true}"
+  },
+  {
+   "ad": "E6 Elmas oyun adları tutarlı: Çark Çevirme, Beni Bul!, Kelimeyi Anlat Bakalım; iki ayrı oyun aynı adı (“Zaman Yolculuğu”) taşımıyor; eski adlar yok",
+   "ok": true,
+   "a": "{\"zaman\":1,\"var\":[\"Çark Çevirme\",\"Beni Bul!\",\"Kelimeyi Anlat Bakalım\",\"Kavram Köprüsü\",\"Sıralama\"],\"eski\":[]}"
+  },
+  {
+   "ad": "R1 Öğrenci Altın’a giremez (“Çok yakında”), Altın ana sayfası çizilmez; öğretmen oturumunda editör yetkisi ve Altın erişimi yok",
+   "ok": true,
+   "a": "{\"acik\":false,\"ogrView\":\"home\",\"yakinda\":true,\"ah55\":false,\"ogrt\":true,\"ogrtEd\":false,\"edEkran\":false,\"ogrtAltin\":false}"
+  },
+  {
+   "ad": "AL1 Altın ana sayfa sade: tek ana kart (devam/başla + günlük hedef), üç kısa yol (Derslerim, Oyun Dünyası, Çalışma Masam), tek Keşif bölümü; tekrarlanan kart yok (V47 şeridi ve V54 kutuları gösterilmez); editör notu yalnız editörde, en altta",
+   "ok": true,
+   "a": "{\"ah\":true,\"ah54\":false,\"s47gizli\":true,\"kesif\":1,\"L\":[\"Başla\",\"0\",\"Derslerim\",\"Oyun Dünyası\",\"Çalışma Masam\",\"Sureler ve Dualar\",\"Kavramlar\",\"Kişiler ve Eserler\",\"Bağlantılar\",\"Öğrenme araçları\",\"Önizlemeden çık\"],\"tekil\":true,\"ed\":true,\"hero\":\"4. sınıf · ilk konu\\nGünlük Konuşmalarda Dinî İfadeler\\nGÜNLÜK HAYATTAKİ DİNÎ İFADELER\\nBaşla\\n0\\n/20\\nGünlük hedef\",\"kartSay\":11,\"bosluk\":14}"
+  },
+  {
+   "ad": "AL2 Altın sınıf merkezi: “Nereden başlamalıyım?” kartı; program, ders kitabı ve kazanım bilgisi önde değil (“Daha fazla” altında, kapalı); “içeriği hazır” yok; üniteler akordiyon (başta kapalı, tek ünite açık, kapanabilir)",
+   "ok": true,
+   "a": "{\"bas\":\"Buradan başla\\nGünlük Konuşmalarda Dinî İfadeler\\n1. ünite · GÜNLÜK HAYATTAKİ DİNÎ İFADELER\\nBaşla\",\"prgGor\":false,\"kitapGor\":false,\"kazanimGor\":false,\"stsYok\":true,\"hazir\":false,\"ekKapali\":true,\"ekIc\":[\"p39-prg\",\"d46a\"],\"uSay\":5,\"ilk\":[0,0,0,0,0],\"ac1\":[331,0,0,0,0],\"konu\":4,\"ac2\":[0,292,0,0,0],\"kap\":[0,0,0,0,0]}"
+  },
+  {
+   "ad": "AL3 Altın alt menü: Sınıfım, Oyunlar, Çalışmam (Çalışma Masam dahil), Profilim seçili durumu gece ve gündüzde doğru; Altın oyunlarında Oyunlar seçili",
+   "ok": true,
+   "a": "{\"gece:psinif\":\"sinif|1\",\"gece:punite\":\"sinif|1\",\"gece:poyun\":\"oyun|1\",\"gece:acalis53\":\"calis|1\",\"gece:profil46\":\"profil|1\",\"gece:pek\":\"calis|1\",\"gece:aoyun53\":\"oyun|1\",\"gece:renk\":\"rgba(0, 0, 0, 0) / rgb(26, 18, 6)\",\"gunduz:psinif\":\"sinif|1\",\"gunduz:punite\":\"sinif|1\",\"gunduz:poyun\":\"oyun|1\",\"gunduz:acalis53\":\"calis|1\",\"gunduz:profil46\":\"profil|1\",\"gunduz:pek\":\"calis|1\",\"gunduz:aoyun53\":\"oyun|1\",\"gunduz:renk\":\"rgba(0, 0, 0, 0) / rgb(26, 18, 6)\"}"
+  },
+  {
+   "ad": "AL4 Çalışma Masam (veri yok): ilk ekran üç soruyu yanıtlar (Bugün ne çalışmalıyım? / Hangi konularda eksiğim var? / Şimdi hangi çalışmayı yapmalıyım?); sahte istatistik yok, boş durum açıkça yazılı",
+   "ok": true,
+   "a": "{\"h\":[\"Bugün ne çalışmalıyım?\",\"Hangi konularda eksiğim var?\",\"Şimdi hangi çalışmayı yapmalıyım?\",\"Planın ve hedeflerin\"],\"eksik\":true,\"sifir\":true,\"sahteYuzde\":false}"
+  },
+  {
+   "ad": "AL5 Çalışma Masam (gerçek kayıt, 2018 programı): öneri en zayıf konuyu tekrar ettirir; eksik konular yüzdeyle; yanlış sayısı gerçek; aşılan hedef açıkça “Hedefini aştın: 30/20 · +10”",
+   "ok": true,
+   "a": "{\"oneri\":\"Günlük Konuşmalarda Dinî İfadeler konusunu tekrar et\",\"hedef\":\"30\\n/20\\n\\nHedefini aştın:\\n30/20\\n+10 cevap\",\"eksik\":[\"Günlük Konuşmalarda Dinî İfadeler %40\"],\"yanlis\":3,\"zayif\":[\"Günlük Konuşmalarda Dinî İfadeler %40\"],\"eylem\":[\"Yanlışlarımı çöz Tekrar bekleyen sorular 3\",\"Tekrar kartları Henüz kart çalışmadın 0\",\"Kendini dene Karma mini test\"],\"hafta\":\"30/20\\nBugün · +10\\n30/140\\nBu hafta\"}"
+  },
+  {
+   "ad": "AL6 Beş tema × gündüz/gece: kart yüzeyi temanın tonunda (Lacivert mavi, Zümrüt yeşil, on farklı yüzey); başlık/kart kontrastı ≥ 7, soluk yazı ≥ 4,5, düğme yazısı ≥ 4,5; gündüz/gece temadan bağımsız",
+   "ok": true,
+   "a": "{\"tmS\":{\"altin:gece\":{\"yazi\":14.85,\"soluk\":10.08,\"btn\":9.88,\"pt\":\"gece\"},\"altin:gunduz\":{\"yazi\":15.74,\"soluk\":8.5,\"btn\":7.04,\"pt\":\"gunduz\"},\"lacivert:gece\":{\"yazi\":14.89,\"soluk\":10.1,\"btn\":9.87,\"pt\":\"gece\"},\"lacivert:gunduz\":{\"yazi\":15.51,\"soluk\":8.39,\"btn\":7.04,\"pt\":\"gunduz\"},\"zumrut:gece\":{\"yazi\":14.81,\"soluk\":10.24,\"btn\":9.74,\"pt\":\"gece\"},\"zumrut:gunduz\":{\"yazi\":15.38,\"soluk\":8.21,\"btn\":6.99,\"pt\":\"gunduz\"},\"murekkep:gece\":{\"yazi\":14.92,\"soluk\":9.99,\"btn\":9.79,\"pt\":\"gece\"},\"murekkep:gunduz\":{\"yazi\":15.73,\"soluk\":8.48,\"btn\":7.21,\"pt\":\"gunduz\"},\"kumtasi:gece\":{\"yazi\":14.8,\"soluk\":9.97,\"btn\":9.75,\"pt\":\"gece\"},\"kumtasi:gunduz\":{\"yazi\":15.59,\"soluk\":8.37,\"btn\":7.15,\"pt\":\"gunduz\"}},\"ton\":{\"lac\":true,\"alt\":true,\"zum\":true,\"farkli\":true}}"
+  },
+  {
+   "ad": "AL7 Tema seçim ekranında seçili tema ve gündüz/gece göstergesi temanın vurgu renginde (mavi değil)",
+   "ok": true,
+   "a": "{\"onKenar\":\"rgb(219, 186, 106)\",\"ggKenar\":\"rgb(219, 186, 106)\",\"gold\":\"#dbba6a\"}"
+  },
+  {
+   "ad": "AL8 Altın ekranlarında (koridor altı, sınıf merkezi, Çalışma Masam, Oyun Dünyası, Profilim, etkinlik oyunları, tema seçimi) mavi seçim/kenar/gölge rengi yok",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "G1 Altın’a ilk girişte gündüz/gece sorulur; seçim kaydedilir, yeniden açılışta korunur ve sorulmaz; tema değiştirmek gündüz/geceyi değiştirmez",
+   "ok": true,
+   "a": "{\"g\":{\"soru\":true,\"pt\":\"gunduz\",\"kayit\":\"{\\\"v\\\":1,\\\"altin\\\":1}\",\"ptema\":\"gunduz\",\"sonraPt\":\"gunduz\"},\"g2\":{\"soru\":false,\"pt\":\"gunduz\",\"tema\":\"lacivert\"}}"
+  },
+  {
+   "ad": "O1 Oyun Dünyası tek gruplu merkez: Kısa bilgi ve kelime oyunları / Yarışma oyunları / Takım oyunları / Hikâyeli ve keşif oyunları; dokuz oyun adı tutarlı; başlık çubuğunun altında; V54 kutusu ve uzun tekrar listeleri yok",
+   "ok": true,
+   "a": "{\"ao\":true,\"sira\":true,\"ao54\":false,\"gruplar\":[\"Kısa bilgi ve kelime oyunları\",\"Yarışma oyunları\",\"Takım oyunları\",\"Hikâyeli ve keşif oyunları\"],\"adlar\":[\"Beni Bul!\",\"Gizemli Şahsiyet\",\"Harf Halkası\",\"Harf Avı\",\"Çark Çevirme\",\"Zirve Yarışı\",\"Bilgi Arenası\",\"Kelimeyi Anlat Bakalım\",\"Gizli Bilgin\",\"Işık Bahçesi\",\"Kayıp Bilgeliğin Kütüphanesi\",\"Zamanın İzinde\",\"Bilgi Laboratuvarı\"],\"eskiGizli\":true}"
+  },
+  {
+   "ad": "O2 Her Altın oyunu açılıyor (Zirve Yarışı, Beni Bul!, Gizemli Şahsiyet, Harf Halkası, Harf Avı, Bilgi Arenası, Kelimeyi Anlat Bakalım, Gizli Bilgin) ve Çark Çevirme etkinlik oyunlarında çark türüyle açılıyor",
+   "ok": true,
+   "a": "{\"zirve\":{\"view\":\"aoyun53\",\"uzunluk\":420,\"dugme\":8,\"bos\":false,\"basl\":\"Zirve Yarışı\"},\"benibul\":{\"view\":\"aoyun53\",\"uzunluk\":112,\"dugme\":6,\"bos\":false,\"basl\":\"Beni Bul!\"},\"gizemli\":{\"view\":\"aoyun53\",\"uzunluk\":122,\"dugme\":6,\"bos\":false,\"basl\":\"Gizemli Şahsiyet\"},\"halka\":{\"view\":\"aoyun53\",\"uzunluk\":209,\"dugme\":3,\"bos\":false,\"basl\":\"Harf Halkası\"},\"harf\":{\"view\":\"aoyun53\",\"uzunluk\":309,\"dugme\":32,\"bos\":false,\"basl\":\"Harf Avı\"},\"arena\":{\"view\":\"aoyun53\",\"uzunluk\":353,\"dugme\":9,\"bos\":false,\"basl\":\"Bilgi Arenası\"},\"anlat\":{\"view\":\"aoyun53\",\"uzunluk\":356,\"dugme\":2,\"bos\":false,\"basl\":\"Kelimeyi Anlat Bakalım\"},\"gizli\":{\"view\":\"aoyun53\",\"uzunluk\":310,\"dugme\":4,\"bos\":false,\"basl\":\"Gizli Bilgin\",\"basladi\":true},\"cark\":{\"view\":\"games\",\"ty\":\"wheel\",\"metin\":true}}"
+  },
+  {
+   "ad": "O3 Işık Bahçesi: aynı adlı “Bulunan not” kartı yok, her keşif noktasının ayrı yeri var; harita üzerinde numaralı yol ve “sıradaki” işareti; rehberin anlatımıyla görev akışı",
+   "ok": true,
+   "a": "{\"bolge\":5,\"adlar\":{\"1\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"],\"2\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"],\"3\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"],\"4\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"],\"5\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"]},\"tekrarNot\":0,\"harita\":true,\"haritaCta\":\"Maceraya başla: GÜNLÜK HAYATTAKİ DİNÎ İFADELER \",\"isaret\":5,\"yol\":true,\"anlatim\":\"Bilge Baykuş: “Günlük Hayattaki Dinî İfadeler bölgesine hoş geldin, Elif! Burada 5 görev var. İlk durağımız Yaşlı Çınar.”\",\"ilkSira\":\"Yaşlı Çınar\",\"ilerleme0\":\"0/5\",\"notBaslik\":\"Yaşlı Çınar · Keşif notu · Günlük Konuşmalarda Dinî İfadeler\",\"ilerleme1\":\"1/5\",\"liste1\":\"Tamamlandı\",\"sonraki\":\"Elif notu Günce’ye ekledi. Sıradaki durak: Fısıldayan Çeşme.\",\"hepsi\":true,\"ilerlemeSon\":\"5/5\",\"kapiHazir\":true,\"cta\":\"Bahçe kapısı: mücadeleye başla \",\"kapiDurum\":\"Bahçe kapısı hazır\"}"
+  },
+  {
+   "ad": "O4 Işık Bahçesi oynanış: görev bitince liste ve ilerleme anında güncellenir (0 → 1, “Tamamlandı”), “Sıradaki görev” sonraki noktayı açar; bütün görevler bitince kapı hazır olur ve ana düğme kapı mücadelesine yönlendirir",
+   "ok": true,
+   "a": "{\"bolge\":5,\"adlar\":{\"1\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"],\"2\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"],\"3\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"],\"4\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"],\"5\":[\"Yaşlı Çınar\",\"Fısıldayan Çeşme\",\"Gül Çardağı\",\"Taş Köprü\",\"Işık Fidanlığı\"]},\"tekrarNot\":0,\"harita\":true,\"haritaCta\":\"Maceraya başla: GÜNLÜK HAYATTAKİ DİNÎ İFADELER \",\"isaret\":5,\"yol\":true,\"anlatim\":\"Bilge Baykuş: “Günlük Hayattaki Dinî İfadeler bölgesine hoş geldin, Elif! Burada 5 görev var. İlk durağımız Yaşlı Çınar.”\",\"ilkSira\":\"Yaşlı Çınar\",\"ilerleme0\":\"0/5\",\"notBaslik\":\"Yaşlı Çınar · Keşif notu · Günlük Konuşmalarda Dinî İfadeler\",\"ilerleme1\":\"1/5\",\"liste1\":\"Tamamlandı\",\"sonraki\":\"Elif notu Günce’ye ekledi. Sıradaki durak: Fısıldayan Çeşme.\",\"hepsi\":true,\"ilerlemeSon\":\"5/5\",\"kapiHazir\":true,\"cta\":\"Bahçe kapısı: mücadeleye başla \",\"kapiDurum\":\"Bahçe kapısı hazır\"}"
+  },
+  {
+   "ad": "M1 360 px telefonda (Elmas Derslerim/Çalışmam/Oyunlar/Dinleme; Altın sınıf merkezi/Çalışma Masam/Oyun Dünyası/Profilim/koridor) son içerik alt menünün altında kalmıyor; yatay taşma yok",
+   "ok": true,
+   "a": "{\"grade\":{\"son\":631,\"nav\":682,\"gen\":360},\"calis45\":{\"son\":638,\"nav\":682,\"gen\":360},\"games\":{\"son\":644,\"nav\":682,\"gen\":360},\"sd\":{\"son\":449,\"nav\":670,\"gen\":360},\"psinif\":{\"son\":619,\"nav\":666,\"gen\":360},\"acalis53\":{\"son\":603,\"nav\":666,\"gen\":360},\"poyun\":{\"son\":625,\"nav\":666,\"gen\":360},\"profil46\":{\"son\":621,\"nav\":666,\"gen\":360},\"pdunya\":{\"gen\":360}}"
+  },
+  {
+   "ad": "Z1 Sayfa hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}
