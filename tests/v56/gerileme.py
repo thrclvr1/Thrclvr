@@ -64,6 +64,8 @@ def kopya(src, dst, eski, ver, ekran, rehber=True, gecis=True, giris=True):
     s = s.replace("await p.click('#gir523 .g523-m'); await bek(500);", "await p.click('#gir523 .g523-m'); await bek(500); await p.evaluate(() => V53.Hesap.sinifAc(false)); await bek(200);")
     # V55.0: akordiyon düğmesi .ak54 → .ak55-b (konu listesi artık [hidden] değil, ünite gövdesi kapanır; E3 bilinçli olarak farklı)
     s = s.replace("'.ak54'", "'.ak55-b'").replace("querySelectorAll('.ak54')", "querySelectorAll('.ak55-b')")
+    # V56.0: tema seçim ekranında beş palet yerine Açık/Koyu/Otomatik (.tm56-k); V55 AL7 seçicileri yönlendirilir (çökmesin, kalan kontroller çalışsın)
+    s = s.replace("document.querySelector('.tm54-k.on')", "document.querySelector('.tm54-k.on, .tm56-k.on')").replace("document.querySelector('.gg54 button[aria-pressed=\"true\"]')", "document.querySelector('.gg54 button[aria-pressed=\"true\"], .tm56-k.on')")
     open(os.path.join(D, dst), 'w', encoding='utf-8').write(s)
 kopya('tests/v55/test_v550.js', 't550.js', 'v55.0', 'V55.0', 'ekran550', rehber=False, gecis=False, giris=False)
 kopya('tests/v54/test_v540.js', 't540.js', 'v54.0', 'V54.0', 'ekran540', rehber=False, gecis=False, giris=False)
