@@ -1,0 +1,114 @@
+{
+ "uretim": "2026-11-26",
+ "toplam": 95,
+ "tur": {
+  "eksik": 45,
+  "hata": 18,
+  "wheel": 11,
+  "tabu": 8,
+  "matching": 5,
+  "olay": 8
+ },
+ "sinif": {
+  "4": {
+   "eksik": 1,
+   "eksik_oge": 6,
+   "tabu": 1,
+   "tabu_kart": 4
+  },
+  "5": {
+   "eksik": 6,
+   "eksik_oge": 20,
+   "hata": 2,
+   "hata_tur": 3,
+   "cark": 1,
+   "cark_soru": 6,
+   "tabu": 1,
+   "tabu_kart": 5,
+   "zaman": 1,
+   "zaman_olay": 4
+  },
+  "6": {
+   "eksik": 3,
+   "eksik_oge": 13,
+   "cark": 3,
+   "cark_soru": 26,
+   "hata": 1,
+   "hata_tur": 2,
+   "tabu": 2,
+   "tabu_kart": 8,
+   "eslestirme": 1,
+   "eslestirme_cift": 7,
+   "zaman": 1,
+   "zaman_olay": 5
+  },
+  "7": {
+   "eksik": 3,
+   "eksik_oge": 15,
+   "hata": 3,
+   "hata_tur": 5,
+   "cark": 1,
+   "cark_soru": 10,
+   "zaman": 1,
+   "zaman_olay": 5
+  },
+  "8": {
+   "eksik": 9,
+   "eksik_oge": 38,
+   "hata": 4,
+   "hata_tur": 6,
+   "cark": 3,
+   "cark_soru": 18,
+   "eslestirme": 1,
+   "eslestirme_cift": 4,
+   "zaman": 1,
+   "zaman_olay": 4
+  },
+  "9": {
+   "eksik": 8,
+   "eksik_oge": 32,
+   "hata": 3,
+   "hata_tur": 3,
+   "cark": 1,
+   "cark_soru": 6,
+   "tabu": 1,
+   "tabu_kart": 3
+  },
+  "10": {
+   "eksik": 5,
+   "eksik_oge": 21,
+   "hata": 2,
+   "hata_tur": 2,
+   "cark": 1,
+   "cark_soru": 7,
+   "tabu": 1,
+   "tabu_kart": 3,
+   "eslestirme": 2,
+   "eslestirme_cift": 9
+  },
+  "11": {
+   "eksik": 3,
+   "eksik_oge": 12,
+   "hata": 1,
+   "hata_tur": 1,
+   "cark": 1,
+   "cark_soru": 8,
+   "tabu": 1,
+   "tabu_kart": 7,
+   "eslestirme": 1,
+   "eslestirme_cift": 5,
+   "zaman": 1,
+   "zaman_olay": 7
+  },
+  "12": {
+   "eksik": 7,
+   "eksik_oge": 26,
+   "hata": 2,
+   "hata_tur": 2,
+   "tabu": 1,
+   "tabu_kart": 3,
+   "zaman": 3,
+   "zaman_olay": 14
+  }
+ }
+}

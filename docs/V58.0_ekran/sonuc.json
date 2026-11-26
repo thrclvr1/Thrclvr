@@ -1,0 +1,122 @@
+{
+ "tarih": "2026-11-26T15:16:03.534Z",
+ "gecen": 23,
+ "toplam": 23,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V58.0, index.html aynı; V57.0’ın bütün veri blokları bayt bayt aynı, yalnız yeni seed-oyun58 eklendi; eski sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 Gmail adresi ve açık PIN yok; Altın hâlâ öğrenciye kapalı (ACIK: false); Android sarmalayıcısı üst boşluğu bir kez uygulayıp kenar bilgisini tüketiyor",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "T1 Öğretmen Modu: üst çubuktaki güneş/ay düğmesi Öğretmen Modu’nun gündüz/gece ayarını değiştirir (kayıt ogretmenMod), ekran gerçekten açılır/kararır; Elmas’ın tercihi (dk-theme) ve Altın’ın ayarı (dk-ptema43) değişmez",
+   "ok": true,
+   "a": "{\"ilk\":{\"view\":\"ogretmen\",\"th\":\"dark\",\"om\":\"gece\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gece\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(13, 12, 10)\",\"ink\":\"rgb(242, 234, 219)\"},\"dugme1\":{\"view\":\"ogretmen\",\"th\":\"light\",\"om\":\"gunduz\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gunduz\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(246, 241, 231)\",\"ink\":\"rgb(36, 27, 16)\"},\"etiket1\":\"Öğretmen Modu: gece görünümüne geç\",\"dugme2\":{\"view\":\"ogretmen\",\"th\":\"dark\",\"om\":\"gece\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gece\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(13, 12, 10)\",\"ink\":\"rgb(242, 234, 219)\"},\"sheetGunduz\":{\"view\":\"ogretmen\",\"th\":\"light\",\"om\":\"gunduz\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gunduz\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(246, 241, 231)\",\"ink\":\"rgb(36, 27, 16)\"},\"basili\":[\"true\",\"false\",\"false\"],\"sheetGece\":{\"view\":\"ogretmen\",\"th\":\"dark\",\"om\":\"gece\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gece\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(13, 12, 10)\",\"ink\":\"rgb(242, 234, 219)\"},\"sheetOto\":{\"view\":\"ogretmen\",\"th\":\"dark\",\"om\":\"gece\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"oto\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(13, 12, 10)\",\"ink\":\"rgb(242, 234, 219)\"}}"
+  },
+  {
+   "ad": "T2 Öğretmen Modu tema penceresi: Gündüz gerçekten gündüz, Gece gerçekten gece, Otomatik cihaz temasına göre (koyu cihaz → gece); seçili düğme doğru; Elmas/Altın ayarları değişmez",
+   "ok": true,
+   "a": "{\"ilk\":{\"view\":\"ogretmen\",\"th\":\"dark\",\"om\":\"gece\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gece\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(13, 12, 10)\",\"ink\":\"rgb(242, 234, 219)\"},\"dugme1\":{\"view\":\"ogretmen\",\"th\":\"light\",\"om\":\"gunduz\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gunduz\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(246, 241, 231)\",\"ink\":\"rgb(36, 27, 16)\"},\"etiket1\":\"Öğretmen Modu: gece görünümüne geç\",\"dugme2\":{\"view\":\"ogretmen\",\"th\":\"dark\",\"om\":\"gece\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gece\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(13, 12, 10)\",\"ink\":\"rgb(242, 234, 219)\"},\"sheetGunduz\":{\"view\":\"ogretmen\",\"th\":\"light\",\"om\":\"gunduz\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gunduz\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(246, 241, 231)\",\"ink\":\"rgb(36, 27, 16)\"},\"basili\":[\"true\",\"false\",\"false\"],\"sheetGece\":{\"view\":\"ogretmen\",\"th\":\"dark\",\"om\":\"gece\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gece\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(13, 12, 10)\",\"ink\":\"rgb(242, 234, 219)\"},\"sheetOto\":{\"view\":\"ogretmen\",\"th\":\"dark\",\"om\":\"gece\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"oto\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(13, 12, 10)\",\"ink\":\"rgb(242, 234, 219)\"}}"
+  },
+  {
+   "ad": "T3 Modlar arası geçiş: Öğretmen Otomatik açık cihazda gündüz; Öğretmen=Gündüz iken Elmas koyu kalır, Altın gece kalır, Öğretmen’e dönünce yine gündüz",
+   "ok": true,
+   "a": "{\"oto\":{\"view\":\"ogretmen\",\"th\":\"light\",\"om\":\"gunduz\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"oto\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(246, 241, 231)\",\"ink\":\"rgb(36, 27, 16)\"},\"gec\":{\"elmas\":{\"view\":\"home\",\"th\":\"dark\",\"om\":\"gunduz\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gunduz\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(11, 16, 32)\",\"ink\":\"rgb(240, 243, 250)\"},\"altin\":{\"view\":\"psinif\",\"th\":\"dark\",\"om\":\"gunduz\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gunduz\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(19, 14, 10)\",\"ink\":\"rgb(243, 234, 219)\",\"pt\":\"gece\"},\"ogr\":{\"view\":\"ogretmen\",\"th\":\"light\",\"om\":\"gunduz\",\"kayit\":{\"v\":1,\"altin\":\"altin\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gunduz\"},\"dkTheme\":\"dark\",\"ptema\":\"gece\",\"bg\":\"rgb(246, 241, 231)\",\"ink\":\"rgb(36, 27, 16)\"}}}"
+  },
+  {
+   "ad": "T4 “Önerilen”: Altın tema ekranında Altın Mihrap (Altın temaları arasında tek) ve Elmas · Koyu; Öğretmen ekranında Elmas · Koyu; Elmas’ın kendi tema seçiminde Koyu; ana sayfalarda işaret yok",
+   "ok": true,
+   "a": "{\"altin\":[\"Altın Mihrap\",\"Elmas · Koyu\"],\"altinGrup\":1,\"ana\":0,\"ogretmen\":[\"Elmas · Koyu\"],\"elmasEkran\":[\"Koyu\"],\"elmasAna\":0}"
+  },
+  {
+   "ad": "B1 Altın ana sayfa Keşif: “Kavramlar” ve “Kişiler ve Eserler” ayrı kartları yok, tek “Bilgi Atlası” kartı (Kavramlar · Kişiler · Eserler sekmeli) var; Sureler ve Dualar duruyor",
+   "ok": true,
+   "a": "{\"a\":{\"kesif\":[\"Sureler ve Dualar\",\"Bilgi Atlası\",\"Öğrenme araçları\"],\"bg\":true,\"dugum\":[\"Peygamber\",\"Dua\",\"Kul\",\"Soy\",\"Haram\"],\"gercek\":[\"dua\",\"kul\",\"soy\",\"haram\",\"dilek\",\"güven\"],\"sira\":1,\"boy\":[389,69]},\"a2\":{\"atlas\":\"atlas57\",\"sekme\":[\"Kavramlar\",\"Kişiler\",\"Eserler\",\"Diğer kayıtlar\"],\"bag\":\"links\",\"bagBaslik\":\"Bağlantılar\"}}"
+  },
+  {
+   "ad": "B2 Altın ana sayfa Bağlantılar kartı öne çıkar: Keşif’in başında, diğer kartlardan büyük; haritadaki kavramlar gerçek kayıtlar (merkez + ders metninde birlikte geçtiği kavramlar); dokununca mevcut Bağlantılar › Kavram Haritası açılır",
+   "ok": true,
+   "a": "{\"a\":{\"kesif\":[\"Sureler ve Dualar\",\"Bilgi Atlası\",\"Öğrenme araçları\"],\"bg\":true,\"dugum\":[\"Peygamber\",\"Dua\",\"Kul\",\"Soy\",\"Haram\"],\"gercek\":[\"dua\",\"kul\",\"soy\",\"haram\",\"dilek\",\"güven\"],\"sira\":1,\"boy\":[389,69]},\"a2\":{\"atlas\":\"atlas57\",\"sekme\":[\"Kavramlar\",\"Kişiler\",\"Eserler\",\"Diğer kayıtlar\"],\"bag\":\"links\",\"bagBaslik\":\"Bağlantılar\"}}"
+  },
+  {
+   "ad": "B3 Elmas: Bilgi Atlası araması bütün kategorilerde (Eserler sekmesi açıkken “Musa” → Kişiler ve Diğer kayıtlar sonuçları), sonuçlar kategorilere göre gruplu; sayılar sözlük listesiyle aynı; kategori süzgeci daraltır",
+   "ok": true,
+   "a": "{\"musa\":{\"sekme\":[\"Tümü 2\",\"Kavramlar 0\",\"Kişiler 1\",\"Eserler 0\",\"Diğer kayıtlar 1\"],\"grup\":[\"Kişiler 1\",\"Diğer kayıtlar 1\"],\"kart\":2,\"oz\":\"“Musa” için 2 sonuç\"},\"bek\":{\"k\":0,\"e\":2},\"kisi\":{\"sekme\":[\"Tümü 2\",\"Kavramlar 0\",\"Kişiler 1\",\"Eserler 0\",\"Diğer kayıtlar 1\"],\"grup\":[\"Kişiler 1\"],\"kart\":1,\"oz\":\"“Musa” için 2 sonuç · Kişiler\"},\"abdest\":{\"sekme\":[\"Tümü 1\",\"Kavramlar 1\",\"Kişiler 0\",\"Eserler 0\",\"Diğer kayıtlar 0\"],\"grup\":[\"Kavramlar 1\"],\"kart\":1,\"oz\":\"“abdest” için 1 sonuç\"},\"muh\":{\"sekme\":[\"Tümü 32\",\"Kavramlar 0\",\"Kişiler 29\",\"Eserler 0\",\"Diğer kayıtlar 3\"],\"grup\":[\"Kişiler 29\",\"Diğer kayıtlar 3\"],\"kart\":9,\"oz\":\"“Muhammed” için 32 sonuç\"},\"muh9\":{\"sekme\":[\"Tümü 4\",\"Kavramlar 0\",\"Kişiler 4\",\"Eserler 0\",\"Diğer kayıtlar 0\"],\"grup\":[\"Kişiler 4\"],\"kart\":4,\"oz\":\"“Muhammed” için 4 sonuç\"},\"muh9sinif\":[\"9. sınıf\",\"9. sınıf\",\"9. sınıf\",\"9. sınıf\"],\"temiz\":{\"q\":\"\",\"liste\":17,\"ar\":false}}"
+  },
+  {
+   "ad": "B4 Elmas: “abdest” kavramlarda bulunur; sınıf süzgeci (9. sınıf) bütün kategorilere uygulanır ve sonucu daraltır (“Muhammed”); arama temizlenince normal liste döner",
+   "ok": true,
+   "a": "{\"musa\":{\"sekme\":[\"Tümü 2\",\"Kavramlar 0\",\"Kişiler 1\",\"Eserler 0\",\"Diğer kayıtlar 1\"],\"grup\":[\"Kişiler 1\",\"Diğer kayıtlar 1\"],\"kart\":2,\"oz\":\"“Musa” için 2 sonuç\"},\"bek\":{\"k\":0,\"e\":2},\"kisi\":{\"sekme\":[\"Tümü 2\",\"Kavramlar 0\",\"Kişiler 1\",\"Eserler 0\",\"Diğer kayıtlar 1\"],\"grup\":[\"Kişiler 1\"],\"kart\":1,\"oz\":\"“Musa” için 2 sonuç · Kişiler\"},\"abdest\":{\"sekme\":[\"Tümü 1\",\"Kavramlar 1\",\"Kişiler 0\",\"Eserler 0\",\"Diğer kayıtlar 0\"],\"grup\":[\"Kavramlar 1\"],\"kart\":1,\"oz\":\"“abdest” için 1 sonuç\"},\"muh\":{\"sekme\":[\"Tümü 32\",\"Kavramlar 0\",\"Kişiler 29\",\"Eserler 0\",\"Diğer kayıtlar 3\"],\"grup\":[\"Kişiler 29\",\"Diğer kayıtlar 3\"],\"kart\":9,\"oz\":\"“Muhammed” için 32 sonuç\"},\"muh9\":{\"sekme\":[\"Tümü 4\",\"Kavramlar 0\",\"Kişiler 4\",\"Eserler 0\",\"Diğer kayıtlar 0\"],\"grup\":[\"Kişiler 4\"],\"kart\":4,\"oz\":\"“Muhammed” için 4 sonuç\"},\"muh9sinif\":[\"9. sınıf\",\"9. sınıf\",\"9. sınıf\",\"9. sınıf\"],\"temiz\":{\"q\":\"\",\"liste\":17,\"ar\":false}}"
+  },
+  {
+   "ad": "B3 Altın: Bilgi Atlası araması bütün kategorilerde (Eserler sekmesi açıkken “Musa” → Kişiler ve Diğer kayıtlar sonuçları), sonuçlar kategorilere göre gruplu; sayılar sözlük listesiyle aynı; kategori süzgeci daraltır",
+   "ok": true,
+   "a": "{\"musa\":{\"sekme\":[\"Tümü 2\",\"Kavramlar 0\",\"Kişiler 1\",\"Eserler 0\",\"Diğer kayıtlar 1\"],\"grup\":[\"Kişiler 1\",\"Diğer kayıtlar 1\"],\"kart\":2,\"oz\":\"“Musa” için 2 sonuç\"},\"bek\":{\"k\":0,\"e\":2},\"kisi\":{\"sekme\":[\"Tümü 2\",\"Kavramlar 0\",\"Kişiler 1\",\"Eserler 0\",\"Diğer kayıtlar 1\"],\"grup\":[\"Kişiler 1\"],\"kart\":1,\"oz\":\"“Musa” için 2 sonuç · Kişiler\"},\"abdest\":{\"sekme\":[\"Tümü 1\",\"Kavramlar 1\",\"Kişiler 0\",\"Eserler 0\",\"Diğer kayıtlar 0\"],\"grup\":[\"Kavramlar 1\"],\"kart\":1,\"oz\":\"“abdest” için 1 sonuç\"},\"muh\":{\"sekme\":[\"Tümü 32\",\"Kavramlar 0\",\"Kişiler 29\",\"Eserler 0\",\"Diğer kayıtlar 3\"],\"grup\":[\"Kişiler 29\",\"Diğer kayıtlar 3\"],\"kart\":9,\"oz\":\"“Muhammed” için 32 sonuç\"},\"muh9\":{\"sekme\":[\"Tümü 4\",\"Kavramlar 0\",\"Kişiler 4\",\"Eserler 0\",\"Diğer kayıtlar 0\"],\"grup\":[\"Kişiler 4\"],\"kart\":4,\"oz\":\"“Muhammed” için 4 sonuç\"},\"muh9sinif\":[\"9. sınıf\",\"9. sınıf\",\"9. sınıf\",\"9. sınıf\"],\"temiz\":{\"q\":\"\",\"liste\":17,\"ar\":false}}"
+  },
+  {
+   "ad": "B4 Altın: “abdest” kavramlarda bulunur; sınıf süzgeci (9. sınıf) bütün kategorilere uygulanır ve sonucu daraltır (“Muhammed”); arama temizlenince normal liste döner",
+   "ok": true,
+   "a": "{\"musa\":{\"sekme\":[\"Tümü 2\",\"Kavramlar 0\",\"Kişiler 1\",\"Eserler 0\",\"Diğer kayıtlar 1\"],\"grup\":[\"Kişiler 1\",\"Diğer kayıtlar 1\"],\"kart\":2,\"oz\":\"“Musa” için 2 sonuç\"},\"bek\":{\"k\":0,\"e\":2},\"kisi\":{\"sekme\":[\"Tümü 2\",\"Kavramlar 0\",\"Kişiler 1\",\"Eserler 0\",\"Diğer kayıtlar 1\"],\"grup\":[\"Kişiler 1\"],\"kart\":1,\"oz\":\"“Musa” için 2 sonuç · Kişiler\"},\"abdest\":{\"sekme\":[\"Tümü 1\",\"Kavramlar 1\",\"Kişiler 0\",\"Eserler 0\",\"Diğer kayıtlar 0\"],\"grup\":[\"Kavramlar 1\"],\"kart\":1,\"oz\":\"“abdest” için 1 sonuç\"},\"muh\":{\"sekme\":[\"Tümü 32\",\"Kavramlar 0\",\"Kişiler 29\",\"Eserler 0\",\"Diğer kayıtlar 3\"],\"grup\":[\"Kişiler 29\",\"Diğer kayıtlar 3\"],\"kart\":9,\"oz\":\"“Muhammed” için 32 sonuç\"},\"muh9\":{\"sekme\":[\"Tümü 4\",\"Kavramlar 0\",\"Kişiler 4\",\"Eserler 0\",\"Diğer kayıtlar 0\"],\"grup\":[\"Kişiler 4\"],\"kart\":4,\"oz\":\"“Muhammed” için 4 sonuç\"},\"muh9sinif\":[\"9. sınıf\",\"9. sınıf\",\"9. sınıf\",\"9. sınıf\"],\"temiz\":{\"q\":\"\",\"liste\":17,\"ar\":false}}"
+  },
+  {
+   "ad": "S1 Altın anlatım (gece): krem kâğıt yok, okuma alanı temanın koyu rengi; yazı/zemin karşıtlığı ≥ 7; metin ekran genişliğinin en az %80’i (360 px telefonda yan beyaz şerit yok)",
+   "ok": true,
+   "a": "{\"gece\":{\"kagit\":false,\"pZemin\":\"rgba(0, 0, 0, 0)\",\"pResim\":\"linear-gradient(color(srgb 0.150588 0.114902 0.0792157), rgb\",\"okuZemin\":\"rgba(0, 0, 0, 0)\",\"yazi\":\"rgb(243, 234, 219)\",\"govde\":\"rgb(19, 14, 10)\",\"metinGen\":312,\"ekran\":360},\"gunduz\":{\"kagit\":true,\"pZemin\":\"rgb(251, 246, 236)\",\"pResim\":\"none\",\"okuZemin\":\"rgba(0, 0, 0, 0)\",\"yazi\":\"rgb(43, 33, 23)\",\"govde\":\"rgb(242, 234, 219)\",\"metinGen\":312,\"ekran\":360},\"lacivert\":{\"kagit\":false,\"pZemin\":\"rgba(0, 0, 0, 0)\",\"pResim\":\"linear-gradient(color(srgb 0.0568627 0.121569 0.217647), rgb\",\"okuZemin\":\"rgba(0, 0, 0, 0)\",\"yazi\":\"rgb(226, 236, 250)\",\"govde\":\"rgb(7, 15, 28)\",\"metinGen\":312,\"ekran\":360}}"
+  },
+  {
+   "ad": "S2 Altın anlatım (gündüz): krem kâğıt korunur (okuma deneyimi aynı), yazı koyu, karşıtlık ≥ 7",
+   "ok": true,
+   "a": "{\"gece\":{\"kagit\":false,\"pZemin\":\"rgba(0, 0, 0, 0)\",\"pResim\":\"linear-gradient(color(srgb 0.150588 0.114902 0.0792157), rgb\",\"okuZemin\":\"rgba(0, 0, 0, 0)\",\"yazi\":\"rgb(243, 234, 219)\",\"govde\":\"rgb(19, 14, 10)\",\"metinGen\":312,\"ekran\":360},\"gunduz\":{\"kagit\":true,\"pZemin\":\"rgb(251, 246, 236)\",\"pResim\":\"none\",\"okuZemin\":\"rgba(0, 0, 0, 0)\",\"yazi\":\"rgb(43, 33, 23)\",\"govde\":\"rgb(242, 234, 219)\",\"metinGen\":312,\"ekran\":360},\"lacivert\":{\"kagit\":false,\"pZemin\":\"rgba(0, 0, 0, 0)\",\"pResim\":\"linear-gradient(color(srgb 0.0568627 0.121569 0.217647), rgb\",\"okuZemin\":\"rgba(0, 0, 0, 0)\",\"yazi\":\"rgb(226, 236, 250)\",\"govde\":\"rgb(7, 15, 28)\",\"metinGen\":312,\"ekran\":360}}"
+  },
+  {
+   "ad": "S3 Altın gece: Özet, 30 Saniyede, Hikâye, Kodlama, Tablo sekmeleri de koyu temada ve okunur (yazı/zemin ≥ 4,5)",
+   "ok": true,
+   "a": "{\"ozet\":{\"kagit\":false,\"en\":13.42},\"otuz\":{\"kagit\":false,\"en\":8.72},\"hikaye\":{\"kagit\":false,\"en\":13.43},\"kodlama\":{\"kagit\":false,\"en\":13.43},\"tablo\":{\"kagit\":false,\"en\":13.43}}"
+  },
+  {
+   "ad": "S4 Üst boşluk: güvenli alan 40 px benzetiminde tarayıcı davranışı aynı (body 40 px); APK’da (data-apk58) sayfa boşluğu ikinci kez eklemez (0 px — boşluğu yalnız Android uygulaması verir)",
+   "ok": true,
+   "a": "{\"destek\":true,\"tarayici\":{\"pad\":\"40px\",\"ust\":40},\"apk\":{\"pad\":\"0px\",\"ust\":0}}"
+  },
+  {
+   "ad": "O1 Yeni oyun içerikleri kaynaktan: her Eksik Kelime cümlesi konu anlatımında aynen var (boşluk doldurulunca aynı cümle), Kelimeyi Anlat ipuçları kitap cümlesi, Hata Avcısı/Çark kartları mevcut bilgi kartları (yanlış kart doğru cevabıyla birlikte), eşleştirmeler “karıştırılanlar” kutusundan; hiçbir cümle/kart iki oyunda ya da eski oyunlarda tekrar etmiyor; 4–12 her sınıfa yeni içerik",
+   "ok": true,
+   "a": "{\"n\":95,\"hatalar\":[],\"sinif\":[4,5,6,7,8,9,10,11,12]}"
+  },
+  {
+   "ad": "O2 Zamanın İzinde: yeni bölümler 5, 6, 7, 8, 11 ve 12. sınıflarda (önceden yalnız 4 ve 7); yeni bölüm baştan oynanır, doğru sıra kabul edilir",
+   "ok": true,
+   "a": "{\"zaman\":{\"4\":[2,2],\"5\":[1,1],\"6\":[1,1],\"7\":[2,2],\"8\":[1,1],\"11\":[1,1],\"12\":[2,2]},\"lab\":{\"4\":[5,5],\"5\":[5,5],\"6\":[5,4],\"7\":[5,5],\"8\":[5,3],\"9\":[5,4],\"10\":[5,2],\"11\":[3,2],\"12\":[4,3]},\"yeniZaman\":[\"5: Hz. Musa’nın kıssası\",\"6: Hz. Muhammed’in (sav) ailesi ve çocukluğu\",\"7: Hz. Muhammed’in (sav) çocukluğundan ilk vahye\",\"8: Hz. Şuayb’ın kıssası\",\"11: Yahudilik tarihi\",\"12: Doğu dinlerinin kurucu dönemleri\",\"12: Tasavvufi yolların kurucuları\"],\"n\":95,\"gorunur\":95,\"C\":[\"GM58-TPC-9-1-04-eksik\",\"GM58-TPC-10-5-02-eksik\",\"GM58-DKAB-7-U02-hata\",\"GM58-DKAB-7-U03-hata\",\"GM58-TPC18-12-1-04-zaman\"],\"cark\":{\"4\":8,\"5\":10,\"6\":3,\"7\":2,\"8\":3,\"9\":1,\"10\":1,\"11\":1,\"12\":2},\"tabu\":{\"4\":2,\"5\":1,\"6\":3,\"7\":1,\"8\":2,\"9\":1,\"10\":1,\"11\":2,\"12\":1},\"oyun\":{\"view\":\"game\",\"id\":\"GM58-TPC-9-5-02-eksik\",\"metin\":\"EKSİK KELİME · 9. SINIF\\nHz. Muhammed’in Örnekliği · Eksik Kelime\\nPUAN\\n0 / 30\\nMOD\\nSüresiz\\nCümle 1 / 3\\n\\nEnes'in, on yıl boyunca Peygamberimizin kendisine bir kez bile “öf” demediğini, yapılan bir işi “n\"},\"cevap\":true,\"sonra\":\"EKSİK KELİME · 9. SINIF\\nHz. Muhammed’in Örnekliği · Eksik Kelime\\nPUAN\\n10 / 30\\nMOD\\nSüresiz\\nCümle 1 / 3\\n\\nEnes'in, on yıl boyunca Peygamberimizin kendisine bir kez bile “öf” demediğini, yapılan bir işi “niçin yaptın?” diye sorgulamadığını aktarması, bu şefkat ve nezaketin günlük hayattaki yansımasıdır.\",\"_ss\":1,\"giris\":\"Hz. Musa’nın kıssası\",\"sira\":\"Sıra doğru.\",\"sonraki\":\"\\n100 puan · 2 sn · 0 hata · 0 ipucu\\nKronoloji\\nOrta seviyeye geçTekrar oynaBaşka bölümOyun merkezi\"}"
+  },
+  {
+   "ad": "O3 Bilgi Laboratuvarı 10. ve 11. sınıfta açık bölüm var (önceden 0); Çark Çevirme 9, 10, 11. sınıflarda da; Kelimeyi Anlat 4–12 her sınıfta kayıt var; yeni kayıtların hepsi öğrenciye görünür (editör kontrolü gereken C kayıtları listede ayrı)",
+   "ok": true,
+   "a": "{\"lab\":{\"4\":[5,5],\"5\":[5,5],\"6\":[5,4],\"7\":[5,5],\"8\":[5,3],\"9\":[5,4],\"10\":[5,2],\"11\":[3,2],\"12\":[4,3]},\"cark\":{\"4\":8,\"5\":10,\"6\":3,\"7\":2,\"8\":3,\"9\":1,\"10\":1,\"11\":1,\"12\":2},\"tabu\":{\"4\":2,\"5\":1,\"6\":3,\"7\":1,\"8\":2,\"9\":1,\"10\":1,\"11\":2,\"12\":1},\"n\":95,\"C\":[\"GM58-TPC-9-1-04-eksik\",\"GM58-TPC-10-5-02-eksik\",\"GM58-DKAB-7-U02-hata\",\"GM58-DKAB-7-U03-hata\",\"GM58-TPC18-12-1-04-zaman\"],\"yeniZaman\":[\"5: Hz. Musa’nın kıssası\",\"6: Hz. Muhammed’in (sav) ailesi ve çocukluğu\",\"7: Hz. Muhammed’in (sav) çocukluğundan ilk vahye\",\"8: Hz. Şuayb’ın kıssası\",\"11: Yahudilik tarihi\",\"12: Doğu dinlerinin kurucu dönemleri\",\"12: Tasavvufi yolların kurucuları\"]}"
+  },
+  {
+   "ad": "O4 Etkinlik oyunları: yeni Eksik Kelime oyunu mevcut oyun ekranında açılır; doğru seçenek seçilebilir",
+   "ok": true,
+   "a": "{\"oyun\":{\"view\":\"game\",\"id\":\"GM58-TPC-9-5-02-eksik\",\"metin\":\"EKSİK KELİME · 9. SINIF\\nHz. Muhammed’in Örnekliği · Eksik Kelime\\nPUAN\\n0 / 30\\nMOD\\nSüresiz\\nCümle 1 / 3\\n\\nEnes'in, on yıl boyunca Peygamberimizin kendisine bir kez bile “öf” demediğini, yapılan bir işi “n\"},\"sonra\":\"EKSİK KELİME · 9. SINIF\\nHz. Muhammed’in Örnekliği · Eksik Kelime\\nPUAN\\n10 / 30\\nMOD\\nSüresiz\\nCümle 1 / 3\\n\\nEnes'in, on yıl boyunca Peygamberimizin kendisine bir kez\"}"
+  },
+  {
+   "ad": "D1 Kullanıcı verisi korunur: ilerleme (dk2.prog), günlük hedef (dk-calis45), favoriler (dk-ilerleme39.fav), Altın/Öğretmen temaları (dk-tema54), Altın ve Elmas görünüm tercihleri aynen",
+   "ok": true,
+   "a": "{\"dk-calis45\":\"{\\\"v\\\":1,\\\"hedef\\\":25,\\\"gun\\\":{\\\"2026-11-20\\\":7},\\\"sg\\\":{\\\"2026-11-20\\\":{\\\"4\\\":5}}}\",\"dk-ilerleme39\":\"{\\\"z\\\":{},\\\"t\\\":{},\\\"fav\\\":{\\\"s\\\":[4],\\\"k\\\":[\\\"TPC18-4-1-01\\\"]}}\",\"dk-tema54\":\"{\\\"v\\\":1,\\\"altin\\\":\\\"zumrut\\\",\\\"ogretmen\\\":\\\"lacivert\\\",\\\"ogretmenMod\\\":\\\"gunduz\\\"}\",\"dk-ptema43\":\"gunduz\",\"dk-theme\":\"light\",\"prog\":{\"DKAB18-4-U01-O01\":{\"c\":3,\"w\":1}}}"
+  },
+  {
+   "ad": "M1 360 px telefonda (Bilgi Atlası ve arama iki modda, Altın ana sayfa, anlatım) yatay taşma yok",
+   "ok": true,
+   "a": "{\"atlas57\":{\"gen\":360},\"ara\":{\"gen\":360},\"pdunya\":{\"gen\":360},\"ara2\":{\"gen\":360},\"pders\":{\"gen\":360}}"
+  },
+  {
+   "ad": "Z1 Sayfa hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}

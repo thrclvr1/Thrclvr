@@ -221,7 +221,10 @@ public class MainActivity extends Activity {
             }
             if (customView != null) { l = t = r = b = 0; }
             v.setPadding(l, t, r, b);
-            return insets;
+            // V58: boşluk burada bir kez uygulanır; kenar bilgisi tüketilir ki WebView sayfaya env(safe-area-inset-*) olarak
+            // aynı durum çubuğu yüksekliğini yeniden vermesin (önceden üstte iki kat boşluk oluşuyordu).
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) return WindowInsets.CONSUMED;
+            return insets.consumeSystemWindowInsets();
         });
     }
 
