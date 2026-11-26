@@ -1,0 +1,122 @@
+{
+ "tarih": "2026-11-26T09:30:31.939Z",
+ "gecen": 23,
+ "toplam": 23,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V56.0, index.html aynı; veri blokları V55.0 ile bayt bayt aynı (içerik silinmedi); eski sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 HTML’de Gmail adresi ve açık PIN yok; Altın hâlâ kapalı (ACIK: false); V55’in beş ayrı tema CSS’i yok, ortak tema üretimi var",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "H1 Günlük hedef yalnız seçili sınıfı sayar: 4. sınıftan 9, 5. sınıftan 10 cevap → 4. sınıf hedefi 9/20; genel çalışma 19 (4. sınıf 9 · 5. sınıf 10)",
+   "ok": true,
+   "a": "{\"b4\":{\"n\":9,\"hedef\":20,\"sinif\":4,\"tamam\":false,\"asti\":false,\"fazla\":0,\"kalan\":11},\"g\":{\"bugun\":19,\"dagilim\":{\"4\":9,\"5\":10},\"ayrilmamis\":0,\"hafta\":19,\"dogru\":9,\"yanlis\":10,\"oran\":47,\"siniflar\":[4,5]}}"
+  },
+  {
+   "ad": "H2 Eski kayıt korunur ve yanlış sınıfa taşınmaz: önceki günün 7 cevabı genel sayaçta kalır, 4. sınıf görünümünde yer almaz",
+   "ok": true,
+   "a": "{\"gun\":{\"2026-11-01\":7,\"2026-11-26\":19},\"oku\":{\"2026-11-26\":9}}"
+  },
+  {
+   "ad": "H3 Bütün ekranlar aynı ayrımı gösterir: Elmas ana sayfa ve Çalışmam halkası 9/20; Çalışmam’da ayrı “Genel çalışmam” (19 bugün); Profilim’de Sınıfım (başarı %100, 9 doğru) ve Genel çalışmam (19, %47) ayrı",
+   "ok": true,
+   "a": "{\"ev\":\"Sınıfım: 4. sınıf\\n4. sınıf derslerine başla\\nBugün 9/20 cevap\",\"cal\":\"9\\n/ 20 cevap\\nGünlük hedef 4. sınıf\\n\\nHedefe\\n11\\ncevap kaldı.\\n\\nHedefi tamamla, seri başlasın\\n9\\nTamamlanan\\n11\\nKalan\\n20\\nHedef\",\"gn\":\"Genel çalışmam\\nBütün sınıflar\\n19\\nBugün cevap\\n19\\nSon 7 gün\\n%47\\nGenel başarı\\n\\nBugün: 4. sınıf 9 · 5. sınıf 10. Günlük hedefin yalnız 4. sınıf cevaplarını sayar; başka sınıflardan çözdüklerin burada görünür.\",\"pr\":\"İlerlemem\\nElmas ve Altın aynı kaydı kullanır\\nSınıfım · 4. sınıf\\n%100\\nKazanım başarısı\\n9 doğru · 0 yanlış\\n0/15\\nTamamlanan konu\\nMini testte %70 ve üstü\\n9/20\\nBugünkü hedef\\n11 cevap kaldı\\nGenel çalışmam bütün sınıflar\\n19\\nbugün\\n19\\nson 7 gün\\n%47\\nbaşarı\\n2\\nsınıfta çalıştın\\nÇalışma Merkezim\\n4. sınıf · bugün 9/20\\nSınıf sınıf ilerleme\\n4–12. sınıflar\\nFavorilerim\\nHenüz favori yok\"}"
+  },
+  {
+   "ad": "H4 Altın’da da aynı: ana sayfa ve Çalışma Masam “4. sınıf hedefi” 9/20; sınıf 5 seçilince hedef 10/20 olur (sınıf değiştirmek kayıtları taşımaz)",
+   "ok": true,
+   "a": "{\"ah\":\"9\\n/20\\n4. sınıf hedefi\",\"ms\":\"9\\n/20\\n4. sınıf hedefi\\n\\nHedefe 11 cevap kaldı\",\"ms5\":\"10\\n/20\\n5. sınıf hedefi\\n\\nHedefe 10 cevap kaldı\",\"b5\":{\"n\":10,\"hedef\":20,\"sinif\":5,\"tamam\":false,\"asti\":false,\"fazla\":0,\"kalan\":10}}"
+  },
+  {
+   "ad": "T1 Tek tema tercihi: Elmas üst çubuk düğmesi, Altın üst çubuk düğmesi ve V56.Tema aynı ayarı değiştirir; Altın, Elmas’ın açık/koyu seçimini izler",
+   "ok": true,
+   "a": "{\"elmasAcik\":\"light\",\"dugme\":[\"dark\",\"gece\",\"dark\"],\"altinKoyu\":[\"gece\",\"rgb(11, 16, 32)\",\"rgb(19, 26, 45)\"],\"altinAcik\":[\"gunduz\",\"rgb(243, 245, 250)\",\"rgb(255, 255, 255)\",\"light\"]}"
+  },
+  {
+   "ad": "T2 Altın temel renkleri Elmas paletinden: koyu zemin #0B1020 ve kart #131A2D (Elmas koyu), açık zemin #F3F5FA ve beyaz kart (Elmas açık); altın vurgular korunur",
+   "ok": true,
+   "a": "{\"koyu\":[\"gece\",\"rgb(11, 16, 32)\",\"rgb(19, 26, 45)\"],\"acik\":[\"gunduz\",\"rgb(243, 245, 250)\",\"rgb(255, 255, 255)\",\"light\"],\"btn\":\"rgb(226, 183, 101)\"}"
+  },
+  {
+   "ad": "T3 Okunurluk: Altın açık/koyu başlık ≥ 7, soluk yazı ≥ 4,5, altın düğme yazısı ≥ 4,5; Öğretmen Modu açık/koyu yazı ≥ 7, ikincil ≥ 4,5, ana düğme ≥ 4,5",
+   "ok": true,
+   "a": "{\"altin\":{\"acik\":{\"yazi\":18.93,\"soluk\":7.35,\"btn\":7.04},\"koyu\":{\"yazi\":15.58,\"soluk\":8.68,\"btn\":9.69}},\"ogretmen\":{\"acik\":{\"ink\":18.93,\"mut\":7.35,\"act\":6.53},\"koyu\":{\"ink\":15.58,\"mut\":7.76,\"act\":9.53}}}"
+  },
+  {
+   "ad": "T4 Öğretmen Modu ortak temayı kullanır: açık/koyu Elmas paleti (zemin #F3F5FA / #0B1020), Tema düğmesi aynı üç seçeneği açar; Profilim ve Görünüm ve ses › Tema’da yalnız Açık/Koyu/Otomatik (eski 5 palet yok)",
+   "ok": true,
+   "a": "{\"ogr\":{\"acik\":{\"th\":\"light\",\"bg\":\"rgb(243, 245, 250)\",\"ink\":\"#0B1020\",\"card\":\"#FFFFFF\",\"mut\":\"#4A5670\",\"act\":\"#2E54C8\",\"on\":\"#FFFFFF\"},\"koyu\":{\"th\":\"dark\",\"bg\":\"rgb(11, 16, 32)\",\"ink\":\"#F0F3FA\",\"card\":\"#131A2D\",\"mut\":\"#A4AEC2\",\"act\":\"#9DB6FF\",\"on\":\"#0B1020\"}},\"sheet\":3,\"profil\":true,\"ayar\":3}"
+  },
+  {
+   "ad": "AL1 Altın ana sayfa premium ve sade: aynı yerleşim (kaldığın yer + hedef halkası, Derslerim/Oyun Dünyası/Çalışma Masam, Keşif); her girişin kendi çizgi ikonu (hepsi farklı), katmanlı yüzey (gölge), ölçülü giriş animasyonu; tekrar yok",
+   "ok": true,
+   "a": "{\"var\":true,\"hero\":true,\"kisa\":3,\"kesif\":5,\"tekil\":true,\"ikonFarkli\":true,\"ed\":true,\"golge\":true,\"anim\":\"a56g\",\"L\":[\"Başla\",\"0\",\"Derslerim\",\"Oyun Dünyası\",\"Çalışma Masam\",\"Sureler ve Dualar\",\"Kavramlar\",\"Kişiler ve Eserler\",\"Bağlantılar\",\"Öğrenme araçları\",\"Önizlemeden çık\"]}"
+  },
+  {
+   "ad": "AL2 Çalışma Masam yeniden tasarlandı: “Bugün” sahnesi, Eksiklerim, Şimdi ne yapmalıyım (her eylemin kendi ikonu ve tonu), plan, hedefler (7 gün grafiği ve hedef çizgisi), sekmeli Gelişimim ve Geçmişim (sekmeler çalışıyor)",
+   "ok": true,
+   "a": "{\"bolum\":[\"Bugün ne çalışmalıyım?\",\"Hangi konularda eksiğim var?\",\"Şimdi hangi çalışmayı yapmalıyım?\",\"Bugünkü planın\",\"Hedefler\",\"Gelişimim\",\"Geçmişim\"],\"eylem\":[\"yn\",\"kr\",\"ts\"],\"eylemRenk\":[\"color(srgb 0.161255 0.187608 0.247686)\",\"color(srgb 0.122157 0.193216 0.279255)\",\"color(srgb 0.132039 0.181922 0.296902)\"],\"hedef\":\"30\\n/20\\n+10\\n4. sınıf hedefi\\n\\nHedefini aştın\\n30/20\\n+10 cevap\",\"oneri\":\"Günlük Konuşmalarda Dinî İfadeler konusunu tekrar et\",\"eksik\":[\"Günlük Konuşmalarda Dinî İfadeler %40\"],\"grafik\":true,\"sekme\":2,\"sekmeGecis\":\"true,false,true\",\"genel\":\"41\\nbugün (bütün sınıflar)\\n41\\nson 7 gün\\n%40\\ngenel başarı\\n\\nBugün: 4. sınıf 30 · 5. sınıf 11. Günlük hedefin yalnız 4. sınıf cevaplarını sayar; başka sınıflarda çözdüklerin burada görünür.\"}"
+  },
+  {
+   "ad": "AL3 Çalışma Masam gerçek kayıttan: öneri en zayıf konu; eksik konular yüzdeyle; 4. sınıf hedefi aşıldı “30/20 · +10” (genel 41 cevaptan yalnız 4. sınıfın 30’u); Genel sekmesinde 41 ve sınıf dağılımı",
+   "ok": true,
+   "a": "{\"oneri\":\"Günlük Konuşmalarda Dinî İfadeler konusunu tekrar et\",\"hedef\":\"30\\n/20\\n+10\\n4. sınıf hedefi\\n\\nHedefini aştın\\n30/20\\n+10 cevap\",\"eksik\":[\"Günlük Konuşmalarda Dinî İfadeler %40\"],\"genel\":\"41\\nbugün (bütün sınıflar)\\n41\\nson 7 gün\\n%40\\ngenel başarı\\n\\nBugün: 4. sınıf 30 · 5. sınıf 11. Günlük hedefin yalnız 4. sınıf cevaplarını sayar; başka sınıflarda çözdüklerin burada görünür.\"}"
+  },
+  {
+   "ad": "AL4 Altın Profilim sade: “İçeriği hazır konu / 190/190” ve “Öğretmen ve editör” kartı yok; öğretmen ve yönetici girişi Mod panelinde duruyor",
+   "ok": true,
+   "a": "{\"pr\":{\"hazir\":false,\"og\":false,\"modPanel\":true},\"mp\":{\"ogretmen\":true,\"yonetici\":true}}"
+  },
+  {
+   "ad": "O1 Altın Oyun Dünyası: dört grup korunur; 13 kartın her biri kendi çizimini ve renk tonunu taşır (birbirinin kopyası değil)",
+   "ok": true,
+   "a": "{\"sayi\":13,\"cizim\":true,\"tekil\":true,\"ton\":13,\"gruplar\":[\"Kısa bilgi ve kelime oyunları\",\"Yarışma oyunları\",\"Takım oyunları\",\"Hikâyeli ve keşif oyunları\"],\"cark\":{\"view\":\"cark56\",\"baslik\":\"Çark Çevirme\",\"oner\":true,\"cubuk\":0},\"navOn\":\"oyun\"}"
+  },
+  {
+   "ad": "O2 Çark Çevirme kartı Etkinlik Oyunları’na değil kendi ekranına gider (tek üst çubuk; Oyunlar sekmesi seçili); “Çarkı çevir” çark oyununu açar; çark kaydı olmayan sınıfta açık uyarı",
+   "ok": true,
+   "a": "{\"cark\":{\"view\":\"cark56\",\"baslik\":\"Çark Çevirme\",\"oner\":true,\"cubuk\":0},\"navOn\":\"oyun\",\"o2\":{\"view\":\"game\",\"tur\":\"wheel\",\"cark\":true,\"alti\":\"OYUN\\nÇark Çevirme\\n\\nÇarkı çevir, çıkan soruyu yanıtla. Sorular bilgi kartlarından gelir.\\n\\n4. sınıf · Sınıfım\\n5. sınıf\\n7. sınıf\\n12. sınıf\\n\\n6. sınıf için kaynakta çark oyunu yok. Çark oyunu olan sınıflardan birini seçebilirsin.\"}}"
+  },
+  {
+   "ad": "O3 Diğer sekiz Altın oyunu (Zirve Yarışı, Beni Bul!, Gizemli Şahsiyet, Harf Halkası, Harf Avı, Bilgi Arenası, Kelimeyi Anlat Bakalım, Gizli Bilgin) kendi ekranlarını açar",
+   "ok": true,
+   "a": "{\"zirve\":true,\"benibul\":true,\"gizemli\":true,\"halka\":true,\"harf\":true,\"arena\":true,\"anlat\":true,\"gizli\":true}"
+  },
+  {
+   "ad": "F2 Altın’daki etkinlik oyunları sayfası da önce filtre gösterir; tür seçilince liste açılır",
+   "ok": true,
+   "a": "{\"panel\":true,\"liste0\":0,\"liste1\":17}"
+  },
+  {
+   "ad": "F1 Elmas oyunlar: ilk açılışta uzun liste yok, “Oyun bul” paneli (Sınıfım/Tüm sınıflar, ünite/konu) ve oyun türleri var; tür ya da ünite seçince yalnız ilgili oyunlar; temizleyince liste kapanır; Tüm sınıflar bütün sınıfların oyunlarını açar",
+   "ok": true,
+   "a": "{\"panel\":true,\"turler\":12,\"liste0\":0,\"tumBaslik\":false,\"ipucu\":true,\"tur\":{\"n\":8,\"hepsiCark\":true},\"temiz\":0,\"uniteSec\":true,\"unite\":{\"n\":21,\"f\":\"DKAB18-4-U01\"},\"sinifim\":17,\"sinifimHepsi4\":true,\"tum\":{\"sayi\":177,\"sinif\":9},\"nav\":\"games\"}"
+  },
+  {
+   "ad": "P1 Elmas Profilim’de de içerik hazırlık bilgisi ve öğretmen/editör kısayol kartları yok",
+   "ok": true,
+   "a": "{\"hazir\":false,\"og\":false}"
+  },
+  {
+   "ad": "R1 Öğrenci Altın’a giremez (“Çok yakında”); öğretmen oturumunda editör yetkisi ve Altın erişimi yok",
+   "ok": true,
+   "a": "{\"acik\":false,\"ogrView\":\"home\",\"yakinda\":true,\"ogrt\":true,\"ogrtEd\":false,\"edEkran\":false,\"ogrtAltin\":false}"
+  },
+  {
+   "ad": "M1 360 px telefonda (Elmas ana sayfa/oyunlar/Çalışmam/Profilim; Altın koridor/sınıf merkezi/Çalışma Masam/Oyun Dünyası/Çark Çevirme/Profilim) son içerik alt menünün altında kalmıyor, yatay taşma yok",
+   "ok": true,
+   "a": "{\"home\":{\"son\":611,\"nav\":682,\"gen\":360},\"games\":{\"son\":617,\"nav\":682,\"gen\":360},\"calis45\":{\"son\":639,\"nav\":682,\"gen\":360},\"profil46\":{\"son\":621,\"nav\":666,\"gen\":360},\"pdunya\":{\"son\":671,\"nav\":null,\"gen\":360},\"psinif\":{\"son\":619,\"nav\":666,\"gen\":360},\"acalis53\":{\"son\":599,\"nav\":666,\"gen\":360},\"poyun\":{\"son\":625,\"nav\":666,\"gen\":360},\"cark56\":{\"son\":611,\"nav\":666,\"gen\":360}}"
+  },
+  {
+   "ad": "Z1 Sayfa hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}
