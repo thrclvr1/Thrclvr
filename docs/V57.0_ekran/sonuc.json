@@ -1,0 +1,122 @@
+{
+ "tarih": "2026-11-26T10:46:11.551Z",
+ "gecen": 23,
+ "toplam": 23,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V57.0, index.html aynı; veri blokları V56.0 ile bayt bayt aynı (içerik silinmedi); eski sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 Gmail adresi ve açık PIN yok; Altın hâlâ kapalı (ACIK: false); V56 ortak tema modülü çıkarıldı, birleşik tema üretimi var",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "T1 Altın tema seçenekleri korunur ve genişler: 5 Altın teması (Altın Mihrap, Gece Lacivert, Zümrüt Kütüphane, Mürekkep ve Bakır, Kum Taşı) + Elmas temaları (Açık, Koyu, Otomatik); görünüm Gündüz/Gece/Otomatik",
+   "ok": true,
+   "a": "{\"secenek\":[\"\",\"Altın Mihrap\",\"\",\"Gece Lacivert\",\"\",\"Zümrüt Kütüphane\",\"\",\"Mürekkep ve Bakır\",\"\",\"Kum Taşı\",\"\",\"Elmas · Açık\",\"\",\"Elmas · Koyu\",\"Elmas · Otomatik\"],\"mod\":[\"☀ Gündüz\",\"☾ Gece\",\"◐ Otomatik\"]}"
+  },
+  {
+   "ad": "T2 Her tema kendi renklerini uygular: Gece Lacivert lacivert, Zümrüt yeşil, Elmas Açık #F3F5FA / Elmas Koyu #0B1020 (Elmas paleti); 12 görünümün yüzeyleri birbirinden farklı",
+   "ok": true,
+   "a": "{\"altin:gece\":\"rgb(19, 14, 10) / rgb(30, 23, 16)\",\"altin:gunduz\":\"rgb(242, 234, 219) / rgb(255, 251, 243)\",\"lacivert:gece\":\"rgb(7, 15, 28) / rgb(11, 24, 45)\",\"lacivert:gunduz\":\"rgb(226, 236, 250) / rgb(243, 252, 255)\",\"zumrut:gece\":\"rgb(3, 19, 13) / rgb(1, 30, 21)\",\"zumrut:gunduz\":\"rgb(222, 240, 232) / rgb(238, 255, 249)\",\"murekkep:gece\":\"rgb(20, 11, 23) / rgb(32, 18, 37)\",\"murekkep:gunduz\":\"rgb(241, 231, 245) / rgb(255, 247, 255)\",\"kumtasi:gece\":\"rgb(22, 13, 8) / rgb(34, 21, 14)\",\"kumtasi:gunduz\":\"rgb(248, 231, 223) / rgb(255, 248, 242)\",\"elmas:gunduz\":\"rgb(243, 245, 250) / rgb(255, 255, 255)\",\"elmas:gece\":\"rgb(11, 16, 32) / rgb(19, 26, 45)\"}"
+  },
+  {
+   "ad": "T3 Okunurluk 6 tema × gündüz/gece: başlık/kart ≥ 7, soluk yazı ≥ 4,5, düğme yazısı ≥ 4,5",
+   "ok": true,
+   "a": "{\"altin:gece\":{\"yazi\":14.85,\"soluk\":10.08,\"btn\":9.88},\"altin:gunduz\":{\"yazi\":15.74,\"soluk\":8.5,\"btn\":7.04},\"lacivert:gece\":{\"yazi\":14.89,\"soluk\":10.1,\"btn\":9.87},\"lacivert:gunduz\":{\"yazi\":15.51,\"soluk\":8.39,\"btn\":7.04},\"zumrut:gece\":{\"yazi\":14.81,\"soluk\":10.24,\"btn\":9.74},\"zumrut:gunduz\":{\"yazi\":15.38,\"soluk\":8.21,\"btn\":6.99},\"murekkep:gece\":{\"yazi\":14.92,\"soluk\":9.99,\"btn\":9.79},\"murekkep:gunduz\":{\"yazi\":15.73,\"soluk\":8.48,\"btn\":7.21},\"kumtasi:gece\":{\"yazi\":14.8,\"soluk\":9.97,\"btn\":9.75},\"kumtasi:gunduz\":{\"yazi\":15.59,\"soluk\":8.37,\"btn\":7.15},\"elmas:gunduz\":{\"yazi\":18.93,\"soluk\":7.35,\"btn\":7.04},\"elmas:gece\":{\"yazi\":15.58,\"soluk\":8.68,\"btn\":9.69}}"
+  },
+  {
+   "ad": "T4 Seçilen tema Altın’ın bütün ekranlarına uygulanır (koridor, sınıf merkezi, konu, Çalışma Masam, Oyun Dünyası, Profilim, etkinlik oyunları, açılır pencere): Gece Lacivert zemini her yerde aynı",
+   "ok": true,
+   "a": "{\"pdunya\":\"rgb(7, 15, 28)\",\"psinif\":\"rgb(7, 15, 28)\",\"pders\":\"rgb(7, 15, 28)\",\"acalis53\":\"rgb(7, 15, 28)\",\"poyun\":\"rgb(7, 15, 28)\",\"profil46\":\"rgb(7, 15, 28)\",\"games\":\"rgb(7, 15, 28)\"}"
+  },
+  {
+   "ad": "T5 Kayıtlar korunur: Altın teması dk-tema54.altin, görünüm dk-ptema43 (V54/V43 anahtarları); Altın teması Elmas’ın tercihini (dk-theme) değiştirmez; Elmas · Otomatik = cihaz teması",
+   "ok": true,
+   "a": "{\"kayit\":{\"v\":1,\"altin\":\"lacivert\",\"ogretmen\":\"altin\",\"ogretmenMod\":\"gece\"},\"ptema\":\"gece\",\"oto\":{\"tercih\":\"oto\",\"pt\":\"gunduz\"},\"elmas\":[null,null]}"
+  },
+  {
+   "ad": "T6 Yeniden açılışta Altın teması ve görünümü korunur",
+   "ok": true,
+   "a": "{\"ta\":\"lacivert\",\"pt\":\"gece\"}"
+  },
+  {
+   "ad": "T7 Öğretmen Modu: mevcut 5 tema korunur + Elmas temaları (Açık, Koyu, Otomatik); Elmas Açık/Koyu zemini #F3F5FA/#0B1020; okunurluk ≥ 7 / 4,5 / 4,5; Otomatik cihaz temasına çözülür",
+   "ok": true,
+   "a": "{\"secenek\":[\"\",\"Altın Mihrap\",\"\",\"Gece Lacivert\",\"\",\"Zümrüt Kütüphane\",\"\",\"Mürekkep ve Bakır\",\"\",\"Kum Taşı\",\"\",\"Elmas · Açık\",\"\",\"Elmas · Koyu\",\"Elmas · Otomatik\"],\"renk\":{\"lacivert:gece\":{\"bg\":\"rgb(11, 19, 34)\",\"ink\":\"#EDF1F8\",\"card\":\"#121C30\",\"mut\":\"#AEB9CB\",\"act\":\"#D8B56A\",\"on\":\"#10131A\"},\"zumrut:gunduz\":{\"bg\":\"rgb(238, 243, 239)\",\"ink\":\"#14261F\",\"card\":\"#FFFFFF\",\"mut\":\"#4A5F55\",\"act\":\"#6E5418\",\"on\":\"#FFFFFF\"},\"elmas:gunduz\":{\"bg\":\"rgb(243, 245, 250)\",\"ink\":\"#0B1020\",\"card\":\"#FFFFFF\",\"mut\":\"#4A5670\",\"act\":\"#2E54C8\",\"on\":\"#FFFFFF\"},\"elmas:gece\":{\"bg\":\"rgb(11, 16, 32)\",\"ink\":\"#F0F3FA\",\"card\":\"#131A2D\",\"mut\":\"#A4AEC2\",\"act\":\"#9DB6FF\",\"on\":\"#0B1020\"}},\"ko\":{\"lacivert:gece\":{\"ink\":15.02,\"mut\":8.59,\"act\":9.5},\"zumrut:gunduz\":{\"ink\":15.83,\"mut\":6.86,\"act\":7.13},\"elmas:gunduz\":{\"ink\":18.93,\"mut\":7.35,\"act\":6.53},\"elmas:gece\":{\"ink\":15.58,\"mut\":7.76,\"act\":9.53}},\"oto\":[\"gunduz\",\"oto\"]}"
+  },
+  {
+   "ad": "E1 Elmas ana sayfa Keşif: yalnız “Sureler ve Dualar” ve “Bilgi Atlası”; Kavramlar/Kişiler ve Eserler/Bağlantılar ayrı kartları yok",
+   "ok": true,
+   "a": "{\"kart\":[\"Sureler ve Dualar\",\"Bilgi Atlası\"],\"bag\":false}"
+  },
+  {
+   "ad": "E2 Bilgi Atlası: Kavramlar · Kişiler · Eserler · Diğer kayıtlar alt sekmeleri; Kişiler yalnız kişi, Eserler yalnız eser; arama çalışıyor; kayıt sayıları aynı (veri kaybı yok)",
+   "ok": true,
+   "a": "{\"veri\":{\"kavram\":629,\"varlik\":378},\"view\":\"atlas57\",\"sekme\":[\"Kavramlar 629\",\"Kişiler 51\",\"Eserler 17\",\"Diğer kayıtlar 310\"],\"kavram\":80,\"kisi\":true,\"kisiN\":\"51 kayıt\",\"eser\":true,\"eserN\":\"17 kayıt\",\"diger\":\"378 kayıt\",\"digerTur\":true,\"ara\":1,\"kisiYonlen\":[\"atlas57\",\"kisi\"],\"links\":\"atlas57\",\"linksEd\":\"links\"}"
+  },
+  {
+   "ad": "E3 Bağlantılar Elmas’ta öğrenciye kapalı (Bilgi Atlası’na yönlenir); editör erişimi korunur",
+   "ok": true,
+   "a": "{\"links\":\"atlas57\",\"ed\":\"links\"}"
+  },
+  {
+   "ad": "E4 Elmas Çalışmam: “Tekrar yok”, “Hepsi öğrenildi”, “Yanlışın yok”, “10 soru” kutuları ve “Tekrar zamanı gelenler” yok; tekrar verisi/algoritması yerinde; Hızlı karma test kartında iki kapsam",
+   "ok": true,
+   "a": "{\"yok\":[],\"dugme\":[\"Kendi sınıfıma göre\",\"Bütün sınıflara göre\"]}"
+  },
+  {
+   "ad": "E5 Hızlı karma test: “Kendi sınıfıma göre” yalnız 4. sınıf soruları; “Bütün sınıflara göre” birden çok sınıftan; başka sınıftan doğru cevap 4. sınıf günlük hedefini artırmaz, genel çalışmayı artırır",
+   "ok": true,
+   "a": "{\"sinif\":{\"view\":\"test\",\"g\":[4],\"n\":10},\"tum\":{\"view\":\"test\",\"g\":[5,6,8,9,10,12],\"n\":10},\"hedef\":{\"once\":0,\"sonra\":0,\"genel\":1}}"
+  },
+  {
+   "ad": "E6 Elmas Profilim’de “İlerlemem” bölümü yok (bilgiler Çalışmam’da)",
+   "ok": true,
+   "a": "{\"ilr\":false,\"metin\":false}"
+  },
+  {
+   "ad": "S1 Altın sınıf merkezi: oyun dünyası kartı ve “Nereden başlamalıyım?” yok; “Nerede Kaldım?” son konuyu, ünitesini ve konu ilerlemesini gösterir; düğme kaldığı konuyu açar",
+   "ok": true,
+   "a": "{\"ilk\":{\"nk\":true,\"metin\":\"Nerede Kaldım?\\n\\nBu sınıfta henüz bir konu açmadın.\\n\\nİlk konuyla başla: Günlük Konuşmalarda Dinî İfadeler\",\"ban\":false,\"nereden\":false},\"son\":{\"metin\":\"Nerede Kaldım?\\n2. ünite · İslam’ı Tanıyalım\\nİslam’ın İnanç Esasları\\n%0\\n\\n0/6 soru cevaplandı\\n\\nKaldığın yerden devam et\",\"tid\":\"İslam’ın İnanç Esasları\"},\"devam\":[\"pders\",true]}"
+  },
+  {
+   "ad": "S2 Altın konu sekmeleri: Öğren/Pekiştir/Kendini Dene segmentli (kayan vurgu --i ile değişir), alt sekmeler hap biçiminde; sekme sırası ve işlevi aynı (Pekiştir’de alt sekmeler değişir, Özet açılır)",
+   "ok": true,
+   "a": "{\"seg\":true,\"i0\":\"0\",\"n\":\"3\",\"alt0\":[\"Anlatım\",\"Özet\",\"30 Saniyede\",\"Hikâye\",\"Kaynaklar\"],\"i1\":\"1\",\"alt1\":[\"Kodlama\",\"Tablo\",\"Karışanlar\",\"Kartlar\"],\"ozet\":{\"on\":\"Özet\",\"ptab\":\"ozet\"},\"stil\":{\"renk\":\"rgb(243, 234, 219)\",\"onceki\":\"matrix(1, 0, 0, 1, 0, 0)\",\"alt\":\"color(srgb 0.886275 0.717647 0.396078 / 0.695686)\"}}"
+  },
+  {
+   "ad": "H1 Harf Halkası: 29 harf Türk alfabesi sırasıyla gerçek bir halkada (merkeze uzaklık eşit), harfler üst üste binmiyor, dokunulabilir boyutta; ortada sıradaki harf ve süre",
+   "ok": true,
+   "a": "{\"harf\":\"ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ\",\"n\":29,\"yaricap\":[154,154],\"bosluk\":2.5,\"boy\":31,\"su\":\"A\",\"orta\":\"A\",\"sure\":\"239 sn\",\"dogru\":{\"h\":\"A\",\"sinif\":\"hr57-h dg\",\"puan\":10},\"sec\":{\"hedef\":\"Z\",\"su\":\"Z\"},\"pas\":{\"once\":\"Z\",\"sonra\":\"B\"},\"sure2\":\"237 sn\"}"
+  },
+  {
+   "ad": "H2 Harf Halkası oynanış: doğru cevap harfi yeşile çevirir ve 10 puan ekler; bekleyen harfe dokununca o harfe geçilir; Pas sıradaki harfe geçirir; süre işliyor",
+   "ok": true,
+   "a": "{\"dogru\":{\"h\":\"A\",\"sinif\":\"hr57-h dg\",\"puan\":10},\"sec\":{\"hedef\":\"Z\",\"su\":\"Z\"},\"pas\":{\"once\":\"Z\",\"sonra\":\"B\"},\"sure\":[\"239 sn\",\"237 sn\"]}"
+  },
+  {
+   "ad": "P1 Oyun bul seçimi (Altın): sistem açılır listesi gizli; tasarıma uygun seçim penceresi ekranda, seçenekler ≥ 52 px, seçili seçenek işaretli; seçim süzgeci çalıştırır (ünite seçilince oyunlar listelenir)",
+   "ok": true,
+   "a": "{\"sistem\":true,\"dugme\":1,\"secenek\":6,\"min\":52,\"secili\":\"Bütün üniteler\",\"icinde\":true,\"u\":\"DKAB18-4-U01\",\"liste\":21,\"etiket\":\"GÜNLÜK HAYATTAKİ DİNÎ İFADELER\"}"
+  },
+  {
+   "ad": "P2 Elmas seçim penceresi küçük telefonda (360×640): uzun liste kendi içinde kayar, pencere ekran içinde, alt menü arkada gizli; “7. sınıf” seçimi uygulanır; yatay taşma yok",
+   "ok": true,
+   "a": "{\"kaydirma\":true,\"icinde\":true,\"nav\":\"hidden\",\"g\":\"7\",\"gen\":360}"
+  },
+  {
+   "ad": "M1 360 px telefonda (Elmas ana sayfa, Bilgi Atlası, Çalışmam, Profilim, Oyunlar; Altın sınıf merkezi, konu, Harf Halkası, Profilim) yatay taşma yok, alt menü içeriği kapatmıyor",
+   "ok": true,
+   "a": "{\"home\":{\"son\":611,\"nav\":670,\"gen\":360},\"atlas57\":{\"son\":637,\"nav\":682,\"gen\":360},\"calis45\":{\"son\":639,\"nav\":682,\"gen\":360},\"profil46\":{\"son\":621,\"nav\":666,\"gen\":360},\"games\":{\"son\":617,\"nav\":682,\"gen\":360},\"psinif\":{\"son\":619,\"nav\":666,\"gen\":360},\"pders\":{\"son\":622,\"nav\":666,\"gen\":360},\"aoyun53\":{\"son\":499,\"nav\":666,\"gen\":360}}"
+  },
+  {
+   "ad": "Z1 Sayfa hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}

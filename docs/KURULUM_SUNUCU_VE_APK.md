@@ -12,9 +12,9 @@ Aşağıdaki **3 adımı yalnız siz yapabilirsiniz**, çünkü sizin hesapları
 
 ---
 
-## Hiç kurulum olmadan (V56.0): giriş ekranı, sınıf seçimi, telefondaki Google hesabıyla giriş, tek yönetici, Google yedeği
+## Hiç kurulum olmadan (V57.0): giriş ekranı, sınıf seçimi, telefondaki Google hesabıyla giriş, tek yönetici, Google yedeği
 
-`apk/din-kulturu-v56.0.apk` dosyasını telefona kurun. Google Play için `apk/play/din-kulturu-v56.0.aab` dosyasını kullanın. Hiçbir ayar gerekmez. (Aynı imza anahtarıyla imzalı; önceki sürümün üzerine güncelleme olarak kurulur, veriler korunur.)
+`apk/din-kulturu-v57.0.apk` dosyasını telefona kurun. Google Play için `apk/play/din-kulturu-v57.0.aab` dosyasını kullanın. Hiçbir ayar gerekmez. (Aynı imza anahtarıyla imzalı; önceki sürümün üzerine güncelleme olarak kurulur, veriler korunur.)
 
 - **Uygulama açılınca önce giriş ekranı gelir** (içerik görünmez). Yalnız iki seçenek var: **Google ile giriş** (telefonun hesap listesi açılır) ya da **Misafir olarak devam et**. Bir kez seçen kişiye tekrar sorulmaz; “Çıkış yap” giriş ekranını geri getirir.
 - **Öğrenci:** “Google ile giriş” → telefonun kendi hesap listesi açılır → hesabınızı seçin. Ya da “Misafir olarak devam et”. Ardından **“Hangi sınıfta okuyorsun?”** (Profilim'den değiştirilebilir; eski ilerleme silinmez).
