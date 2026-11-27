@@ -1,0 +1,162 @@
+{
+ "tarih": "2026-11-27T20:02:31.975Z",
+ "gecen": 31,
+ "toplam": 31,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V59.0, index.html aynı; V58.0’ın bütün veri blokları (müfredat, ilişkiler, sureler-dualar, yıllık plan, oyun içerikleri, müzik, görseller) bayt bayt aynı, yalnız ertelenen tema CSS’i (tema57-css) eklendi; eski sürüm dosyaları ve APK’lar değişmedi",
+   "ok": true,
+   "a": "[]"
+  },
+  {
+   "ad": "A2 Gmail adresi ve açık PIN yok; Altın hâlâ öğrenciye kapalı (ACIK: false)",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "A3 Tema CSS’i ertelendi: V58’in <style> olarak yüklenen koşullu tema tablosu (Altın’ın diğer temaları + Elmas) artık açılışta ayrıştırılmıyor, yalnız o tema seçilince ekleniyor",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "O1 Elmas Mod › Oyunlar: Altın oyunlarının kayıtları (Kelimeyi Anlat Bakalım = tabu, Beni Bul! = benkimim) Elmas’ın oyun listesine hiç gelmiyor (veri süzgeci, CSS değil); Altın Oyun Dünyası kartı yok; ekranda bu adlar geçmiyor",
+   "ok": true,
+   "a": "{\"n\":84,\"tur\":{\"matching\":15,\"quiz\":17,\"grouping\":2,\"wheel\":8,\"ordering\":2,\"wordsearch\":2,\"eksik\":11,\"hata\":9,\"eleme\":13,\"olay\":5}}"
+  },
+  {
+   "ad": "O2 Elmas oyunları ve bütün kayıtlar korunur: Elmas’ta kalan türler Altın’daki türlerin tabu/benkimim dışındaki hepsi, sayı tutuyor (Elmas + Altın’a özel = toplam); Altın’ın Etkinlik oyunlarında tabu ve benkimim duruyor; editör ekranı bütün sınıfların bütün kayıtlarını görüyor; havuzlar birleşmedi",
+   "ok": true,
+   "a": "{\"elmas\":84,\"altin\":87,\"altinaOzel\":3,\"editor\":621}"
+  },
+  {
+   "ad": "O3 Elmas ana sayfasındaki Oyunlar kartı artık “Oyun Dünyası” demiyor (Etkinlik oyunları ve Çark Çevirme)",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "H1 Altın Oyun Dünyası: “Etkinlik oyunları: eşleştirme…” satırı yerine belirgin “Hızlı Etkinlikler” kartı; alt yazı istenen metin; altı küçük tür simgesi; kartın tamamı tek düğme (simge satırına dokunmak da açar) → Etkinlik oyunları, mod Altın kalır",
+   "ok": true,
+   "a": "{\"tag\":\"BUTTON\",\"t\":\"Hızlı Etkinlikler Eşleştir, grupla, boşlukları tamamla ve öğrendiklerini pekiştir. Eşleştir Grupla Boşluk doldur Sırala Doğru cevap Hata avcısı\",\"chip\":6,\"ikon\":6,\"eski\":false,\"w\":366,\"hgt\":199.15625,\"bg\":\"radial-gradient(110% 120% at 0% 0%, color(srgb 0.294588 0.232078 0.142039), rgb(30, 23, 16) 65%) rgba(0, 0, 0, 0)\",\"bd\":\"color(srgb 0.886275 0.717647 0.396078 / 0.619608)\",\"ink\":\"rgb(243, 234, 219)\",\"zemin\":\"rgb(19, 14, 10)\"}"
+  },
+  {
+   "ad": "H2 Hızlı Etkinlikler kartı Altın görsel dilinde: kenar altın tonunda, başlık zemine göre okunur (≥ 4.5)",
+   "ok": true,
+   "a": "{\"bd\":\"color(srgb 0.886275 0.717647 0.396078 / 0.619608)\",\"ink\":\"rgb(243, 234, 219)\",\"kontrast\":16.08}"
+  },
+  {
+   "ad": "K1 Kavram Haritası açıklaması istenen sade metin; arama kutusu var; 191 ana kavram (2026 programı) ve bütün kayıtlar (273 = iki program) korunuyor",
+   "ok": true,
+   "a": "{\"view\":\"links\",\"p0\":\"Bir ana kavram seç, onunla bağlantılı kavramları keşfet. Alt kavramları, bağlantılı kavramları ve karıştırılabilecek kavramları harita üzerinde incele.\",\"p1\":\"191 ana kavram\",\"kutu\":true,\"kok\":273,\"hv\":191,\"py\":\"2026\",\"gizli\":{\"id\":\"CON-DKAB-9-peygamber\",\"term\":\"peygamber\",\"grade\":9,\"py\":\"2026\",\"r\":34}}"
+  },
+  {
+   "ad": "K2 Arama, ekrandaki listeyle sınırlı değil: ilk listede görünmeyen bir ana kavram bulunuyor; sonuçta kavram adı, sınıfı ve bağlantılı kavram sayısı görünüyor",
+   "ok": true,
+   "a": "{\"aranan\":{\"id\":\"CON-DKAB-9-peygamber\",\"term\":\"peygamber\",\"grade\":9,\"py\":\"2026\",\"r\":34},\"s\":{\"n\":1,\"sonuc\":[\"peygamber 9. sınıf · 2026 programı 34 bağlantılı kavram\"],\"bulunan\":\"peygamber 9. sınıf · 2026 programı 34 bağlantılı kavram\",\"acik\":true}}"
+  },
+  {
+   "ad": "K3 Sonuca dokununca o kavramın haritası açılıyor",
+   "ok": true,
+   "a": "{\"sel\":{\"type\":\"concept\",\"id\":\"CON-DKAB-9-peygamber\"},\"view\":\"links\",\"aranan\":\"peygamber\",\"adVar\":true,\"altVar\":true}"
+  },
+  {
+   "ad": "K4 191 ana kavramın her biri adıyla aranınca bulunuyor; Enter ilk sonucu açıyor",
+   "ok": true,
+   "a": "{\"n\":191,\"yok\":[]}"
+  },
+  {
+   "ad": "K5 2018 ve 2026 programları karışmıyor: 2018 seçilince arama yalnız 2018 ana kavramlarında (273 − 191 = 82)",
+   "ok": true,
+   "a": "{\"hv\":82,\"karisik\":false}"
+  },
+  {
+   "ad": "Y1 Anlatım içeriği değişmedi: üç sınıfta (4/2018, 5/2026, 9/2026) anlatım bölmesinin metni V58.0 ile karakteri karakterine aynı",
+   "ok": true,
+   "a": "{\"TPC18-4-1-01\":[2947,2947],\"TPC-5-1-01\":[4223,4223],\"TPC-9-1-01\":[3638,3638]}"
+  },
+  {
+   "ad": "Y2 Tipografi: ana başlıklar daha kalın (800), alt başlıklar bir kademe küçük ve orta kalınlıkta (600), kavram başlıkları belirgin; paragraf satır aralığı ≥ 1.75, paragraf arası açık; serif yazı tipi korunuyor (Literata)",
+   "ok": true,
+   "a": "{\"V59\":{\"h1\":[\"800\",\"24px\"],\"h3\":[\"800\",\"19.84px\"],\"h4\":null,\"kavram\":[\"800\",\"20.8px\"],\"p\":[\"17.12px\",\"30.816px\",\"16.264px\"]},\"V58\":{\"h1\":[\"700\",\"22.4px\"],\"h3\":[\"700\",\"19.52px\"],\"h4\":null,\"kavram\":[\"700\",\"19.52px\"],\"p\":[\"16.96px\",\"30.528px\",\"10.176px\"]}}"
+  },
+  {
+   "ad": "Y3 Gece anlatımında paragraf kontrastı yüksek (≥ 7, AAA) ve V58’den düşük değil",
+   "ok": true,
+   "a": "{\"V59\":16.08,\"V58\":16.08}"
+  },
+  {
+   "ad": "S1 Altın öğrenci sınıf ekranında “Öğrenme araçları”, “Kazanım ilerlemesi” ve “Sınıf bilgileri” yok; “Nerede Kaldım?” ve ünite akordiyonu duruyor; veri işlevleri silinmedi",
+   "ok": true,
+   "a": "{\"view\":\"psinif\",\"ek\":false,\"arac\":false,\"kaz\":false,\"bilgi\":false,\"nk\":true,\"unite\":5,\"fn\":true}"
+  },
+  {
+   "ad": "S2 Kaldırılan alanlar öğretmen ve editör ekranlarını etkilemiyor: Öğretmen Modu Sınıflarım ve Haftalık, Editör Onay Alanı açılıyor",
+   "ok": true,
+   "a": "{\"sn\":true,\"hf\":true,\"ed\":{\"view\":\"editor\",\"t\":\"Editör Onay Alanı\\n\\nİçerik kontrolü, kaynak doğrulaması, onay, yayımlama ve geçmiş\\n\\nRehber\\nEditör oturumu açık\\nEditör oturumunu kapat\\nEditör alanından çık\\nOnay bekleyen içerikler\\nKaynak kontrolünden geçmiş, editör kararı bekleyen\\n215\\nKaynak kontrolü bekleyenler\\nKaynak yetersiz veya kaynak kaydı yok\\n2\"}}"
+  },
+  {
+   "ad": "Z1 Kazanım kartı her öğretmen temasında (Altın gece/gündüz, Zümrüt, Lacivert, Elmas gece/gündüz) kendi altın çerçevesini ve altın “İçeriği aç” düğmesini koruyor; Elmas temasında bile standart kartlardan ayrışıyor",
+   "ok": true,
+   "a": "{\"altinGece\":{\"th\":\"altin/gece\",\"bd\":\"rgb(201, 162, 94)\",\"standart\":\"rgb(58, 49, 36)\"},\"altinGunduz\":{\"th\":\"altin/gunduz\",\"bd\":\"rgb(184, 137, 74)\",\"standart\":\"rgb(220, 204, 174)\"},\"zumrut\":{\"th\":\"zumrut/gece\",\"bd\":\"rgb(201, 162, 94)\",\"standart\":\"rgb(38, 68, 56)\"},\"lacivert\":{\"th\":\"lacivert/gece\",\"bd\":\"rgb(201, 162, 94)\",\"standart\":\"rgb(42, 58, 86)\"},\"elmasGece\":{\"th\":\"elmas/gece\",\"bd\":\"rgb(201, 162, 94)\",\"standart\":\"rgb(38, 50, 77)\"},\"elmasGunduz\":{\"th\":\"elmas/gunduz\",\"bd\":\"rgb(184, 137, 74)\",\"standart\":\"rgb(220, 226, 238)\"}}"
+  },
+  {
+   "ad": "Z2 Hiyerarşi: kazanım kodu → kazanım metni → haftalar → İçeriği aç → Taşı, değiştir veya çıkar; “İçeriği aç” kartın en büyük düğmesi (≥ 56 px); metin iri ve kalın",
+   "ok": true,
+   "a": "{\"bd\":\"rgb(201, 162, 94)\",\"bdw\":\"1px\",\"bg\":\"linear-gradient(160deg, color(srgb 0.172157 0.152941 0.105882), rgb(23, 21, 15) 70%)\",\"standartBd\":\"rgb(58, 49, 36)\",\"kodBg\":\"linear-gradient(rgb(232, 201, 135), rgb(185, 138, 69))rgba(0, 0, 0, 0)\",\"kodFs\":\"16.96px\",\"mtFs\":\"19.84px\",\"mtFw\":\"750\",\"mtInk\":\"rgb(246, 237, 219)\",\"acBg\":\"linear-gradient(rgb(232, 201, 135), rgb(185, 138, 69))\",\"acInk\":\"rgb(26, 18, 6)\",\"acH\":58,\"acEnBuyuk\":true,\"sira\":[true,true,true,true],\"zem\":\"rgb(13, 12, 10)\",\"metin\":\"4.2.1. İslam’ın inanç esaslarını sıralar.\",\"th\":\"altin/gece\"}"
+  },
+  {
+   "ad": "Z3 Okunurluk: kazanım metni ve “İçeriği aç” yazısı her temada yeterli kontrastta (metin ≥ 7, düğme ≥ 4.5)",
+   "ok": true,
+   "a": "{\"altinGece\":16.81,\"altinGunduz\":14.44,\"zumrut\":15.99,\"lacivert\":15.97,\"elmasGece\":16.28,\"elmasGunduz\":14.9}"
+  },
+  {
+   "ad": "E1 Elmas teması Altın Mod’da (gece ve gündüz) bütün ekranlarda: ana sayfa, sınıf, ders anlatımı ve pekiştirme, Oyun Dünyası, Etkinlik oyunları, Bilgi Atlası, Kavram Haritası, Profilim, Çalışma Masam, ayarlar — görünür öğelerde altın/kahve renk kalmadı (bilinçli istisnalar: Altın mod amblemi, durum rozetleri, oyun çizimleri, kazanım kartı)",
+   "ok": true,
+   "a": "{\"gece\":{},\"gunduz\":{}}"
+  },
+  {
+   "ad": "E2 Elmas teması Öğretmen Modu’nda (gece ve gündüz): Haftalık, Sınıflarım, Araçlar, sekmeler, düğmeler, süzgeçler ve bildirim — sabit altın/kahve renk kalmadı (kazanım kartı kendi kimliğini bilinçli olarak korur)",
+   "ok": true,
+   "a": "{\"gece\":{},\"gunduz\":{}}"
+  },
+  {
+   "ad": "E3 Ertelenen tema CSS’i: Elmas Mod ve Altın Mihrap’ta yüklenmiyor; Elmas teması seçilince ekleniyor",
+   "ok": true,
+   "a": "{\"t0\":{\"V59T\":false,\"stil\":false},\"t1\":{\"V59T\":false,\"stil\":false,\"tema\":\"altin\"},\"t2\":{\"V59T\":true,\"stil\":true,\"tema\":\"elmas\"}}"
+  },
+  {
+   "ad": "E4 Altın’ın beş teması ve Öğretmen’in beş teması duruyor (her biri kendi zemini); Altın Mihrap’ta vurgu altın",
+   "ok": true,
+   "a": "{\"altin\":{\"altin\":[\"#E2B765\",\"rgb(19, 14, 10)\",\"altin\"],\"lacivert\":[\"#e2b765\",\"rgb(7, 15, 28)\",\"lacivert\"],\"zumrut\":[\"#dbba6a\",\"rgb(3, 19, 13)\",\"zumrut\"],\"murekkep\":[\"#f9a977\",\"rgb(20, 11, 23)\",\"murekkep\"],\"kumtasi\":[\"#f0ad7a\",\"rgb(22, 13, 8)\",\"kumtasi\"]},\"ogretmen\":{\"altin\":[\"rgb(13, 12, 10)\",\"altin\"],\"lacivert\":[\"rgb(11, 19, 34)\",\"lacivert\"],\"zumrut\":[\"rgb(10, 21, 18)\",\"zumrut\"],\"murekkep\":[\"rgb(21, 16, 26)\",\"murekkep\"],\"kumtasi\":[\"rgb(23, 18, 14)\",\"kumtasi\"]}}"
+  },
+  {
+   "ad": "P1 Editör oturum denetimi aynı çizimde bir kez hesaplanıyor (önbellek), oturum kapanınca/açılınca sonuç hemen değişiyor (davranış aynı)",
+   "ok": true,
+   "a": "{\"cagri\":4832,\"hesap\":3,\"a\":true,\"b\":false,\"c\":true,\"rv\":11,\"rin\":10,\"trAnim\":true,\"trKalan\":false,\"hh\":\"57px\",\"basH\":57}"
+  },
+  {
+   "ad": "P2 Ekran geçiş animasyonu ve kademeli açılış çalışıyor (zorunlu yerleşim olmadan); başlık yüksekliği değişkeni (--hh) gerçek başlık yüksekliğiyle aynı",
+   "ok": true,
+   "a": "{\"cagri\":4832,\"hesap\":3,\"a\":true,\"b\":false,\"c\":true,\"rv\":11,\"rin\":10,\"trAnim\":true,\"trKalan\":false,\"hh\":\"57px\",\"basH\":57}"
+  },
+  {
+   "ad": "P3 Uzun kullanım (10 tur × 9 ekran = 90 geçiş): bellek birikmiyor (çöp toplama sonrası yığın artışı < %15), ana sayfanın DOM öğe sayısı sabit, başlık için en çok bir ResizeObserver",
+   "ok": true,
+   "a": "{\"yeniResizeObserver\":0,\"yiginMB\":[20.4,20.9],\"dom\":[258,258]}"
+  },
+  {
+   "ad": "D1 Kullanıcı verisi korunur: ilerleme (dk2.prog), günlük hedef, favoriler, Altın/Öğretmen temaları, görünüm tercihleri, oyun kayıtları (dk-oyun41) aynen",
+   "ok": true,
+   "a": "{\"dk-calis45\":\"{\\\"v\\\":1,\\\"hedef\\\":25,\\\"gun\\\":{\\\"2026-11-20\\\":7},\\\"sg\\\":{\\\"2026-11-20\\\":{\\\"4\\\":5}}}\",\"dk-ilerleme39\":\"{\\\"z\\\":{},\\\"t\\\":{},\\\"fav\\\":{\\\"s\\\":[4],\\\"k\\\":[\\\"TPC18-4-1-01\\\"]}}\",\"dk-tema54\":\"{\\\"v\\\":1,\\\"altin\\\":\\\"zumrut\\\",\\\"ogretmen\\\":\\\"lacivert\\\",\\\"ogretmenMod\\\":\\\"gunduz\\\"}\",\"dk-ptema43\":\"gunduz\",\"dk-theme\":\"light\",\"dk-oyun41\":\"{\\\"v\\\":1,\\\"oyunlar\\\":{\\\"dunya45\\\":{\\\"g4\\\":{\\\"x\\\":1}}},\\\"ayar\\\":{}}\",\"prog\":{\"DKAB18-4-U01-O01\":{\"c\":3,\"w\":1}}}"
+  },
+  {
+   "ad": "M1 360 px telefonda (Elmas oyunlar, Altın Oyun Dünyası, Kavram Haritası ve arama sonuçları, sınıf, anlatım, Öğretmen Modu) yatay taşma yok",
+   "ok": true,
+   "a": "{\"games\":360,\"poyun\":360,\"harita\":360,\"haritaAra\":360,\"psinif\":360,\"pders\":360,\"ogretmen\":360}"
+  },
+  {
+   "ad": "Z9 Sayfa hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}

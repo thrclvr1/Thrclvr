@@ -1,0 +1,162 @@
+{
+ "ozet": {
+  "etiket": "V59",
+  "tekrar": 2,
+  "acilis": 2997,
+  "dcl": 2893,
+  "gecis": {
+   "home": 95,
+   "grade": 228,
+   "topic": 260,
+   "games": 126,
+   "calis45": 129,
+   "profil46": 180,
+   "atlas57": 416,
+   "home2": 125,
+   "altinGecis": 594,
+   "pdunya": 160,
+   "psinif": 162,
+   "pders": 118,
+   "poyun": 396,
+   "aprofil": 173,
+   "acalis": 117,
+   "pdunya2": 212,
+   "ogretmenGecis": 25,
+   "elmasGecis": 26
+  },
+  "bellekOnce": {
+   "JSEventListeners": 245,
+   "Nodes": 5479,
+   "LayoutCount": 203,
+   "RecalcStyleCount": 470,
+   "ScriptDuration": 2.6,
+   "TaskDuration": 9.85,
+   "JSHeapUsedSize": 22.5
+  },
+  "bellek40": {
+   "JSEventListeners": 234,
+   "Nodes": 5308,
+   "LayoutCount": 290,
+   "RecalcStyleCount": 755,
+   "ScriptDuration": 2.72,
+   "TaskDuration": 16.18,
+   "JSHeapUsedSize": 22.2
+  },
+  "sayac": {
+   "iv": 3,
+   "to": 589,
+   "ls": 15,
+   "lsB": 1045,
+   "raf": 72,
+   "lsAnahtar": 12
+  }
+ },
+ "sonuc": [
+  {
+   "acilis": 3106,
+   "nav": {
+    "dcl": 2996,
+    "load": 3014
+   },
+   "gecis": {
+    "home": 90,
+    "grade": 233,
+    "topic": 243,
+    "games": 122,
+    "calis45": 148,
+    "profil46": 154,
+    "atlas57": 386,
+    "home2": 108,
+    "altinGecis": 568,
+    "pdunya": 201,
+    "psinif": 159,
+    "pders": 113,
+    "poyun": 380,
+    "aprofil": 142,
+    "acalis": 100,
+    "pdunya2": 179,
+    "ogretmenGecis": 28,
+    "elmasGecis": 25
+   },
+   "bellekOnce": {
+    "JSEventListeners": 245,
+    "Nodes": 5479,
+    "LayoutCount": 203,
+    "RecalcStyleCount": 470,
+    "ScriptDuration": 2.6,
+    "TaskDuration": 9.85,
+    "JSHeapUsedSize": 22.5
+   },
+   "bellek40": {
+    "JSEventListeners": 234,
+    "Nodes": 5308,
+    "LayoutCount": 290,
+    "RecalcStyleCount": 755,
+    "ScriptDuration": 2.72,
+    "TaskDuration": 16.18,
+    "JSHeapUsedSize": 22.2
+   },
+   "sayac": {
+    "iv": 3,
+    "to": 589,
+    "ls": 15,
+    "lsB": 1045,
+    "raf": 72,
+    "lsAnahtar": 12
+   }
+  },
+  {
+   "acilis": 2887,
+   "nav": {
+    "dcl": 2789,
+    "load": 2807
+   },
+   "gecis": {
+    "home": 99,
+    "grade": 222,
+    "topic": 276,
+    "games": 130,
+    "calis45": 109,
+    "profil46": 206,
+    "atlas57": 445,
+    "home2": 141,
+    "altinGecis": 619,
+    "pdunya": 118,
+    "psinif": 164,
+    "pders": 123,
+    "poyun": 412,
+    "aprofil": 204,
+    "acalis": 133,
+    "pdunya2": 244,
+    "ogretmenGecis": 21,
+    "elmasGecis": 26
+   },
+   "bellekOnce": {
+    "JSEventListeners": 245,
+    "Nodes": 5476,
+    "LayoutCount": 210,
+    "RecalcStyleCount": 480,
+    "ScriptDuration": 2.58,
+    "TaskDuration": 10.07,
+    "JSHeapUsedSize": 22.5
+   },
+   "bellek40": {
+    "JSEventListeners": 234,
+    "Nodes": 5308,
+    "LayoutCount": 307,
+    "RecalcStyleCount": 777,
+    "ScriptDuration": 2.69,
+    "TaskDuration": 16.27,
+    "JSHeapUsedSize": 22.2
+   },
+   "sayac": {
+    "iv": 3,
+    "to": 589,
+    "ls": 15,
+    "lsB": 1045,
+    "raf": 72,
+    "lsAnahtar": 12
+   }
+  }
+ ]
+}
