@@ -1,0 +1,77 @@
+{
+ "tarih": "2026-11-28T10:20:17.623Z",
+ "gecen": 14,
+ "toplam": 14,
+ "kontroller": [
+  {
+   "ad": "A1 sürüm V60.0, index.html aynı; müfredat, ilişki, sureler-dualar, yıllık plan, oyun ve görsel veri blokları V59.1 ile bayt bayt aynı (yalnız 7 müzik bloğu yeni biçimde); eski sürüm dosyaları ve APK’lar değişmedi; açık PIN/e-posta yok; Altın öğrenciye kapalı",
+   "ok": true,
+   "a": "{\"degisenBlok\":[\"m42-esik\",\"m42-sessizdua\",\"m42-neynefes\",\"m42-neydua\",\"m42-isik\",\"m42-kubbe\",\"m42-cam\"],\"degisen\":[]}"
+  },
+  {
+   "ad": "A2 Android: APK’ya kökteki index.html girer (web ile aynı dosya); R8 kod küçültme ve kaynak küçültme açık; uygulama kodu, WebView köprüsü ve Google giriş sınıfları korunuyor; simgeler kayıpsız WebP",
+   "ok": true,
+   "a": ""
+  },
+  {
+   "ad": "A3 Yedi müzik Opus (WebM, stereo); her birinin süresi özgün kayıtla aynı (±0,1 sn); toplam boyut küçüldü",
+   "ok": true,
+   "a": "{\"esik\":{\"webm\":true,\"kod\":\"opus,2\",\"sure\":65.967,\"ozgun\":65.959125,\"kB\":352,\"eskiKB\":516},\"sessizdua\":{\"webm\":true,\"kod\":\"opus,2\",\"sure\":65.314,\"ozgun\":65.306083,\"kB\":352,\"eskiKB\":511},\"neynefes\":{\"webm\":true,\"kod\":\"opus,2\",\"sure\":65.732,\"ozgun\":65.724042,\"kB\":353,\"eskiKB\":514},\"neydua\":{\"webm\":true,\"kod\":\"opus,2\",\"sure\":179.965,\"ozgun\":179.9575,\"kB\":1046,\"eskiKB\":1406},\"isik\":{\"webm\":true,\"kod\":\"opus,2\",\"sure\":63.485,\"ozgun\":63.4775,\"kB\":359,\"eskiKB\":496},\"kubbe\":{\"webm\":true,\"kod\":\"opus,2\",\"sure\":116.827,\"ozgun\":116.819542,\"kB\":664,\"eskiKB\":913},\"cam\":{\"webm\":true,\"kod\":\"opus,2\",\"sure\":57.503,\"ozgun\":57.495458,\"kB\":331,\"eskiKB\":450}}"
+  },
+  {
+   "ad": "K1 Koridor zemini: yolluğun ortasındaki yıldız madalyon kalktı (dokuda açık renkli yıldız pikseli V59.1’de var, V60’ta yok); koridor WebGL ile çiziliyor; CSS yedeğinde madalyon gizli",
+   "ok": true,
+   "a": "{\"V591\":7089,\"V60\":0,\"kaynak\":\"webgl\"}"
+  },
+  {
+   "ad": "J1 Bağlantılar › “4. sınıf dersine git” (ezan): Altın’da 4. sınıf dersi açılır, kaydın cümlesi (“Her namaz vaktinde minarelerden okunan ezan…”) bulunur, “ezan” kelimesi ayrıca vurgulanır ve ekranın ortasına kaydırılır; vurgu birkaç saniye sonra kaybolur",
+   "ok": true,
+   "a": "{\"j1\":{\"view\":\"pders\",\"pt\":\"TPC18-4-1-01a\",\"altin\":true,\"son\":{\"found\":true,\"terim\":true,\"msg\":\"\",\"t\":\"TPC18-4-1-01a\",\"bi\":0},\"terim\":\"ezan\",\"cumle\":\"Her namaz vaktinde minarelerden okunan ezan da “Allahüekber” sözüyle başlar.\",\"gorunur\":true},\"sonra\":{\"k\":0,\"hl\":0}}"
+  },
+  {
+   "ad": "J2 “İlgili derse git” 273 ana kavramın hepsinde (iki program, bütün sınıflar) Altın’da doğru ders açılır ve kayıtlı cümle bulunup vurgulanır; kavram kelimesi cümlede ayrıca vurgulanır (en az %95; hiçbirinde yanlış kelime vurgulanmaz)",
+   "ok": true,
+   "a": "{\"n\":273,\"bulunan\":273,\"terim\":269,\"terimsiz\":[\"soy\",\"ayin\",\"şan\",\"mali\"],\"hatali\":[],\"yanlis\":[]}"
+  },
+  {
+   "ad": "X1 Altın ders anlatımında kavramlar tıklanabilir: Elmas’la aynı altyapı (aynı konuda aynı kavram/kişi kayıtları işaretlenir), dokununca kavram penceresi açılır",
+   "ok": true,
+   "a": "{\"altin\":7,\"elmas\":7,\"ad\":\"ilahi\",\"sheet\":\"ilahi\\n6. sınıf\\n2026 TYMM\\nProgram kavramı\\nKitap s. 12, 14, 15, 17, 19, 21, 23, 25\"}"
+  },
+  {
+   "ad": "J3 Elmas’ta (editör, yönetimden) aynı ortak atlama Elmas ders ekranında çalışır; mod değişmez",
+   "ok": true,
+   "a": "{\"view\":\"topic\",\"t\":\"TPC-6-1-01\",\"altin\":false,\"son\":{\"found\":true,\"terim\":true,\"msg\":\"\",\"t\":\"TPC-6-1-01\",\"bi\":1}}"
+  },
+  {
+   "ad": "U1 Altın koridor üst çubuğu: Ara ve Ses çubuktan alındı, yerine gündüz/gece düğmesi; arama alanı ve ses düğmesi koridorun hemen altında; gündüz/gece çalışır (Elmas ve Öğretmen tercihleri değişmez); arama alanı mevcut Altın aramasını, ses düğmesi ses panelini açar",
+   "ok": true,
+   "a": "{\"ara\":false,\"ses\":false,\"tema\":true,\"alan\":true,\"sonra\":true,\"pt1\":\"gunduz\",\"pt2\":\"gece\",\"digerleri\":true,\"aramaAcik\":true,\"sesAcik\":true}"
+  },
+  {
+   "ad": "O1 Önerilen: Altın’da Altın Mihrap (gündüz ve gece), Elmas · Açık ve Elmas · Koyu; Öğretmen’de yalnız Altın Mihrap (gündüz); başka tema seçiliyken de işaretler aynı yerde",
+   "ok": true,
+   "a": "{\"a\":[\"Altın Mihrap ★Önerilengündüz ve gece\",\"Gece Lacivert\",\"Zümrüt Kütüphane\",\"Mürekkep ve Bakır\",\"Kum Taşı\",\"Elmas · Açık ★Önerilen\",\"Elmas · Koyu ★Önerilen\",\"Elmas · Otomatik\"],\"a2\":[\"Altın Mihrap ★Önerilengündüz ve gece\",\"Gece Lacivert\",\"Zümrüt Kütüphane\",\"Mürekkep ve Bakır\",\"Kum Taşı\",\"Elmas · Açık ★Önerilen\",\"Elmas · Koyu ★Önerilen\",\"Elmas · Otomatik\"],\"og\":[\"Altın Mihrap ★Önerilengündüz\",\"Gece Lacivert\",\"Zümrüt Kütüphane\",\"Mürekkep ve Bakır\",\"Kum Taşı\",\"Elmas · Açık\",\"Elmas · Koyu\",\"Elmas · Otomatik\"]}"
+  },
+  {
+   "ad": "M1 Müzikler tarayıcıda açılıyor (Opus desteği var); her parçanın süresi okunuyor (çalınabilir)",
+   "ok": true,
+   "a": "{\"destek\":true,\"parca\":{\"esik\":66,\"sessizdua\":65.3,\"neynefes\":65.7,\"neydua\":180,\"isik\":63.5,\"kubbe\":116.8,\"cam\":57.5}}"
+  },
+  {
+   "ad": "D1 Kullanıcı verisi korunur: ilerleme, günlük hedef, temalar, görünüm tercihleri, oyun kayıtları aynen",
+   "ok": true,
+   "a": "{\"dk-calis45\":\"{\\\"v\\\":1,\\\"hedef\\\":25,\\\"gun\\\":{\\\"2026-11-20\\\":7},\\\"sg\\\":{\\\"2026-11-20\\\":{\\\"4\\\":5}}}\",\"dk-tema54\":\"{\\\"v\\\":1,\\\"altin\\\":\\\"zumrut\\\",\\\"ogretmen\\\":\\\"lacivert\\\",\\\"ogretmenMod\\\":\\\"gunduz\\\"}\",\"dk-ptema43\":\"gunduz\",\"dk-theme\":\"light\",\"dk-oyun41\":\"{\\\"v\\\":1,\\\"oyunlar\\\":{\\\"dunya45\\\":{\\\"g4\\\":{\\\"x\\\":1}}},\\\"ayar\\\":{}}\",\"prog\":{\"DKAB18-4-U01-O01\":{\"c\":3,\"w\":1}}}"
+  },
+  {
+   "ad": "E1 Her üç mod açılıyor ve çalışıyor (Elmas, Altın, Öğretmen); veri paketi açıldı; 360 px’te yatay taşma yok",
+   "ok": true,
+   "a": "{\"Z513\":true,\"konu\":246,\"home\":360,\"games\":360,\"atlas57\":360,\"pdunya\":360,\"pders\":360,\"links\":360,\"ogretmen\":360}"
+  },
+  {
+   "ad": "Z9 Sayfa hatası yok",
+   "ok": true,
+   "a": "[]"
+  }
+ ]
+}

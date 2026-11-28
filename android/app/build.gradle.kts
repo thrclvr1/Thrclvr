@@ -61,7 +61,10 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            // V60: R8 kod küçültme + kullanılmayan kaynakların atılması (APK boyutu). Korunan sınıflar: proguard-rules.pro
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             if (imzaDegeri("storeFile", "DK_KEYSTORE") != null) {
                 signingConfig = signingConfigs.getByName("surum")
             }
